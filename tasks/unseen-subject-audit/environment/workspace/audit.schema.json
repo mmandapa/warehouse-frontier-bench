@@ -1,0 +1,159 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "original",
+    "corrected",
+    "decision",
+    "selected_recipe"
+  ],
+  "properties": {
+    "schema_version": {
+      "type": "integer",
+      "const": 1
+    },
+    "original": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "baseline_accuracy",
+        "candidate_accuracy",
+        "delta",
+        "ci95",
+        "per_subject"
+      ],
+      "properties": {
+        "baseline_accuracy": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1
+        },
+        "candidate_accuracy": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1
+        },
+        "delta": {
+          "type": "number",
+          "minimum": -1,
+          "maximum": 1
+        },
+        "ci95": {
+          "type": "array",
+          "items": {
+            "type": "number",
+            "minimum": -1,
+            "maximum": 1
+          },
+          "minItems": 2,
+          "maxItems": 2
+        },
+        "per_subject": {
+          "type": "object",
+          "patternProperties": {
+            "^[0-9]+$": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "baseline",
+                "candidate"
+              ],
+              "properties": {
+                "baseline": {
+                  "type": "number",
+                  "minimum": 0,
+                  "maximum": 1
+                },
+                "candidate": {
+                  "type": "number",
+                  "minimum": 0,
+                  "maximum": 1
+                }
+              }
+            }
+          },
+          "additionalProperties": false
+        }
+      }
+    },
+    "corrected": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "baseline_accuracy",
+        "candidate_accuracy",
+        "delta",
+        "ci95",
+        "per_subject"
+      ],
+      "properties": {
+        "baseline_accuracy": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1
+        },
+        "candidate_accuracy": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1
+        },
+        "delta": {
+          "type": "number",
+          "minimum": -1,
+          "maximum": 1
+        },
+        "ci95": {
+          "type": "array",
+          "items": {
+            "type": "number",
+            "minimum": -1,
+            "maximum": 1
+          },
+          "minItems": 2,
+          "maxItems": 2
+        },
+        "per_subject": {
+          "type": "object",
+          "patternProperties": {
+            "^[0-9]+$": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "baseline",
+                "candidate"
+              ],
+              "properties": {
+                "baseline": {
+                  "type": "number",
+                  "minimum": 0,
+                  "maximum": 1
+                },
+                "candidate": {
+                  "type": "number",
+                  "minimum": 0,
+                  "maximum": 1
+                }
+              }
+            }
+          },
+          "additionalProperties": false
+        }
+      }
+    },
+    "decision": {
+      "enum": [
+        "promote",
+        "reject",
+        "inconclusive"
+      ]
+    },
+    "selected_recipe": {
+      "enum": [
+        "baseline",
+        "candidate"
+      ]
+    }
+  }
+}

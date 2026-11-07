@@ -1,0 +1,34 @@
+[
+  {
+    "source": "/logs/artifacts",
+    "destination": "artifacts/logs/artifacts",
+    "type": "directory",
+    "status": "failed",
+    "service": null,
+    "exclude": []
+  },
+  {
+    "source": "/app/submission/folds.json",
+    "destination": "artifacts/app/submission/folds.json",
+    "type": "file",
+    "status": "failed",
+    "service": null,
+    "exclude": []
+  },
+  {
+    "source": "/app/submission/audit.json",
+    "destination": "artifacts/app/submission/audit.json",
+    "type": "file",
+    "status": "failed",
+    "service": null,
+    "exclude": []
+  },
+  {
+    "source": "/app/submission/report.md",
+    "destination": "artifacts/app/submission/report.md",
+    "type": "file",
+    "status": "failed",
+    "service": null,
+    "exclude": []
+  }
+]

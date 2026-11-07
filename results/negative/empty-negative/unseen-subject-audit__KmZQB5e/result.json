@@ -1,0 +1,120 @@
+{
+    "id": "ceaccbf0-f2dc-47b9-847d-13589498405b",
+    "task_name": "research-reliability/unseen-subject-audit",
+    "trial_name": "unseen-subject-audit__KmZQB5e",
+    "trial_uri": "file:///Users/maharshi12/Documents/Codex/2026-11-06/tg/outputs/research-reliability-bench/results/negative/empty-negative/unseen-subject-audit__KmZQB5e",
+    "task_id": {
+        "path": "tasks/unseen-subject-audit"
+    },
+    "source": null,
+    "task_checksum": "a8d1f2e0f40068426c96e2764a2c7d27224e671ace1935a96af817cc2a4b9026",
+    "config": {
+        "task": {
+            "path": "tasks/unseen-subject-audit",
+            "git_url": null,
+            "git_commit_id": null,
+            "name": null,
+            "ref": null,
+            "overwrite": false,
+            "download_dir": null,
+            "source": null
+        },
+        "trial_name": "unseen-subject-audit__KmZQB5e",
+        "trials_dir": "results/negative/empty-negative",
+        "install_only": false,
+        "timeout_multiplier": 1.0,
+        "agent_timeout_multiplier": null,
+        "verifier_timeout_multiplier": null,
+        "agent_setup_timeout_multiplier": null,
+        "environment_build_timeout_multiplier": null,
+        "agent": {
+            "name": "nop",
+            "import_path": null,
+            "model_name": null,
+            "base_url": null,
+            "model_api_key_name": null,
+            "model_api_format": null,
+            "skip_model_parsing": false,
+            "n_concurrent": null,
+            "concurrency_group": null,
+            "skills": [],
+            "override_timeout_sec": null,
+            "override_setup_timeout_sec": null,
+            "max_timeout_sec": null,
+            "resume_trajectory": false,
+            "load_trajectory": null,
+            "extra_allowed_hosts": [],
+            "kwargs": {},
+            "mcp_servers": []
+        },
+        "user_agent": null,
+        "environment": {
+            "type": "docker",
+            "import_path": null,
+            "force_build": false,
+            "delete": true,
+            "stream": false,
+            "cpu_enforcement_policy": "auto",
+            "memory_enforcement_policy": "auto",
+            "override_cpus": null,
+            "override_memory_mb": null,
+            "override_storage_mb": null,
+            "override_gpus": null,
+            "override_tpu": null,
+            "mounts": null,
+            "extra_docker_compose": [],
+            "kwargs": {},
+            "extra_allowed_hosts": []
+        },
+        "verifier": {
+            "override_timeout_sec": null,
+            "max_timeout_sec": null,
+            "disable": false
+        },
+        "artifacts": [],
+        "extra_instruction_paths": [],
+        "extra_instructions": [],
+        "job_id": "cac7bc49-553c-42f5-acfc-62793083fa46",
+        "source_trial": null
+    },
+    "agent_info": {
+        "name": "nop",
+        "version": "1.0.0",
+        "model_info": null
+    },
+    "agent_result": {
+        "n_input_tokens": null,
+        "n_cache_tokens": null,
+        "n_output_tokens": null,
+        "cost_usd": null,
+        "model_usage": null,
+        "rollout_details": null,
+        "metadata": null
+    },
+    "verifier_result": {
+        "rewards": {
+            "reward": 0.0
+        }
+    },
+    "verifier_environment_mode": "separate",
+    "exception_info": null,
+    "started_at": "2026-11-07T03:19:19.925045Z",
+    "finished_at": "2026-11-07T03:19:48.357581Z",
+    "environment_setup": {
+        "started_at": "2026-11-07T03:19:20.129035Z",
+        "finished_at": "2026-11-07T03:19:26.621258Z"
+    },
+    "agent_setup": {
+        "started_at": "2026-11-07T03:19:26.621346Z",
+        "finished_at": "2026-11-07T03:19:26.621411Z"
+    },
+    "agent_execution": {
+        "started_at": "2026-11-07T03:19:26.621519Z",
+        "finished_at": "2026-11-07T03:19:30.813138Z"
+    },
+    "verifier": {
+        "started_at": "2026-11-07T03:19:35.048294Z",
+        "finished_at": "2026-11-07T03:19:48.357551Z"
+    },
+    "step_results": null
+}

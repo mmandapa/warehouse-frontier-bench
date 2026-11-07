@@ -1,0 +1,10 @@
+{
+    "job_name": "final-boundary-check",
+    "jobs_dir": "results/oracle",
+    "n_concurrent_trials": 1,
+    "tasks": [
+        {
+            "path": "tasks/unseen-subject-audit"
+        }
+    ]
+}

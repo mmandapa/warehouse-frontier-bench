@@ -1,0 +1,22 @@
+{
+    "job_name": "primary-docker-gpt-6-luna",
+    "jobs_dir": "results/models",
+    "n_attempts": 4,
+    "n_concurrent_trials": 2,
+    "agents": [
+        {
+            "name": "codex",
+            "model_name": "openai/gpt-6-luna",
+            "kwargs": {
+                "version": "0.163.0",
+                "web_search": "disabled",
+                "reasoning_effort": "medium"
+            }
+        }
+    ],
+    "tasks": [
+        {
+            "path": "tasks/unseen-subject-audit"
+        }
+    ]
+}

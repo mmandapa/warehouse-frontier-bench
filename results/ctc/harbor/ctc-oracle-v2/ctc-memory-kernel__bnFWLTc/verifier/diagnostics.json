@@ -1,0 +1,118 @@
+{
+  "reward": 1.0,
+  "case_pass_fraction": 1.0,
+  "cases": [
+    {
+      "name": "empty-0",
+      "group": "empty",
+      "passed": true,
+      "fuel_used": 27399,
+      "seconds": 0.000630665999779012
+    },
+    {
+      "name": "empty-1",
+      "group": "empty",
+      "passed": true,
+      "fuel_used": 29651,
+      "seconds": 0.00035791699974652147
+    },
+    {
+      "name": "repeats-0",
+      "group": "repeats",
+      "passed": true,
+      "fuel_used": 845191,
+      "seconds": 0.00028891700003441656
+    },
+    {
+      "name": "repeats-1",
+      "group": "repeats",
+      "passed": true,
+      "fuel_used": 892650,
+      "seconds": 0.0002902090000134194
+    },
+    {
+      "name": "nonzero_blank-0",
+      "group": "nonzero_blank",
+      "passed": true,
+      "fuel_used": 1795218,
+      "seconds": 0.0003367089998391748
+    },
+    {
+      "name": "nonzero_blank-1",
+      "group": "nonzero_blank",
+      "passed": true,
+      "fuel_used": 1694886,
+      "seconds": 0.00044483300007414073
+    },
+    {
+      "name": "minimal-0",
+      "group": "minimal",
+      "passed": true,
+      "fuel_used": 458492,
+      "seconds": 0.0003102499999840802
+    },
+    {
+      "name": "minimal-1",
+      "group": "minimal",
+      "passed": true,
+      "fuel_used": 455786,
+      "seconds": 0.0002132500003426685
+    },
+    {
+      "name": "impossible-0",
+      "group": "impossible",
+      "passed": true,
+      "fuel_used": 461,
+      "seconds": 0.0001849589998528245
+    },
+    {
+      "name": "impossible-1",
+      "group": "impossible",
+      "passed": true,
+      "fuel_used": 461,
+      "seconds": 0.00026983299994753907
+    },
+    {
+      "name": "extreme-0",
+      "group": "extreme",
+      "passed": true,
+      "fuel_used": 4124441,
+      "seconds": 0.0005624169998554862
+    },
+    {
+      "name": "extreme-1",
+      "group": "extreme",
+      "passed": true,
+      "fuel_used": 4193250,
+      "seconds": 0.0005396669998845027
+    },
+    {
+      "name": "long-0",
+      "group": "long",
+      "passed": true,
+      "fuel_used": 1263442742,
+      "seconds": 0.08373104199972659
+    },
+    {
+      "name": "long-1",
+      "group": "long",
+      "passed": true,
+      "fuel_used": 1507155217,
+      "seconds": 0.10058745800006363
+    },
+    {
+      "name": "memory-0",
+      "group": "memory",
+      "passed": true,
+      "fuel_used": 5430075982,
+      "seconds": 0.35775929199962775
+    },
+    {
+      "name": "memory-1",
+      "group": "memory",
+      "passed": true,
+      "fuel_used": 5112039364,
+      "seconds": 0.33481308399996124
+    }
+  ]
+}

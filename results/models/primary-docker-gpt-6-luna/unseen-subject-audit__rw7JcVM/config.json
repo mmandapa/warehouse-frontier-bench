@@ -1,0 +1,17 @@
+{
+    "task": {
+        "path": "tasks/unseen-subject-audit"
+    },
+    "trial_name": "unseen-subject-audit__rw7JcVM",
+    "trials_dir": "results/models/primary-docker-gpt-6-luna",
+    "agent": {
+        "name": "codex",
+        "model_name": "openai/gpt-6-luna",
+        "kwargs": {
+            "version": "0.163.0",
+            "web_search": "disabled",
+            "reasoning_effort": "medium"
+        }
+    },
+    "job_id": "f76f077b-dc1e-426f-b45d-a6c95287290a"
+}

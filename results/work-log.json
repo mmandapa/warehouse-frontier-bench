@@ -1,0 +1,20 @@
+{
+  "log_started_at": "2026-11-07T03:06:36.728269+00:00",
+  "packaging_checkpoint_at": "2026-11-07T03:44:24.558520+00:00",
+  "packaging_checkpoint_local": "2026-11-06T21:44:24.558520-06:00",
+  "elapsed_minutes_since_log_started": 37.8,
+  "earlier_research_and_skill_setup": "not timed; excluded from this measured interval",
+  "verification": {
+    "unit_tests": 22,
+    "adversarial_controls": 9,
+    "primary_model_attempts": 4,
+    "primary_rewards": [
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "daytona": "Authorized key rejected with HTTP 401 before sandbox creation; Docker fallback explicitly authorized",
+  "commits_pushes_deployments": false
+}

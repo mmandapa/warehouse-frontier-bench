@@ -1,0 +1,114 @@
+{
+  "reward": 0.0,
+  "case_pass_fraction": 0.75,
+  "cases": [
+    {
+      "name": "empty-0",
+      "group": "empty",
+      "passed": true,
+      "fuel_used": 38709,
+      "seconds": 0.0022638329828623682
+    },
+    {
+      "name": "empty-1",
+      "group": "empty",
+      "passed": true,
+      "fuel_used": 40422,
+      "seconds": 0.0003056249988730997
+    },
+    {
+      "name": "repeats-0",
+      "group": "repeats",
+      "passed": true,
+      "fuel_used": 419143,
+      "seconds": 0.00020349997794255614
+    },
+    {
+      "name": "repeats-1",
+      "group": "repeats",
+      "passed": true,
+      "fuel_used": 437274,
+      "seconds": 0.00018845900194719434
+    },
+    {
+      "name": "nonzero_blank-0",
+      "group": "nonzero_blank",
+      "passed": true,
+      "fuel_used": 839094,
+      "seconds": 0.0002080830163322389
+    },
+    {
+      "name": "nonzero_blank-1",
+      "group": "nonzero_blank",
+      "passed": true,
+      "fuel_used": 792395,
+      "seconds": 0.00024154101265594363
+    },
+    {
+      "name": "minimal-0",
+      "group": "minimal",
+      "passed": true,
+      "fuel_used": 251602,
+      "seconds": 0.00017716697766445577
+    },
+    {
+      "name": "minimal-1",
+      "group": "minimal",
+      "passed": true,
+      "fuel_used": 250524,
+      "seconds": 0.00016112500452436507
+    },
+    {
+      "name": "impossible-0",
+      "group": "impossible",
+      "passed": true,
+      "fuel_used": 16846,
+      "seconds": 0.0001525420229882002
+    },
+    {
+      "name": "impossible-1",
+      "group": "impossible",
+      "passed": true,
+      "fuel_used": 16846,
+      "seconds": 0.00022037499002180994
+    },
+    {
+      "name": "extreme-0",
+      "group": "extreme",
+      "passed": true,
+      "fuel_used": 1737842,
+      "seconds": 0.00041279199649579823
+    },
+    {
+      "name": "extreme-1",
+      "group": "extreme",
+      "passed": true,
+      "fuel_used": 1763729,
+      "seconds": 0.00034195900661870837
+    },
+    {
+      "name": "long-0",
+      "group": "long",
+      "passed": false,
+      "reason": "Expected status 0, got 2"
+    },
+    {
+      "name": "long-1",
+      "group": "long",
+      "passed": false,
+      "reason": "Expected status 0, got 2"
+    },
+    {
+      "name": "memory-0",
+      "group": "memory",
+      "passed": false,
+      "reason": "Expected status 0, got 2"
+    },
+    {
+      "name": "memory-1",
+      "group": "memory",
+      "passed": false,
+      "reason": "Expected status 0, got 2"
+    }
+  ]
+}

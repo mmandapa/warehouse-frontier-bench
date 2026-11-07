@@ -1,0 +1,15 @@
+{
+    "job_name": "empty-negative",
+    "jobs_dir": "results/negative",
+    "n_concurrent_trials": 1,
+    "agents": [
+        {
+            "name": "nop"
+        }
+    ],
+    "tasks": [
+        {
+            "path": "tasks/unseen-subject-audit"
+        }
+    ]
+}

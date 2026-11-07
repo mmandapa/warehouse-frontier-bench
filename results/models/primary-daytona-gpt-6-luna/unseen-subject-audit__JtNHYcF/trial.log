@@ -1,0 +1,653 @@
+Selected strategy: _DaytonaDirect
+Building environment from /Users/maharshi12/Documents/Codex/2026-11-06/tg/outputs/research-reliability-bench/tasks/unseen-subject-audit/environment/Dockerfile
+Trial unseen-subject-audit__JtNHYcF failed: Failed to create sandbox: Invalid credentials
+Failed to download logs to results/models/primary-daytona-gpt-6-luna/unseen-subject-audit__JtNHYcF/agent: Sandbox not found. Please build the environment first.
+Traceback (most recent call last):
+  File "/Users/maharshi12/Documents/Codex/2026-11-06/tg/outputs/research-reliability-bench/.venv/lib/python3.12/site-packages/daytona/_utils/errors.py", line 211, in async_wrapper
+    return await async_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/maharshi12/Documents/Codex/2026-11-06/tg/outputs/research-reliability-bench/.venv/lib/python3.12/site-packages/daytona/_utils/timeout.py", line 437, in async_wrapper
+    return await asyncio.wait_for(task, timeout=timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/maharshi12/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/tasks.py", line 520, in wait_for
+    return await fut
+           ^^^^^^^^^
+  File "/Users/maharshi12/Documents/Codex/2026-11-06/tg/outputs/research-reliability-bench/.venv/lib/python3.12/site-packages/daytona/_async/daytona.py", line 698, in _create
+    context_hashes = await AsyncSnapshotService.process_image_context(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/maharshi12/Documents/Codex/2026-11-06/tg/outputs/research-reliability-bench/.venv/lib/python3.12/site-packages/daytona/_utils/otel_decorator.py", line 129, in async_wrapper
+    result = await func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/maharshi12/Documents/Codex/2026-11-06/tg/outputs/research-reliability-bench/.venv/lib/python3.12/site-packages/daytona/_utils/otel_decorator.py", line 257, in async_wrapper
+    result = await func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/maharshi12/Documents/Codex/2026-11-06/tg/outputs/research-reliability-bench/.venv/lib/python3.12/site-packages/daytona/_async/snapshot.py", line 273, in process_image_context
+    push_access_creds = await object_storage_api.get_push_access()
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/maharshi12/Documents/Codex/2026-11-06/tg/outputs/research-reliability-bench/.venv/lib/python3.12/site-packages/pydantic/_internal/_validate_call.py", line 35, in wrapper_function
+    return await wrapper(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/maharshi12/Documents/Codex/2026-11-06/tg/outputs/research-reliability-bench/.venv/lib/python3.12/site-packages/daytona_api_client_async/api/object_storage_api.py", line 102, in get_push_access
+    return self.api_client.response_deserialize(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/maharshi12/Documents/Codex/2026-11-06/tg/outputs/research-reliability-bench/.venv/lib/python3.12/site-packages/daytona_api_client_async/api_client.py", line 328, in response_deserialize
+    raise ApiException.from_response(
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/maharshi12/Documents/Codex/2026-11-06/tg/outputs/research-reliability-bench/.venv/lib/python3.12/site-packages/daytona_api_client_async/exceptions.py", line 145, in from_response
+    raise UnauthorizedException(http_resp=http_resp, body=body, data=data)
+daytona_api_client_async.exceptions.UnauthorizedException: (401)
+Reason: Unauthorized
+HTTP response headers: <CIMultiDictProxy('Content-Type': 'application/json; charset=utf-8', 'Content-Length': '153', 'Connection': 'keep-alive', 'Date': 'Sat, 07 Nov 2026 03:30:12 GMT', 'Etag': 'W/"99-+V9vXp6+/spNROZlHmbPfb7RAdo"', 'X-Powered-By': 'Express', 'Vary': 'Origin', 'X-Daytona-Api-Version': 'v0.230.0', 'X-RateLimit-Limit-failed-auth': '20', 'X-RateLimit-Remaining-failed-auth': '17', 'X-RateLimit-Reset-failed-auth': '6', 'X-Cache': 'Error from cloudfront', 'Via': '1.1 fb7d525e4df8699605096cdd05f56b1c.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'DFW56-P2', 'X-Amz-Cf-Id': 'YIijtgs5oCa1wLjHjfT2MY5ZrFD6Ch1Q-ZmC5fM-mPt6flud9ESrPQ==', 'X-Frame-Options': 'DENY', 'Referrer-Policy': 'strict-origin-when-cross-origin', 'Content-Security-Policy': "frame-ancestors 'none'", 'X-Content-Type-Options': 'nosniff', 'Strict-Transport-Security': 'max-age=31536000; includeSubDomains; preload')>
+HTTP response body: {"path":"/api/object-storage/push-access","timestamp":"2026-11-07T03:30:12.995Z","statusCode":401,"error":"Unauthorized","message":"Invalid credentials"}
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/maharshi12/Documents/Codex/2026-11-06/tg/outputs/research-reliability-bench/.venv/lib/python3.12/site-packages/harbor/trial/trial.py", line 606, in run
+    await self._prepare()
+  File "/Users/maharshi12/Documents/Codex/2026-11-06/tg/outputs/research-reliability-bench/.venv/lib/python3.12/site-packages/harbor/trial/trial.py", line 645, in _prepare
+    await self._setup_agent_environment()
+  File "/Users/maharshi12/Documents/Codex/2026-11-06/tg/outputs/research-reliability-bench/.venv/lib/python3.12/site-packages/harbor/trial/trial.py", line 1849, in _setup_agent_environment
+    await self._start_agent_environment()
+  File "/Users/maharshi12/Documents/Codex/2026-11-06/tg/outputs/research-reliability-bench/.venv/lib/python3.12/site-packages/harbor/trial/trial.py", line 1855, in _start_agent_environment
+    await asyncio.wait_for(
+  File "/Users/maharshi12/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/tasks.py", line 520, in wait_for
+    return await fut
+           ^^^^^^^^^
+  File "/Users/maharshi12/Documents/Codex/2026-11-06/tg/outputs/research-reliability-bench/.venv/lib/python3.12/site-packages/harbor/environments/daytona/environment.py", line 1979, in start
+    return await self._strategy.start(force_build)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/maharshi12/Documents/Codex/2026-11-06/tg/outputs/research-reliability-bench/.venv/lib/python3.12/site-packages/harbor/environments/daytona/environment.py", line 344, in start
+    await env._create_sandbox(params=params, daytona=daytona)
+  File "/Users/maharshi12/Documents/Codex/2026-11-06/tg/outputs/research-reliability-bench/.venv/lib/python3.12/site-packages/tenacity/asyncio/__init__.py", line 232, in async_wrapped
+    return await copy(fn, *args, **kwargs)  # type: ignore[type-var]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/maharshi12/Documents/Codex/2026-11-06/tg/outputs/research-reliability-bench/.venv/lib/python3.12/site-packages/tenacity/asyncio/__init__.py", line 126, in __call__
+    do = await self.iter(retry_state=retry_state)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/maharshi12/Documents/Codex/2026-11-06/tg/outputs/research-reliability-bench/.venv/lib/python3.12/site-packages/tenacity/asyncio/__init__.py", line 171, in iter
+    result = await action(retry_state)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/maharshi12/Documents/Codex/2026-11-06/tg/outputs/research-reliability-bench/.venv/lib/python3.12/site-packages/tenacity/_utils.py", line 130, in inner
+    return call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/maharshi12/Documents/Codex/2026-11-06/tg/outputs/research-reliability-bench/.venv/lib/python3.12/site-packages/tenacity/__init__.py", line 462, in <lambda>
+    self._add_action_func(lambda rs: rs.outcome.result())
+                                     ^^^^^^^^^^^^^^^^^^^
+  File "/Users/maharshi12/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/concurrent/futures/_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/Users/maharshi12/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+  File "/Users/maharshi12/Documents/Codex/2026-11-06/tg/outputs/research-reliability-bench/.venv/lib/python3.12/site-packages/tenacity/asyncio/__init__.py", line 130, in __call__
+    result = await fn(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/maharshi12/Documents/Codex/2026-11-06/tg/outputs/research-reliability-bench/.venv/lib/python3.12/site-packages/harbor/environments/daytona/environment.py", line 1518, in _create_sandbox
+    self._sandbox = await asyncio.shield(create_task)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/maharshi12/Documents/Codex/2026-11-06/tg/outputs/research-reliability-bench/.venv/lib/python3.12/site-packages/daytona/_utils/otel_decorator.py", line 129, in async_wrapper
+    result = await func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/maharshi12/Documents/Codex/2026-11-06/tg/outputs/research-reliability-bench/.venv/lib/python3.12/site-packages/daytona/_utils/otel_decorator.py", line 257, in async_wrapper
+    result = await func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/maharshi12/Documents/Codex/2026-11-06/tg/outputs/research-reliability-bench/.venv/lib/python3.12/site-packages/daytona/_async/daytona.py", line 593, in create
+    return await self._create(
+           ^^^^^^^^^^^^^^^^^^^
+  File "/Users/maharshi12/Documents/Codex/2026-11-06/tg/outputs/research-reliability-bench/.venv/lib/python3.12/site-packages/daytona/_utils/errors.py", line 213, in async_wrapper
+    process_n_raise_exception(e)
+  File "/Users/maharshi12/Documents/Codex/2026-11-06/tg/outputs/research-reliability-bench/.venv/lib/python3.12/site-packages/daytona/_utils/errors.py", line 156, in process_n_raise_exception
+    raise create_daytona_error(
+daytona.common.errors.DaytonaAuthenticationError: Failed to create sandbox: Invalid credentials
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/maharshi12/Documents/Codex/2026-11-06/tg/outputs/research-reliability-bench/.venv/lib/python3.12/site-packages/harbor/trial/trial.py", line 824, in _download_role_logs
+    await self.agent_environment.download_dir(
+  File "/Users/maharshi12/Documents/Codex/2026-11-06/tg/outputs/research-reliability-bench/.venv/lib/python3.12/site-packages/harbor/environments/daytona/environment.py", line 2016, in download_dir
+    return await self._strategy.download_dir(source_dir, target_dir)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/maharshi12/Documents/Codex/2026-11-06/tg/outputs/research-reliability-bench/.venv/lib/python3.12/site-packages/harbor/environments/daytona/environment.py", line 411, in download_dir
+    await self._env._sdk_download_dir(source_dir, target_dir)
+  File "/Users/maharshi12/Documents/Codex/2026-11-06/tg/outputs/research-reliability-bench/.venv/lib/python3.12/site-packages/harbor/environments/daytona/environment.py", line 1946, in _sdk_download_dir
+    raise RuntimeError("Sandbox not found. Please build the environment first.")
+RuntimeError: Sandbox not found. Please build the environment first.
+Collecting main service artifacts
+Failed to download artifact '/logs/artifacts' from service 'main' (best-effort)
+Traceback (most recent call last):
+  File "/Users/maharshi12/Documents/Codex/2026-11-06/tg/outputs/research-reliability-bench/.venv/lib/python3.12/site-packages/daytona/_utils/errors.py", line 211, in async_wrapper
+    return await async_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/maharshi12/Documents/Codex/2026-11-06/tg/outputs/research-reliability-bench/.venv/lib/python3.12/site-packages/daytona/_utils/timeout.py", line 437, in async_wrapper
+    return await asyncio.wait_for(task, timeout=timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/maharshi12/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/tasks.py", line 520, in wait_for
+    return await fut
+           ^^^^^^^^^
+  File "/Users/maharshi12/Documents/Codex/2026-11-06/tg/outputs/research-reliability-bench/.venv/lib/python3.12/site-packages/daytona/_async/daytona.py", line 698, in _create
+    context_hashes = await AsyncSnapshotService.process_image_context(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/maharshi12/Documents/Codex/2026-11-06/tg/outputs/research-reliability-bench/.venv/lib/python3.12/site-packages/daytona/_utils/otel_decorator.py", line 129, in async_wrapper
+    result = await func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/maharshi12/Documents/Codex/2026-11-06/tg/outputs/research-reliability-bench/.venv/lib/python3.12/site-packages/daytona/_utils/otel_decorator.py", line 257, in async_wrapper
+    result = await func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/maharshi12/Documents/Codex/2026-11-06/tg/outputs/research-reliability-bench/.venv/lib/python3.12/site-packages/daytona/_async/snapshot.py", line 273, in process_image_context
+    push_access_creds = await object_storage_api.get_push_access()
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/maharshi12/Documents/Codex/2026-11-06/tg/outputs/research-reliability-bench/.venv/lib/python3.12/site-packages/pydantic/_internal/_validate_call.py", line 35, in wrapper_function
+    return await wrapper(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/maharshi12/Documents/Codex/2026-11-06/tg/outputs/research-reliability-bench/.venv/lib/python3.12/site-packages/daytona_api_client_async/api/object_storage_api.py", line 102, in get_push_access
+    return self.api_client.response_deserialize(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/maharshi12/Documents/Codex/2026-11-06/tg/outputs/research-reliability-bench/.venv/lib/python3.12/site-packages/daytona_api_client_async/api_client.py", line 328, in response_deserialize
+    raise ApiException.from_response(
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/maharshi12/Documents/Codex/2026-11-06/tg/outputs/research-reliability-bench/.venv/lib/python3.12/site-packages/daytona_api_client_async/exceptions.py", line 145, in from_response
+    raise UnauthorizedException(http_resp=http_resp, body=body, data=data)
+daytona_api_client_async.exceptions.UnauthorizedException: (401)
+Reason: Unauthorized
+HTTP response headers: <CIMultiDictProxy('Content-Type': 'application/json; charset=utf-8', 'Content-Length': '153', 'Connection': 'keep-alive', 'Date': 'Sat, 07 Nov 2026 03:30:12 GMT', 'Etag': 'W/"99-+V9vXp6+/spNROZlHmbPfb7RAdo"', 'X-Powered-By': 'Express', 'Vary': 'Origin', 'X-Daytona-Api-Version': 'v0.230.0', 'X-RateLimit-Limit-failed-auth': '20', 'X-RateLimit-Remaining-failed-auth': '17', 'X-RateLimit-Reset-failed-auth': '6', 'X-Cache': 'Error from cloudfront', 'Via': '1.1 fb7d525e4df8699605096cdd05f56b1c.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'DFW56-P2', 'X-Amz-Cf-Id': 'YIijtgs5oCa1wLjHjfT2MY5ZrFD6Ch1Q-ZmC5fM-mPt6flud9ESrPQ==', 'X-Frame-Options': 'DENY', 'Referrer-Policy': 'strict-origin-when-cross-origin', 'Content-Security-Policy': "frame-ancestors 'none'", 'X-Content-Type-Options': 'nosniff', 'Strict-Transport-Security': 'max-age=31536000; includeSubDomains; preload')>
+HTTP response body: {"path":"/api/object-storage/push-access","timestamp":"2026-11-07T03:30:12.995Z","statusCode":401,"error":"Unauthorized","message":"Invalid credentials"}
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/maharshi12/Documents/Codex/2026-11-06/tg/outputs/research-reliability-bench/.venv/lib/python3.12/site-packages/harbor/trial/trial.py", line 606, in run
+    await self._prepare()
+  File "/Users/maharshi12/Documents/Codex/2026-11-06/tg/outputs/research-reliability-bench/.venv/lib/python3.12/site-packages/harbor/trial/trial.py", line 645, in _prepare
+    await self._setup_agent_environment()
+  File "/Users/maharshi12/Documents/Codex/2026-11-06/tg/outputs/research-reliability-bench/.venv/lib/python3.12/site-packages/harbor/trial/trial.py", line 1849, in _setup_agent_environment
+    await self._start_agent_environment()
+  File "/Users/maharshi12/Documents/Codex/2026-11-06/tg/outputs/research-reliability-bench/.venv/lib/python3.12/site-packages/harbor/trial/trial.py", line 1855, in _start_agent_environment
+    await asyncio.wait_for(
+  File "/Users/maharshi12/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/tasks.py", line 520, in wait_for
+    return await fut
+           ^^^^^^^^^
+  File "/Users/maharshi12/Documents/Codex/2026-11-06/tg/outputs/research-reliability-bench/.venv/lib/python3.12/site-packages/harbor/environments/daytona/environment.py", line 1979, in start
+    return await self._strategy.start(force_build)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/maharshi12/Documents/Codex/2026-11-06/tg/outputs/research-reliability-bench/.venv/lib/python3.12/site-packages/harbor/environments/daytona/environment.py", line 344, in start
+    await env._create_sandbox(params=params, daytona=daytona)
+  File "/Users/maharshi12/Documents/Codex/2026-11-06/tg/outputs/research-reliability-bench/.venv/lib/python3.12/site-packages/tenacity/asyncio/__init__.py", line 232, in async_wrapped
+    return await copy(fn, *args, **kwargs)  # type: ignore[type-var]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/maharshi12/Documents/Codex/2026-11-06/tg/outputs/research-reliability-bench/.venv/lib/python3.12/site-packages/tenacity/asyncio/__init__.py", line 126, in __call__
+    do = await self.iter(retry_state=retry_state)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/maharshi12/Documents/Codex/2026-11-06/tg/outputs/research-reliability-bench/.venv/lib/python3.12/site-packages/tenacity/asyncio/__init__.py", line 171, in iter
+    result = await action(retry_state)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/maharshi12/Documents/Codex/2026-11-06/tg/outputs/research-reliability-bench/.venv/lib/python3.12/site-packages/tenacity/_utils.py", line 130, in inner
+    return call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/maharshi12/Documents/Codex/2026-11-06/tg/outputs/research-reliability-bench/.venv/lib/python3.12/site-packages/tenacity/__init__.py", line 462, in <lambda>
+    self._add_action_func(lambda rs: rs.outcome.result())
+                                     ^^^^^^^^^^^^^^^^^^^
+  File "/Users/maharshi12/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/concurrent/futures/_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/Users/maharshi12/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+  File "/Users/maharshi12/Documents/Codex/2026-11-06/tg/outputs/research-reliability-bench/.venv/lib/python3.12/site-packages/tenacity/asyncio/__init__.py", line 130, in __call__
+    result = await fn(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/maharshi12/Documents/Codex/2026-11-06/tg/outputs/research-reliability-bench/.venv/lib/python3.12/site-packages/harbor/environments/daytona/environment.py", line 1518, in _create_sandbox
+    self._sandbox = await asyncio.shield(create_task)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/maharshi12/Documents/Codex/2026-11-06/tg/outputs/research-reliability-bench/.venv/lib/python3.12/site-packages/daytona/_utils/otel_decorator.py", line 129, in async_wrapper
+    result = await func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/maharshi12/Documents/Codex/2026-11-06/tg/outputs/research-reliability-bench/.venv/lib/python3.12/site-packages/daytona/_utils/otel_decorator.py", line 257, in async_wrapper
+    result = await func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/maharshi12/Documents/Codex/2026-11-06/tg/outputs/research-reliability-bench/.venv/lib/python3.12/site-packages/daytona/_async/daytona.py", line 593, in create
+    return await self._create(
+           ^^^^^^^^^^^^^^^^^^^
+  File "/Users/maharshi12/Documents/Codex/2026-11-06/tg/outputs/research-reliability-bench/.venv/lib/python3.12/site-packages/daytona/_utils/errors.py", line 213, in async_wrapper
+    process_n_raise_exception(e)
+  File "/Users/maharshi12/Documents/Codex/2026-11-06/tg/outputs/research-reliability-bench/.venv/lib/python3.12/site-packages/daytona/_utils/errors.py", line 156, in process_n_raise_exception
+    raise create_daytona_error(
+daytona.common.errors.DaytonaAuthenticationError: Failed to create sandbox: Invalid credentials
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/maharshi12/Documents/Codex/2026-11-06/tg/outputs/research-reliability-bench/.venv/lib/python3.12/site-packages/harbor/trial/artifact_handler.py", line 343, in _download_artifact
+    await source_env.service_download_dir(
+  File "/Users/maharshi12/Documents/Codex/2026-11-06/tg/outputs/research-reliability-bench/.venv/lib/python3.12/site-packages/harbor/environments/compose_service_ops.py", line 140, in service_download_dir
+    await self.download_dir(source_dir, target_dir)
+  File "/Users/maharshi12/Documents/Codex/2026-11-06/tg/outputs/research-reliability-bench/.venv/lib/python3.12/site-packages/harbor/environments/daytona/environment.py", line 2016, in download_dir
+    return await self._strategy.download_dir(source_dir, target_dir)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/maharshi12/Documents/Codex/2026-11-06/tg/outputs/research-reliability-bench/.venv/lib/python3.12/site-packages/harbor/environments/daytona/environment.py", line 411, in download_dir
+    await self._env._sdk_download_dir(source_dir, target_dir)
+  File "/Users/maharshi12/Documents/Codex/2026-11-06/tg/outputs/research-reliability-bench/.venv/lib/python3.12/site-packages/harbor/environments/daytona/environment.py", line 1946, in _sdk_download_dir
+    raise RuntimeError("Sandbox not found. Please build the environment first.")
+RuntimeError: Sandbox not found. Please build the environment first.
+Failed to download artifact '/app/submission/folds.json' from service 'main' (best-effort)
+Traceback (most recent call last):
+  File "/Users/maharshi12/Documents/Codex/2026-11-06/tg/outputs/research-reliability-bench/.venv/lib/python3.12/site-packages/daytona/_utils/errors.py", line 211, in async_wrapper
+    return await async_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/maharshi12/Documents/Codex/2026-11-06/tg/outputs/research-reliability-bench/.venv/lib/python3.12/site-packages/daytona/_utils/timeout.py", line 437, in async_wrapper
+    return await asyncio.wait_for(task, timeout=timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/maharshi12/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/tasks.py", line 520, in wait_for
+    return await fut
+           ^^^^^^^^^
+  File "/Users/maharshi12/Documents/Codex/2026-11-06/tg/outputs/research-reliability-bench/.venv/lib/python3.12/site-packages/daytona/_async/daytona.py", line 698, in _create
+    context_hashes = await AsyncSnapshotService.process_image_context(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/maharshi12/Documents/Codex/2026-11-06/tg/outputs/research-reliability-bench/.venv/lib/python3.12/site-packages/daytona/_utils/otel_decorator.py", line 129, in async_wrapper
+    result = await func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/maharshi12/Documents/Codex/2026-11-06/tg/outputs/research-reliability-bench/.venv/lib/python3.12/site-packages/daytona/_utils/otel_decorator.py", line 257, in async_wrapper
+    result = await func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/maharshi12/Documents/Codex/2026-11-06/tg/outputs/research-reliability-bench/.venv/lib/python3.12/site-packages/daytona/_async/snapshot.py", line 273, in process_image_context
+    push_access_creds = await object_storage_api.get_push_access()
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/maharshi12/Documents/Codex/2026-11-06/tg/outputs/research-reliability-bench/.venv/lib/python3.12/site-packages/pydantic/_internal/_validate_call.py", line 35, in wrapper_function
+    return await wrapper(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/maharshi12/Documents/Codex/2026-11-06/tg/outputs/research-reliability-bench/.venv/lib/python3.12/site-packages/daytona_api_client_async/api/object_storage_api.py", line 102, in get_push_access
+    return self.api_client.response_deserialize(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/maharshi12/Documents/Codex/2026-11-06/tg/outputs/research-reliability-bench/.venv/lib/python3.12/site-packages/daytona_api_client_async/api_client.py", line 328, in response_deserialize
+    raise ApiException.from_response(
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/maharshi12/Documents/Codex/2026-11-06/tg/outputs/research-reliability-bench/.venv/lib/python3.12/site-packages/daytona_api_client_async/exceptions.py", line 145, in from_response
+    raise UnauthorizedException(http_resp=http_resp, body=body, data=data)
+daytona_api_client_async.exceptions.UnauthorizedException: (401)
+Reason: Unauthorized
+HTTP response headers: <CIMultiDictProxy('Content-Type': 'application/json; charset=utf-8', 'Content-Length': '153', 'Connection': 'keep-alive', 'Date': 'Sat, 07 Nov 2026 03:30:12 GMT', 'Etag': 'W/"99-+V9vXp6+/spNROZlHmbPfb7RAdo"', 'X-Powered-By': 'Express', 'Vary': 'Origin', 'X-Daytona-Api-Version': 'v0.230.0', 'X-RateLimit-Limit-failed-auth': '20', 'X-RateLimit-Remaining-failed-auth': '17', 'X-RateLimit-Reset-failed-auth': '6', 'X-Cache': 'Error from cloudfront', 'Via': '1.1 fb7d525e4df8699605096cdd05f56b1c.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'DFW56-P2', 'X-Amz-Cf-Id': 'YIijtgs5oCa1wLjHjfT2MY5ZrFD6Ch1Q-ZmC5fM-mPt6flud9ESrPQ==', 'X-Frame-Options': 'DENY', 'Referrer-Policy': 'strict-origin-when-cross-origin', 'Content-Security-Policy': "frame-ancestors 'none'", 'X-Content-Type-Options': 'nosniff', 'Strict-Transport-Security': 'max-age=31536000; includeSubDomains; preload')>
+HTTP response body: {"path":"/api/object-storage/push-access","timestamp":"2026-11-07T03:30:12.995Z","statusCode":401,"error":"Unauthorized","message":"Invalid credentials"}
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/maharshi12/Documents/Codex/2026-11-06/tg/outputs/research-reliability-bench/.venv/lib/python3.12/site-packages/harbor/trial/trial.py", line 606, in run
+    await self._prepare()
+  File "/Users/maharshi12/Documents/Codex/2026-11-06/tg/outputs/research-reliability-bench/.venv/lib/python3.12/site-packages/harbor/trial/trial.py", line 645, in _prepare
+    await self._setup_agent_environment()
+  File "/Users/maharshi12/Documents/Codex/2026-11-06/tg/outputs/research-reliability-bench/.venv/lib/python3.12/site-packages/harbor/trial/trial.py", line 1849, in _setup_agent_environment
+    await self._start_agent_environment()
+  File "/Users/maharshi12/Documents/Codex/2026-11-06/tg/outputs/research-reliability-bench/.venv/lib/python3.12/site-packages/harbor/trial/trial.py", line 1855, in _start_agent_environment
+    await asyncio.wait_for(
+  File "/Users/maharshi12/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/tasks.py", line 520, in wait_for
+    return await fut
+           ^^^^^^^^^
+  File "/Users/maharshi12/Documents/Codex/2026-11-06/tg/outputs/research-reliability-bench/.venv/lib/python3.12/site-packages/harbor/environments/daytona/environment.py", line 1979, in start
+    return await self._strategy.start(force_build)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/maharshi12/Documents/Codex/2026-11-06/tg/outputs/research-reliability-bench/.venv/lib/python3.12/site-packages/harbor/environments/daytona/environment.py", line 344, in start
+    await env._create_sandbox(params=params, daytona=daytona)
+  File "/Users/maharshi12/Documents/Codex/2026-11-06/tg/outputs/research-reliability-bench/.venv/lib/python3.12/site-packages/tenacity/asyncio/__init__.py", line 232, in async_wrapped
+    return await copy(fn, *args, **kwargs)  # type: ignore[type-var]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/maharshi12/Documents/Codex/2026-11-06/tg/outputs/research-reliability-bench/.venv/lib/python3.12/site-packages/tenacity/asyncio/__init__.py", line 126, in __call__
+    do = await self.iter(retry_state=retry_state)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/maharshi12/Documents/Codex/2026-11-06/tg/outputs/research-reliability-bench/.venv/lib/python3.12/site-packages/tenacity/asyncio/__init__.py", line 171, in iter
+    result = await action(retry_state)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/maharshi12/Documents/Codex/2026-11-06/tg/outputs/research-reliability-bench/.venv/lib/python3.12/site-packages/tenacity/_utils.py", line 130, in inner
+    return call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/maharshi12/Documents/Codex/2026-11-06/tg/outputs/research-reliability-bench/.venv/lib/python3.12/site-packages/tenacity/__init__.py", line 462, in <lambda>
+    self._add_action_func(lambda rs: rs.outcome.result())
+                                     ^^^^^^^^^^^^^^^^^^^
+  File "/Users/maharshi12/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/concurrent/futures/_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/Users/maharshi12/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+  File "/Users/maharshi12/Documents/Codex/2026-11-06/tg/outputs/research-reliability-bench/.venv/lib/python3.12/site-packages/tenacity/asyncio/__init__.py", line 130, in __call__
+    result = await fn(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/maharshi12/Documents/Codex/2026-11-06/tg/outputs/research-reliability-bench/.venv/lib/python3.12/site-packages/harbor/environments/daytona/environment.py", line 1518, in _create_sandbox
+    self._sandbox = await asyncio.shield(create_task)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/maharshi12/Documents/Codex/2026-11-06/tg/outputs/research-reliability-bench/.venv/lib/python3.12/site-packages/daytona/_utils/otel_decorator.py", line 129, in async_wrapper
+    result = await func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/maharshi12/Documents/Codex/2026-11-06/tg/outputs/research-reliability-bench/.venv/lib/python3.12/site-packages/daytona/_utils/otel_decorator.py", line 257, in async_wrapper
+    result = await func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/maharshi12/Documents/Codex/2026-11-06/tg/outputs/research-reliability-bench/.venv/lib/python3.12/site-packages/daytona/_async/daytona.py", line 593, in create
+    return await self._create(
+           ^^^^^^^^^^^^^^^^^^^
+  File "/Users/maharshi12/Documents/Codex/2026-11-06/tg/outputs/research-reliability-bench/.venv/lib/python3.12/site-packages/daytona/_utils/errors.py", line 213, in async_wrapper
+    process_n_raise_exception(e)
+  File "/Users/maharshi12/Documents/Codex/2026-11-06/tg/outputs/research-reliability-bench/.venv/lib/python3.12/site-packages/daytona/_utils/errors.py", line 156, in process_n_raise_exception
+    raise create_daytona_error(
+daytona.common.errors.DaytonaAuthenticationError: Failed to create sandbox: Invalid credentials
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/maharshi12/Documents/Codex/2026-11-06/tg/outputs/research-reliability-bench/.venv/lib/python3.12/site-packages/harbor/trial/artifact_handler.py", line 351, in _download_artifact
+    await source_env.service_download_file(
+  File "/Users/maharshi12/Documents/Codex/2026-11-06/tg/outputs/research-reliability-bench/.venv/lib/python3.12/site-packages/harbor/environments/compose_service_ops.py", line 126, in service_download_file
+    await self.download_file(source_path, target_path)
+  File "/Users/maharshi12/Documents/Codex/2026-11-06/tg/outputs/research-reliability-bench/.venv/lib/python3.12/site-packages/harbor/environments/daytona/environment.py", line 2012, in download_file
+    return await self._strategy.download_file(source_path, target_path)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/maharshi12/Documents/Codex/2026-11-06/tg/outputs/research-reliability-bench/.venv/lib/python3.12/site-packages/harbor/environments/daytona/environment.py", line 407, in download_file
+    await self._env._sdk_download_file(source_path, target_path)
+  File "/Users/maharshi12/Documents/Codex/2026-11-06/tg/outputs/research-reliability-bench/.venv/lib/python3.12/site-packages/tenacity/asyncio/__init__.py", line 232, in async_wrapped
+    return await copy(fn, *args, **kwargs)  # type: ignore[type-var]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/maharshi12/Documents/Codex/2026-11-06/tg/outputs/research-reliability-bench/.venv/lib/python3.12/site-packages/tenacity/asyncio/__init__.py", line 126, in __call__
+    do = await self.iter(retry_state=retry_state)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/maharshi12/Documents/Codex/2026-11-06/tg/outputs/research-reliability-bench/.venv/lib/python3.12/site-packages/tenacity/asyncio/__init__.py", line 171, in iter
+    result = await action(retry_state)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/maharshi12/Documents/Codex/2026-11-06/tg/outputs/research-reliability-bench/.venv/lib/python3.12/site-packages/tenacity/_utils.py", line 130, in inner
+    return call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/maharshi12/Documents/Codex/2026-11-06/tg/outputs/research-reliability-bench/.venv/lib/python3.12/site-packages/tenacity/__init__.py", line 482, in exc_check
+    retry_exc.reraise()
+  File "/Users/maharshi12/Documents/Codex/2026-11-06/tg/outputs/research-reliability-bench/.venv/lib/python3.12/site-packages/tenacity/__init__.py", line 216, in reraise
+    raise self.last_attempt.result()
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/maharshi12/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/concurrent/futures/_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/Users/maharshi12/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+  File "/Users/maharshi12/Documents/Codex/2026-11-06/tg/outputs/research-reliability-bench/.venv/lib/python3.12/site-packages/tenacity/asyncio/__init__.py", line 130, in __call__
+    result = await fn(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/maharshi12/Documents/Codex/2026-11-06/tg/outputs/research-reliability-bench/.venv/lib/python3.12/site-packages/harbor/environments/daytona/environment.py", line 1931, in _sdk_download_file
+    raise RuntimeError("Sandbox not found. Please build the environment first.")
+RuntimeError: Sandbox not found. Please build the environment first.
+Failed to download artifact '/app/submission/audit.json' from service 'main' (best-effort)
+Traceback (most recent call last):
+  File "/Users/maharshi12/Documents/Codex/2026-11-06/tg/outputs/research-reliability-bench/.venv/lib/python3.12/site-packages/daytona/_utils/errors.py", line 211, in async_wrapper
+    return await async_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/maharshi12/Documents/Codex/2026-11-06/tg/outputs/research-reliability-bench/.venv/lib/python3.12/site-packages/daytona/_utils/timeout.py", line 437, in async_wrapper
+    return await asyncio.wait_for(task, timeout=timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/maharshi12/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/tasks.py", line 520, in wait_for
+    return await fut
+           ^^^^^^^^^
+  File "/Users/maharshi12/Documents/Codex/2026-11-06/tg/outputs/research-reliability-bench/.venv/lib/python3.12/site-packages/daytona/_async/daytona.py", line 698, in _create
+    context_hashes = await AsyncSnapshotService.process_image_context(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/maharshi12/Documents/Codex/2026-11-06/tg/outputs/research-reliability-bench/.venv/lib/python3.12/site-packages/daytona/_utils/otel_decorator.py", line 129, in async_wrapper
+    result = await func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/maharshi12/Documents/Codex/2026-11-06/tg/outputs/research-reliability-bench/.venv/lib/python3.12/site-packages/daytona/_utils/otel_decorator.py", line 257, in async_wrapper
+    result = await func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/maharshi12/Documents/Codex/2026-11-06/tg/outputs/research-reliability-bench/.venv/lib/python3.12/site-packages/daytona/_async/snapshot.py", line 273, in process_image_context
+    push_access_creds = await object_storage_api.get_push_access()
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/maharshi12/Documents/Codex/2026-11-06/tg/outputs/research-reliability-bench/.venv/lib/python3.12/site-packages/pydantic/_internal/_validate_call.py", line 35, in wrapper_function
+    return await wrapper(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/maharshi12/Documents/Codex/2026-11-06/tg/outputs/research-reliability-bench/.venv/lib/python3.12/site-packages/daytona_api_client_async/api/object_storage_api.py", line 102, in get_push_access
+    return self.api_client.response_deserialize(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/maharshi12/Documents/Codex/2026-11-06/tg/outputs/research-reliability-bench/.venv/lib/python3.12/site-packages/daytona_api_client_async/api_client.py", line 328, in response_deserialize
+    raise ApiException.from_response(
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/maharshi12/Documents/Codex/2026-11-06/tg/outputs/research-reliability-bench/.venv/lib/python3.12/site-packages/daytona_api_client_async/exceptions.py", line 145, in from_response
+    raise UnauthorizedException(http_resp=http_resp, body=body, data=data)
+daytona_api_client_async.exceptions.UnauthorizedException: (401)
+Reason: Unauthorized
+HTTP response headers: <CIMultiDictProxy('Content-Type': 'application/json; charset=utf-8', 'Content-Length': '153', 'Connection': 'keep-alive', 'Date': 'Sat, 07 Nov 2026 03:30:12 GMT', 'Etag': 'W/"99-+V9vXp6+/spNROZlHmbPfb7RAdo"', 'X-Powered-By': 'Express', 'Vary': 'Origin', 'X-Daytona-Api-Version': 'v0.230.0', 'X-RateLimit-Limit-failed-auth': '20', 'X-RateLimit-Remaining-failed-auth': '17', 'X-RateLimit-Reset-failed-auth': '6', 'X-Cache': 'Error from cloudfront', 'Via': '1.1 fb7d525e4df8699605096cdd05f56b1c.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'DFW56-P2', 'X-Amz-Cf-Id': 'YIijtgs5oCa1wLjHjfT2MY5ZrFD6Ch1Q-ZmC5fM-mPt6flud9ESrPQ==', 'X-Frame-Options': 'DENY', 'Referrer-Policy': 'strict-origin-when-cross-origin', 'Content-Security-Policy': "frame-ancestors 'none'", 'X-Content-Type-Options': 'nosniff', 'Strict-Transport-Security': 'max-age=31536000; includeSubDomains; preload')>
+HTTP response body: {"path":"/api/object-storage/push-access","timestamp":"2026-11-07T03:30:12.995Z","statusCode":401,"error":"Unauthorized","message":"Invalid credentials"}
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/maharshi12/Documents/Codex/2026-11-06/tg/outputs/research-reliability-bench/.venv/lib/python3.12/site-packages/harbor/trial/trial.py", line 606, in run
+    await self._prepare()
+  File "/Users/maharshi12/Documents/Codex/2026-11-06/tg/outputs/research-reliability-bench/.venv/lib/python3.12/site-packages/harbor/trial/trial.py", line 645, in _prepare
+    await self._setup_agent_environment()
+  File "/Users/maharshi12/Documents/Codex/2026-11-06/tg/outputs/research-reliability-bench/.venv/lib/python3.12/site-packages/harbor/trial/trial.py", line 1849, in _setup_agent_environment
+    await self._start_agent_environment()
+  File "/Users/maharshi12/Documents/Codex/2026-11-06/tg/outputs/research-reliability-bench/.venv/lib/python3.12/site-packages/harbor/trial/trial.py", line 1855, in _start_agent_environment
+    await asyncio.wait_for(
+  File "/Users/maharshi12/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/tasks.py", line 520, in wait_for
+    return await fut
+           ^^^^^^^^^
+  File "/Users/maharshi12/Documents/Codex/2026-11-06/tg/outputs/research-reliability-bench/.venv/lib/python3.12/site-packages/harbor/environments/daytona/environment.py", line 1979, in start
+    return await self._strategy.start(force_build)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/maharshi12/Documents/Codex/2026-11-06/tg/outputs/research-reliability-bench/.venv/lib/python3.12/site-packages/harbor/environments/daytona/environment.py", line 344, in start
+    await env._create_sandbox(params=params, daytona=daytona)
+  File "/Users/maharshi12/Documents/Codex/2026-11-06/tg/outputs/research-reliability-bench/.venv/lib/python3.12/site-packages/tenacity/asyncio/__init__.py", line 232, in async_wrapped
+    return await copy(fn, *args, **kwargs)  # type: ignore[type-var]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/maharshi12/Documents/Codex/2026-11-06/tg/outputs/research-reliability-bench/.venv/lib/python3.12/site-packages/tenacity/asyncio/__init__.py", line 126, in __call__
+    do = await self.iter(retry_state=retry_state)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/maharshi12/Documents/Codex/2026-11-06/tg/outputs/research-reliability-bench/.venv/lib/python3.12/site-packages/tenacity/asyncio/__init__.py", line 171, in iter
+    result = await action(retry_state)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/maharshi12/Documents/Codex/2026-11-06/tg/outputs/research-reliability-bench/.venv/lib/python3.12/site-packages/tenacity/_utils.py", line 130, in inner
+    return call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/maharshi12/Documents/Codex/2026-11-06/tg/outputs/research-reliability-bench/.venv/lib/python3.12/site-packages/tenacity/__init__.py", line 462, in <lambda>
+    self._add_action_func(lambda rs: rs.outcome.result())
+                                     ^^^^^^^^^^^^^^^^^^^
+  File "/Users/maharshi12/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/concurrent/futures/_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/Users/maharshi12/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+  File "/Users/maharshi12/Documents/Codex/2026-11-06/tg/outputs/research-reliability-bench/.venv/lib/python3.12/site-packages/tenacity/asyncio/__init__.py", line 130, in __call__
+    result = await fn(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/maharshi12/Documents/Codex/2026-11-06/tg/outputs/research-reliability-bench/.venv/lib/python3.12/site-packages/harbor/environments/daytona/environment.py", line 1518, in _create_sandbox
+    self._sandbox = await asyncio.shield(create_task)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/maharshi12/Documents/Codex/2026-11-06/tg/outputs/research-reliability-bench/.venv/lib/python3.12/site-packages/daytona/_utils/otel_decorator.py", line 129, in async_wrapper
+    result = await func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/maharshi12/Documents/Codex/2026-11-06/tg/outputs/research-reliability-bench/.venv/lib/python3.12/site-packages/daytona/_utils/otel_decorator.py", line 257, in async_wrapper
+    result = await func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/maharshi12/Documents/Codex/2026-11-06/tg/outputs/research-reliability-bench/.venv/lib/python3.12/site-packages/daytona/_async/daytona.py", line 593, in create
+    return await self._create(
+           ^^^^^^^^^^^^^^^^^^^
+  File "/Users/maharshi12/Documents/Codex/2026-11-06/tg/outputs/research-reliability-bench/.venv/lib/python3.12/site-packages/daytona/_utils/errors.py", line 213, in async_wrapper
+    process_n_raise_exception(e)
+  File "/Users/maharshi12/Documents/Codex/2026-11-06/tg/outputs/research-reliability-bench/.venv/lib/python3.12/site-packages/daytona/_utils/errors.py", line 156, in process_n_raise_exception
+    raise create_daytona_error(
+daytona.common.errors.DaytonaAuthenticationError: Failed to create sandbox: Invalid credentials
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/maharshi12/Documents/Codex/2026-11-06/tg/outputs/research-reliability-bench/.venv/lib/python3.12/site-packages/harbor/trial/artifact_handler.py", line 351, in _download_artifact
+    await source_env.service_download_file(
+  File "/Users/maharshi12/Documents/Codex/2026-11-06/tg/outputs/research-reliability-bench/.venv/lib/python3.12/site-packages/harbor/environments/compose_service_ops.py", line 126, in service_download_file
+    await self.download_file(source_path, target_path)
+  File "/Users/maharshi12/Documents/Codex/2026-11-06/tg/outputs/research-reliability-bench/.venv/lib/python3.12/site-packages/harbor/environments/daytona/environment.py", line 2012, in download_file
+    return await self._strategy.download_file(source_path, target_path)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/maharshi12/Documents/Codex/2026-11-06/tg/outputs/research-reliability-bench/.venv/lib/python3.12/site-packages/harbor/environments/daytona/environment.py", line 407, in download_file
+    await self._env._sdk_download_file(source_path, target_path)
+  File "/Users/maharshi12/Documents/Codex/2026-11-06/tg/outputs/research-reliability-bench/.venv/lib/python3.12/site-packages/tenacity/asyncio/__init__.py", line 232, in async_wrapped
+    return await copy(fn, *args, **kwargs)  # type: ignore[type-var]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/maharshi12/Documents/Codex/2026-11-06/tg/outputs/research-reliability-bench/.venv/lib/python3.12/site-packages/tenacity/asyncio/__init__.py", line 126, in __call__
+    do = await self.iter(retry_state=retry_state)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/maharshi12/Documents/Codex/2026-11-06/tg/outputs/research-reliability-bench/.venv/lib/python3.12/site-packages/tenacity/asyncio/__init__.py", line 171, in iter
+    result = await action(retry_state)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/maharshi12/Documents/Codex/2026-11-06/tg/outputs/research-reliability-bench/.venv/lib/python3.12/site-packages/tenacity/_utils.py", line 130, in inner
+    return call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/maharshi12/Documents/Codex/2026-11-06/tg/outputs/research-reliability-bench/.venv/lib/python3.12/site-packages/tenacity/__init__.py", line 482, in exc_check
+    retry_exc.reraise()
+  File "/Users/maharshi12/Documents/Codex/2026-11-06/tg/outputs/research-reliability-bench/.venv/lib/python3.12/site-packages/tenacity/__init__.py", line 216, in reraise
+    raise self.last_attempt.result()
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/maharshi12/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/concurrent/futures/_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/Users/maharshi12/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+  File "/Users/maharshi12/Documents/Codex/2026-11-06/tg/outputs/research-reliability-bench/.venv/lib/python3.12/site-packages/tenacity/asyncio/__init__.py", line 130, in __call__
+    result = await fn(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/maharshi12/Documents/Codex/2026-11-06/tg/outputs/research-reliability-bench/.venv/lib/python3.12/site-packages/harbor/environments/daytona/environment.py", line 1931, in _sdk_download_file
+    raise RuntimeError("Sandbox not found. Please build the environment first.")
+RuntimeError: Sandbox not found. Please build the environment first.
+Failed to download artifact '/app/submission/report.md' from service 'main' (best-effort)
+Traceback (most recent call last):
+  File "/Users/maharshi12/Documents/Codex/2026-11-06/tg/outputs/research-reliability-bench/.venv/lib/python3.12/site-packages/daytona/_utils/errors.py", line 211, in async_wrapper
+    return await async_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/maharshi12/Documents/Codex/2026-11-06/tg/outputs/research-reliability-bench/.venv/lib/python3.12/site-packages/daytona/_utils/timeout.py", line 437, in async_wrapper
+    return await asyncio.wait_for(task, timeout=timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/maharshi12/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/tasks.py", line 520, in wait_for
+    return await fut
+           ^^^^^^^^^
+  File "/Users/maharshi12/Documents/Codex/2026-11-06/tg/outputs/research-reliability-bench/.venv/lib/python3.12/site-packages/daytona/_async/daytona.py", line 698, in _create
+    context_hashes = await AsyncSnapshotService.process_image_context(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/maharshi12/Documents/Codex/2026-11-06/tg/outputs/research-reliability-bench/.venv/lib/python3.12/site-packages/daytona/_utils/otel_decorator.py", line 129, in async_wrapper
+    result = await func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/maharshi12/Documents/Codex/2026-11-06/tg/outputs/research-reliability-bench/.venv/lib/python3.12/site-packages/daytona/_utils/otel_decorator.py", line 257, in async_wrapper
+    result = await func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/maharshi12/Documents/Codex/2026-11-06/tg/outputs/research-reliability-bench/.venv/lib/python3.12/site-packages/daytona/_async/snapshot.py", line 273, in process_image_context
+    push_access_creds = await object_storage_api.get_push_access()
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/maharshi12/Documents/Codex/2026-11-06/tg/outputs/research-reliability-bench/.venv/lib/python3.12/site-packages/pydantic/_internal/_validate_call.py", line 35, in wrapper_function
+    return await wrapper(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/maharshi12/Documents/Codex/2026-11-06/tg/outputs/research-reliability-bench/.venv/lib/python3.12/site-packages/daytona_api_client_async/api/object_storage_api.py", line 102, in get_push_access
+    return self.api_client.response_deserialize(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/maharshi12/Documents/Codex/2026-11-06/tg/outputs/research-reliability-bench/.venv/lib/python3.12/site-packages/daytona_api_client_async/api_client.py", line 328, in response_deserialize
+    raise ApiException.from_response(
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/maharshi12/Documents/Codex/2026-11-06/tg/outputs/research-reliability-bench/.venv/lib/python3.12/site-packages/daytona_api_client_async/exceptions.py", line 145, in from_response
+    raise UnauthorizedException(http_resp=http_resp, body=body, data=data)
+daytona_api_client_async.exceptions.UnauthorizedException: (401)
+Reason: Unauthorized
+HTTP response headers: <CIMultiDictProxy('Content-Type': 'application/json; charset=utf-8', 'Content-Length': '153', 'Connection': 'keep-alive', 'Date': 'Sat, 07 Nov 2026 03:30:12 GMT', 'Etag': 'W/"99-+V9vXp6+/spNROZlHmbPfb7RAdo"', 'X-Powered-By': 'Express', 'Vary': 'Origin', 'X-Daytona-Api-Version': 'v0.230.0', 'X-RateLimit-Limit-failed-auth': '20', 'X-RateLimit-Remaining-failed-auth': '17', 'X-RateLimit-Reset-failed-auth': '6', 'X-Cache': 'Error from cloudfront', 'Via': '1.1 fb7d525e4df8699605096cdd05f56b1c.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'DFW56-P2', 'X-Amz-Cf-Id': 'YIijtgs5oCa1wLjHjfT2MY5ZrFD6Ch1Q-ZmC5fM-mPt6flud9ESrPQ==', 'X-Frame-Options': 'DENY', 'Referrer-Policy': 'strict-origin-when-cross-origin', 'Content-Security-Policy': "frame-ancestors 'none'", 'X-Content-Type-Options': 'nosniff', 'Strict-Transport-Security': 'max-age=31536000; includeSubDomains; preload')>
+HTTP response body: {"path":"/api/object-storage/push-access","timestamp":"2026-11-07T03:30:12.995Z","statusCode":401,"error":"Unauthorized","message":"Invalid credentials"}
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/maharshi12/Documents/Codex/2026-11-06/tg/outputs/research-reliability-bench/.venv/lib/python3.12/site-packages/harbor/trial/trial.py", line 606, in run
+    await self._prepare()
+  File "/Users/maharshi12/Documents/Codex/2026-11-06/tg/outputs/research-reliability-bench/.venv/lib/python3.12/site-packages/harbor/trial/trial.py", line 645, in _prepare
+    await self._setup_agent_environment()
+  File "/Users/maharshi12/Documents/Codex/2026-11-06/tg/outputs/research-reliability-bench/.venv/lib/python3.12/site-packages/harbor/trial/trial.py", line 1849, in _setup_agent_environment
+    await self._start_agent_environment()
+  File "/Users/maharshi12/Documents/Codex/2026-11-06/tg/outputs/research-reliability-bench/.venv/lib/python3.12/site-packages/harbor/trial/trial.py", line 1855, in _start_agent_environment
+    await asyncio.wait_for(
+  File "/Users/maharshi12/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/tasks.py", line 520, in wait_for
+    return await fut
+           ^^^^^^^^^
+  File "/Users/maharshi12/Documents/Codex/2026-11-06/tg/outputs/research-reliability-bench/.venv/lib/python3.12/site-packages/harbor/environments/daytona/environment.py", line 1979, in start
+    return await self._strategy.start(force_build)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/maharshi12/Documents/Codex/2026-11-06/tg/outputs/research-reliability-bench/.venv/lib/python3.12/site-packages/harbor/environments/daytona/environment.py", line 344, in start
+    await env._create_sandbox(params=params, daytona=daytona)
+  File "/Users/maharshi12/Documents/Codex/2026-11-06/tg/outputs/research-reliability-bench/.venv/lib/python3.12/site-packages/tenacity/asyncio/__init__.py", line 232, in async_wrapped
+    return await copy(fn, *args, **kwargs)  # type: ignore[type-var]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/maharshi12/Documents/Codex/2026-11-06/tg/outputs/research-reliability-bench/.venv/lib/python3.12/site-packages/tenacity/asyncio/__init__.py", line 126, in __call__
+    do = await self.iter(retry_state=retry_state)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/maharshi12/Documents/Codex/2026-11-06/tg/outputs/research-reliability-bench/.venv/lib/python3.12/site-packages/tenacity/asyncio/__init__.py", line 171, in iter
+    result = await action(retry_state)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/maharshi12/Documents/Codex/2026-11-06/tg/outputs/research-reliability-bench/.venv/lib/python3.12/site-packages/tenacity/_utils.py", line 130, in inner
+    return call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/maharshi12/Documents/Codex/2026-11-06/tg/outputs/research-reliability-bench/.venv/lib/python3.12/site-packages/tenacity/__init__.py", line 462, in <lambda>
+    self._add_action_func(lambda rs: rs.outcome.result())
+                                     ^^^^^^^^^^^^^^^^^^^
+  File "/Users/maharshi12/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/concurrent/futures/_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/Users/maharshi12/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+  File "/Users/maharshi12/Documents/Codex/2026-11-06/tg/outputs/research-reliability-bench/.venv/lib/python3.12/site-packages/tenacity/asyncio/__init__.py", line 130, in __call__
+    result = await fn(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/maharshi12/Documents/Codex/2026-11-06/tg/outputs/research-reliability-bench/.venv/lib/python3.12/site-packages/harbor/environments/daytona/environment.py", line 1518, in _create_sandbox
+    self._sandbox = await asyncio.shield(create_task)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/maharshi12/Documents/Codex/2026-11-06/tg/outputs/research-reliability-bench/.venv/lib/python3.12/site-packages/daytona/_utils/otel_decorator.py", line 129, in async_wrapper
+    result = await func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/maharshi12/Documents/Codex/2026-11-06/tg/outputs/research-reliability-bench/.venv/lib/python3.12/site-packages/daytona/_utils/otel_decorator.py", line 257, in async_wrapper
+    result = await func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/maharshi12/Documents/Codex/2026-11-06/tg/outputs/research-reliability-bench/.venv/lib/python3.12/site-packages/daytona/_async/daytona.py", line 593, in create
+    return await self._create(
+           ^^^^^^^^^^^^^^^^^^^
+  File "/Users/maharshi12/Documents/Codex/2026-11-06/tg/outputs/research-reliability-bench/.venv/lib/python3.12/site-packages/daytona/_utils/errors.py", line 213, in async_wrapper
+    process_n_raise_exception(e)
+  File "/Users/maharshi12/Documents/Codex/2026-11-06/tg/outputs/research-reliability-bench/.venv/lib/python3.12/site-packages/daytona/_utils/errors.py", line 156, in process_n_raise_exception
+    raise create_daytona_error(
+daytona.common.errors.DaytonaAuthenticationError: Failed to create sandbox: Invalid credentials
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/maharshi12/Documents/Codex/2026-11-06/tg/outputs/research-reliability-bench/.venv/lib/python3.12/site-packages/harbor/trial/artifact_handler.py", line 351, in _download_artifact
+    await source_env.service_download_file(
+  File "/Users/maharshi12/Documents/Codex/2026-11-06/tg/outputs/research-reliability-bench/.venv/lib/python3.12/site-packages/harbor/environments/compose_service_ops.py", line 126, in service_download_file
+    await self.download_file(source_path, target_path)
+  File "/Users/maharshi12/Documents/Codex/2026-11-06/tg/outputs/research-reliability-bench/.venv/lib/python3.12/site-packages/harbor/environments/daytona/environment.py", line 2012, in download_file
+    return await self._strategy.download_file(source_path, target_path)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/maharshi12/Documents/Codex/2026-11-06/tg/outputs/research-reliability-bench/.venv/lib/python3.12/site-packages/harbor/environments/daytona/environment.py", line 407, in download_file
+    await self._env._sdk_download_file(source_path, target_path)
+  File "/Users/maharshi12/Documents/Codex/2026-11-06/tg/outputs/research-reliability-bench/.venv/lib/python3.12/site-packages/tenacity/asyncio/__init__.py", line 232, in async_wrapped
+    return await copy(fn, *args, **kwargs)  # type: ignore[type-var]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/maharshi12/Documents/Codex/2026-11-06/tg/outputs/research-reliability-bench/.venv/lib/python3.12/site-packages/tenacity/asyncio/__init__.py", line 126, in __call__
+    do = await self.iter(retry_state=retry_state)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/maharshi12/Documents/Codex/2026-11-06/tg/outputs/research-reliability-bench/.venv/lib/python3.12/site-packages/tenacity/asyncio/__init__.py", line 171, in iter
+    result = await action(retry_state)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/maharshi12/Documents/Codex/2026-11-06/tg/outputs/research-reliability-bench/.venv/lib/python3.12/site-packages/tenacity/_utils.py", line 130, in inner
+    return call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/maharshi12/Documents/Codex/2026-11-06/tg/outputs/research-reliability-bench/.venv/lib/python3.12/site-packages/tenacity/__init__.py", line 482, in exc_check
+    retry_exc.reraise()
+  File "/Users/maharshi12/Documents/Codex/2026-11-06/tg/outputs/research-reliability-bench/.venv/lib/python3.12/site-packages/tenacity/__init__.py", line 216, in reraise
+    raise self.last_attempt.result()
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/maharshi12/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/concurrent/futures/_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/Users/maharshi12/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+  File "/Users/maharshi12/Documents/Codex/2026-11-06/tg/outputs/research-reliability-bench/.venv/lib/python3.12/site-packages/tenacity/asyncio/__init__.py", line 130, in __call__
+    result = await fn(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/maharshi12/Documents/Codex/2026-11-06/tg/outputs/research-reliability-bench/.venv/lib/python3.12/site-packages/harbor/environments/daytona/environment.py", line 1931, in _sdk_download_file
+    raise RuntimeError("Sandbox not found. Please build the environment first.")
+RuntimeError: Sandbox not found. Please build the environment first.
+Sandbox not found. Please build the environment first.

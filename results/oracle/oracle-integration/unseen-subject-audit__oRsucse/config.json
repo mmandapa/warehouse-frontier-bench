@@ -1,0 +1,8 @@
+{
+    "task": {
+        "path": "tasks/unseen-subject-audit"
+    },
+    "trial_name": "unseen-subject-audit__oRsucse",
+    "trials_dir": "results/oracle/oracle-integration",
+    "job_id": "7f92785d-1dba-4dbc-87ec-23ac64bdc3f5"
+}

@@ -1,0 +1,8 @@
+{
+    "task": {
+        "path": "tasks/ctc-memory-kernel"
+    },
+    "trial_name": "ctc-memory-kernel__GnG95GF",
+    "trials_dir": "results/ctc/harbor/ctc-oracle-v2",
+    "job_id": "99f89e88-104b-418c-bde8-fa5f0f526a40"
+}

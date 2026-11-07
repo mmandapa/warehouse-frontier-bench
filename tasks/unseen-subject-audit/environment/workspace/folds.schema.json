@@ -1,0 +1,14 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "patternProperties": {
+    "^dev-[0-9]{5}$": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 2
+    }
+  },
+  "additionalProperties": false,
+  "minProperties": 7352,
+  "maxProperties": 7352
+}

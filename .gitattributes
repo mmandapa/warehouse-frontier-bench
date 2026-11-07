@@ -1,0 +1,2 @@
+# Preserve task content hashes byte-for-byte across platforms.
+* -text

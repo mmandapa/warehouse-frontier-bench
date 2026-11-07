@@ -1,0 +1,20 @@
+{
+    "task": {
+        "path": "tasks/unseen-subject-audit"
+    },
+    "trial_name": "unseen-subject-audit__899xZ7u",
+    "trials_dir": "results/models/primary-daytona-gpt-6-luna",
+    "agent": {
+        "name": "codex",
+        "model_name": "openai/gpt-6-luna",
+        "kwargs": {
+            "version": "0.163.0",
+            "web_search": "disabled",
+            "reasoning_effort": "medium"
+        }
+    },
+    "environment": {
+        "type": "daytona"
+    },
+    "job_id": "f3dc88bf-5ecd-4384-a1b3-d97e19135b41"
+}

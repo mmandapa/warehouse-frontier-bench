@@ -1,0 +1,21 @@
+[project]
+name = "research-reliability-bench"
+version = "0.1.0"
+description = "Harbor tasks for resource-bounded ML implementation and model-selection audits"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "numpy==2.5.4",
+    "scikit-learn==1.9.1",
+    "wasmtime==50.0.1",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest==9.2.0",
+    "harbor[daytona]==0.25.0",
+    "torch==2.15.0",
+]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
