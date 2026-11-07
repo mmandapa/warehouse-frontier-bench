@@ -2,7 +2,7 @@
 
 A mini Harbor benchmark for **ML implementation under resource constraints**. The main task asks an agent to preserve CTC loss and complete logit gradients while replacing a dense dynamic-programming implementation to fit 1.5 MiB of WebAssembly linear memory. It measures algorithm selection, memory planning, numerical stability, and debugging of a real training primitive.
 
-The first task, a model-selection audit, saturated: four Codex/gpt-6-luna attempts scored 1.0. Its public helper did too much of the work. We retain those trajectories and add one more substantive task rather than changing the old scores. The replacement's oracle passes and no-op fails; **model difficulty is not yet established**. See the [research and diagnosis](docs/RESEARCH.md), [design decision](docs/decisions/0002-memory-bounded-ctc.md), and [observed results](results/ctc/RESULTS.md).
+The first task, a model-selection audit, saturated: four Codex/gpt-6-luna attempts scored 1.0. Its public helper did too much of the work. We retain those trajectories and add one more substantive task rather than changing the old scores. The replacement's oracle passes and no-op fails; **model difficulty is not yet established**. See the [research and diagnosis](docs/RESEARCH.md), [design decision](docs/decisions/0002-memory-bounded-ctc.md), [observed results](results/ctc/RESULTS.md), and [assignment requirements audit](docs/OA_REQUIREMENTS.md).
 
 ## Setup and run
 
