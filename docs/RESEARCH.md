@@ -2,7 +2,7 @@
 
 ## Decision and evidence
 
-Keep the original `unseen-subject-audit` as an observed saturation baseline. Add one replacement task, `ctc-memory-kernel`, measuring whether an agent can preserve a numerically sensitive ML primitive while changing its algorithm to satisfy a tight working-memory budget. There are two implemented tasks, within the assignment's 1–2-task limit. Model difficulty for the replacement remains unmeasured until frozen-version trials finish.
+Keep the original `unseen-subject-audit` as an observed saturation baseline. Add one replacement task, `ctc-memory-kernel`, measuring whether an agent can preserve a numerically sensitive ML primitive while changing its algorithm to satisfy a tight working-memory budget. There are two implemented tasks, within the assignment's 1–2-task limit. Four frozen-version Codex/gpt-6-luna trials subsequently all passed. The replacement did not establish the intended capability gap; the measured result and next proposal appear below.
 
 The initial task was too guided for the measured model. All four Codex/gpt-6-luna attempts received 1.0. Inspection of their trajectories showed essentially the same route: read the public contract, construct a participant-to-fold assignment, call the supplied experiment helper, and copy its audit evidence into the required files. The helper already owned model fitting, group-macro scoring, the bootstrap, and policy decisions. A correct verifier did not make the task a difficult research problem. The failure was in task construction, not evidence that its scores should be changed.
 
@@ -47,7 +47,30 @@ This feasibility calibration used reference programs only; no model result motiv
 6. Diagnose each low score against the trajectory and actual module. If instructions or infrastructure are defective, version the fix and rerun an entire clearly labeled batch. Do not silently regrade failures under a changed task.
 7. If all four pass, report saturation at that setting. Propose a harder version separately. If weaker-model failures are genuine, the OA permits that evidence; a stronger-model comparison is still needed before claiming frontier difficulty.
 
-An additional paid rollout batch requires authorization because the earlier approval covered only the four completed v1 attempts. Local oracle/no-op work and repository publication proceed independently.
+The user separately authorized four CTC Luna attempts. That batch finished with four rewards of 1.0 and no infrastructure exceptions. No Astra batch was authorized or launched. The final task checksum matches its pre-run freeze and all controls. See `results/ctc/RESULTS.md` for timings, cost estimate, source provenance, and trajectory findings.
+
+
+## Update after four Luna attempts
+
+The hypothesis that memory pressure on this CTC implementation would be sufficiently challenging was not supported. All four agents solved the private suite in 94.7 to 204.7 seconds of agent execution. They fixed actual fuel or numerical errors, but these remained intermediate errors. Their final generic algorithms use sparse checkpoints with local replay or safe temporary reuse of gradient output memory. All four retained source programs recompile to byte-identical submitted modules.
+
+The task provides a validated numerical environment and useful debugging trajectories. It is not evidence of a remaining frontier capability gap. The next change should broaden the problem structure instead of repeatedly reducing the same memory or time allowance. A stronger-model run on this setting is not the next cost-effective experiment.
+
+## Proposed successor: memory planning across branched autodiff graphs
+
+Status: proposal only; not implemented or empirically calibrated. It would replace a task under a new version, preserving the measured CTC version in Git history and its result manifest, rather than adding a third submitted environment.
+
+[Checkmate](https://arxiv.org/abs/1910.02653) studies rematerialization schedules for general neural-network dependency graphs, including unequal compute costs and activation sizes. [Dynamic Tensor Rematerialization](https://ztatlock.net/pubs/2021-iclr-dtr/) studies online eviction and recomputation. These motivate a more general memory-planning task; their published results do not predict current agent difficulty.
+
+Give the agent a typed graph format: nodes, dependencies, output sizes in bytes, recomputation work units, required reverse operations, and a memory budget. Start with public chains, residual diamonds, fork/join graphs, and asymmetric branches, each with explicit small examples and a legal baseline. The agent implements a planner that emits compute, release, and reverse operations for unseen graphs. A trusted simulator validates dependencies, tensor lifetimes, completion, peak live bytes, and total work. It reads no agent-reported memory or timing numbers. The input and transition semantics, including transient allocation and reuse, must be fully public.
+
+A chain checkpoint heuristic must remain an explicit negative baseline. General branching and unequal costs make placement depend on interactions between subgraphs, rather than one checkpoint interval. This is the intended additional capability, not a claim that it is already hard for Luna. Include alternate valid schedules; never compare schedule text with one canonical answer.
+
+Before implementation, establish exact-search oracle costs on small graphs and feasible reference schedules plus lower bounds on larger graphs. Distinguish proven optimal costs from heuristic reference costs. A scalar reward can gate on legality and then normalize extra recomputation work against declared baseline/reference anchors; choose those anchors before model trials and show the full work-cost diagnostics. Oracle=1 and no-op=0 remain mandatory controls, alongside periodic-chain, greedy-eviction, and invalid-lifetime controls.
+
+Calibrate graph size, topology variety, and memory/work ratios against oracle feasibility and meaningful baselines. A CPU simulator keeps evaluation inexpensive. Do not claim GPU speedups from simulated work. First run a small development pilot under a separate explicit allowance, then freeze one task version and launch four prespecified attempts. If this version also saturates, report that rather than tightening its grader after the fact.
+
+[MLRC-Bench](https://arxiv.org/abs/2504.09702) and [FML-bench](https://arxiv.org/abs/2510.10472) also motivate separating research-method discovery from engineering execution and examining exploration behavior. A budgeted experiment-design task remains an alternative if the objective is scientific judgment rather than compiler-style planning. Those older benchmark results are contextual evidence, not current-model capability claims. METR's [RE-Bench repository](https://github.com/METR/RE-Bench) is archived and marked deprecated; it is a historical design reference, not an up-to-date difficulty guarantee.
 
 ## Founder evaluation lens
 

@@ -1,0 +1,45 @@
+{
+    "id": "d1e59e1a-c9f4-4694-a749-538b9172f98d",
+    "started_at": "2026-11-06T22:21:16.810653",
+    "updated_at": "2026-11-06T22:28:25.845199",
+    "finished_at": "2026-11-06T22:28:25.845199",
+    "n_total_trials": 4,
+    "stats": {
+        "n_completed_trials": 4,
+        "n_errored_trials": 0,
+        "n_running_trials": 0,
+        "n_pending_trials": 0,
+        "n_cancelled_trials": 0,
+        "n_retries": 0,
+        "evals": {
+            "codex__gpt-6-luna__adhoc": {
+                "n_trials": 4,
+                "n_errors": 0,
+                "metrics": [
+                    {
+                        "mean": 1.0
+                    }
+                ],
+                "pass_at_k": {
+                    "2": 1.0,
+                    "4": 1.0
+                },
+                "reward_stats": {
+                    "reward": {
+                        "1.0": [
+                            "ctc-memory-kernel__Rx7Bz2J",
+                            "ctc-memory-kernel__Ky5pUP8",
+                            "ctc-memory-kernel__xjfwvvW",
+                            "ctc-memory-kernel__iYoKavd"
+                        ]
+                    }
+                },
+                "exception_stats": {}
+            }
+        },
+        "n_input_tokens": 1088429,
+        "n_cache_tokens": 964078,
+        "n_output_tokens": 56479,
+        "cost_usd": 0.053420554999999995
+    }
+}

@@ -1,6 +1,6 @@
 # Pre-publication engineering review
 
-Scope: the CTC replacement, preserved v1 evidence, and private repository publication. Paid CTC model trials are pending separate authorization.
+Scope: the CTC replacement, preserved v1 evidence, and private repository publication. The user authorized four Luna attempts; all four passed. No Astra batch was run.
 
 ## Findings addressed
 
@@ -26,4 +26,4 @@ No database or persistent service is required. Model authentication belongs to t
 
 The numerical verifier is fast in measured cases; Docker builds and agent interaction dominate end-to-end work. Wasmtime's fuel is version-specific, and its linear-memory limit excludes compilation/host allocations; container limits and the verifier timeout provide outer bounds. A multi-tenant untrusted submission service would need stronger compilation resource isolation, worker supervision, artifact retention policy, and load/backpressure controls. Those are outside this local batch benchmark.
 
-The mathematical problem is standard, private fixtures are finite, and WebAssembly is not a proof of malicious-code safety. No adversarial model rollout has been run for the new task. No model difficulty, hardware speedup, frontier ranking, or RL learning gain follows from the controls alone. A four-attempt frozen model batch and trajectory diagnosis remain the next empirical gate.
+The mathematical problem is standard, private fixtures are finite, and WebAssembly is not a proof of malicious-code safety. No adversarial model rollout has been run for the new task. No model difficulty, hardware speedup, frontier ranking, or RL learning gain follows from the controls alone. The four-attempt frozen batch passed in full. Trajectories and byte-identical source recompilation support valid solutions; they do not establish frontier difficulty. The successor design is a proposal only.

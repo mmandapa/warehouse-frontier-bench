@@ -1,6 +1,6 @@
 # ADR-002: Replace the saturated audit with a memory-bounded numerical kernel task
 
-Status: Accepted and validated through Harbor oracle/no-op controls; empirical model difficulty is not yet established.
+Status: Accepted and validated through Harbor oracle/no-op controls; four frozen Luna attempts all passed, so the intended capability gap is not established. See results/ctc/RESULTS.md.
 
 Date: 2026-11-06
 

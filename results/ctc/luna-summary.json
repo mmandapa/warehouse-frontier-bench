@@ -1,0 +1,141 @@
+{
+  "generated_at": "2026-11-07T04:28:52.226120+00:00",
+  "job": "ctc-primary-gpt-6-luna",
+  "task_checksum": "440f3e142539b2b27e1bda92a729ff2b356703ab40bc059f01e6e290ee0ccd51",
+  "attempts": [
+    {
+      "trial": "ctc-memory-kernel__Rx7Bz2J",
+      "model": "openai/gpt-6-luna",
+      "harness": "codex",
+      "score": 1.0,
+      "invalid": false,
+      "exception": null,
+      "reason": null,
+      "seconds": 201.86483,
+      "evidence": "models/ctc-primary-gpt-6-luna/ctc-memory-kernel__Rx7Bz2J",
+      "started_at": "2026-11-07T04:21:17.160246Z",
+      "task_checksum": "440f3e142539b2b27e1bda92a729ff2b356703ab40bc059f01e6e290ee0ccd51",
+      "agent_result": {
+        "n_input_tokens": 366757,
+        "n_cache_tokens": 332784,
+        "n_output_tokens": 16970,
+        "cost_usd": 0.016058339999999997,
+        "model_usage": {
+          "openai/gpt-6-luna": {
+            "n_input_tokens": 366757,
+            "n_cache_tokens": 332784,
+            "n_output_tokens": 16970,
+            "cost_usd": 0.016058339999999997
+          }
+        },
+        "rollout_details": null,
+        "metadata": null
+      },
+      "case_pass_fraction": 1.0,
+      "failed_cases": []
+    },
+    {
+      "trial": "ctc-memory-kernel__Ky5pUP8",
+      "model": "openai/gpt-6-luna",
+      "harness": "codex",
+      "score": 1.0,
+      "invalid": false,
+      "exception": null,
+      "reason": null,
+      "seconds": 152.906243,
+      "evidence": "models/ctc-primary-gpt-6-luna/ctc-memory-kernel__Ky5pUP8",
+      "started_at": "2026-11-07T04:21:17.331234Z",
+      "task_checksum": "440f3e142539b2b27e1bda92a729ff2b356703ab40bc059f01e6e290ee0ccd51",
+      "agent_result": {
+        "n_input_tokens": 267536,
+        "n_cache_tokens": 238246,
+        "n_output_tokens": 12306,
+        "cost_usd": 0.012195735000000001,
+        "model_usage": {
+          "openai/gpt-6-luna": {
+            "n_input_tokens": 267536,
+            "n_cache_tokens": 238246,
+            "n_output_tokens": 12306,
+            "cost_usd": 0.012195735000000001
+          }
+        },
+        "rollout_details": null,
+        "metadata": null
+      },
+      "case_pass_fraction": 1.0,
+      "failed_cases": []
+    },
+    {
+      "trial": "ctc-memory-kernel__xjfwvvW",
+      "model": "openai/gpt-6-luna",
+      "harness": "codex",
+      "score": 1.0,
+      "invalid": false,
+      "exception": null,
+      "reason": null,
+      "seconds": 116.547723,
+      "evidence": "models/ctc-primary-gpt-6-luna/ctc-memory-kernel__xjfwvvW",
+      "started_at": "2026-11-07T04:23:50.344296Z",
+      "task_checksum": "440f3e142539b2b27e1bda92a729ff2b356703ab40bc059f01e6e290ee0ccd51",
+      "agent_result": {
+        "n_input_tokens": 144520,
+        "n_cache_tokens": 119980,
+        "n_output_tokens": 8120,
+        "cost_usd": 0.0083267,
+        "model_usage": {
+          "openai/gpt-6-luna": {
+            "n_input_tokens": 144520,
+            "n_cache_tokens": 119980,
+            "n_output_tokens": 8120,
+            "cost_usd": 0.0083267
+          }
+        },
+        "rollout_details": null,
+        "metadata": null
+      },
+      "case_pass_fraction": 1.0,
+      "failed_cases": []
+    },
+    {
+      "trial": "ctc-memory-kernel__iYoKavd",
+      "model": "openai/gpt-6-luna",
+      "harness": "codex",
+      "score": 1.0,
+      "invalid": false,
+      "exception": null,
+      "reason": null,
+      "seconds": 226.76331,
+      "evidence": "models/ctc-primary-gpt-6-luna/ctc-memory-kernel__iYoKavd",
+      "started_at": "2026-11-07T04:24:39.077482Z",
+      "task_checksum": "440f3e142539b2b27e1bda92a729ff2b356703ab40bc059f01e6e290ee0ccd51",
+      "agent_result": {
+        "n_input_tokens": 309616,
+        "n_cache_tokens": 273068,
+        "n_output_tokens": 19083,
+        "cost_usd": 0.01683978,
+        "model_usage": {
+          "openai/gpt-6-luna": {
+            "n_input_tokens": 309616,
+            "n_cache_tokens": 273068,
+            "n_output_tokens": 19083,
+            "cost_usd": 0.01683978
+          }
+        },
+        "rollout_details": null,
+        "metadata": null
+      },
+      "case_pass_fraction": 1.0,
+      "failed_cases": []
+    }
+  ],
+  "valid_attempts": 4,
+  "infrastructure_exceptions": 0,
+  "mean_reward": 1.0,
+  "usage": {
+    "n_input_tokens": 1088429,
+    "n_cache_tokens": 964078,
+    "n_output_tokens": 56479,
+    "cost_usd": 0.053420554999999995
+  },
+  "billing_note": "Harbor price estimate, not independently verified provider billing."
+}

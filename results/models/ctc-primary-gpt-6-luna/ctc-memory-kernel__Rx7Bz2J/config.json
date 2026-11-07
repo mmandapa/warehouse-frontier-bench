@@ -1,0 +1,17 @@
+{
+    "task": {
+        "path": "tasks/ctc-memory-kernel"
+    },
+    "trial_name": "ctc-memory-kernel__Rx7Bz2J",
+    "trials_dir": "results/models/ctc-primary-gpt-6-luna",
+    "agent": {
+        "name": "codex",
+        "model_name": "openai/gpt-6-luna",
+        "kwargs": {
+            "version": "0.163.0",
+            "web_search": "disabled",
+            "reasoning_effort": "medium"
+        }
+    },
+    "job_id": "d1e59e1a-c9f4-4694-a749-538b9172f98d"
+}

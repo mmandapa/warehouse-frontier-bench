@@ -1,0 +1,19 @@
+{
+  "authorization": "User authorized Luna first on 2026-11-06; no Astra batch authorized or launched.",
+  "recorded_at": "2026-11-07T04:21:31.200554+00:00",
+  "source_commit": "a60bfc850cdb14bbb1233ac3968e62f864c95023",
+  "task_checksum": "440f3e142539b2b27e1bda92a729ff2b356703ab40bc059f01e6e290ee0ccd51",
+  "job": "ctc-primary-gpt-6-luna",
+  "model": "openai/gpt-6-luna",
+  "harness": "codex",
+  "harness_version": "0.163.0",
+  "harbor_version": "0.25.0",
+  "effort": "medium",
+  "attempts": 4,
+  "concurrency": 2,
+  "automatic_retries": 0,
+  "agent_timeout_seconds": 1200,
+  "backend": "docker",
+  "network": "api.openai.com only during agent; no-network verifier; native web search disabled",
+  "policy": "Retain all four trials. Keep frozen task unchanged. Diagnose before interpreting scores."
+}

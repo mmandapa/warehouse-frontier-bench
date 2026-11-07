@@ -8,11 +8,12 @@ RESULTS=ROOT/'results'
 PRIMARY=RESULTS/'models/primary-docker-gpt-6-luna'
 
 
-def records(root):
+def records(root, task_name=None):
     rows=[]
     for path in root.rglob('result.json'):
         d=json.loads(path.read_text())
         if 'trial_name' not in d: continue
+        if task_name is not None and d.get('task_name') != task_name: continue
         e=d.get('exception_info') or {}
         score=(d.get('verifier_result') or {}).get('rewards',{}).get('reward')
         start=datetime.fromisoformat(d['started_at'].replace('Z','+00:00'))
@@ -33,8 +34,9 @@ def records(root):
 
 
 def main():
-    primary=records(PRIMARY) if PRIMARY.exists() else []
-    all_records=records(RESULTS)
+    task_name='research-reliability/unseen-subject-audit'
+    primary=records(PRIMARY,task_name) if PRIMARY.exists() else []
+    all_records=records(RESULTS,task_name)
     summary={'generated_at':datetime.now(timezone.utc).isoformat(),'primary':primary,
              'local_and_infrastructure_checks':[r for r in all_records if r['evidence'] not in {x['evidence'] for x in primary}]}
     (RESULTS/'summary.json').write_text(json.dumps(summary,indent=2)+'\n')
