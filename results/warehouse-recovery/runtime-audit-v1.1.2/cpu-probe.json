@@ -1,0 +1,42 @@
+[
+  {
+    "probe": "official",
+    "case": "1-two-closures",
+    "reason": "policy exited before finish",
+    "success": false,
+    "ticks": 871,
+    "child_cpu_s": 10.0101,
+    "wall_s": 10.7177,
+    "exit_status_before_cleanup": -9
+  },
+  {
+    "probe": "official",
+    "case": "1-two-closures-and-grip",
+    "reason": "policy exited before finish",
+    "success": false,
+    "ticks": 695,
+    "child_cpu_s": 9.9893,
+    "wall_s": 10.6069,
+    "exit_status_before_cleanup": -9
+  },
+  {
+    "probe": "published-wall-only",
+    "case": "1-two-closures",
+    "reason": "docked",
+    "success": true,
+    "ticks": 1284,
+    "child_cpu_s": 10.3841,
+    "wall_s": 11.4269,
+    "exit_status_before_cleanup": null
+  },
+  {
+    "probe": "published-wall-only",
+    "case": "1-two-closures-and-grip",
+    "reason": "policy time limit",
+    "success": false,
+    "ticks": 1144,
+    "child_cpu_s": 11.0974,
+    "wall_s": 12.0043,
+    "exit_status_before_cleanup": null
+  }
+]

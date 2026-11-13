@@ -1,0 +1,11 @@
+{
+    "task": {
+        "path": "tasks/warehouse-calibration-v1.0.0"
+    },
+    "trial_name": "warehouse-calibration-v1.0.0__U9rZnSJ",
+    "trials_dir": "results/warehouse-calibration/harbor-controls-v1.0.0/nop",
+    "agent": {
+        "name": "nop"
+    },
+    "job_id": "539c3dcc-b22a-4130-b618-cf971d0150c8"
+}

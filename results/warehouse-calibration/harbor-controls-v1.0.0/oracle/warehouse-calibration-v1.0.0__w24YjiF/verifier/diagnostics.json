@@ -1,0 +1,427 @@
+{
+  "reward": 1.0,
+  "passed": 60,
+  "total": 60,
+  "cases": [
+    {
+      "family": 0,
+      "variant": 0,
+      "passed": 5,
+      "reason": "submitted",
+      "ticks": 20,
+      "camera_used": true,
+      "forecasts": [
+        {
+          "success": true,
+          "position_error_m": 2.549e-05,
+          "heading_error_rad": 8.67e-06
+        },
+        {
+          "success": true,
+          "position_error_m": 7.067e-05,
+          "heading_error_rad": 6.552e-05
+        },
+        {
+          "success": true,
+          "position_error_m": 3.456e-05,
+          "heading_error_rad": 7.009e-05
+        },
+        {
+          "success": true,
+          "position_error_m": 1.766e-05,
+          "heading_error_rad": 3.58e-05
+        },
+        {
+          "success": true,
+          "position_error_m": 5.88e-06,
+          "heading_error_rad": 4.65e-06
+        }
+      ]
+    },
+    {
+      "family": 0,
+      "variant": 1,
+      "passed": 5,
+      "reason": "submitted",
+      "ticks": 20,
+      "camera_used": true,
+      "forecasts": [
+        {
+          "success": true,
+          "position_error_m": 8.6e-06,
+          "heading_error_rad": 8.67e-06
+        },
+        {
+          "success": true,
+          "position_error_m": 4.6e-05,
+          "heading_error_rad": 6.552e-05
+        },
+        {
+          "success": true,
+          "position_error_m": 9.72e-06,
+          "heading_error_rad": 7.009e-05
+        },
+        {
+          "success": true,
+          "position_error_m": 7.54e-06,
+          "heading_error_rad": 3.58e-05
+        },
+        {
+          "success": true,
+          "position_error_m": 2.2e-06,
+          "heading_error_rad": 4.65e-06
+        }
+      ]
+    },
+    {
+      "family": 1,
+      "variant": 0,
+      "passed": 5,
+      "reason": "submitted",
+      "ticks": 20,
+      "camera_used": true,
+      "forecasts": [
+        {
+          "success": true,
+          "position_error_m": 7.69e-06,
+          "heading_error_rad": 5.72e-06
+        },
+        {
+          "success": true,
+          "position_error_m": 2.159e-05,
+          "heading_error_rad": 2.139e-05
+        },
+        {
+          "success": true,
+          "position_error_m": 6.52e-06,
+          "heading_error_rad": 1.929e-05
+        },
+        {
+          "success": true,
+          "position_error_m": 7.02e-06,
+          "heading_error_rad": 2.198e-05
+        },
+        {
+          "success": true,
+          "position_error_m": 7.7e-07,
+          "heading_error_rad": 4.37e-06
+        }
+      ]
+    },
+    {
+      "family": 1,
+      "variant": 1,
+      "passed": 5,
+      "reason": "submitted",
+      "ticks": 20,
+      "camera_used": true,
+      "forecasts": [
+        {
+          "success": true,
+          "position_error_m": 5.46e-06,
+          "heading_error_rad": 5.72e-06
+        },
+        {
+          "success": true,
+          "position_error_m": 1.463e-05,
+          "heading_error_rad": 2.139e-05
+        },
+        {
+          "success": true,
+          "position_error_m": 4.2e-06,
+          "heading_error_rad": 1.929e-05
+        },
+        {
+          "success": true,
+          "position_error_m": 4.61e-06,
+          "heading_error_rad": 2.198e-05
+        },
+        {
+          "success": true,
+          "position_error_m": 1.53e-06,
+          "heading_error_rad": 4.37e-06
+        }
+      ]
+    },
+    {
+      "family": 2,
+      "variant": 0,
+      "passed": 5,
+      "reason": "submitted",
+      "ticks": 20,
+      "camera_used": true,
+      "forecasts": [
+        {
+          "success": true,
+          "position_error_m": 1.864e-05,
+          "heading_error_rad": 2.39e-06
+        },
+        {
+          "success": true,
+          "position_error_m": 4.286e-05,
+          "heading_error_rad": 4.223e-05
+        },
+        {
+          "success": true,
+          "position_error_m": 2.438e-05,
+          "heading_error_rad": 4.558e-05
+        },
+        {
+          "success": true,
+          "position_error_m": 1.134e-05,
+          "heading_error_rad": 1.317e-05
+        },
+        {
+          "success": true,
+          "position_error_m": 5.31e-06,
+          "heading_error_rad": 2.76e-06
+        }
+      ]
+    },
+    {
+      "family": 2,
+      "variant": 1,
+      "passed": 5,
+      "reason": "submitted",
+      "ticks": 20,
+      "camera_used": true,
+      "forecasts": [
+        {
+          "success": true,
+          "position_error_m": 2.6e-06,
+          "heading_error_rad": 2.39e-06
+        },
+        {
+          "success": true,
+          "position_error_m": 2.943e-05,
+          "heading_error_rad": 4.223e-05
+        },
+        {
+          "success": true,
+          "position_error_m": 8.12e-06,
+          "heading_error_rad": 4.558e-05
+        },
+        {
+          "success": true,
+          "position_error_m": 4.92e-06,
+          "heading_error_rad": 1.317e-05
+        },
+        {
+          "success": true,
+          "position_error_m": 3.64e-06,
+          "heading_error_rad": 2.76e-06
+        }
+      ]
+    },
+    {
+      "family": 3,
+      "variant": 0,
+      "passed": 5,
+      "reason": "submitted",
+      "ticks": 20,
+      "camera_used": true,
+      "forecasts": [
+        {
+          "success": true,
+          "position_error_m": 5.53e-06,
+          "heading_error_rad": 5.35e-06
+        },
+        {
+          "success": true,
+          "position_error_m": 4.31e-06,
+          "heading_error_rad": 5.04e-06
+        },
+        {
+          "success": true,
+          "position_error_m": 6.29e-06,
+          "heading_error_rad": 5.1e-06
+        },
+        {
+          "success": true,
+          "position_error_m": 3.25e-06,
+          "heading_error_rad": 7.47e-06
+        },
+        {
+          "success": true,
+          "position_error_m": 9.8e-07,
+          "heading_error_rad": 6.4e-06
+        }
+      ]
+    },
+    {
+      "family": 3,
+      "variant": 1,
+      "passed": 5,
+      "reason": "submitted",
+      "ticks": 20,
+      "camera_used": true,
+      "forecasts": [
+        {
+          "success": true,
+          "position_error_m": 5.14e-06,
+          "heading_error_rad": 5.35e-06
+        },
+        {
+          "success": true,
+          "position_error_m": 3.03e-06,
+          "heading_error_rad": 5.04e-06
+        },
+        {
+          "success": true,
+          "position_error_m": 3.4e-06,
+          "heading_error_rad": 5.1e-06
+        },
+        {
+          "success": true,
+          "position_error_m": 1.66e-06,
+          "heading_error_rad": 7.47e-06
+        },
+        {
+          "success": true,
+          "position_error_m": 9.4e-07,
+          "heading_error_rad": 6.4e-06
+        }
+      ]
+    },
+    {
+      "family": 4,
+      "variant": 0,
+      "passed": 5,
+      "reason": "submitted",
+      "ticks": 20,
+      "camera_used": true,
+      "forecasts": [
+        {
+          "success": true,
+          "position_error_m": 1.253e-05,
+          "heading_error_rad": 2.2e-06
+        },
+        {
+          "success": true,
+          "position_error_m": 2.95e-05,
+          "heading_error_rad": 2.724e-05
+        },
+        {
+          "success": true,
+          "position_error_m": 8.08e-06,
+          "heading_error_rad": 1.597e-05
+        },
+        {
+          "success": true,
+          "position_error_m": 7.4e-06,
+          "heading_error_rad": 6.9e-06
+        },
+        {
+          "success": true,
+          "position_error_m": 1.54e-06,
+          "heading_error_rad": 1.81e-06
+        }
+      ]
+    },
+    {
+      "family": 4,
+      "variant": 1,
+      "passed": 5,
+      "reason": "submitted",
+      "ticks": 20,
+      "camera_used": true,
+      "forecasts": [
+        {
+          "success": true,
+          "position_error_m": 5.9e-06,
+          "heading_error_rad": 2.2e-06
+        },
+        {
+          "success": true,
+          "position_error_m": 1.878e-05,
+          "heading_error_rad": 2.724e-05
+        },
+        {
+          "success": true,
+          "position_error_m": 4.68e-06,
+          "heading_error_rad": 1.597e-05
+        },
+        {
+          "success": true,
+          "position_error_m": 3.88e-06,
+          "heading_error_rad": 6.9e-06
+        },
+        {
+          "success": true,
+          "position_error_m": 4.3e-07,
+          "heading_error_rad": 1.81e-06
+        }
+      ]
+    },
+    {
+      "family": 5,
+      "variant": 0,
+      "passed": 5,
+      "reason": "submitted",
+      "ticks": 20,
+      "camera_used": true,
+      "forecasts": [
+        {
+          "success": true,
+          "position_error_m": 1.302e-05,
+          "heading_error_rad": 1.57e-06
+        },
+        {
+          "success": true,
+          "position_error_m": 1.491e-05,
+          "heading_error_rad": 5.12e-06
+        },
+        {
+          "success": true,
+          "position_error_m": 7.28e-06,
+          "heading_error_rad": 1.089e-05
+        },
+        {
+          "success": true,
+          "position_error_m": 2.51e-06,
+          "heading_error_rad": 9.67e-06
+        },
+        {
+          "success": true,
+          "position_error_m": 2.97e-06,
+          "heading_error_rad": 3.36e-06
+        }
+      ]
+    },
+    {
+      "family": 5,
+      "variant": 1,
+      "passed": 5,
+      "reason": "submitted",
+      "ticks": 20,
+      "camera_used": true,
+      "forecasts": [
+        {
+          "success": true,
+          "position_error_m": 3.2e-06,
+          "heading_error_rad": 1.57e-06
+        },
+        {
+          "success": true,
+          "position_error_m": 5.97e-06,
+          "heading_error_rad": 5.12e-06
+        },
+        {
+          "success": true,
+          "position_error_m": 8.03e-06,
+          "heading_error_rad": 1.089e-05
+        },
+        {
+          "success": true,
+          "position_error_m": 7.5e-07,
+          "heading_error_rad": 9.67e-06
+        },
+        {
+          "success": true,
+          "position_error_m": 1.79e-06,
+          "heading_error_rad": 3.36e-06
+        }
+      ]
+    }
+  ]
+}

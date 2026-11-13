@@ -1,0 +1,17 @@
+{
+    "task": {
+        "path": "tasks/warehouse-recovery-v1.0.2"
+    },
+    "trial_name": "warehouse-recovery-v1.0.2__8AoEFXP",
+    "trials_dir": "results/warehouse-recovery/harbor-luna4-v1.0.2-docker-2026-11-12/warehouse-recovery-v1.0.2-luna-docker-2026-11-12-01",
+    "agent": {
+        "name": "codex",
+        "model_name": "openai/gpt-6-luna",
+        "kwargs": {
+            "version": "0.163.0",
+            "web_search": "disabled",
+            "reasoning_effort": "medium"
+        }
+    },
+    "job_id": "a23cd9b5-da76-4ef1-a2f5-3aeb0caf0d7d"
+}

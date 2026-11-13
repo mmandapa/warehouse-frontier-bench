@@ -1,0 +1,4312 @@
+{
+  "seconds": 14.02,
+  "summary": {
+    "fixed-east": {
+      "total": 32,
+      "docked": 0,
+      "collisions": 4
+    },
+    "fixed-west": {
+      "total": 32,
+      "docked": 0,
+      "collisions": 0
+    },
+    "route-only": {
+      "total": 32,
+      "docked": 0,
+      "collisions": 4
+    },
+    "calibrate-east": {
+      "total": 32,
+      "docked": 16,
+      "collisions": 0
+    },
+    "calibrate-west": {
+      "total": 32,
+      "docked": 16,
+      "collisions": 0
+    },
+    "adaptive": {
+      "total": 32,
+      "docked": 32,
+      "collisions": 0
+    },
+    "informed": {
+      "total": 32,
+      "docked": 32,
+      "collisions": 0
+    }
+  },
+  "trials": {
+    "fixed-east": [
+      {
+        "seed": 42,
+        "row": 1,
+        "blocked": "east",
+        "drive": [
+          1,
+          1,
+          0
+        ],
+        "floor": [
+          0.65,
+          0.56
+        ],
+        "chosen": null,
+        "docked": false,
+        "collision": false,
+        "ticks": 60,
+        "position_error_m": 17.7457
+      },
+      {
+        "seed": 42,
+        "row": 1,
+        "blocked": "west",
+        "drive": [
+          1,
+          1,
+          0
+        ],
+        "floor": [
+          0.65,
+          0.56
+        ],
+        "chosen": "east",
+        "docked": false,
+        "collision": false,
+        "ticks": 319,
+        "position_error_m": 1.1689
+      },
+      {
+        "seed": 42,
+        "row": 1,
+        "blocked": "east",
+        "drive": [
+          0.72,
+          0.72,
+          1
+        ],
+        "floor": [
+          0.57,
+          0.6
+        ],
+        "chosen": null,
+        "docked": false,
+        "collision": false,
+        "ticks": 67,
+        "position_error_m": 17.8737
+      },
+      {
+        "seed": 42,
+        "row": 1,
+        "blocked": "west",
+        "drive": [
+          0.72,
+          0.72,
+          1
+        ],
+        "floor": [
+          0.57,
+          0.6
+        ],
+        "chosen": "east",
+        "docked": false,
+        "collision": false,
+        "ticks": 351,
+        "position_error_m": 0.6149
+      },
+      {
+        "seed": 42,
+        "row": 1,
+        "blocked": "east",
+        "drive": [
+          0.64,
+          0.82,
+          2
+        ],
+        "floor": [
+          0.65,
+          0.56
+        ],
+        "chosen": null,
+        "docked": false,
+        "collision": false,
+        "ticks": 78,
+        "position_error_m": 17.8937
+      },
+      {
+        "seed": 42,
+        "row": 1,
+        "blocked": "west",
+        "drive": [
+          0.64,
+          0.82,
+          2
+        ],
+        "floor": [
+          0.65,
+          0.56
+        ],
+        "chosen": "east",
+        "docked": false,
+        "collision": true,
+        "ticks": 394,
+        "position_error_m": 1.6787
+      },
+      {
+        "seed": 42,
+        "row": 1,
+        "blocked": "east",
+        "drive": [
+          0.86,
+          0.66,
+          1
+        ],
+        "floor": [
+          0.57,
+          0.6
+        ],
+        "chosen": null,
+        "docked": false,
+        "collision": false,
+        "ticks": 74,
+        "position_error_m": 17.8458
+      },
+      {
+        "seed": 42,
+        "row": 1,
+        "blocked": "west",
+        "drive": [
+          0.86,
+          0.66,
+          1
+        ],
+        "floor": [
+          0.57,
+          0.6
+        ],
+        "chosen": "east",
+        "docked": false,
+        "collision": true,
+        "ticks": 378,
+        "position_error_m": 1.5302
+      },
+      {
+        "seed": 42,
+        "row": 2,
+        "blocked": "east",
+        "drive": [
+          1,
+          1,
+          0
+        ],
+        "floor": [
+          0.57,
+          0.6
+        ],
+        "chosen": null,
+        "docked": false,
+        "collision": false,
+        "ticks": 60,
+        "position_error_m": 22.5044
+      },
+      {
+        "seed": 42,
+        "row": 2,
+        "blocked": "west",
+        "drive": [
+          1,
+          1,
+          0
+        ],
+        "floor": [
+          0.57,
+          0.6
+        ],
+        "chosen": "east",
+        "docked": false,
+        "collision": false,
+        "ticks": 370,
+        "position_error_m": 1.1392
+      },
+      {
+        "seed": 42,
+        "row": 2,
+        "blocked": "east",
+        "drive": [
+          0.72,
+          0.72,
+          1
+        ],
+        "floor": [
+          0.65,
+          0.56
+        ],
+        "chosen": null,
+        "docked": false,
+        "collision": false,
+        "ticks": 67,
+        "position_error_m": 22.6106
+      },
+      {
+        "seed": 42,
+        "row": 2,
+        "blocked": "west",
+        "drive": [
+          0.72,
+          0.72,
+          1
+        ],
+        "floor": [
+          0.65,
+          0.56
+        ],
+        "chosen": "east",
+        "docked": false,
+        "collision": false,
+        "ticks": 407,
+        "position_error_m": 0.8838
+      },
+      {
+        "seed": 42,
+        "row": 2,
+        "blocked": "east",
+        "drive": [
+          0.64,
+          0.82,
+          2
+        ],
+        "floor": [
+          0.57,
+          0.6
+        ],
+        "chosen": null,
+        "docked": false,
+        "collision": false,
+        "ticks": 78,
+        "position_error_m": 22.6277
+      },
+      {
+        "seed": 42,
+        "row": 2,
+        "blocked": "west",
+        "drive": [
+          0.64,
+          0.82,
+          2
+        ],
+        "floor": [
+          0.57,
+          0.6
+        ],
+        "chosen": "east",
+        "docked": false,
+        "collision": false,
+        "ticks": 463,
+        "position_error_m": 1.0629
+      },
+      {
+        "seed": 42,
+        "row": 2,
+        "blocked": "east",
+        "drive": [
+          0.86,
+          0.66,
+          1
+        ],
+        "floor": [
+          0.65,
+          0.56
+        ],
+        "chosen": null,
+        "docked": false,
+        "collision": false,
+        "ticks": 74,
+        "position_error_m": 22.5867
+      },
+      {
+        "seed": 42,
+        "row": 2,
+        "blocked": "west",
+        "drive": [
+          0.86,
+          0.66,
+          1
+        ],
+        "floor": [
+          0.65,
+          0.56
+        ],
+        "chosen": "east",
+        "docked": false,
+        "collision": false,
+        "ticks": 442,
+        "position_error_m": 0.8119
+      },
+      {
+        "seed": 108,
+        "row": 0,
+        "blocked": "east",
+        "drive": [
+          1,
+          1,
+          0
+        ],
+        "floor": [
+          0.57,
+          0.6
+        ],
+        "chosen": null,
+        "docked": false,
+        "collision": false,
+        "ticks": 60,
+        "position_error_m": 22.5528
+      },
+      {
+        "seed": 108,
+        "row": 0,
+        "blocked": "west",
+        "drive": [
+          1,
+          1,
+          0
+        ],
+        "floor": [
+          0.57,
+          0.6
+        ],
+        "chosen": "east",
+        "docked": false,
+        "collision": false,
+        "ticks": 396,
+        "position_error_m": 1.1908
+      },
+      {
+        "seed": 108,
+        "row": 0,
+        "blocked": "east",
+        "drive": [
+          0.72,
+          0.72,
+          1
+        ],
+        "floor": [
+          0.65,
+          0.56
+        ],
+        "chosen": null,
+        "docked": false,
+        "collision": false,
+        "ticks": 67,
+        "position_error_m": 22.635
+      },
+      {
+        "seed": 108,
+        "row": 0,
+        "blocked": "west",
+        "drive": [
+          0.72,
+          0.72,
+          1
+        ],
+        "floor": [
+          0.65,
+          0.56
+        ],
+        "chosen": "east",
+        "docked": false,
+        "collision": false,
+        "ticks": 435,
+        "position_error_m": 0.8761
+      },
+      {
+        "seed": 108,
+        "row": 0,
+        "blocked": "east",
+        "drive": [
+          0.64,
+          0.82,
+          2
+        ],
+        "floor": [
+          0.57,
+          0.6
+        ],
+        "chosen": null,
+        "docked": false,
+        "collision": false,
+        "ticks": 78,
+        "position_error_m": 22.6458
+      },
+      {
+        "seed": 108,
+        "row": 0,
+        "blocked": "west",
+        "drive": [
+          0.64,
+          0.82,
+          2
+        ],
+        "floor": [
+          0.57,
+          0.6
+        ],
+        "chosen": "east",
+        "docked": false,
+        "collision": false,
+        "ticks": 495,
+        "position_error_m": 1.1175
+      },
+      {
+        "seed": 108,
+        "row": 0,
+        "blocked": "east",
+        "drive": [
+          0.86,
+          0.66,
+          1
+        ],
+        "floor": [
+          0.65,
+          0.56
+        ],
+        "chosen": null,
+        "docked": false,
+        "collision": false,
+        "ticks": 74,
+        "position_error_m": 22.62
+      },
+      {
+        "seed": 108,
+        "row": 0,
+        "blocked": "west",
+        "drive": [
+          0.86,
+          0.66,
+          1
+        ],
+        "floor": [
+          0.65,
+          0.56
+        ],
+        "chosen": "east",
+        "docked": false,
+        "collision": false,
+        "ticks": 472,
+        "position_error_m": 0.8222
+      },
+      {
+        "seed": 108,
+        "row": 1,
+        "blocked": "east",
+        "drive": [
+          1,
+          1,
+          0
+        ],
+        "floor": [
+          0.65,
+          0.56
+        ],
+        "chosen": null,
+        "docked": false,
+        "collision": false,
+        "ticks": 60,
+        "position_error_m": 17.7764
+      },
+      {
+        "seed": 108,
+        "row": 1,
+        "blocked": "west",
+        "drive": [
+          1,
+          1,
+          0
+        ],
+        "floor": [
+          0.65,
+          0.56
+        ],
+        "chosen": "east",
+        "docked": false,
+        "collision": false,
+        "ticks": 345,
+        "position_error_m": 1.2313
+      },
+      {
+        "seed": 108,
+        "row": 1,
+        "blocked": "east",
+        "drive": [
+          0.72,
+          0.72,
+          1
+        ],
+        "floor": [
+          0.57,
+          0.6
+        ],
+        "chosen": null,
+        "docked": false,
+        "collision": false,
+        "ticks": 67,
+        "position_error_m": 17.8892
+      },
+      {
+        "seed": 108,
+        "row": 1,
+        "blocked": "west",
+        "drive": [
+          0.72,
+          0.72,
+          1
+        ],
+        "floor": [
+          0.57,
+          0.6
+        ],
+        "chosen": "east",
+        "docked": false,
+        "collision": false,
+        "ticks": 379,
+        "position_error_m": 0.6078
+      },
+      {
+        "seed": 108,
+        "row": 1,
+        "blocked": "east",
+        "drive": [
+          0.64,
+          0.82,
+          2
+        ],
+        "floor": [
+          0.65,
+          0.56
+        ],
+        "chosen": null,
+        "docked": false,
+        "collision": false,
+        "ticks": 78,
+        "position_error_m": 17.9051
+      },
+      {
+        "seed": 108,
+        "row": 1,
+        "blocked": "west",
+        "drive": [
+          0.64,
+          0.82,
+          2
+        ],
+        "floor": [
+          0.65,
+          0.56
+        ],
+        "chosen": "east",
+        "docked": false,
+        "collision": true,
+        "ticks": 425,
+        "position_error_m": 1.7488
+      },
+      {
+        "seed": 108,
+        "row": 1,
+        "blocked": "east",
+        "drive": [
+          0.86,
+          0.66,
+          1
+        ],
+        "floor": [
+          0.57,
+          0.6
+        ],
+        "chosen": null,
+        "docked": false,
+        "collision": false,
+        "ticks": 74,
+        "position_error_m": 17.8669
+      },
+      {
+        "seed": 108,
+        "row": 1,
+        "blocked": "west",
+        "drive": [
+          0.86,
+          0.66,
+          1
+        ],
+        "floor": [
+          0.57,
+          0.6
+        ],
+        "chosen": "east",
+        "docked": false,
+        "collision": true,
+        "ticks": 407,
+        "position_error_m": 1.5487
+      }
+    ],
+    "fixed-west": [
+      {
+        "seed": 42,
+        "row": 1,
+        "blocked": "east",
+        "drive": [
+          1,
+          1,
+          0
+        ],
+        "floor": [
+          0.65,
+          0.56
+        ],
+        "chosen": "west",
+        "docked": false,
+        "collision": false,
+        "ticks": 210,
+        "position_error_m": 0.3102
+      },
+      {
+        "seed": 42,
+        "row": 1,
+        "blocked": "west",
+        "drive": [
+          1,
+          1,
+          0
+        ],
+        "floor": [
+          0.65,
+          0.56
+        ],
+        "chosen": null,
+        "docked": false,
+        "collision": false,
+        "ticks": 74,
+        "position_error_m": 8.4432
+      },
+      {
+        "seed": 42,
+        "row": 1,
+        "blocked": "east",
+        "drive": [
+          0.72,
+          0.72,
+          1
+        ],
+        "floor": [
+          0.57,
+          0.6
+        ],
+        "chosen": "west",
+        "docked": false,
+        "collision": false,
+        "ticks": 229,
+        "position_error_m": 0.1996
+      },
+      {
+        "seed": 42,
+        "row": 1,
+        "blocked": "west",
+        "drive": [
+          0.72,
+          0.72,
+          1
+        ],
+        "floor": [
+          0.57,
+          0.6
+        ],
+        "chosen": null,
+        "docked": false,
+        "collision": false,
+        "ticks": 80,
+        "position_error_m": 8.4048
+      },
+      {
+        "seed": 42,
+        "row": 1,
+        "blocked": "east",
+        "drive": [
+          0.64,
+          0.82,
+          2
+        ],
+        "floor": [
+          0.65,
+          0.56
+        ],
+        "chosen": "west",
+        "docked": false,
+        "collision": false,
+        "ticks": 258,
+        "position_error_m": 0.2833
+      },
+      {
+        "seed": 42,
+        "row": 1,
+        "blocked": "west",
+        "drive": [
+          0.64,
+          0.82,
+          2
+        ],
+        "floor": [
+          0.65,
+          0.56
+        ],
+        "chosen": null,
+        "docked": false,
+        "collision": false,
+        "ticks": 88,
+        "position_error_m": 8.3974
+      },
+      {
+        "seed": 42,
+        "row": 1,
+        "blocked": "east",
+        "drive": [
+          0.86,
+          0.66,
+          1
+        ],
+        "floor": [
+          0.57,
+          0.6
+        ],
+        "chosen": "west",
+        "docked": false,
+        "collision": false,
+        "ticks": 243,
+        "position_error_m": 0.2717
+      },
+      {
+        "seed": 42,
+        "row": 1,
+        "blocked": "west",
+        "drive": [
+          0.86,
+          0.66,
+          1
+        ],
+        "floor": [
+          0.57,
+          0.6
+        ],
+        "chosen": null,
+        "docked": false,
+        "collision": false,
+        "ticks": 84,
+        "position_error_m": 8.4094
+      },
+      {
+        "seed": 42,
+        "row": 2,
+        "blocked": "east",
+        "drive": [
+          1,
+          1,
+          0
+        ],
+        "floor": [
+          0.57,
+          0.6
+        ],
+        "chosen": "west",
+        "docked": false,
+        "collision": false,
+        "ticks": 261,
+        "position_error_m": 0.3434
+      },
+      {
+        "seed": 42,
+        "row": 2,
+        "blocked": "west",
+        "drive": [
+          1,
+          1,
+          0
+        ],
+        "floor": [
+          0.57,
+          0.6
+        ],
+        "chosen": null,
+        "docked": false,
+        "collision": false,
+        "ticks": 74,
+        "position_error_m": 16.2174
+      },
+      {
+        "seed": 42,
+        "row": 2,
+        "blocked": "east",
+        "drive": [
+          0.72,
+          0.72,
+          1
+        ],
+        "floor": [
+          0.65,
+          0.56
+        ],
+        "chosen": "west",
+        "docked": false,
+        "collision": false,
+        "ticks": 285,
+        "position_error_m": 0.1889
+      },
+      {
+        "seed": 42,
+        "row": 2,
+        "blocked": "west",
+        "drive": [
+          0.72,
+          0.72,
+          1
+        ],
+        "floor": [
+          0.65,
+          0.56
+        ],
+        "chosen": null,
+        "docked": false,
+        "collision": false,
+        "ticks": 80,
+        "position_error_m": 16.2021
+      },
+      {
+        "seed": 42,
+        "row": 2,
+        "blocked": "east",
+        "drive": [
+          0.64,
+          0.82,
+          2
+        ],
+        "floor": [
+          0.57,
+          0.6
+        ],
+        "chosen": "west",
+        "docked": false,
+        "collision": false,
+        "ticks": 320,
+        "position_error_m": 0.2065
+      },
+      {
+        "seed": 42,
+        "row": 2,
+        "blocked": "west",
+        "drive": [
+          0.64,
+          0.82,
+          2
+        ],
+        "floor": [
+          0.57,
+          0.6
+        ],
+        "chosen": null,
+        "docked": false,
+        "collision": false,
+        "ticks": 88,
+        "position_error_m": 16.1993
+      },
+      {
+        "seed": 42,
+        "row": 2,
+        "blocked": "east",
+        "drive": [
+          0.86,
+          0.66,
+          1
+        ],
+        "floor": [
+          0.65,
+          0.56
+        ],
+        "chosen": "west",
+        "docked": false,
+        "collision": false,
+        "ticks": 304,
+        "position_error_m": 0.1885
+      },
+      {
+        "seed": 42,
+        "row": 2,
+        "blocked": "west",
+        "drive": [
+          0.86,
+          0.66,
+          1
+        ],
+        "floor": [
+          0.65,
+          0.56
+        ],
+        "chosen": null,
+        "docked": false,
+        "collision": false,
+        "ticks": 84,
+        "position_error_m": 16.2023
+      },
+      {
+        "seed": 108,
+        "row": 0,
+        "blocked": "east",
+        "drive": [
+          1,
+          1,
+          0
+        ],
+        "floor": [
+          0.57,
+          0.6
+        ],
+        "chosen": "west",
+        "docked": false,
+        "collision": false,
+        "ticks": 286,
+        "position_error_m": 0.3354
+      },
+      {
+        "seed": 108,
+        "row": 0,
+        "blocked": "west",
+        "drive": [
+          1,
+          1,
+          0
+        ],
+        "floor": [
+          0.57,
+          0.6
+        ],
+        "chosen": null,
+        "docked": false,
+        "collision": false,
+        "ticks": 74,
+        "position_error_m": 16.2657
+      },
+      {
+        "seed": 108,
+        "row": 0,
+        "blocked": "east",
+        "drive": [
+          0.72,
+          0.72,
+          1
+        ],
+        "floor": [
+          0.65,
+          0.56
+        ],
+        "chosen": "west",
+        "docked": false,
+        "collision": false,
+        "ticks": 313,
+        "position_error_m": 0.2007
+      },
+      {
+        "seed": 108,
+        "row": 0,
+        "blocked": "west",
+        "drive": [
+          0.72,
+          0.72,
+          1
+        ],
+        "floor": [
+          0.65,
+          0.56
+        ],
+        "chosen": null,
+        "docked": false,
+        "collision": false,
+        "ticks": 80,
+        "position_error_m": 16.2257
+      },
+      {
+        "seed": 108,
+        "row": 0,
+        "blocked": "east",
+        "drive": [
+          0.64,
+          0.82,
+          2
+        ],
+        "floor": [
+          0.57,
+          0.6
+        ],
+        "chosen": "west",
+        "docked": false,
+        "collision": false,
+        "ticks": 351,
+        "position_error_m": 0.2099
+      },
+      {
+        "seed": 108,
+        "row": 0,
+        "blocked": "west",
+        "drive": [
+          0.64,
+          0.82,
+          2
+        ],
+        "floor": [
+          0.57,
+          0.6
+        ],
+        "chosen": null,
+        "docked": false,
+        "collision": false,
+        "ticks": 88,
+        "position_error_m": 16.2168
+      },
+      {
+        "seed": 108,
+        "row": 0,
+        "blocked": "east",
+        "drive": [
+          0.86,
+          0.66,
+          1
+        ],
+        "floor": [
+          0.65,
+          0.56
+        ],
+        "chosen": "west",
+        "docked": false,
+        "collision": false,
+        "ticks": 334,
+        "position_error_m": 0.1827
+      },
+      {
+        "seed": 108,
+        "row": 0,
+        "blocked": "west",
+        "drive": [
+          0.86,
+          0.66,
+          1
+        ],
+        "floor": [
+          0.65,
+          0.56
+        ],
+        "chosen": null,
+        "docked": false,
+        "collision": false,
+        "ticks": 84,
+        "position_error_m": 16.2377
+      },
+      {
+        "seed": 108,
+        "row": 1,
+        "blocked": "east",
+        "drive": [
+          1,
+          1,
+          0
+        ],
+        "floor": [
+          0.65,
+          0.56
+        ],
+        "chosen": "west",
+        "docked": false,
+        "collision": false,
+        "ticks": 235,
+        "position_error_m": 0.3545
+      },
+      {
+        "seed": 108,
+        "row": 1,
+        "blocked": "west",
+        "drive": [
+          1,
+          1,
+          0
+        ],
+        "floor": [
+          0.65,
+          0.56
+        ],
+        "chosen": null,
+        "docked": false,
+        "collision": false,
+        "ticks": 74,
+        "position_error_m": 8.4895
+      },
+      {
+        "seed": 108,
+        "row": 1,
+        "blocked": "east",
+        "drive": [
+          0.72,
+          0.72,
+          1
+        ],
+        "floor": [
+          0.57,
+          0.6
+        ],
+        "chosen": "west",
+        "docked": false,
+        "collision": false,
+        "ticks": 257,
+        "position_error_m": 0.1851
+      },
+      {
+        "seed": 108,
+        "row": 1,
+        "blocked": "west",
+        "drive": [
+          0.72,
+          0.72,
+          1
+        ],
+        "floor": [
+          0.57,
+          0.6
+        ],
+        "chosen": null,
+        "docked": false,
+        "collision": false,
+        "ticks": 80,
+        "position_error_m": 8.4275
+      },
+      {
+        "seed": 108,
+        "row": 1,
+        "blocked": "east",
+        "drive": [
+          0.64,
+          0.82,
+          2
+        ],
+        "floor": [
+          0.65,
+          0.56
+        ],
+        "chosen": "west",
+        "docked": false,
+        "collision": false,
+        "ticks": 289,
+        "position_error_m": 0.2829
+      },
+      {
+        "seed": 108,
+        "row": 1,
+        "blocked": "west",
+        "drive": [
+          0.64,
+          0.82,
+          2
+        ],
+        "floor": [
+          0.65,
+          0.56
+        ],
+        "chosen": null,
+        "docked": false,
+        "collision": false,
+        "ticks": 88,
+        "position_error_m": 8.4142
+      },
+      {
+        "seed": 108,
+        "row": 1,
+        "blocked": "east",
+        "drive": [
+          0.86,
+          0.66,
+          1
+        ],
+        "floor": [
+          0.57,
+          0.6
+        ],
+        "chosen": "west",
+        "docked": false,
+        "collision": false,
+        "ticks": 273,
+        "position_error_m": 0.2446
+      },
+      {
+        "seed": 108,
+        "row": 1,
+        "blocked": "west",
+        "drive": [
+          0.86,
+          0.66,
+          1
+        ],
+        "floor": [
+          0.57,
+          0.6
+        ],
+        "chosen": null,
+        "docked": false,
+        "collision": false,
+        "ticks": 84,
+        "position_error_m": 8.4435
+      }
+    ],
+    "route-only": [
+      {
+        "seed": 42,
+        "row": 1,
+        "blocked": "east",
+        "drive": [
+          1,
+          1,
+          0
+        ],
+        "floor": [
+          0.65,
+          0.56
+        ],
+        "chosen": "west",
+        "docked": false,
+        "collision": false,
+        "ticks": 296,
+        "position_error_m": 0.3103
+      },
+      {
+        "seed": 42,
+        "row": 1,
+        "blocked": "west",
+        "drive": [
+          1,
+          1,
+          0
+        ],
+        "floor": [
+          0.65,
+          0.56
+        ],
+        "chosen": "east",
+        "docked": false,
+        "collision": false,
+        "ticks": 319,
+        "position_error_m": 1.1689
+      },
+      {
+        "seed": 42,
+        "row": 1,
+        "blocked": "east",
+        "drive": [
+          0.72,
+          0.72,
+          1
+        ],
+        "floor": [
+          0.57,
+          0.6
+        ],
+        "chosen": "west",
+        "docked": false,
+        "collision": false,
+        "ticks": 327,
+        "position_error_m": 0.2
+      },
+      {
+        "seed": 42,
+        "row": 1,
+        "blocked": "west",
+        "drive": [
+          0.72,
+          0.72,
+          1
+        ],
+        "floor": [
+          0.57,
+          0.6
+        ],
+        "chosen": "east",
+        "docked": false,
+        "collision": false,
+        "ticks": 351,
+        "position_error_m": 0.6149
+      },
+      {
+        "seed": 42,
+        "row": 1,
+        "blocked": "east",
+        "drive": [
+          0.64,
+          0.82,
+          2
+        ],
+        "floor": [
+          0.65,
+          0.56
+        ],
+        "chosen": "west",
+        "docked": false,
+        "collision": false,
+        "ticks": 373,
+        "position_error_m": 0.2836
+      },
+      {
+        "seed": 42,
+        "row": 1,
+        "blocked": "west",
+        "drive": [
+          0.64,
+          0.82,
+          2
+        ],
+        "floor": [
+          0.65,
+          0.56
+        ],
+        "chosen": "east",
+        "docked": false,
+        "collision": true,
+        "ticks": 394,
+        "position_error_m": 1.6787
+      },
+      {
+        "seed": 42,
+        "row": 1,
+        "blocked": "east",
+        "drive": [
+          0.86,
+          0.66,
+          1
+        ],
+        "floor": [
+          0.57,
+          0.6
+        ],
+        "chosen": "west",
+        "docked": false,
+        "collision": false,
+        "ticks": 352,
+        "position_error_m": 0.2711
+      },
+      {
+        "seed": 42,
+        "row": 1,
+        "blocked": "west",
+        "drive": [
+          0.86,
+          0.66,
+          1
+        ],
+        "floor": [
+          0.57,
+          0.6
+        ],
+        "chosen": "east",
+        "docked": false,
+        "collision": true,
+        "ticks": 378,
+        "position_error_m": 1.5302
+      },
+      {
+        "seed": 42,
+        "row": 2,
+        "blocked": "east",
+        "drive": [
+          1,
+          1,
+          0
+        ],
+        "floor": [
+          0.57,
+          0.6
+        ],
+        "chosen": "west",
+        "docked": false,
+        "collision": false,
+        "ticks": 347,
+        "position_error_m": 0.3433
+      },
+      {
+        "seed": 42,
+        "row": 2,
+        "blocked": "west",
+        "drive": [
+          1,
+          1,
+          0
+        ],
+        "floor": [
+          0.57,
+          0.6
+        ],
+        "chosen": "east",
+        "docked": false,
+        "collision": false,
+        "ticks": 370,
+        "position_error_m": 1.1392
+      },
+      {
+        "seed": 42,
+        "row": 2,
+        "blocked": "east",
+        "drive": [
+          0.72,
+          0.72,
+          1
+        ],
+        "floor": [
+          0.65,
+          0.56
+        ],
+        "chosen": "west",
+        "docked": false,
+        "collision": false,
+        "ticks": 383,
+        "position_error_m": 0.1891
+      },
+      {
+        "seed": 42,
+        "row": 2,
+        "blocked": "west",
+        "drive": [
+          0.72,
+          0.72,
+          1
+        ],
+        "floor": [
+          0.65,
+          0.56
+        ],
+        "chosen": "east",
+        "docked": false,
+        "collision": false,
+        "ticks": 407,
+        "position_error_m": 0.8838
+      },
+      {
+        "seed": 42,
+        "row": 2,
+        "blocked": "east",
+        "drive": [
+          0.64,
+          0.82,
+          2
+        ],
+        "floor": [
+          0.57,
+          0.6
+        ],
+        "chosen": "west",
+        "docked": false,
+        "collision": false,
+        "ticks": 435,
+        "position_error_m": 0.2074
+      },
+      {
+        "seed": 42,
+        "row": 2,
+        "blocked": "west",
+        "drive": [
+          0.64,
+          0.82,
+          2
+        ],
+        "floor": [
+          0.57,
+          0.6
+        ],
+        "chosen": "east",
+        "docked": false,
+        "collision": false,
+        "ticks": 463,
+        "position_error_m": 1.0629
+      },
+      {
+        "seed": 42,
+        "row": 2,
+        "blocked": "east",
+        "drive": [
+          0.86,
+          0.66,
+          1
+        ],
+        "floor": [
+          0.65,
+          0.56
+        ],
+        "chosen": "west",
+        "docked": false,
+        "collision": false,
+        "ticks": 413,
+        "position_error_m": 0.1881
+      },
+      {
+        "seed": 42,
+        "row": 2,
+        "blocked": "west",
+        "drive": [
+          0.86,
+          0.66,
+          1
+        ],
+        "floor": [
+          0.65,
+          0.56
+        ],
+        "chosen": "east",
+        "docked": false,
+        "collision": false,
+        "ticks": 442,
+        "position_error_m": 0.8119
+      },
+      {
+        "seed": 108,
+        "row": 0,
+        "blocked": "east",
+        "drive": [
+          1,
+          1,
+          0
+        ],
+        "floor": [
+          0.57,
+          0.6
+        ],
+        "chosen": "west",
+        "docked": false,
+        "collision": false,
+        "ticks": 372,
+        "position_error_m": 0.335
+      },
+      {
+        "seed": 108,
+        "row": 0,
+        "blocked": "west",
+        "drive": [
+          1,
+          1,
+          0
+        ],
+        "floor": [
+          0.57,
+          0.6
+        ],
+        "chosen": "east",
+        "docked": false,
+        "collision": false,
+        "ticks": 396,
+        "position_error_m": 1.1908
+      },
+      {
+        "seed": 108,
+        "row": 0,
+        "blocked": "east",
+        "drive": [
+          0.72,
+          0.72,
+          1
+        ],
+        "floor": [
+          0.65,
+          0.56
+        ],
+        "chosen": "west",
+        "docked": false,
+        "collision": false,
+        "ticks": 411,
+        "position_error_m": 0.2008
+      },
+      {
+        "seed": 108,
+        "row": 0,
+        "blocked": "west",
+        "drive": [
+          0.72,
+          0.72,
+          1
+        ],
+        "floor": [
+          0.65,
+          0.56
+        ],
+        "chosen": "east",
+        "docked": false,
+        "collision": false,
+        "ticks": 435,
+        "position_error_m": 0.8761
+      },
+      {
+        "seed": 108,
+        "row": 0,
+        "blocked": "east",
+        "drive": [
+          0.64,
+          0.82,
+          2
+        ],
+        "floor": [
+          0.57,
+          0.6
+        ],
+        "chosen": "west",
+        "docked": false,
+        "collision": false,
+        "ticks": 466,
+        "position_error_m": 0.2101
+      },
+      {
+        "seed": 108,
+        "row": 0,
+        "blocked": "west",
+        "drive": [
+          0.64,
+          0.82,
+          2
+        ],
+        "floor": [
+          0.57,
+          0.6
+        ],
+        "chosen": "east",
+        "docked": false,
+        "collision": false,
+        "ticks": 495,
+        "position_error_m": 1.1175
+      },
+      {
+        "seed": 108,
+        "row": 0,
+        "blocked": "east",
+        "drive": [
+          0.86,
+          0.66,
+          1
+        ],
+        "floor": [
+          0.65,
+          0.56
+        ],
+        "chosen": "west",
+        "docked": false,
+        "collision": false,
+        "ticks": 443,
+        "position_error_m": 0.1821
+      },
+      {
+        "seed": 108,
+        "row": 0,
+        "blocked": "west",
+        "drive": [
+          0.86,
+          0.66,
+          1
+        ],
+        "floor": [
+          0.65,
+          0.56
+        ],
+        "chosen": "east",
+        "docked": false,
+        "collision": false,
+        "ticks": 472,
+        "position_error_m": 0.8222
+      },
+      {
+        "seed": 108,
+        "row": 1,
+        "blocked": "east",
+        "drive": [
+          1,
+          1,
+          0
+        ],
+        "floor": [
+          0.65,
+          0.56
+        ],
+        "chosen": "west",
+        "docked": false,
+        "collision": false,
+        "ticks": 321,
+        "position_error_m": 0.3539
+      },
+      {
+        "seed": 108,
+        "row": 1,
+        "blocked": "west",
+        "drive": [
+          1,
+          1,
+          0
+        ],
+        "floor": [
+          0.65,
+          0.56
+        ],
+        "chosen": "east",
+        "docked": false,
+        "collision": false,
+        "ticks": 345,
+        "position_error_m": 1.2313
+      },
+      {
+        "seed": 108,
+        "row": 1,
+        "blocked": "east",
+        "drive": [
+          0.72,
+          0.72,
+          1
+        ],
+        "floor": [
+          0.57,
+          0.6
+        ],
+        "chosen": "west",
+        "docked": false,
+        "collision": false,
+        "ticks": 355,
+        "position_error_m": 0.1853
+      },
+      {
+        "seed": 108,
+        "row": 1,
+        "blocked": "west",
+        "drive": [
+          0.72,
+          0.72,
+          1
+        ],
+        "floor": [
+          0.57,
+          0.6
+        ],
+        "chosen": "east",
+        "docked": false,
+        "collision": false,
+        "ticks": 379,
+        "position_error_m": 0.6078
+      },
+      {
+        "seed": 108,
+        "row": 1,
+        "blocked": "east",
+        "drive": [
+          0.64,
+          0.82,
+          2
+        ],
+        "floor": [
+          0.65,
+          0.56
+        ],
+        "chosen": "west",
+        "docked": false,
+        "collision": false,
+        "ticks": 404,
+        "position_error_m": 0.2833
+      },
+      {
+        "seed": 108,
+        "row": 1,
+        "blocked": "west",
+        "drive": [
+          0.64,
+          0.82,
+          2
+        ],
+        "floor": [
+          0.65,
+          0.56
+        ],
+        "chosen": "east",
+        "docked": false,
+        "collision": true,
+        "ticks": 425,
+        "position_error_m": 1.7488
+      },
+      {
+        "seed": 108,
+        "row": 1,
+        "blocked": "east",
+        "drive": [
+          0.86,
+          0.66,
+          1
+        ],
+        "floor": [
+          0.57,
+          0.6
+        ],
+        "chosen": "west",
+        "docked": false,
+        "collision": false,
+        "ticks": 382,
+        "position_error_m": 0.2444
+      },
+      {
+        "seed": 108,
+        "row": 1,
+        "blocked": "west",
+        "drive": [
+          0.86,
+          0.66,
+          1
+        ],
+        "floor": [
+          0.57,
+          0.6
+        ],
+        "chosen": "east",
+        "docked": false,
+        "collision": true,
+        "ticks": 407,
+        "position_error_m": 1.5487
+      }
+    ],
+    "calibrate-east": [
+      {
+        "seed": 42,
+        "row": 1,
+        "blocked": "east",
+        "drive": [
+          1,
+          1,
+          0
+        ],
+        "floor": [
+          0.65,
+          0.56
+        ],
+        "chosen": null,
+        "docked": false,
+        "collision": false,
+        "ticks": 60,
+        "position_error_m": 17.7457
+      },
+      {
+        "seed": 42,
+        "row": 1,
+        "blocked": "west",
+        "drive": [
+          1,
+          1,
+          0
+        ],
+        "floor": [
+          0.65,
+          0.56
+        ],
+        "chosen": "east",
+        "docked": true,
+        "collision": false,
+        "ticks": 354,
+        "position_error_m": 0.0635
+      },
+      {
+        "seed": 42,
+        "row": 1,
+        "blocked": "east",
+        "drive": [
+          0.72,
+          0.72,
+          1
+        ],
+        "floor": [
+          0.57,
+          0.6
+        ],
+        "chosen": null,
+        "docked": false,
+        "collision": false,
+        "ticks": 67,
+        "position_error_m": 17.8737
+      },
+      {
+        "seed": 42,
+        "row": 1,
+        "blocked": "west",
+        "drive": [
+          0.72,
+          0.72,
+          1
+        ],
+        "floor": [
+          0.57,
+          0.6
+        ],
+        "chosen": "east",
+        "docked": true,
+        "collision": false,
+        "ticks": 382,
+        "position_error_m": 0.052
+      },
+      {
+        "seed": 42,
+        "row": 1,
+        "blocked": "east",
+        "drive": [
+          0.64,
+          0.82,
+          2
+        ],
+        "floor": [
+          0.65,
+          0.56
+        ],
+        "chosen": null,
+        "docked": false,
+        "collision": false,
+        "ticks": 78,
+        "position_error_m": 17.8937
+      },
+      {
+        "seed": 42,
+        "row": 1,
+        "blocked": "west",
+        "drive": [
+          0.64,
+          0.82,
+          2
+        ],
+        "floor": [
+          0.65,
+          0.56
+        ],
+        "chosen": "east",
+        "docked": true,
+        "collision": false,
+        "ticks": 443,
+        "position_error_m": 0.0742
+      },
+      {
+        "seed": 42,
+        "row": 1,
+        "blocked": "east",
+        "drive": [
+          0.86,
+          0.66,
+          1
+        ],
+        "floor": [
+          0.57,
+          0.6
+        ],
+        "chosen": null,
+        "docked": false,
+        "collision": false,
+        "ticks": 74,
+        "position_error_m": 17.8458
+      },
+      {
+        "seed": 42,
+        "row": 1,
+        "blocked": "west",
+        "drive": [
+          0.86,
+          0.66,
+          1
+        ],
+        "floor": [
+          0.57,
+          0.6
+        ],
+        "chosen": "east",
+        "docked": true,
+        "collision": false,
+        "ticks": 420,
+        "position_error_m": 0.0525
+      },
+      {
+        "seed": 42,
+        "row": 2,
+        "blocked": "east",
+        "drive": [
+          1,
+          1,
+          0
+        ],
+        "floor": [
+          0.57,
+          0.6
+        ],
+        "chosen": null,
+        "docked": false,
+        "collision": false,
+        "ticks": 60,
+        "position_error_m": 22.5044
+      },
+      {
+        "seed": 42,
+        "row": 2,
+        "blocked": "west",
+        "drive": [
+          1,
+          1,
+          0
+        ],
+        "floor": [
+          0.57,
+          0.6
+        ],
+        "chosen": "east",
+        "docked": true,
+        "collision": false,
+        "ticks": 398,
+        "position_error_m": 0.0585
+      },
+      {
+        "seed": 42,
+        "row": 2,
+        "blocked": "east",
+        "drive": [
+          0.72,
+          0.72,
+          1
+        ],
+        "floor": [
+          0.65,
+          0.56
+        ],
+        "chosen": null,
+        "docked": false,
+        "collision": false,
+        "ticks": 67,
+        "position_error_m": 22.6106
+      },
+      {
+        "seed": 42,
+        "row": 2,
+        "blocked": "west",
+        "drive": [
+          0.72,
+          0.72,
+          1
+        ],
+        "floor": [
+          0.65,
+          0.56
+        ],
+        "chosen": "east",
+        "docked": true,
+        "collision": false,
+        "ticks": 443,
+        "position_error_m": 0.0596
+      },
+      {
+        "seed": 42,
+        "row": 2,
+        "blocked": "east",
+        "drive": [
+          0.64,
+          0.82,
+          2
+        ],
+        "floor": [
+          0.57,
+          0.6
+        ],
+        "chosen": null,
+        "docked": false,
+        "collision": false,
+        "ticks": 78,
+        "position_error_m": 22.6277
+      },
+      {
+        "seed": 42,
+        "row": 2,
+        "blocked": "west",
+        "drive": [
+          0.64,
+          0.82,
+          2
+        ],
+        "floor": [
+          0.57,
+          0.6
+        ],
+        "chosen": "east",
+        "docked": true,
+        "collision": false,
+        "ticks": 501,
+        "position_error_m": 0.0606
+      },
+      {
+        "seed": 42,
+        "row": 2,
+        "blocked": "east",
+        "drive": [
+          0.86,
+          0.66,
+          1
+        ],
+        "floor": [
+          0.65,
+          0.56
+        ],
+        "chosen": null,
+        "docked": false,
+        "collision": false,
+        "ticks": 74,
+        "position_error_m": 22.5867
+      },
+      {
+        "seed": 42,
+        "row": 2,
+        "blocked": "west",
+        "drive": [
+          0.86,
+          0.66,
+          1
+        ],
+        "floor": [
+          0.65,
+          0.56
+        ],
+        "chosen": "east",
+        "docked": true,
+        "collision": false,
+        "ticks": 475,
+        "position_error_m": 0.0611
+      },
+      {
+        "seed": 108,
+        "row": 0,
+        "blocked": "east",
+        "drive": [
+          1,
+          1,
+          0
+        ],
+        "floor": [
+          0.57,
+          0.6
+        ],
+        "chosen": null,
+        "docked": false,
+        "collision": false,
+        "ticks": 60,
+        "position_error_m": 22.5528
+      },
+      {
+        "seed": 108,
+        "row": 0,
+        "blocked": "west",
+        "drive": [
+          1,
+          1,
+          0
+        ],
+        "floor": [
+          0.57,
+          0.6
+        ],
+        "chosen": "east",
+        "docked": true,
+        "collision": false,
+        "ticks": 427,
+        "position_error_m": 0.0564
+      },
+      {
+        "seed": 108,
+        "row": 0,
+        "blocked": "east",
+        "drive": [
+          0.72,
+          0.72,
+          1
+        ],
+        "floor": [
+          0.65,
+          0.56
+        ],
+        "chosen": null,
+        "docked": false,
+        "collision": false,
+        "ticks": 67,
+        "position_error_m": 22.635
+      },
+      {
+        "seed": 108,
+        "row": 0,
+        "blocked": "west",
+        "drive": [
+          0.72,
+          0.72,
+          1
+        ],
+        "floor": [
+          0.65,
+          0.56
+        ],
+        "chosen": "east",
+        "docked": true,
+        "collision": false,
+        "ticks": 471,
+        "position_error_m": 0.0579
+      },
+      {
+        "seed": 108,
+        "row": 0,
+        "blocked": "east",
+        "drive": [
+          0.64,
+          0.82,
+          2
+        ],
+        "floor": [
+          0.57,
+          0.6
+        ],
+        "chosen": null,
+        "docked": false,
+        "collision": false,
+        "ticks": 78,
+        "position_error_m": 22.6458
+      },
+      {
+        "seed": 108,
+        "row": 0,
+        "blocked": "west",
+        "drive": [
+          0.64,
+          0.82,
+          2
+        ],
+        "floor": [
+          0.57,
+          0.6
+        ],
+        "chosen": "east",
+        "docked": true,
+        "collision": false,
+        "ticks": 533,
+        "position_error_m": 0.0674
+      },
+      {
+        "seed": 108,
+        "row": 0,
+        "blocked": "east",
+        "drive": [
+          0.86,
+          0.66,
+          1
+        ],
+        "floor": [
+          0.65,
+          0.56
+        ],
+        "chosen": null,
+        "docked": false,
+        "collision": false,
+        "ticks": 74,
+        "position_error_m": 22.62
+      },
+      {
+        "seed": 108,
+        "row": 0,
+        "blocked": "west",
+        "drive": [
+          0.86,
+          0.66,
+          1
+        ],
+        "floor": [
+          0.65,
+          0.56
+        ],
+        "chosen": "east",
+        "docked": true,
+        "collision": false,
+        "ticks": 505,
+        "position_error_m": 0.0621
+      },
+      {
+        "seed": 108,
+        "row": 1,
+        "blocked": "east",
+        "drive": [
+          1,
+          1,
+          0
+        ],
+        "floor": [
+          0.65,
+          0.56
+        ],
+        "chosen": null,
+        "docked": false,
+        "collision": false,
+        "ticks": 60,
+        "position_error_m": 17.7764
+      },
+      {
+        "seed": 108,
+        "row": 1,
+        "blocked": "west",
+        "drive": [
+          1,
+          1,
+          0
+        ],
+        "floor": [
+          0.65,
+          0.56
+        ],
+        "chosen": "east",
+        "docked": true,
+        "collision": false,
+        "ticks": 383,
+        "position_error_m": 0.0623
+      },
+      {
+        "seed": 108,
+        "row": 1,
+        "blocked": "east",
+        "drive": [
+          0.72,
+          0.72,
+          1
+        ],
+        "floor": [
+          0.57,
+          0.6
+        ],
+        "chosen": null,
+        "docked": false,
+        "collision": false,
+        "ticks": 67,
+        "position_error_m": 17.8892
+      },
+      {
+        "seed": 108,
+        "row": 1,
+        "blocked": "west",
+        "drive": [
+          0.72,
+          0.72,
+          1
+        ],
+        "floor": [
+          0.57,
+          0.6
+        ],
+        "chosen": "east",
+        "docked": true,
+        "collision": false,
+        "ticks": 410,
+        "position_error_m": 0.05
+      },
+      {
+        "seed": 108,
+        "row": 1,
+        "blocked": "east",
+        "drive": [
+          0.64,
+          0.82,
+          2
+        ],
+        "floor": [
+          0.65,
+          0.56
+        ],
+        "chosen": null,
+        "docked": false,
+        "collision": false,
+        "ticks": 78,
+        "position_error_m": 17.9051
+      },
+      {
+        "seed": 108,
+        "row": 1,
+        "blocked": "west",
+        "drive": [
+          0.64,
+          0.82,
+          2
+        ],
+        "floor": [
+          0.65,
+          0.56
+        ],
+        "chosen": "east",
+        "docked": true,
+        "collision": false,
+        "ticks": 477,
+        "position_error_m": 0.0508
+      },
+      {
+        "seed": 108,
+        "row": 1,
+        "blocked": "east",
+        "drive": [
+          0.86,
+          0.66,
+          1
+        ],
+        "floor": [
+          0.57,
+          0.6
+        ],
+        "chosen": null,
+        "docked": false,
+        "collision": false,
+        "ticks": 74,
+        "position_error_m": 17.8669
+      },
+      {
+        "seed": 108,
+        "row": 1,
+        "blocked": "west",
+        "drive": [
+          0.86,
+          0.66,
+          1
+        ],
+        "floor": [
+          0.57,
+          0.6
+        ],
+        "chosen": "east",
+        "docked": true,
+        "collision": false,
+        "ticks": 450,
+        "position_error_m": 0.056
+      }
+    ],
+    "calibrate-west": [
+      {
+        "seed": 42,
+        "row": 1,
+        "blocked": "east",
+        "drive": [
+          1,
+          1,
+          0
+        ],
+        "floor": [
+          0.65,
+          0.56
+        ],
+        "chosen": "west",
+        "docked": true,
+        "collision": false,
+        "ticks": 255,
+        "position_error_m": 0.0539
+      },
+      {
+        "seed": 42,
+        "row": 1,
+        "blocked": "west",
+        "drive": [
+          1,
+          1,
+          0
+        ],
+        "floor": [
+          0.65,
+          0.56
+        ],
+        "chosen": null,
+        "docked": false,
+        "collision": false,
+        "ticks": 74,
+        "position_error_m": 8.4432
+      },
+      {
+        "seed": 42,
+        "row": 1,
+        "blocked": "east",
+        "drive": [
+          0.72,
+          0.72,
+          1
+        ],
+        "floor": [
+          0.57,
+          0.6
+        ],
+        "chosen": "west",
+        "docked": true,
+        "collision": false,
+        "ticks": 247,
+        "position_error_m": 0.0395
+      },
+      {
+        "seed": 42,
+        "row": 1,
+        "blocked": "west",
+        "drive": [
+          0.72,
+          0.72,
+          1
+        ],
+        "floor": [
+          0.57,
+          0.6
+        ],
+        "chosen": null,
+        "docked": false,
+        "collision": false,
+        "ticks": 80,
+        "position_error_m": 8.4048
+      },
+      {
+        "seed": 42,
+        "row": 1,
+        "blocked": "east",
+        "drive": [
+          0.64,
+          0.82,
+          2
+        ],
+        "floor": [
+          0.65,
+          0.56
+        ],
+        "chosen": "west",
+        "docked": true,
+        "collision": false,
+        "ticks": 301,
+        "position_error_m": 0.0557
+      },
+      {
+        "seed": 42,
+        "row": 1,
+        "blocked": "west",
+        "drive": [
+          0.64,
+          0.82,
+          2
+        ],
+        "floor": [
+          0.65,
+          0.56
+        ],
+        "chosen": null,
+        "docked": false,
+        "collision": false,
+        "ticks": 88,
+        "position_error_m": 8.3974
+      },
+      {
+        "seed": 42,
+        "row": 1,
+        "blocked": "east",
+        "drive": [
+          0.86,
+          0.66,
+          1
+        ],
+        "floor": [
+          0.57,
+          0.6
+        ],
+        "chosen": "west",
+        "docked": true,
+        "collision": false,
+        "ticks": 286,
+        "position_error_m": 0.0471
+      },
+      {
+        "seed": 42,
+        "row": 1,
+        "blocked": "west",
+        "drive": [
+          0.86,
+          0.66,
+          1
+        ],
+        "floor": [
+          0.57,
+          0.6
+        ],
+        "chosen": null,
+        "docked": false,
+        "collision": false,
+        "ticks": 84,
+        "position_error_m": 8.4094
+      },
+      {
+        "seed": 42,
+        "row": 2,
+        "blocked": "east",
+        "drive": [
+          1,
+          1,
+          0
+        ],
+        "floor": [
+          0.57,
+          0.6
+        ],
+        "chosen": "west",
+        "docked": true,
+        "collision": false,
+        "ticks": 309,
+        "position_error_m": 0.0525
+      },
+      {
+        "seed": 42,
+        "row": 2,
+        "blocked": "west",
+        "drive": [
+          1,
+          1,
+          0
+        ],
+        "floor": [
+          0.57,
+          0.6
+        ],
+        "chosen": null,
+        "docked": false,
+        "collision": false,
+        "ticks": 74,
+        "position_error_m": 16.2174
+      },
+      {
+        "seed": 42,
+        "row": 2,
+        "blocked": "east",
+        "drive": [
+          0.72,
+          0.72,
+          1
+        ],
+        "floor": [
+          0.65,
+          0.56
+        ],
+        "chosen": "west",
+        "docked": true,
+        "collision": false,
+        "ticks": 325,
+        "position_error_m": 0.052
+      },
+      {
+        "seed": 42,
+        "row": 2,
+        "blocked": "west",
+        "drive": [
+          0.72,
+          0.72,
+          1
+        ],
+        "floor": [
+          0.65,
+          0.56
+        ],
+        "chosen": null,
+        "docked": false,
+        "collision": false,
+        "ticks": 80,
+        "position_error_m": 16.2021
+      },
+      {
+        "seed": 42,
+        "row": 2,
+        "blocked": "east",
+        "drive": [
+          0.64,
+          0.82,
+          2
+        ],
+        "floor": [
+          0.57,
+          0.6
+        ],
+        "chosen": "west",
+        "docked": true,
+        "collision": false,
+        "ticks": 365,
+        "position_error_m": 0.06
+      },
+      {
+        "seed": 42,
+        "row": 2,
+        "blocked": "west",
+        "drive": [
+          0.64,
+          0.82,
+          2
+        ],
+        "floor": [
+          0.57,
+          0.6
+        ],
+        "chosen": null,
+        "docked": false,
+        "collision": false,
+        "ticks": 88,
+        "position_error_m": 16.1993
+      },
+      {
+        "seed": 42,
+        "row": 2,
+        "blocked": "east",
+        "drive": [
+          0.86,
+          0.66,
+          1
+        ],
+        "floor": [
+          0.65,
+          0.56
+        ],
+        "chosen": "west",
+        "docked": true,
+        "collision": false,
+        "ticks": 321,
+        "position_error_m": 0.0334
+      },
+      {
+        "seed": 42,
+        "row": 2,
+        "blocked": "west",
+        "drive": [
+          0.86,
+          0.66,
+          1
+        ],
+        "floor": [
+          0.65,
+          0.56
+        ],
+        "chosen": null,
+        "docked": false,
+        "collision": false,
+        "ticks": 84,
+        "position_error_m": 16.2023
+      },
+      {
+        "seed": 108,
+        "row": 0,
+        "blocked": "east",
+        "drive": [
+          1,
+          1,
+          0
+        ],
+        "floor": [
+          0.57,
+          0.6
+        ],
+        "chosen": "west",
+        "docked": true,
+        "collision": false,
+        "ticks": 335,
+        "position_error_m": 0.0482
+      },
+      {
+        "seed": 108,
+        "row": 0,
+        "blocked": "west",
+        "drive": [
+          1,
+          1,
+          0
+        ],
+        "floor": [
+          0.57,
+          0.6
+        ],
+        "chosen": null,
+        "docked": false,
+        "collision": false,
+        "ticks": 74,
+        "position_error_m": 16.2657
+      },
+      {
+        "seed": 108,
+        "row": 0,
+        "blocked": "east",
+        "drive": [
+          0.72,
+          0.72,
+          1
+        ],
+        "floor": [
+          0.65,
+          0.56
+        ],
+        "chosen": "west",
+        "docked": true,
+        "collision": false,
+        "ticks": 353,
+        "position_error_m": 0.0496
+      },
+      {
+        "seed": 108,
+        "row": 0,
+        "blocked": "west",
+        "drive": [
+          0.72,
+          0.72,
+          1
+        ],
+        "floor": [
+          0.65,
+          0.56
+        ],
+        "chosen": null,
+        "docked": false,
+        "collision": false,
+        "ticks": 80,
+        "position_error_m": 16.2257
+      },
+      {
+        "seed": 108,
+        "row": 0,
+        "blocked": "east",
+        "drive": [
+          0.64,
+          0.82,
+          2
+        ],
+        "floor": [
+          0.57,
+          0.6
+        ],
+        "chosen": "west",
+        "docked": true,
+        "collision": false,
+        "ticks": 396,
+        "position_error_m": 0.054
+      },
+      {
+        "seed": 108,
+        "row": 0,
+        "blocked": "west",
+        "drive": [
+          0.64,
+          0.82,
+          2
+        ],
+        "floor": [
+          0.57,
+          0.6
+        ],
+        "chosen": null,
+        "docked": false,
+        "collision": false,
+        "ticks": 88,
+        "position_error_m": 16.2168
+      },
+      {
+        "seed": 108,
+        "row": 0,
+        "blocked": "east",
+        "drive": [
+          0.86,
+          0.66,
+          1
+        ],
+        "floor": [
+          0.65,
+          0.56
+        ],
+        "chosen": "west",
+        "docked": true,
+        "collision": false,
+        "ticks": 351,
+        "position_error_m": 0.0454
+      },
+      {
+        "seed": 108,
+        "row": 0,
+        "blocked": "west",
+        "drive": [
+          0.86,
+          0.66,
+          1
+        ],
+        "floor": [
+          0.65,
+          0.56
+        ],
+        "chosen": null,
+        "docked": false,
+        "collision": false,
+        "ticks": 84,
+        "position_error_m": 16.2377
+      },
+      {
+        "seed": 108,
+        "row": 1,
+        "blocked": "east",
+        "drive": [
+          1,
+          1,
+          0
+        ],
+        "floor": [
+          0.65,
+          0.56
+        ],
+        "chosen": "west",
+        "docked": true,
+        "collision": false,
+        "ticks": 282,
+        "position_error_m": 0.0492
+      },
+      {
+        "seed": 108,
+        "row": 1,
+        "blocked": "west",
+        "drive": [
+          1,
+          1,
+          0
+        ],
+        "floor": [
+          0.65,
+          0.56
+        ],
+        "chosen": null,
+        "docked": false,
+        "collision": false,
+        "ticks": 74,
+        "position_error_m": 8.4895
+      },
+      {
+        "seed": 108,
+        "row": 1,
+        "blocked": "east",
+        "drive": [
+          0.72,
+          0.72,
+          1
+        ],
+        "floor": [
+          0.57,
+          0.6
+        ],
+        "chosen": "west",
+        "docked": true,
+        "collision": false,
+        "ticks": 275,
+        "position_error_m": 0.033
+      },
+      {
+        "seed": 108,
+        "row": 1,
+        "blocked": "west",
+        "drive": [
+          0.72,
+          0.72,
+          1
+        ],
+        "floor": [
+          0.57,
+          0.6
+        ],
+        "chosen": null,
+        "docked": false,
+        "collision": false,
+        "ticks": 80,
+        "position_error_m": 8.4275
+      },
+      {
+        "seed": 108,
+        "row": 1,
+        "blocked": "east",
+        "drive": [
+          0.64,
+          0.82,
+          2
+        ],
+        "floor": [
+          0.65,
+          0.56
+        ],
+        "chosen": "west",
+        "docked": true,
+        "collision": false,
+        "ticks": 332,
+        "position_error_m": 0.0489
+      },
+      {
+        "seed": 108,
+        "row": 1,
+        "blocked": "west",
+        "drive": [
+          0.64,
+          0.82,
+          2
+        ],
+        "floor": [
+          0.65,
+          0.56
+        ],
+        "chosen": null,
+        "docked": false,
+        "collision": false,
+        "ticks": 88,
+        "position_error_m": 8.4142
+      },
+      {
+        "seed": 108,
+        "row": 1,
+        "blocked": "east",
+        "drive": [
+          0.86,
+          0.66,
+          1
+        ],
+        "floor": [
+          0.57,
+          0.6
+        ],
+        "chosen": "west",
+        "docked": true,
+        "collision": false,
+        "ticks": 316,
+        "position_error_m": 0.0515
+      },
+      {
+        "seed": 108,
+        "row": 1,
+        "blocked": "west",
+        "drive": [
+          0.86,
+          0.66,
+          1
+        ],
+        "floor": [
+          0.57,
+          0.6
+        ],
+        "chosen": null,
+        "docked": false,
+        "collision": false,
+        "ticks": 84,
+        "position_error_m": 8.4435
+      }
+    ],
+    "adaptive": [
+      {
+        "seed": 42,
+        "row": 1,
+        "blocked": "east",
+        "drive": [
+          1,
+          1,
+          0
+        ],
+        "floor": [
+          0.65,
+          0.56
+        ],
+        "chosen": "west",
+        "docked": true,
+        "collision": false,
+        "ticks": 341,
+        "position_error_m": 0.0534
+      },
+      {
+        "seed": 42,
+        "row": 1,
+        "blocked": "west",
+        "drive": [
+          1,
+          1,
+          0
+        ],
+        "floor": [
+          0.65,
+          0.56
+        ],
+        "chosen": "east",
+        "docked": true,
+        "collision": false,
+        "ticks": 354,
+        "position_error_m": 0.0635
+      },
+      {
+        "seed": 42,
+        "row": 1,
+        "blocked": "east",
+        "drive": [
+          0.72,
+          0.72,
+          1
+        ],
+        "floor": [
+          0.57,
+          0.6
+        ],
+        "chosen": "west",
+        "docked": true,
+        "collision": false,
+        "ticks": 345,
+        "position_error_m": 0.0399
+      },
+      {
+        "seed": 42,
+        "row": 1,
+        "blocked": "west",
+        "drive": [
+          0.72,
+          0.72,
+          1
+        ],
+        "floor": [
+          0.57,
+          0.6
+        ],
+        "chosen": "east",
+        "docked": true,
+        "collision": false,
+        "ticks": 382,
+        "position_error_m": 0.052
+      },
+      {
+        "seed": 42,
+        "row": 1,
+        "blocked": "east",
+        "drive": [
+          0.64,
+          0.82,
+          2
+        ],
+        "floor": [
+          0.65,
+          0.56
+        ],
+        "chosen": "west",
+        "docked": true,
+        "collision": false,
+        "ticks": 416,
+        "position_error_m": 0.0557
+      },
+      {
+        "seed": 42,
+        "row": 1,
+        "blocked": "west",
+        "drive": [
+          0.64,
+          0.82,
+          2
+        ],
+        "floor": [
+          0.65,
+          0.56
+        ],
+        "chosen": "east",
+        "docked": true,
+        "collision": false,
+        "ticks": 443,
+        "position_error_m": 0.0742
+      },
+      {
+        "seed": 42,
+        "row": 1,
+        "blocked": "east",
+        "drive": [
+          0.86,
+          0.66,
+          1
+        ],
+        "floor": [
+          0.57,
+          0.6
+        ],
+        "chosen": "west",
+        "docked": true,
+        "collision": false,
+        "ticks": 395,
+        "position_error_m": 0.0466
+      },
+      {
+        "seed": 42,
+        "row": 1,
+        "blocked": "west",
+        "drive": [
+          0.86,
+          0.66,
+          1
+        ],
+        "floor": [
+          0.57,
+          0.6
+        ],
+        "chosen": "east",
+        "docked": true,
+        "collision": false,
+        "ticks": 420,
+        "position_error_m": 0.0525
+      },
+      {
+        "seed": 42,
+        "row": 2,
+        "blocked": "east",
+        "drive": [
+          1,
+          1,
+          0
+        ],
+        "floor": [
+          0.57,
+          0.6
+        ],
+        "chosen": "west",
+        "docked": true,
+        "collision": false,
+        "ticks": 395,
+        "position_error_m": 0.0524
+      },
+      {
+        "seed": 42,
+        "row": 2,
+        "blocked": "west",
+        "drive": [
+          1,
+          1,
+          0
+        ],
+        "floor": [
+          0.57,
+          0.6
+        ],
+        "chosen": "east",
+        "docked": true,
+        "collision": false,
+        "ticks": 398,
+        "position_error_m": 0.0585
+      },
+      {
+        "seed": 42,
+        "row": 2,
+        "blocked": "east",
+        "drive": [
+          0.72,
+          0.72,
+          1
+        ],
+        "floor": [
+          0.65,
+          0.56
+        ],
+        "chosen": "west",
+        "docked": true,
+        "collision": false,
+        "ticks": 423,
+        "position_error_m": 0.0522
+      },
+      {
+        "seed": 42,
+        "row": 2,
+        "blocked": "west",
+        "drive": [
+          0.72,
+          0.72,
+          1
+        ],
+        "floor": [
+          0.65,
+          0.56
+        ],
+        "chosen": "east",
+        "docked": true,
+        "collision": false,
+        "ticks": 443,
+        "position_error_m": 0.0596
+      },
+      {
+        "seed": 42,
+        "row": 2,
+        "blocked": "east",
+        "drive": [
+          0.64,
+          0.82,
+          2
+        ],
+        "floor": [
+          0.57,
+          0.6
+        ],
+        "chosen": "west",
+        "docked": true,
+        "collision": false,
+        "ticks": 480,
+        "position_error_m": 0.0602
+      },
+      {
+        "seed": 42,
+        "row": 2,
+        "blocked": "west",
+        "drive": [
+          0.64,
+          0.82,
+          2
+        ],
+        "floor": [
+          0.57,
+          0.6
+        ],
+        "chosen": "east",
+        "docked": true,
+        "collision": false,
+        "ticks": 501,
+        "position_error_m": 0.0606
+      },
+      {
+        "seed": 42,
+        "row": 2,
+        "blocked": "east",
+        "drive": [
+          0.86,
+          0.66,
+          1
+        ],
+        "floor": [
+          0.65,
+          0.56
+        ],
+        "chosen": "west",
+        "docked": true,
+        "collision": false,
+        "ticks": 430,
+        "position_error_m": 0.0329
+      },
+      {
+        "seed": 42,
+        "row": 2,
+        "blocked": "west",
+        "drive": [
+          0.86,
+          0.66,
+          1
+        ],
+        "floor": [
+          0.65,
+          0.56
+        ],
+        "chosen": "east",
+        "docked": true,
+        "collision": false,
+        "ticks": 475,
+        "position_error_m": 0.0611
+      },
+      {
+        "seed": 108,
+        "row": 0,
+        "blocked": "east",
+        "drive": [
+          1,
+          1,
+          0
+        ],
+        "floor": [
+          0.57,
+          0.6
+        ],
+        "chosen": "west",
+        "docked": true,
+        "collision": false,
+        "ticks": 421,
+        "position_error_m": 0.0485
+      },
+      {
+        "seed": 108,
+        "row": 0,
+        "blocked": "west",
+        "drive": [
+          1,
+          1,
+          0
+        ],
+        "floor": [
+          0.57,
+          0.6
+        ],
+        "chosen": "east",
+        "docked": true,
+        "collision": false,
+        "ticks": 427,
+        "position_error_m": 0.0564
+      },
+      {
+        "seed": 108,
+        "row": 0,
+        "blocked": "east",
+        "drive": [
+          0.72,
+          0.72,
+          1
+        ],
+        "floor": [
+          0.65,
+          0.56
+        ],
+        "chosen": "west",
+        "docked": true,
+        "collision": false,
+        "ticks": 451,
+        "position_error_m": 0.0497
+      },
+      {
+        "seed": 108,
+        "row": 0,
+        "blocked": "west",
+        "drive": [
+          0.72,
+          0.72,
+          1
+        ],
+        "floor": [
+          0.65,
+          0.56
+        ],
+        "chosen": "east",
+        "docked": true,
+        "collision": false,
+        "ticks": 471,
+        "position_error_m": 0.0579
+      },
+      {
+        "seed": 108,
+        "row": 0,
+        "blocked": "east",
+        "drive": [
+          0.64,
+          0.82,
+          2
+        ],
+        "floor": [
+          0.57,
+          0.6
+        ],
+        "chosen": "west",
+        "docked": true,
+        "collision": false,
+        "ticks": 511,
+        "position_error_m": 0.0541
+      },
+      {
+        "seed": 108,
+        "row": 0,
+        "blocked": "west",
+        "drive": [
+          0.64,
+          0.82,
+          2
+        ],
+        "floor": [
+          0.57,
+          0.6
+        ],
+        "chosen": "east",
+        "docked": true,
+        "collision": false,
+        "ticks": 533,
+        "position_error_m": 0.0674
+      },
+      {
+        "seed": 108,
+        "row": 0,
+        "blocked": "east",
+        "drive": [
+          0.86,
+          0.66,
+          1
+        ],
+        "floor": [
+          0.65,
+          0.56
+        ],
+        "chosen": "west",
+        "docked": true,
+        "collision": false,
+        "ticks": 460,
+        "position_error_m": 0.0447
+      },
+      {
+        "seed": 108,
+        "row": 0,
+        "blocked": "west",
+        "drive": [
+          0.86,
+          0.66,
+          1
+        ],
+        "floor": [
+          0.65,
+          0.56
+        ],
+        "chosen": "east",
+        "docked": true,
+        "collision": false,
+        "ticks": 505,
+        "position_error_m": 0.0621
+      },
+      {
+        "seed": 108,
+        "row": 1,
+        "blocked": "east",
+        "drive": [
+          1,
+          1,
+          0
+        ],
+        "floor": [
+          0.65,
+          0.56
+        ],
+        "chosen": "west",
+        "docked": true,
+        "collision": false,
+        "ticks": 367,
+        "position_error_m": 0.0493
+      },
+      {
+        "seed": 108,
+        "row": 1,
+        "blocked": "west",
+        "drive": [
+          1,
+          1,
+          0
+        ],
+        "floor": [
+          0.65,
+          0.56
+        ],
+        "chosen": "east",
+        "docked": true,
+        "collision": false,
+        "ticks": 383,
+        "position_error_m": 0.0623
+      },
+      {
+        "seed": 108,
+        "row": 1,
+        "blocked": "east",
+        "drive": [
+          0.72,
+          0.72,
+          1
+        ],
+        "floor": [
+          0.57,
+          0.6
+        ],
+        "chosen": "west",
+        "docked": true,
+        "collision": false,
+        "ticks": 373,
+        "position_error_m": 0.0333
+      },
+      {
+        "seed": 108,
+        "row": 1,
+        "blocked": "west",
+        "drive": [
+          0.72,
+          0.72,
+          1
+        ],
+        "floor": [
+          0.57,
+          0.6
+        ],
+        "chosen": "east",
+        "docked": true,
+        "collision": false,
+        "ticks": 410,
+        "position_error_m": 0.05
+      },
+      {
+        "seed": 108,
+        "row": 1,
+        "blocked": "east",
+        "drive": [
+          0.64,
+          0.82,
+          2
+        ],
+        "floor": [
+          0.65,
+          0.56
+        ],
+        "chosen": "west",
+        "docked": true,
+        "collision": false,
+        "ticks": 447,
+        "position_error_m": 0.049
+      },
+      {
+        "seed": 108,
+        "row": 1,
+        "blocked": "west",
+        "drive": [
+          0.64,
+          0.82,
+          2
+        ],
+        "floor": [
+          0.65,
+          0.56
+        ],
+        "chosen": "east",
+        "docked": true,
+        "collision": false,
+        "ticks": 477,
+        "position_error_m": 0.0508
+      },
+      {
+        "seed": 108,
+        "row": 1,
+        "blocked": "east",
+        "drive": [
+          0.86,
+          0.66,
+          1
+        ],
+        "floor": [
+          0.57,
+          0.6
+        ],
+        "chosen": "west",
+        "docked": true,
+        "collision": false,
+        "ticks": 425,
+        "position_error_m": 0.0514
+      },
+      {
+        "seed": 108,
+        "row": 1,
+        "blocked": "west",
+        "drive": [
+          0.86,
+          0.66,
+          1
+        ],
+        "floor": [
+          0.57,
+          0.6
+        ],
+        "chosen": "east",
+        "docked": true,
+        "collision": false,
+        "ticks": 450,
+        "position_error_m": 0.056
+      }
+    ],
+    "informed": [
+      {
+        "seed": 42,
+        "row": 1,
+        "blocked": "east",
+        "drive": [
+          1,
+          1,
+          0
+        ],
+        "floor": [
+          0.65,
+          0.56
+        ],
+        "chosen": "west",
+        "docked": true,
+        "collision": false,
+        "ticks": 196,
+        "position_error_m": 0.0395
+      },
+      {
+        "seed": 42,
+        "row": 1,
+        "blocked": "west",
+        "drive": [
+          1,
+          1,
+          0
+        ],
+        "floor": [
+          0.65,
+          0.56
+        ],
+        "chosen": "east",
+        "docked": true,
+        "collision": false,
+        "ticks": 317,
+        "position_error_m": 0.0499
+      },
+      {
+        "seed": 42,
+        "row": 1,
+        "blocked": "east",
+        "drive": [
+          0.72,
+          0.72,
+          1
+        ],
+        "floor": [
+          0.57,
+          0.6
+        ],
+        "chosen": "west",
+        "docked": true,
+        "collision": false,
+        "ticks": 214,
+        "position_error_m": 0.0604
+      },
+      {
+        "seed": 42,
+        "row": 1,
+        "blocked": "west",
+        "drive": [
+          0.72,
+          0.72,
+          1
+        ],
+        "floor": [
+          0.57,
+          0.6
+        ],
+        "chosen": "east",
+        "docked": true,
+        "collision": false,
+        "ticks": 344,
+        "position_error_m": 0.0402
+      },
+      {
+        "seed": 42,
+        "row": 1,
+        "blocked": "east",
+        "drive": [
+          0.64,
+          0.82,
+          2
+        ],
+        "floor": [
+          0.65,
+          0.56
+        ],
+        "chosen": "west",
+        "docked": true,
+        "collision": false,
+        "ticks": 242,
+        "position_error_m": 0.0599
+      },
+      {
+        "seed": 42,
+        "row": 1,
+        "blocked": "west",
+        "drive": [
+          0.64,
+          0.82,
+          2
+        ],
+        "floor": [
+          0.65,
+          0.56
+        ],
+        "chosen": "east",
+        "docked": true,
+        "collision": false,
+        "ticks": 395,
+        "position_error_m": 0.0606
+      },
+      {
+        "seed": 42,
+        "row": 1,
+        "blocked": "east",
+        "drive": [
+          0.86,
+          0.66,
+          1
+        ],
+        "floor": [
+          0.57,
+          0.6
+        ],
+        "chosen": "west",
+        "docked": true,
+        "collision": false,
+        "ticks": 228,
+        "position_error_m": 0.0696
+      },
+      {
+        "seed": 42,
+        "row": 1,
+        "blocked": "west",
+        "drive": [
+          0.86,
+          0.66,
+          1
+        ],
+        "floor": [
+          0.57,
+          0.6
+        ],
+        "chosen": "east",
+        "docked": true,
+        "collision": false,
+        "ticks": 374,
+        "position_error_m": 0.0649
+      },
+      {
+        "seed": 42,
+        "row": 2,
+        "blocked": "east",
+        "drive": [
+          1,
+          1,
+          0
+        ],
+        "floor": [
+          0.57,
+          0.6
+        ],
+        "chosen": "west",
+        "docked": true,
+        "collision": false,
+        "ticks": 246,
+        "position_error_m": 0.0414
+      },
+      {
+        "seed": 42,
+        "row": 2,
+        "blocked": "west",
+        "drive": [
+          1,
+          1,
+          0
+        ],
+        "floor": [
+          0.57,
+          0.6
+        ],
+        "chosen": "east",
+        "docked": true,
+        "collision": false,
+        "ticks": 364,
+        "position_error_m": 0.0469
+      },
+      {
+        "seed": 42,
+        "row": 2,
+        "blocked": "east",
+        "drive": [
+          0.72,
+          0.72,
+          1
+        ],
+        "floor": [
+          0.65,
+          0.56
+        ],
+        "chosen": "west",
+        "docked": true,
+        "collision": false,
+        "ticks": 271,
+        "position_error_m": 0.057
+      },
+      {
+        "seed": 42,
+        "row": 2,
+        "blocked": "west",
+        "drive": [
+          0.72,
+          0.72,
+          1
+        ],
+        "floor": [
+          0.65,
+          0.56
+        ],
+        "chosen": "east",
+        "docked": true,
+        "collision": false,
+        "ticks": 403,
+        "position_error_m": 0.0429
+      },
+      {
+        "seed": 42,
+        "row": 2,
+        "blocked": "east",
+        "drive": [
+          0.64,
+          0.82,
+          2
+        ],
+        "floor": [
+          0.57,
+          0.6
+        ],
+        "chosen": "west",
+        "docked": true,
+        "collision": false,
+        "ticks": 303,
+        "position_error_m": 0.0589
+      },
+      {
+        "seed": 42,
+        "row": 2,
+        "blocked": "west",
+        "drive": [
+          0.64,
+          0.82,
+          2
+        ],
+        "floor": [
+          0.57,
+          0.6
+        ],
+        "chosen": "east",
+        "docked": true,
+        "collision": false,
+        "ticks": 454,
+        "position_error_m": 0.0406
+      },
+      {
+        "seed": 42,
+        "row": 2,
+        "blocked": "east",
+        "drive": [
+          0.86,
+          0.66,
+          1
+        ],
+        "floor": [
+          0.65,
+          0.56
+        ],
+        "chosen": "west",
+        "docked": true,
+        "collision": false,
+        "ticks": 288,
+        "position_error_m": 0.0618
+      },
+      {
+        "seed": 42,
+        "row": 2,
+        "blocked": "west",
+        "drive": [
+          0.86,
+          0.66,
+          1
+        ],
+        "floor": [
+          0.65,
+          0.56
+        ],
+        "chosen": "east",
+        "docked": true,
+        "collision": false,
+        "ticks": 433,
+        "position_error_m": 0.0511
+      },
+      {
+        "seed": 108,
+        "row": 0,
+        "blocked": "east",
+        "drive": [
+          1,
+          1,
+          0
+        ],
+        "floor": [
+          0.57,
+          0.6
+        ],
+        "chosen": "west",
+        "docked": true,
+        "collision": false,
+        "ticks": 271,
+        "position_error_m": 0.0713
+      },
+      {
+        "seed": 108,
+        "row": 0,
+        "blocked": "west",
+        "drive": [
+          1,
+          1,
+          0
+        ],
+        "floor": [
+          0.57,
+          0.6
+        ],
+        "chosen": "east",
+        "docked": true,
+        "collision": false,
+        "ticks": 392,
+        "position_error_m": 0.0595
+      },
+      {
+        "seed": 108,
+        "row": 0,
+        "blocked": "east",
+        "drive": [
+          0.72,
+          0.72,
+          1
+        ],
+        "floor": [
+          0.65,
+          0.56
+        ],
+        "chosen": "west",
+        "docked": true,
+        "collision": false,
+        "ticks": 298,
+        "position_error_m": 0.0551
+      },
+      {
+        "seed": 108,
+        "row": 0,
+        "blocked": "west",
+        "drive": [
+          0.72,
+          0.72,
+          1
+        ],
+        "floor": [
+          0.65,
+          0.56
+        ],
+        "chosen": "east",
+        "docked": true,
+        "collision": false,
+        "ticks": 431,
+        "position_error_m": 0.0412
+      },
+      {
+        "seed": 108,
+        "row": 0,
+        "blocked": "east",
+        "drive": [
+          0.64,
+          0.82,
+          2
+        ],
+        "floor": [
+          0.57,
+          0.6
+        ],
+        "chosen": "west",
+        "docked": true,
+        "collision": false,
+        "ticks": 334,
+        "position_error_m": 0.0611
+      },
+      {
+        "seed": 108,
+        "row": 0,
+        "blocked": "west",
+        "drive": [
+          0.64,
+          0.82,
+          2
+        ],
+        "floor": [
+          0.57,
+          0.6
+        ],
+        "chosen": "east",
+        "docked": true,
+        "collision": false,
+        "ticks": 486,
+        "position_error_m": 0.043
+      },
+      {
+        "seed": 108,
+        "row": 0,
+        "blocked": "east",
+        "drive": [
+          0.86,
+          0.66,
+          1
+        ],
+        "floor": [
+          0.65,
+          0.56
+        ],
+        "chosen": "west",
+        "docked": true,
+        "collision": false,
+        "ticks": 319,
+        "position_error_m": 0.0633
+      },
+      {
+        "seed": 108,
+        "row": 0,
+        "blocked": "west",
+        "drive": [
+          0.86,
+          0.66,
+          1
+        ],
+        "floor": [
+          0.65,
+          0.56
+        ],
+        "chosen": "east",
+        "docked": true,
+        "collision": false,
+        "ticks": 463,
+        "position_error_m": 0.0541
+      },
+      {
+        "seed": 108,
+        "row": 1,
+        "blocked": "east",
+        "drive": [
+          1,
+          1,
+          0
+        ],
+        "floor": [
+          0.65,
+          0.56
+        ],
+        "chosen": "west",
+        "docked": true,
+        "collision": false,
+        "ticks": 221,
+        "position_error_m": 0.0675
+      },
+      {
+        "seed": 108,
+        "row": 1,
+        "blocked": "west",
+        "drive": [
+          1,
+          1,
+          0
+        ],
+        "floor": [
+          0.65,
+          0.56
+        ],
+        "chosen": "east",
+        "docked": true,
+        "collision": false,
+        "ticks": 343,
+        "position_error_m": 0.0631
+      },
+      {
+        "seed": 108,
+        "row": 1,
+        "blocked": "east",
+        "drive": [
+          0.72,
+          0.72,
+          1
+        ],
+        "floor": [
+          0.57,
+          0.6
+        ],
+        "chosen": "west",
+        "docked": true,
+        "collision": false,
+        "ticks": 242,
+        "position_error_m": 0.0586
+      },
+      {
+        "seed": 108,
+        "row": 1,
+        "blocked": "west",
+        "drive": [
+          0.72,
+          0.72,
+          1
+        ],
+        "floor": [
+          0.57,
+          0.6
+        ],
+        "chosen": "east",
+        "docked": true,
+        "collision": false,
+        "ticks": 371,
+        "position_error_m": 0.0737
+      },
+      {
+        "seed": 108,
+        "row": 1,
+        "blocked": "east",
+        "drive": [
+          0.64,
+          0.82,
+          2
+        ],
+        "floor": [
+          0.65,
+          0.56
+        ],
+        "chosen": "west",
+        "docked": true,
+        "collision": false,
+        "ticks": 273,
+        "position_error_m": 0.0602
+      },
+      {
+        "seed": 108,
+        "row": 1,
+        "blocked": "west",
+        "drive": [
+          0.64,
+          0.82,
+          2
+        ],
+        "floor": [
+          0.65,
+          0.56
+        ],
+        "chosen": "east",
+        "docked": true,
+        "collision": false,
+        "ticks": 427,
+        "position_error_m": 0.0732
+      },
+      {
+        "seed": 108,
+        "row": 1,
+        "blocked": "east",
+        "drive": [
+          0.86,
+          0.66,
+          1
+        ],
+        "floor": [
+          0.57,
+          0.6
+        ],
+        "chosen": "west",
+        "docked": true,
+        "collision": false,
+        "ticks": 258,
+        "position_error_m": 0.073
+      },
+      {
+        "seed": 108,
+        "row": 1,
+        "blocked": "west",
+        "drive": [
+          0.86,
+          0.66,
+          1
+        ],
+        "floor": [
+          0.57,
+          0.6
+        ],
+        "chosen": "east",
+        "docked": true,
+        "collision": false,
+        "ticks": 404,
+        "position_error_m": 0.0719
+      }
+    ]
+  }
+}

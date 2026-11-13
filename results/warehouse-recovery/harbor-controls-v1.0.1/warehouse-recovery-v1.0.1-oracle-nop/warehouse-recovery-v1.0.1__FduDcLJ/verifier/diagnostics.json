@@ -1,0 +1,169 @@
+{
+  "reward": 0.0,
+  "passed": 0,
+  "total": 16,
+  "collisions": 0,
+  "seconds": 1.675,
+  "cases": [
+    {
+      "case": "0-0-east",
+      "success": false,
+      "reason": "incorrect final pose or cart still moving",
+      "ticks": 0,
+      "collision": false,
+      "position_error_m": 12.04159,
+      "heading_error_rad": 3.14159,
+      "exposures": []
+    },
+    {
+      "case": "0-0-west",
+      "success": false,
+      "reason": "incorrect final pose or cart still moving",
+      "ticks": 0,
+      "collision": false,
+      "position_error_m": 12.04159,
+      "heading_error_rad": 3.14159,
+      "exposures": []
+    },
+    {
+      "case": "0-1-east",
+      "success": false,
+      "reason": "incorrect final pose or cart still moving",
+      "ticks": 0,
+      "collision": false,
+      "position_error_m": 18.35756,
+      "heading_error_rad": 3.14159,
+      "exposures": []
+    },
+    {
+      "case": "0-1-west",
+      "success": false,
+      "reason": "incorrect final pose or cart still moving",
+      "ticks": 0,
+      "collision": false,
+      "position_error_m": 18.35756,
+      "heading_error_rad": 3.14159,
+      "exposures": []
+    },
+    {
+      "case": "1-0-east",
+      "success": false,
+      "reason": "incorrect final pose or cart still moving",
+      "ticks": 0,
+      "collision": false,
+      "position_error_m": 12.04159,
+      "heading_error_rad": 3.14159,
+      "exposures": []
+    },
+    {
+      "case": "1-0-west",
+      "success": false,
+      "reason": "incorrect final pose or cart still moving",
+      "ticks": 0,
+      "collision": false,
+      "position_error_m": 12.04159,
+      "heading_error_rad": 3.14159,
+      "exposures": []
+    },
+    {
+      "case": "1-1-east",
+      "success": false,
+      "reason": "incorrect final pose or cart still moving",
+      "ticks": 0,
+      "collision": false,
+      "position_error_m": 12.04159,
+      "heading_error_rad": 3.14159,
+      "exposures": []
+    },
+    {
+      "case": "1-1-west",
+      "success": false,
+      "reason": "incorrect final pose or cart still moving",
+      "ticks": 0,
+      "collision": false,
+      "position_error_m": 12.04159,
+      "heading_error_rad": 3.14159,
+      "exposures": []
+    },
+    {
+      "case": "2-0-east",
+      "success": false,
+      "reason": "incorrect final pose or cart still moving",
+      "ticks": 0,
+      "collision": false,
+      "position_error_m": 12.04159,
+      "heading_error_rad": 3.14159,
+      "exposures": []
+    },
+    {
+      "case": "2-0-west",
+      "success": false,
+      "reason": "incorrect final pose or cart still moving",
+      "ticks": 0,
+      "collision": false,
+      "position_error_m": 12.04159,
+      "heading_error_rad": 3.14159,
+      "exposures": []
+    },
+    {
+      "case": "2-1-east",
+      "success": false,
+      "reason": "incorrect final pose or cart still moving",
+      "ticks": 0,
+      "collision": false,
+      "position_error_m": 12.04159,
+      "heading_error_rad": 3.14159,
+      "exposures": []
+    },
+    {
+      "case": "2-1-west",
+      "success": false,
+      "reason": "incorrect final pose or cart still moving",
+      "ticks": 0,
+      "collision": false,
+      "position_error_m": 12.04159,
+      "heading_error_rad": 3.14159,
+      "exposures": []
+    },
+    {
+      "case": "3-0-east",
+      "success": false,
+      "reason": "incorrect final pose or cart still moving",
+      "ticks": 0,
+      "collision": false,
+      "position_error_m": 18.35756,
+      "heading_error_rad": 3.14159,
+      "exposures": []
+    },
+    {
+      "case": "3-0-west",
+      "success": false,
+      "reason": "incorrect final pose or cart still moving",
+      "ticks": 0,
+      "collision": false,
+      "position_error_m": 18.35756,
+      "heading_error_rad": 3.14159,
+      "exposures": []
+    },
+    {
+      "case": "3-1-east",
+      "success": false,
+      "reason": "incorrect final pose or cart still moving",
+      "ticks": 0,
+      "collision": false,
+      "position_error_m": 12.04159,
+      "heading_error_rad": 3.14159,
+      "exposures": []
+    },
+    {
+      "case": "3-1-west",
+      "success": false,
+      "reason": "incorrect final pose or cart still moving",
+      "ticks": 0,
+      "collision": false,
+      "position_error_m": 12.04159,
+      "heading_error_rad": 3.14159,
+      "exposures": []
+    }
+  ]
+}

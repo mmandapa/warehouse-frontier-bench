@@ -1,0 +1,16 @@
+Agent 'oracle' does not declare an options_model; leftover kwargs are ignored
+Skipping image OS validation for hb__17c26f610579a1b1c511da9cfae0344c: docker inspect returned 1
+Agent 'oracle' exposes no native web search or fetch tools for Harbor to disable; continuing. Sandbox network policy still applies.
+Collecting main service artifacts
+Skipping image OS validation for hb__74c81ea4345030a432208366bf06884b: docker inspect returned 1
+Trial warehouse-recovery-v1.0.0__Lb88oA4 failed: No reward file found at results/warehouse-recovery/harbor-controls-v1.0.0/warehouse-recovery-v1.0.0-oracle-nop/warehouse-recovery-v1.0.0__Lb88oA4/verifier/reward.txt or results/warehouse-recovery/harbor-controls-v1.0.0/warehouse-recovery-v1.0.0-oracle-nop/warehouse-recovery-v1.0.0__Lb88oA4/verifier/reward.json
+Exception RewardFileNotFoundError is in exclude_exceptions, not retrying
+Not retrying trial because the exception is not in include_exceptions or the maximum number of retries has been reached
+Agent 'nop' does not declare an options_model; leftover kwargs are ignored
+Skipping image OS validation for hb__17c26f610579a1b1c511da9cfae0344c: docker inspect returned 1
+Agent 'nop' exposes no native web search or fetch tools for Harbor to disable; continuing. Sandbox network policy still applies.
+Collecting main service artifacts
+Skipping image OS validation for hb__74c81ea4345030a432208366bf06884b: docker inspect returned 1
+Trial warehouse-recovery-v1.0.0__ubZEGNQ failed: No reward file found at results/warehouse-recovery/harbor-controls-v1.0.0/warehouse-recovery-v1.0.0-oracle-nop/warehouse-recovery-v1.0.0__ubZEGNQ/verifier/reward.txt or results/warehouse-recovery/harbor-controls-v1.0.0/warehouse-recovery-v1.0.0-oracle-nop/warehouse-recovery-v1.0.0__ubZEGNQ/verifier/reward.json
+Exception RewardFileNotFoundError is in exclude_exceptions, not retrying
+Not retrying trial because the exception is not in include_exceptions or the maximum number of retries has been reached

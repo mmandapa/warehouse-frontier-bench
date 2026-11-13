@@ -1,0 +1,221 @@
+{
+  "reward": 0.0,
+  "passed": 0,
+  "total": 16,
+  "collisions": 0,
+  "seconds": 1.681,
+  "cases": [
+    {
+      "case": "0-0-east",
+      "floor_span_m": null,
+      "success": false,
+      "reason": "incorrect final pose or cart still moving",
+      "ticks": 0,
+      "collision": false,
+      "position_error_m": 12.04159,
+      "heading_error_rad": 3.14159,
+      "exposures": []
+    },
+    {
+      "case": "0-0-west",
+      "floor_span_m": [
+        7.4,
+        9.65
+      ],
+      "success": false,
+      "reason": "incorrect final pose or cart still moving",
+      "ticks": 0,
+      "collision": false,
+      "position_error_m": 12.04159,
+      "heading_error_rad": 3.14159,
+      "exposures": []
+    },
+    {
+      "case": "0-1-east",
+      "floor_span_m": [
+        9.6,
+        12.65
+      ],
+      "success": false,
+      "reason": "incorrect final pose or cart still moving",
+      "ticks": 0,
+      "collision": false,
+      "position_error_m": 18.35756,
+      "heading_error_rad": 3.14159,
+      "exposures": []
+    },
+    {
+      "case": "0-1-west",
+      "floor_span_m": [
+        8.6,
+        10.25
+      ],
+      "success": false,
+      "reason": "incorrect final pose or cart still moving",
+      "ticks": 0,
+      "collision": false,
+      "position_error_m": 18.35756,
+      "heading_error_rad": 3.14159,
+      "exposures": []
+    },
+    {
+      "case": "1-0-east",
+      "floor_span_m": [
+        7.4,
+        9.65
+      ],
+      "success": false,
+      "reason": "incorrect final pose or cart still moving",
+      "ticks": 0,
+      "collision": false,
+      "position_error_m": 12.04159,
+      "heading_error_rad": 3.14159,
+      "exposures": []
+    },
+    {
+      "case": "1-0-west",
+      "floor_span_m": [
+        9.6,
+        12.65
+      ],
+      "success": false,
+      "reason": "incorrect final pose or cart still moving",
+      "ticks": 0,
+      "collision": false,
+      "position_error_m": 12.04159,
+      "heading_error_rad": 3.14159,
+      "exposures": []
+    },
+    {
+      "case": "1-1-east",
+      "floor_span_m": [
+        8.6,
+        10.25
+      ],
+      "success": false,
+      "reason": "incorrect final pose or cart still moving",
+      "ticks": 0,
+      "collision": false,
+      "position_error_m": 12.04159,
+      "heading_error_rad": 3.14159,
+      "exposures": []
+    },
+    {
+      "case": "1-1-west",
+      "floor_span_m": null,
+      "success": false,
+      "reason": "incorrect final pose or cart still moving",
+      "ticks": 0,
+      "collision": false,
+      "position_error_m": 12.04159,
+      "heading_error_rad": 3.14159,
+      "exposures": []
+    },
+    {
+      "case": "2-0-east",
+      "floor_span_m": [
+        9.6,
+        12.65
+      ],
+      "success": false,
+      "reason": "incorrect final pose or cart still moving",
+      "ticks": 0,
+      "collision": false,
+      "position_error_m": 12.04159,
+      "heading_error_rad": 3.14159,
+      "exposures": []
+    },
+    {
+      "case": "2-0-west",
+      "floor_span_m": [
+        8.6,
+        10.25
+      ],
+      "success": false,
+      "reason": "incorrect final pose or cart still moving",
+      "ticks": 0,
+      "collision": false,
+      "position_error_m": 12.04159,
+      "heading_error_rad": 3.14159,
+      "exposures": []
+    },
+    {
+      "case": "2-1-east",
+      "floor_span_m": null,
+      "success": false,
+      "reason": "incorrect final pose or cart still moving",
+      "ticks": 0,
+      "collision": false,
+      "position_error_m": 12.04159,
+      "heading_error_rad": 3.14159,
+      "exposures": []
+    },
+    {
+      "case": "2-1-west",
+      "floor_span_m": [
+        7.4,
+        9.65
+      ],
+      "success": false,
+      "reason": "incorrect final pose or cart still moving",
+      "ticks": 0,
+      "collision": false,
+      "position_error_m": 12.04159,
+      "heading_error_rad": 3.14159,
+      "exposures": []
+    },
+    {
+      "case": "3-0-east",
+      "floor_span_m": [
+        8.6,
+        10.25
+      ],
+      "success": false,
+      "reason": "incorrect final pose or cart still moving",
+      "ticks": 0,
+      "collision": false,
+      "position_error_m": 18.35756,
+      "heading_error_rad": 3.14159,
+      "exposures": []
+    },
+    {
+      "case": "3-0-west",
+      "floor_span_m": null,
+      "success": false,
+      "reason": "incorrect final pose or cart still moving",
+      "ticks": 0,
+      "collision": false,
+      "position_error_m": 18.35756,
+      "heading_error_rad": 3.14159,
+      "exposures": []
+    },
+    {
+      "case": "3-1-east",
+      "floor_span_m": [
+        7.4,
+        9.65
+      ],
+      "success": false,
+      "reason": "incorrect final pose or cart still moving",
+      "ticks": 0,
+      "collision": false,
+      "position_error_m": 12.04159,
+      "heading_error_rad": 3.14159,
+      "exposures": []
+    },
+    {
+      "case": "3-1-west",
+      "floor_span_m": [
+        9.6,
+        12.65
+      ],
+      "success": false,
+      "reason": "incorrect final pose or cart still moving",
+      "ticks": 0,
+      "collision": false,
+      "position_error_m": 12.04159,
+      "heading_error_rad": 3.14159,
+      "exposures": []
+    }
+  ]
+}

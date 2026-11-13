@@ -1,0 +1,43 @@
+{
+  "initial_result": "results/warehouse-recovery/harbor-astra1-v1.1.2-docker-2026-11-12/warehouse-recovery-v1.1.2-astra-docker-2026-11-12-01/warehouse-recovery-v1.1.2__9xYGkxq/result.json",
+  "task_checksum": "05928dbe905012e915d6f364e9fcd677730a6e1c851dca848fd903ea3797d599",
+  "attempts": [
+    {
+      "attempt": 2,
+      "job": "warehouse-recovery-v1.1.2-astra-docker-2026-11-12-02",
+      "status": "scored",
+      "host_free_mib_at_start": 2783,
+      "returncode": 0,
+      "result_path": "results/warehouse-recovery/harbor-astra1-v1.1.2-docker-2026-11-12/warehouse-recovery-v1.1.2-astra-docker-2026-11-12-02/warehouse-recovery-v1.1.2__JdfbzHS/result.json",
+      "trial": "warehouse-recovery-v1.1.2__JdfbzHS",
+      "reward": 1.0,
+      "cost_usd": 1.047078,
+      "exception": null
+    },
+    {
+      "attempt": 3,
+      "job": "warehouse-recovery-v1.1.2-astra-docker-2026-11-12-03",
+      "status": "scored",
+      "host_free_mib_at_start": 2431,
+      "returncode": 0,
+      "result_path": "results/warehouse-recovery/harbor-astra1-v1.1.2-docker-2026-11-12/warehouse-recovery-v1.1.2-astra-docker-2026-11-12-03/warehouse-recovery-v1.1.2__RpJZznW/result.json",
+      "trial": "warehouse-recovery-v1.1.2__RpJZznW",
+      "reward": 1.0,
+      "cost_usd": 0.880647,
+      "exception": null
+    },
+    {
+      "attempt": 4,
+      "job": "warehouse-recovery-v1.1.2-astra-docker-2026-11-12-04",
+      "status": "scored",
+      "host_free_mib_at_start": 2257,
+      "returncode": 0,
+      "result_path": "results/warehouse-recovery/harbor-astra1-v1.1.2-docker-2026-11-12/warehouse-recovery-v1.1.2-astra-docker-2026-11-12-04/warehouse-recovery-v1.1.2__jzoaGxX/result.json",
+      "trial": "warehouse-recovery-v1.1.2__jzoaGxX",
+      "reward": 1.0,
+      "cost_usd": 0.8577585,
+      "exception": null
+    }
+  ],
+  "stop_reason": null
+}

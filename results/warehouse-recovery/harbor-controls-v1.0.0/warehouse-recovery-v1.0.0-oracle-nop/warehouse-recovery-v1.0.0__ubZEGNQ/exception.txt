@@ -1,0 +1,20 @@
+Traceback (most recent call last):
+  File "/Users/maharshi12/Documents/Codex/2026-11-06/tg/outputs/research-reliability-bench/.venv/lib/python3.12/site-packages/harbor/trial/trial.py", line 609, in run
+    await self._run()
+  File "/Users/maharshi12/Documents/Codex/2026-11-06/tg/outputs/research-reliability-bench/.venv/lib/python3.12/site-packages/harbor/trial/single_step.py", line 51, in _run
+    await self._run_verifier()
+  File "/Users/maharshi12/Documents/Codex/2026-11-06/tg/outputs/research-reliability-bench/.venv/lib/python3.12/site-packages/harbor/trial/single_step.py", line 98, in _run_verifier
+    self.result.verifier_result = await self._run_separate_verifier(
+                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/maharshi12/Documents/Codex/2026-11-06/tg/outputs/research-reliability-bench/.venv/lib/python3.12/site-packages/harbor/trial/trial.py", line 1081, in _run_separate_verifier
+    return await self._verify_with_timeout(verifier, timeout_sec)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/maharshi12/Documents/Codex/2026-11-06/tg/outputs/research-reliability-bench/.venv/lib/python3.12/site-packages/harbor/trial/trial.py", line 974, in _verify_with_timeout
+    return await asyncio.wait_for(verifier.verify(), timeout=timeout_sec)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/maharshi12/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/tasks.py", line 520, in wait_for
+    return await fut
+           ^^^^^^^^^
+  File "/Users/maharshi12/Documents/Codex/2026-11-06/tg/outputs/research-reliability-bench/.venv/lib/python3.12/site-packages/harbor/verifier/verifier.py", line 304, in verify
+    raise RewardFileNotFoundError(
+harbor.verifier.verifier.RewardFileNotFoundError: No reward file found at results/warehouse-recovery/harbor-controls-v1.0.0/warehouse-recovery-v1.0.0-oracle-nop/warehouse-recovery-v1.0.0__ubZEGNQ/verifier/reward.txt or results/warehouse-recovery/harbor-controls-v1.0.0/warehouse-recovery-v1.0.0-oracle-nop/warehouse-recovery-v1.0.0__ubZEGNQ/verifier/reward.json

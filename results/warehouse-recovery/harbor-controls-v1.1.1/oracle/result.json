@@ -1,0 +1,37 @@
+{
+    "id": "255d4cc7-9e4c-47f6-8a2e-5520a2af5400",
+    "started_at": "2026-11-12T06:15:00.746958",
+    "updated_at": "2026-11-12T06:19:38.352685",
+    "finished_at": "2026-11-12T06:19:38.352685",
+    "n_total_trials": 1,
+    "stats": {
+        "n_completed_trials": 1,
+        "n_errored_trials": 1,
+        "n_running_trials": 0,
+        "n_pending_trials": 0,
+        "n_cancelled_trials": 0,
+        "n_retries": 0,
+        "evals": {
+            "oracle__adhoc": {
+                "n_trials": 0,
+                "n_errors": 1,
+                "metrics": [
+                    {
+                        "mean": 0.0
+                    }
+                ],
+                "pass_at_k": {},
+                "reward_stats": {},
+                "exception_stats": {
+                    "RuntimeError": [
+                        "warehouse-recovery-v1.1.1__PkFpzps"
+                    ]
+                }
+            }
+        },
+        "n_input_tokens": null,
+        "n_cache_tokens": null,
+        "n_output_tokens": null,
+        "cost_usd": null
+    }
+}

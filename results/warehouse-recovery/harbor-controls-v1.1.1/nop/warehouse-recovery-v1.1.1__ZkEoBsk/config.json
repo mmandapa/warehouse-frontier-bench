@@ -1,0 +1,11 @@
+{
+    "task": {
+        "path": "tasks/warehouse-recovery-v1.1.1"
+    },
+    "trial_name": "warehouse-recovery-v1.1.1__ZkEoBsk",
+    "trials_dir": "results/warehouse-recovery/harbor-controls-v1.1.1/nop",
+    "agent": {
+        "name": "nop"
+    },
+    "job_id": "e34e08c4-388d-4c53-b012-633a10be600e"
+}

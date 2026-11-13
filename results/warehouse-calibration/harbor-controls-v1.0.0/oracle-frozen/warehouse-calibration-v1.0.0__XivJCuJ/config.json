@@ -1,0 +1,8 @@
+{
+    "task": {
+        "path": "tasks/warehouse-calibration-v1.0.0"
+    },
+    "trial_name": "warehouse-calibration-v1.0.0__XivJCuJ",
+    "trials_dir": "results/warehouse-calibration/harbor-controls-v1.0.0/oracle-frozen",
+    "job_id": "33383cbe-b089-49dc-9b5e-266be7d39239"
+}

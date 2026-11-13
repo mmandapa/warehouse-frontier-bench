@@ -1,0 +1,333 @@
+{
+  "reward": 0.4375,
+  "passed": 7,
+  "total": 16,
+  "collisions": 1,
+  "seconds": 2.502,
+  "cases": [
+    {
+      "case": "0-0-east",
+      "floor_span_m": null,
+      "success": true,
+      "reason": "docked",
+      "ticks": 279,
+      "collision": false,
+      "position_error_m": 0.0516,
+      "heading_error_rad": 0.00831,
+      "exposures": [
+        {
+          "tick": 149,
+          "tags": [
+            "west-1"
+          ]
+        }
+      ]
+    },
+    {
+      "case": "0-0-west",
+      "floor_span_m": [
+        7.4,
+        9.65
+      ],
+      "success": false,
+      "reason": "incorrect final pose or cart still moving",
+      "ticks": 401,
+      "collision": false,
+      "position_error_m": 0.17841,
+      "heading_error_rad": 0.15754,
+      "exposures": [
+        {
+          "tick": 104,
+          "tags": [
+            "east-1"
+          ]
+        }
+      ]
+    },
+    {
+      "case": "0-1-east",
+      "floor_span_m": [
+        9.6,
+        12.65
+      ],
+      "success": true,
+      "reason": "docked",
+      "ticks": 397,
+      "collision": false,
+      "position_error_m": 0.07325,
+      "heading_error_rad": 0.00836,
+      "exposures": [
+        {
+          "tick": 198,
+          "tags": [
+            "west-2"
+          ]
+        }
+      ]
+    },
+    {
+      "case": "0-1-west",
+      "floor_span_m": [
+        8.6,
+        10.25
+      ],
+      "success": false,
+      "reason": "incorrect final pose or cart still moving",
+      "ticks": 442,
+      "collision": false,
+      "position_error_m": 0.29408,
+      "heading_error_rad": 0.18167,
+      "exposures": [
+        {
+          "tick": 99,
+          "tags": [
+            "east-2"
+          ]
+        }
+      ]
+    },
+    {
+      "case": "1-0-east",
+      "floor_span_m": [
+        7.4,
+        9.65
+      ],
+      "success": false,
+      "reason": "incorrect final pose or cart still moving",
+      "ticks": 355,
+      "collision": false,
+      "position_error_m": 0.35781,
+      "heading_error_rad": 0.48257,
+      "exposures": [
+        {
+          "tick": 205,
+          "tags": [
+            "west-0"
+          ]
+        }
+      ]
+    },
+    {
+      "case": "1-0-west",
+      "floor_span_m": [
+        9.6,
+        12.65
+      ],
+      "success": false,
+      "reason": "incorrect final pose or cart still moving",
+      "ticks": 411,
+      "collision": false,
+      "position_error_m": 1.20102,
+      "heading_error_rad": 0.57371,
+      "exposures": [
+        {
+          "tick": 114,
+          "tags": [
+            "east-0"
+          ]
+        }
+      ]
+    },
+    {
+      "case": "1-1-east",
+      "floor_span_m": [
+        8.6,
+        10.25
+      ],
+      "success": false,
+      "reason": "incorrect final pose or cart still moving",
+      "ticks": 430,
+      "collision": false,
+      "position_error_m": 0.14,
+      "heading_error_rad": 0.33461,
+      "exposures": [
+        {
+          "tick": 259,
+          "tags": [
+            "west-2"
+          ]
+        }
+      ]
+    },
+    {
+      "case": "1-1-west",
+      "floor_span_m": null,
+      "success": true,
+      "reason": "docked",
+      "ticks": 345,
+      "collision": false,
+      "position_error_m": 0.04027,
+      "heading_error_rad": 0.00216,
+      "exposures": [
+        {
+          "tick": 94,
+          "tags": [
+            "east-2"
+          ]
+        }
+      ]
+    },
+    {
+      "case": "2-0-east",
+      "floor_span_m": [
+        9.6,
+        12.65
+      ],
+      "success": true,
+      "reason": "docked",
+      "ticks": 415,
+      "collision": false,
+      "position_error_m": 0.04907,
+      "heading_error_rad": 0.00858,
+      "exposures": [
+        {
+          "tick": 252,
+          "tags": [
+            "west-0"
+          ]
+        }
+      ]
+    },
+    {
+      "case": "2-0-west",
+      "floor_span_m": [
+        8.6,
+        10.25
+      ],
+      "success": false,
+      "reason": "incorrect final pose or cart still moving",
+      "ticks": 345,
+      "collision": false,
+      "position_error_m": 0.53252,
+      "heading_error_rad": 0.06119,
+      "exposures": [
+        {
+          "tick": 94,
+          "tags": [
+            "east-0"
+          ]
+        }
+      ]
+    },
+    {
+      "case": "2-1-east",
+      "floor_span_m": null,
+      "success": true,
+      "reason": "docked",
+      "ticks": 331,
+      "collision": false,
+      "position_error_m": 0.06115,
+      "heading_error_rad": 0.00852,
+      "exposures": [
+        {
+          "tick": 179,
+          "tags": [
+            "west-2"
+          ]
+        }
+      ]
+    },
+    {
+      "case": "2-1-west",
+      "floor_span_m": [
+        7.4,
+        9.65
+      ],
+      "success": true,
+      "reason": "docked",
+      "ticks": 379,
+      "collision": false,
+      "position_error_m": 0.14182,
+      "heading_error_rad": 0.10136,
+      "exposures": [
+        {
+          "tick": 104,
+          "tags": [
+            "east-2"
+          ]
+        }
+      ]
+    },
+    {
+      "case": "3-0-east",
+      "floor_span_m": [
+        8.6,
+        10.25
+      ],
+      "success": false,
+      "reason": "incorrect final pose or cart still moving",
+      "ticks": 392,
+      "collision": false,
+      "position_error_m": 0.14592,
+      "heading_error_rad": 0.54565,
+      "exposures": [
+        {
+          "tick": 179,
+          "tags": [
+            "west-0"
+          ]
+        }
+      ]
+    },
+    {
+      "case": "3-0-west",
+      "floor_span_m": null,
+      "success": true,
+      "reason": "docked",
+      "ticks": 421,
+      "collision": false,
+      "position_error_m": 0.06714,
+      "heading_error_rad": 0.00181,
+      "exposures": [
+        {
+          "tick": 97,
+          "tags": [
+            "east-0"
+          ]
+        }
+      ]
+    },
+    {
+      "case": "3-1-east",
+      "floor_span_m": [
+        7.4,
+        9.65
+      ],
+      "success": false,
+      "reason": "incorrect final pose or cart still moving",
+      "ticks": 309,
+      "collision": false,
+      "position_error_m": 0.71046,
+      "heading_error_rad": 1.48727,
+      "exposures": [
+        {
+          "tick": 179,
+          "tags": [
+            "west-1"
+          ]
+        }
+      ]
+    },
+    {
+      "case": "3-1-west",
+      "floor_span_m": [
+        9.6,
+        12.65
+      ],
+      "success": false,
+      "reason": "collision",
+      "ticks": 410,
+      "collision": true,
+      "position_error_m": 1.69772,
+      "heading_error_rad": 0.90167,
+      "exposures": [
+        {
+          "tick": 112,
+          "tags": [
+            "east-1"
+          ]
+        }
+      ]
+    }
+  ]
+}

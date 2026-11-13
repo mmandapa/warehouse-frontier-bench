@@ -1,0 +1,9 @@
+{
+    "job_name": "oracle-retry-01",
+    "jobs_dir": "results/warehouse-recovery/harbor-controls-v1.1.1",
+    "tasks": [
+        {
+            "path": "tasks/warehouse-recovery-v1.1.1"
+        }
+    ]
+}

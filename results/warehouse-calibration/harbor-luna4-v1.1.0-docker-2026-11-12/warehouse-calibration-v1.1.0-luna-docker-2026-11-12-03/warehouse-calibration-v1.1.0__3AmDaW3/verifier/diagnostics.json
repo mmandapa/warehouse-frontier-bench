@@ -1,0 +1,127 @@
+{
+  "reward": 0.0,
+  "passed": 0,
+  "total": 60,
+  "cases": [
+    {
+      "family": 0,
+      "variant": 0,
+      "passed": 0,
+      "reason": "policy exited before finish",
+      "ticks": 0,
+      "camera_used": false,
+      "camera_readings": 0,
+      "forecasts": []
+    },
+    {
+      "family": 0,
+      "variant": 1,
+      "passed": 0,
+      "reason": "policy exited before finish",
+      "ticks": 0,
+      "camera_used": false,
+      "camera_readings": 0,
+      "forecasts": []
+    },
+    {
+      "family": 1,
+      "variant": 0,
+      "passed": 0,
+      "reason": "policy exited before finish",
+      "ticks": 0,
+      "camera_used": false,
+      "camera_readings": 0,
+      "forecasts": []
+    },
+    {
+      "family": 1,
+      "variant": 1,
+      "passed": 0,
+      "reason": "policy exited before finish",
+      "ticks": 0,
+      "camera_used": false,
+      "camera_readings": 0,
+      "forecasts": []
+    },
+    {
+      "family": 2,
+      "variant": 0,
+      "passed": 0,
+      "reason": "policy exited before finish",
+      "ticks": 0,
+      "camera_used": false,
+      "camera_readings": 0,
+      "forecasts": []
+    },
+    {
+      "family": 2,
+      "variant": 1,
+      "passed": 0,
+      "reason": "policy exited before finish",
+      "ticks": 0,
+      "camera_used": false,
+      "camera_readings": 0,
+      "forecasts": []
+    },
+    {
+      "family": 3,
+      "variant": 0,
+      "passed": 0,
+      "reason": "policy exited before finish",
+      "ticks": 0,
+      "camera_used": false,
+      "camera_readings": 0,
+      "forecasts": []
+    },
+    {
+      "family": 3,
+      "variant": 1,
+      "passed": 0,
+      "reason": "policy exited before finish",
+      "ticks": 0,
+      "camera_used": false,
+      "camera_readings": 0,
+      "forecasts": []
+    },
+    {
+      "family": 4,
+      "variant": 0,
+      "passed": 0,
+      "reason": "policy exited before finish",
+      "ticks": 0,
+      "camera_used": false,
+      "camera_readings": 0,
+      "forecasts": []
+    },
+    {
+      "family": 4,
+      "variant": 1,
+      "passed": 0,
+      "reason": "policy exited before finish",
+      "ticks": 0,
+      "camera_used": false,
+      "camera_readings": 0,
+      "forecasts": []
+    },
+    {
+      "family": 5,
+      "variant": 0,
+      "passed": 0,
+      "reason": "policy exited before finish",
+      "ticks": 0,
+      "camera_used": false,
+      "camera_readings": 0,
+      "forecasts": []
+    },
+    {
+      "family": 5,
+      "variant": 1,
+      "passed": 0,
+      "reason": "policy exited before finish",
+      "ticks": 0,
+      "camera_used": false,
+      "camera_readings": 0,
+      "forecasts": []
+    }
+  ]
+}

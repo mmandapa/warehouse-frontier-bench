@@ -1,0 +1,297 @@
+{
+  "reward": 0.0,
+  "passed": 0,
+  "total": 16,
+  "collisions": 0,
+  "seconds": 0.553,
+  "cases": [
+    {
+      "case": "0-clear",
+      "success": false,
+      "reason": "incorrect final pose or cart still moving",
+      "ticks": 0,
+      "collision": false,
+      "position_error_m": 36.67424,
+      "heading_error_rad": 3.14159,
+      "exposures": [],
+      "finish_pose": [
+        6.0,
+        7.0,
+        0.0
+      ],
+      "closest_closure_m": []
+    },
+    {
+      "case": "0-one-closure",
+      "success": false,
+      "reason": "incorrect final pose or cart still moving",
+      "ticks": 0,
+      "collision": false,
+      "position_error_m": 36.67424,
+      "heading_error_rad": 3.14159,
+      "exposures": [],
+      "finish_pose": [
+        6.0,
+        7.0,
+        0.0
+      ],
+      "closest_closure_m": [
+        null
+      ]
+    },
+    {
+      "case": "0-two-closures",
+      "success": false,
+      "reason": "incorrect final pose or cart still moving",
+      "ticks": 0,
+      "collision": false,
+      "position_error_m": 36.67424,
+      "heading_error_rad": 3.14159,
+      "exposures": [],
+      "finish_pose": [
+        6.0,
+        7.0,
+        0.0
+      ],
+      "closest_closure_m": [
+        null,
+        null
+      ]
+    },
+    {
+      "case": "0-two-closures-and-grip",
+      "success": false,
+      "reason": "incorrect final pose or cart still moving",
+      "ticks": 0,
+      "collision": false,
+      "position_error_m": 36.67424,
+      "heading_error_rad": 3.14159,
+      "exposures": [],
+      "finish_pose": [
+        6.0,
+        7.0,
+        0.0
+      ],
+      "closest_closure_m": [
+        null,
+        null
+      ]
+    },
+    {
+      "case": "1-clear",
+      "success": false,
+      "reason": "incorrect final pose or cart still moving",
+      "ticks": 0,
+      "collision": false,
+      "position_error_m": 36.13862,
+      "heading_error_rad": 1.5708,
+      "exposures": [],
+      "finish_pose": [
+        40.0,
+        14.0,
+        0.0
+      ],
+      "closest_closure_m": []
+    },
+    {
+      "case": "1-one-closure",
+      "success": false,
+      "reason": "incorrect final pose or cart still moving",
+      "ticks": 0,
+      "collision": false,
+      "position_error_m": 36.13862,
+      "heading_error_rad": 1.5708,
+      "exposures": [],
+      "finish_pose": [
+        40.0,
+        14.0,
+        0.0
+      ],
+      "closest_closure_m": [
+        null
+      ]
+    },
+    {
+      "case": "1-two-closures",
+      "success": false,
+      "reason": "incorrect final pose or cart still moving",
+      "ticks": 0,
+      "collision": false,
+      "position_error_m": 36.13862,
+      "heading_error_rad": 1.5708,
+      "exposures": [],
+      "finish_pose": [
+        40.0,
+        14.0,
+        0.0
+      ],
+      "closest_closure_m": [
+        null,
+        null
+      ]
+    },
+    {
+      "case": "1-two-closures-and-grip",
+      "success": false,
+      "reason": "incorrect final pose or cart still moving",
+      "ticks": 0,
+      "collision": false,
+      "position_error_m": 36.13862,
+      "heading_error_rad": 1.5708,
+      "exposures": [],
+      "finish_pose": [
+        40.0,
+        14.0,
+        0.0
+      ],
+      "closest_closure_m": [
+        null,
+        null
+      ]
+    },
+    {
+      "case": "2-clear",
+      "success": false,
+      "reason": "incorrect final pose or cart still moving",
+      "ticks": 0,
+      "collision": false,
+      "position_error_m": 34.0,
+      "heading_error_rad": 1.5708,
+      "exposures": [],
+      "finish_pose": [
+        6.0,
+        23.0,
+        0.0
+      ],
+      "closest_closure_m": []
+    },
+    {
+      "case": "2-one-closure",
+      "success": false,
+      "reason": "incorrect final pose or cart still moving",
+      "ticks": 0,
+      "collision": false,
+      "position_error_m": 34.0,
+      "heading_error_rad": 1.5708,
+      "exposures": [],
+      "finish_pose": [
+        6.0,
+        23.0,
+        0.0
+      ],
+      "closest_closure_m": [
+        null
+      ]
+    },
+    {
+      "case": "2-two-closures",
+      "success": false,
+      "reason": "incorrect final pose or cart still moving",
+      "ticks": 0,
+      "collision": false,
+      "position_error_m": 34.0,
+      "heading_error_rad": 1.5708,
+      "exposures": [],
+      "finish_pose": [
+        6.0,
+        23.0,
+        0.0
+      ],
+      "closest_closure_m": [
+        null,
+        null
+      ]
+    },
+    {
+      "case": "2-two-closures-and-grip",
+      "success": false,
+      "reason": "incorrect final pose or cart still moving",
+      "ticks": 0,
+      "collision": false,
+      "position_error_m": 34.0,
+      "heading_error_rad": 1.5708,
+      "exposures": [],
+      "finish_pose": [
+        6.0,
+        23.0,
+        0.0
+      ],
+      "closest_closure_m": [
+        null,
+        null
+      ]
+    },
+    {
+      "case": "3-clear",
+      "success": false,
+      "reason": "incorrect final pose or cart still moving",
+      "ticks": 0,
+      "collision": false,
+      "position_error_m": 33.0,
+      "heading_error_rad": 1.5708,
+      "exposures": [],
+      "finish_pose": [
+        39.0,
+        6.0,
+        0.0
+      ],
+      "closest_closure_m": []
+    },
+    {
+      "case": "3-one-closure",
+      "success": false,
+      "reason": "incorrect final pose or cart still moving",
+      "ticks": 0,
+      "collision": false,
+      "position_error_m": 33.0,
+      "heading_error_rad": 1.5708,
+      "exposures": [],
+      "finish_pose": [
+        39.0,
+        6.0,
+        0.0
+      ],
+      "closest_closure_m": [
+        null
+      ]
+    },
+    {
+      "case": "3-two-closures",
+      "success": false,
+      "reason": "incorrect final pose or cart still moving",
+      "ticks": 0,
+      "collision": false,
+      "position_error_m": 33.0,
+      "heading_error_rad": 1.5708,
+      "exposures": [],
+      "finish_pose": [
+        39.0,
+        6.0,
+        0.0
+      ],
+      "closest_closure_m": [
+        null,
+        null
+      ]
+    },
+    {
+      "case": "3-two-closures-and-grip",
+      "success": false,
+      "reason": "incorrect final pose or cart still moving",
+      "ticks": 0,
+      "collision": false,
+      "position_error_m": 33.0,
+      "heading_error_rad": 1.5708,
+      "exposures": [],
+      "finish_pose": [
+        39.0,
+        6.0,
+        0.0
+      ],
+      "closest_closure_m": [
+        null,
+        null
+      ]
+    }
+  ]
+}

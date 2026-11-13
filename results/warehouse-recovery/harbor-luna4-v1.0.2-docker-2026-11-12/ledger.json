@@ -1,0 +1,27 @@
+{
+  "task": "warehouse-recovery-v1.0.2",
+  "cap_usd": "1",
+  "estimated_spend_usd": "0.08910644499999999",
+  "attempts": [
+    {
+      "attempt": 1,
+      "job_id": "a23cd9b5-da76-4ef1-a2f5-3aeb0caf0d7d",
+      "trial": "warehouse-recovery-v1.0.2__8AoEFXP",
+      "task_checksum": "986a38a22c0faf18366c7aa507ead45cc7f83b3a8fad8dcf6b3a73918d6e28f9",
+      "score": 1.0,
+      "exception": null,
+      "cost_usd": "0.08910644499999999",
+      "result": "warehouse-recovery-v1.0.2-luna-docker-2026-11-12-01/warehouse-recovery-v1.0.2__8AoEFXP/result.json"
+    },
+    {
+      "attempt": 2,
+      "job_id": "1a84012f-69bf-41ae-aa7c-f53cf8b21c3c",
+      "trial": "warehouse-recovery-v1.0.2__vt6iaRL",
+      "task_checksum": "986a38a22c0faf18366c7aa507ead45cc7f83b3a8fad8dcf6b3a73918d6e28f9",
+      "score": null,
+      "exception": "RuntimeError",
+      "cost_usd": null,
+      "result": "warehouse-recovery-v1.0.2-luna-docker-2026-11-12-02/warehouse-recovery-v1.0.2__vt6iaRL/result.json"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+[
+  {
+    "attempt": 1,
+    "policy_sha256": "e062f39b83def310110db714f015b646083df0833bb317035892b906ac24e8f2",
+    "official_reward": 1.0,
+    "replayed_reward": 1.0,
+    "differing_cases": [],
+    "outcomes": {
+      "docked": 16
+    },
+    "early_policy_exits": []
+  },
+  {
+    "attempt": 2,
+    "policy_sha256": "5dac7c7a9339556ad3f71fd4ce4a36248d5edc4efb11532f00740e2b34da314f",
+    "official_reward": 0.5,
+    "replayed_reward": 0.5,
+    "differing_cases": [],
+    "outcomes": {
+      "docked": 8,
+      "motion limit": 8
+    },
+    "early_policy_exits": []
+  },
+  {
+    "attempt": 3,
+    "policy_sha256": "d5e8e5b4ee3d3469e043a743f3a0c72ba9281fa8389a1c4f4ab6cd441aa76df2",
+    "official_reward": 0.625,
+    "replayed_reward": 0.625,
+    "differing_cases": [],
+    "outcomes": {
+      "docked": 10,
+      "collision": 4,
+      "motion limit": 2
+    },
+    "early_policy_exits": []
+  },
+  {
+    "attempt": 4,
+    "policy_sha256": "61c181b0a363fb24699c5897dad7af50fce3e8b6896647cc045c0a7f034d6fda",
+    "official_reward": 0.0,
+    "replayed_reward": 0.125,
+    "differing_cases": [
+      "1-two-closures",
+      "1-two-closures-and-grip"
+    ],
+    "outcomes": {
+      "collision": 14,
+      "docked": 2
+    },
+    "early_policy_exits": []
+  }
+]
