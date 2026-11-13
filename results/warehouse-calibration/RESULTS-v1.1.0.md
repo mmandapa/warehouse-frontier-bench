@@ -1,11 +1,23 @@
 # Warehouse Cart Calibration v1.1.0 model results
 
-GPT-6 Luna fully solved 0 of 4 trials, compared with 4 of 4 on
-[Calibration v1.0.0](RESULTS-v1.0.0.md). The new version asks the agent
-to choose measurements that separate base traction from the effect of
-recent motor effort, then predict motion on new command sequences.
-Three submissions returned every forecast but missed position tolerance.
-The remaining trial submitted a Python file with a syntax error.
+Four runnable GPT-6 Luna submissions passed **211/240 forecasts (87.9%)**
+on the frozen task. The results were **54/60, 52/60, 48/60, and 57/60**.
+The last score came from a fresh retest after attempt 3 exited with a
+Python syntax error. Offline replay reproduced the retest's three
+position misses on sustained reverse drives.
+
+| Attempt with a runnable submission | Correct forecasts | Reward |
+| --- | ---: | ---: |
+| 1 | 54/60 | 0.9000 |
+| 2 | 52/60 | 0.8667 |
+| 4 | 48/60 | 0.8000 |
+| Retest | 57/60 | 0.9500 |
+
+## Original four attempts
+
+GPT-6 Luna fully solved 0 of 4 attempts in the original batch, compared
+with 4 of 4 on [Calibration v1.0.0](RESULTS-v1.0.0.md). The original
+batch includes the syntax-error submission and its zero reward.
 
 | Attempt | Reward | Correct forecasts | Harbor wall time | Main finding | Artifacts |
 | --- | ---: | ---: | ---: | --- | --- |
@@ -51,7 +63,7 @@ hold the estimator and cart fixed while comparing agent-chosen probes
 against a known informative probe. No stronger-model run was performed
 on this task version.
 
-## Supplemental Luna trial
+## Retest after attempt 3
 
 One fresh trial used the same frozen package and harness settings to
 get another observation of a runnable calibration policy after the
@@ -63,7 +75,4 @@ reverse forecasts. Position errors were 9.35–13.34 cm against the
 every diagnostic. Recorded spend was $0.01630.
 Artifacts: [trace](harbor-luna-followup-v1.1.0-docker-2026-11-12/warehouse-calibration-v1.1.0-luna-followup-01/warehouse-calibration-v1.1.0__6tqXHM6/agent/trajectory.json), [policy](harbor-luna-followup-v1.1.0-docker-2026-11-12/warehouse-calibration-v1.1.0-luna-followup-01/warehouse-calibration-v1.1.0__6tqXHM6/artifacts/app/policy.py), [verifier diagnostics](harbor-luna-followup-v1.1.0-docker-2026-11-12/warehouse-calibration-v1.1.0-luna-followup-01/warehouse-calibration-v1.1.0__6tqXHM6/verifier/diagnostics.json), [Harbor result](harbor-luna-followup-v1.1.0-docker-2026-11-12/warehouse-calibration-v1.1.0-luna-followup-01/warehouse-calibration-v1.1.0__6tqXHM6/result.json).
 
-The original four remain the assignment batch. Across all five trials,
-Luna fully solved zero. The four runnable submissions passed 211/240
-forecasts (87.9%); that figure describes calibration performance
-conditional on a runnable submission.
+Across the five launches, Luna fully solved zero.
