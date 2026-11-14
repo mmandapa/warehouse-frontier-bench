@@ -1,0 +1,63 @@
+{
+  "source_commit": "0c61e77bf1fccc239acbb3648f2501b44ab43fbc",
+  "harbor_task_checksum": "6c1732c38242d0df75757c7d26ebe2d73d5e43bbddf4f714f8048782c0328784",
+  "attempts": [
+    {
+      "attempt": 1,
+      "job": "calibration-luna-fresh-01",
+      "status": "valid",
+      "started_at": "2026-11-14T02:33:29.951508+00:00",
+      "returncode": 0,
+      "finished_at": "2026-11-14T02:37:19.520411+00:00",
+      "result": "results/warehouse-calibration/harbor-luna-fresh/calibration-luna-fresh-01/warehouse-calibration__8NHu45B/result.json",
+      "trial": "warehouse-calibration__8NHu45B",
+      "reward": 0.9333333333333333,
+      "cost_usd": 0.0184635,
+      "exception_type": null,
+      "task_digest": "sha256:b555c134574d61891d3db1793bd5faf18222aba3c720c8ec9d07ce7c422d313f"
+    },
+    {
+      "attempt": 2,
+      "job": "calibration-luna-fresh-02",
+      "status": "valid",
+      "started_at": "2026-11-14T02:37:20.026740+00:00",
+      "returncode": 0,
+      "finished_at": "2026-11-14T02:41:35.495551+00:00",
+      "result": "results/warehouse-calibration/harbor-luna-fresh/calibration-luna-fresh-02/warehouse-calibration__me6kGCr/result.json",
+      "trial": "warehouse-calibration__me6kGCr",
+      "reward": 0.8666666666666667,
+      "cost_usd": 0.019249944999999997,
+      "exception_type": null,
+      "task_digest": "sha256:b555c134574d61891d3db1793bd5faf18222aba3c720c8ec9d07ce7c422d313f"
+    },
+    {
+      "attempt": 3,
+      "job": "calibration-luna-fresh-03",
+      "status": "valid",
+      "started_at": "2026-11-14T02:41:35.682293+00:00",
+      "returncode": 0,
+      "finished_at": "2026-11-14T02:47:20.792429+00:00",
+      "result": "results/warehouse-calibration/harbor-luna-fresh/calibration-luna-fresh-03/warehouse-calibration__XsAaVbd/result.json",
+      "trial": "warehouse-calibration__XsAaVbd",
+      "reward": 0.9666666666666667,
+      "cost_usd": 0.035953330000000006,
+      "exception_type": null,
+      "task_digest": "sha256:b555c134574d61891d3db1793bd5faf18222aba3c720c8ec9d07ce7c422d313f"
+    },
+    {
+      "attempt": 4,
+      "job": "calibration-luna-fresh-04",
+      "status": "valid",
+      "started_at": "2026-11-14T02:47:20.975174+00:00",
+      "returncode": 0,
+      "finished_at": "2026-11-14T02:49:27.957760+00:00",
+      "result": "results/warehouse-calibration/harbor-luna-fresh/calibration-luna-fresh-04/warehouse-calibration__kXV6zo9/result.json",
+      "trial": "warehouse-calibration__kXV6zo9",
+      "reward": 1.0,
+      "cost_usd": 0.008328815,
+      "exception_type": null,
+      "task_digest": "sha256:b555c134574d61891d3db1793bd5faf18222aba3c720c8ec9d07ce7c422d313f"
+    }
+  ],
+  "recorded_cost_usd": "0.081995590000000003"
+}
