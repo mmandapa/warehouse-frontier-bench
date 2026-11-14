@@ -1,0 +1,17 @@
+{
+    "task": {
+        "path": "tasks/warehouse-calibration-v1.1.0"
+    },
+    "trial_name": "warehouse-calibration-v1.1.0__3AmDaW3",
+    "trials_dir": "results/warehouse-calibration/harbor-luna4-v1.1.0-docker-2026-11-12/warehouse-calibration-v1.1.0-luna-docker-2026-11-12-03",
+    "agent": {
+        "name": "codex",
+        "model_name": "openai/gpt-6-luna",
+        "kwargs": {
+            "version": "0.163.0",
+            "web_search": "disabled",
+            "reasoning_effort": "medium"
+        }
+    },
+    "job_id": "536ba6c6-7208-455e-b9b5-33f432b0c8e3"
+}
