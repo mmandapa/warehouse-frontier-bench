@@ -1,8 +1,0 @@
-{
-    "task": {
-        "path": "tasks/unseen-subject-audit"
-    },
-    "trial_name": "unseen-subject-audit__GGD5jXM",
-    "trials_dir": "results/oracle/final-boundary-check",
-    "job_id": "9d794a81-31c3-456e-b58e-7d189cc630d2"
-}
