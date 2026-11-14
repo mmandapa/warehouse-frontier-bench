@@ -1,0 +1,15 @@
+{
+  "job": "warehouse-calibration-v1.1.0-luna-followup-01",
+  "status": "valid",
+  "task_sha256": "e4f701315bb4b80396ef01a0d95a0817f32c808503c1b67038d7f61cca916088",
+  "harbor_task_checksum": "974e6f35db919c3697d657fe88efa2817ae4547342b8b9618d0d38eacbfc9441",
+  "started_at": "2026-11-13T04:18:53.838082+00:00",
+  "returncode": 0,
+  "finished_at": "2026-11-13T04:22:56.155027+00:00",
+  "result": "results/warehouse-calibration/harbor-luna-followup-v1.1.0-docker-2026-11-12/warehouse-calibration-v1.1.0-luna-followup-01/warehouse-calibration-v1.1.0__6tqXHM6/result.json",
+  "trial": "warehouse-calibration-v1.1.0__6tqXHM6",
+  "reward": 0.95,
+  "same_freeze": true,
+  "cost_usd": 0.016296844999999997,
+  "exception_type": null
+}
