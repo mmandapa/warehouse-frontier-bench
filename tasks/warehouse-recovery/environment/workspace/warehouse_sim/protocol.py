@@ -103,14 +103,15 @@ def execute(wire: Wire, cart: Cart, layout: Layout) -> dict:
                 if (not all(type(x) in (float, int) and math.isfinite(x) and abs(x) <= 1 for x in (left, right))
                         or type(ticks) is not int or not 1 <= ticks <= 10):
                     raise PolicyError("invalid wheel speed or command duration")
-                for _ in range(ticks):
+                remaining = cart.tick_limit - cart.tick
+                for _ in range(min(ticks, remaining)):
                     cart.advance(left, right)
-                    if cart.collided or cart.tick >= cart.tick_limit:
+                    if cart.collided:
                         break
                 if cart.collided:
                     reason = "collision"
                     break
-                if cart.tick >= cart.tick_limit:
+                if ticks > remaining:
                     reason = "motion limit"
                     break
                 wire.write({})

@@ -84,7 +84,9 @@ One Calibration launch stopped at the API quota and has no score.
 route, then reached the motion limit in three two-closure missions.
 Other Luna policies also collided on clear routes, so the gap includes
 basic navigation and control. Astra completed every mission under the
-same limits. Offline replay reproduced all 64 Luna episode diagnostics.
+same limits. Replaying the eight saved policies against the corrected
+final-tick rule reproduced every mission pass/fail outcome.
+[Recovery replay](results/warehouse-recovery/QUALIFICATION.md#final-tick-correction)
 
 **Calibration.** In the fresh batch, Luna passed every heading check.
 Three policies missed 14 positions in total, nine on sustained reverse

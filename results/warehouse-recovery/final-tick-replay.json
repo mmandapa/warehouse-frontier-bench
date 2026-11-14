@@ -1,0 +1,113 @@
+{
+  "python": "3.12.14",
+  "runs": [
+    {
+      "name": "oracle",
+      "policy_sha256": "80b4f62aa612c87d6223593fe20f65069ba6e76f41ab47aeb1c74281a2d977b4",
+      "reward": 1.0,
+      "passed": 16,
+      "total": 16,
+      "original_harbor_reward": null
+    },
+    {
+      "name": "no-op",
+      "policy_sha256": "0b167a2197a57a1fe2a42e7ca2cc65ba07724f527f3e638f4a1e09730ecdfac8",
+      "reward": 0.0,
+      "passed": 0,
+      "total": 16,
+      "original_harbor_reward": null
+    },
+    {
+      "name": "astra-01",
+      "policy_sha256": "77bc48657ff0b5f18b3dd5547dda54106d6bc2ddd108b362f9a9b7ddca6db465",
+      "reward": 1.0,
+      "passed": 16,
+      "total": 16,
+      "trial": "harbor-astra1-v1.1.2-docker-2026-11-12/warehouse-recovery-v1.1.2-astra-docker-2026-11-12-01/warehouse-recovery-v1.1.2__9xYGkxq",
+      "identical_case_diagnostics": true,
+      "changed_cases": [],
+      "original_harbor_reward": 1.0
+    },
+    {
+      "name": "astra-02",
+      "policy_sha256": "b4dd299a173dbc6107b4a7cc246f20dc38363192495b71b1304a351782b69f12",
+      "reward": 1.0,
+      "passed": 16,
+      "total": 16,
+      "trial": "harbor-astra1-v1.1.2-docker-2026-11-12/warehouse-recovery-v1.1.2-astra-docker-2026-11-12-02/warehouse-recovery-v1.1.2__JdfbzHS",
+      "identical_case_diagnostics": true,
+      "changed_cases": [],
+      "original_harbor_reward": 1.0
+    },
+    {
+      "name": "astra-03",
+      "policy_sha256": "5af9d07b59fbaeb15465edea569db7599de15e4a6ddc3f19727548de50e004da",
+      "reward": 1.0,
+      "passed": 16,
+      "total": 16,
+      "trial": "harbor-astra1-v1.1.2-docker-2026-11-12/warehouse-recovery-v1.1.2-astra-docker-2026-11-12-03/warehouse-recovery-v1.1.2__RpJZznW",
+      "identical_case_diagnostics": true,
+      "changed_cases": [],
+      "original_harbor_reward": 1.0
+    },
+    {
+      "name": "astra-04",
+      "policy_sha256": "e26d319cbb5889ca14f36b72cd41d2c3b23d2bcefa0a2e0599cfadb75b9a3ae9",
+      "reward": 1.0,
+      "passed": 16,
+      "total": 16,
+      "trial": "harbor-astra1-v1.1.2-docker-2026-11-12/warehouse-recovery-v1.1.2-astra-docker-2026-11-12-04/warehouse-recovery-v1.1.2__jzoaGxX",
+      "identical_case_diagnostics": true,
+      "changed_cases": [],
+      "original_harbor_reward": 1.0
+    },
+    {
+      "name": "luna-01",
+      "policy_sha256": "1e6e4345557d222d95578061d5e5d470be980948e152067622c9966f708f3382",
+      "reward": 0.3125,
+      "passed": 5,
+      "total": 16,
+      "trial": "harbor-luna4-v1.1.2-docker-2026-11-12/warehouse-recovery-v1.1.2-luna-docker-2026-11-12-01/warehouse-recovery-v1.1.2__B7XZKxp",
+      "identical_case_diagnostics": false,
+      "changed_cases": [
+        "0-two-closures-and-grip"
+      ],
+      "original_harbor_reward": 0.3125
+    },
+    {
+      "name": "luna-02",
+      "policy_sha256": "9135a80c0a2ff07cfd07a7506bfd7c16845905f00a37a5bec0ee177e0f302422",
+      "reward": 0.8125,
+      "passed": 13,
+      "total": 16,
+      "trial": "harbor-luna4-v1.1.2-docker-2026-11-12/warehouse-recovery-v1.1.2-luna-docker-2026-11-12-02/warehouse-recovery-v1.1.2__UTLAitt",
+      "identical_case_diagnostics": true,
+      "changed_cases": [],
+      "original_harbor_reward": 0.8125
+    },
+    {
+      "name": "luna-03",
+      "policy_sha256": "b38d83e3ee162ff8c9d0d9ae0f980de8208ca86e6f7ac645f5c7f324a33ad89f",
+      "reward": 0.375,
+      "passed": 6,
+      "total": 16,
+      "trial": "harbor-luna4-v1.1.2-docker-2026-11-12/warehouse-recovery-v1.1.2-luna-docker-2026-11-12-03/warehouse-recovery-v1.1.2__FQiSncA",
+      "identical_case_diagnostics": true,
+      "changed_cases": [],
+      "original_harbor_reward": 0.375
+    },
+    {
+      "name": "luna-04",
+      "policy_sha256": "57bf254c9bcf712f9bbd5ebbdcc67ba29314aa999f04e0be32e5ea5f20e9e5cf",
+      "reward": 0.5625,
+      "passed": 9,
+      "total": 16,
+      "trial": "harbor-luna4-v1.1.2-docker-2026-11-12/warehouse-recovery-v1.1.2-luna-docker-2026-11-12-04/warehouse-recovery-v1.1.2__mBRyrmC",
+      "identical_case_diagnostics": true,
+      "changed_cases": [],
+      "original_harbor_reward": 0.5625
+    }
+  ],
+  "harbor_task_checksum": "e3e0ab699dbd32a13a6a77d07de3cd7839ab31079126ee141b2e2d09ed591e4d",
+  "method": "Saved policies replayed in offline Linux Docker with two CPUs and 4 GiB. Compared every mission pass/fail with original Harbor diagnostics."
+}

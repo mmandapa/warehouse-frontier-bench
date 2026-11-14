@@ -1,0 +1,131 @@
+{
+  "task_path": "tasks/warehouse-recovery",
+  "harbor_task_checksum": "2d3c666fb5534600aa26cf2f405f77a1aa61012276a88662f302f39cba0c5140",
+  "files": [
+    {
+      "path": "README.md",
+      "sha256": "c62f6ba945e8af292a7aa4d1f84dca47b1349c91f84f68ba435ba175492a6198",
+      "size_bytes": 1527
+    },
+    {
+      "path": "environment/Dockerfile",
+      "sha256": "28ed78863d5ecd3f13922ada0e5128f0fa1c69047e4a911ff61c643425881250",
+      "size_bytes": 693
+    },
+    {
+      "path": "environment/workspace/README.md",
+      "sha256": "2764aa3540aafacf5ef5544771c3af05bf0ce3dcc01fce0ac41a0caf4c94f439",
+      "size_bytes": 3048
+    },
+    {
+      "path": "environment/workspace/policy.py",
+      "sha256": "0b167a2197a57a1fe2a42e7ca2cc65ba07724f527f3e638f4a1e09730ecdfac8",
+      "size_bytes": 164
+    },
+    {
+      "path": "environment/workspace/practice.py",
+      "sha256": "65b366ce386fb069205c8b308fc8d13dfe492461202c86b272b42c5058d7fc1f",
+      "size_bytes": 1405
+    },
+    {
+      "path": "environment/workspace/warehouse_sim/client.py",
+      "sha256": "3a267a61d855a3b3f6cd75a2abd37b69da7991713a5caaa9b68cf6204829ab58",
+      "size_bytes": 1606
+    },
+    {
+      "path": "environment/workspace/warehouse_sim/facility.py",
+      "sha256": "393eaf36b1ab62714a1b9fb18bcd5683757b9fe0ab2974aed83028b592fffd0e",
+      "size_bytes": 1841
+    },
+    {
+      "path": "environment/workspace/warehouse_sim/protocol.py",
+      "sha256": "5f17847e875447edc803d75721c1ea99b51b7f24fe003cfa9c6074825794a646",
+      "size_bytes": 6097
+    },
+    {
+      "path": "environment/workspace/warehouse_sim/world.py",
+      "sha256": "9c6afbf461e042bb5033d3f7406fd06afa9d356ec29f9588ef7b3174af30d126",
+      "size_bytes": 7685
+    },
+    {
+      "path": "instruction.md",
+      "sha256": "a76c444c311e2a3ec2297aaa411966e00e7934d0a3db53c3f8c15ddc5f38164e",
+      "size_bytes": 515
+    },
+    {
+      "path": "solution/policy.py",
+      "sha256": "80b4f62aa612c87d6223593fe20f65069ba6e76f41ab47aeb1c74281a2d977b4",
+      "size_bytes": 6134
+    },
+    {
+      "path": "solution/solve.sh",
+      "sha256": "f92206b06ebb539ea2651d9037d25966c843de5f8d909b3de08fa239ef732ef5",
+      "size_bytes": 76
+    },
+    {
+      "path": "task.toml",
+      "sha256": "fdf89c08a3d2019204c05c954488c15f8fbb55883e3fea33459b277f68f43a70",
+      "size_bytes": 699
+    },
+    {
+      "path": "tests/Dockerfile",
+      "sha256": "0010aaffc507aed7564c5ef93b2cfe793a645e7ee49921ea2147065abde49bc5",
+      "size_bytes": 307
+    },
+    {
+      "path": "tests/grader/grade.py",
+      "sha256": "602c35acfb04c533511a87276972a6ed5ed5d36912e1e25270128bbf292dfaf3",
+      "size_bytes": 2082
+    },
+    {
+      "path": "tests/grader/public/client.py",
+      "sha256": "3a267a61d855a3b3f6cd75a2abd37b69da7991713a5caaa9b68cf6204829ab58",
+      "size_bytes": 1606
+    },
+    {
+      "path": "tests/grader/public/facility.py",
+      "sha256": "393eaf36b1ab62714a1b9fb18bcd5683757b9fe0ab2974aed83028b592fffd0e",
+      "size_bytes": 1841
+    },
+    {
+      "path": "tests/grader/public/protocol.py",
+      "sha256": "5f17847e875447edc803d75721c1ea99b51b7f24fe003cfa9c6074825794a646",
+      "size_bytes": 6097
+    },
+    {
+      "path": "tests/grader/public/world.py",
+      "sha256": "9c6afbf461e042bb5033d3f7406fd06afa9d356ec29f9588ef7b3174af30d126",
+      "size_bytes": 7685
+    },
+    {
+      "path": "tests/grader/warehouse_sim/facility.py",
+      "sha256": "393eaf36b1ab62714a1b9fb18bcd5683757b9fe0ab2974aed83028b592fffd0e",
+      "size_bytes": 1841
+    },
+    {
+      "path": "tests/grader/warehouse_sim/protocol.py",
+      "sha256": "5f17847e875447edc803d75721c1ea99b51b7f24fe003cfa9c6074825794a646",
+      "size_bytes": 6097
+    },
+    {
+      "path": "tests/grader/warehouse_sim/scenes.py",
+      "sha256": "b5f464888a9b3eac9999581922ad6d4398e2ca252a78f616aa642e7af760d3dc",
+      "size_bytes": 4648
+    },
+    {
+      "path": "tests/grader/warehouse_sim/world.py",
+      "sha256": "9c6afbf461e042bb5033d3f7406fd06afa9d356ec29f9588ef7b3174af30d126",
+      "size_bytes": 7685
+    },
+    {
+      "path": "tests/test.sh",
+      "sha256": "217839c2313451a7ed9295ee9bf24c832e7ab174d3d0913375dc8d036b936f09",
+      "size_bytes": 161
+    }
+  ],
+  "evaluated_manifest": "frozen-v1.1.2.json",
+  "differences_from_evaluated_package": [
+    "README.md",
+    "task.toml"
+  ]
+}

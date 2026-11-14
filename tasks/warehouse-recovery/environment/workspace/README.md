@@ -36,8 +36,11 @@ for the client.
 The wheel separation is 0.56 m. The footprint has a radius of 0.28 m.
 Floor grip can vary within a mission. A collision ends the mission.
 To succeed, stop within 0.22 m and 0.12 rad of the dock with no pending
-movement. The mission allows 2,100 simulation ticks. The controller has
-12 seconds of wall time and up to 6,500 protocol requests per mission.
+movement. The mission allows 2,100 simulation ticks. You can still call
+`observe()` and `finish()` after the last tick. A drive command that
+exceeds the remaining tick budget ends the mission with a failure.
+The controller has 12 seconds of wall time and up to 6,500 protocol
+requests per mission.
 The Linux policy process has a 512 MiB virtual memory limit and a 4 MiB
 per-file size limit. Each request, including its newline, can be at most
 8 KiB.

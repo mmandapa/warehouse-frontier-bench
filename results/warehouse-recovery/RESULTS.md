@@ -1,9 +1,10 @@
 # Warehouse recovery model results
 
-The recorded model trials use the same agent workspace, instructions,
-simulator, and grader as the task linked from the repository README.
-The task package label and its top-level README were updated for
-distribution. Original trial IDs and hashes are retained below.
+The tables report the original Harbor trials. The distributed task
+includes a correction that lets a controller call `finish()` after
+using its final simulation tick. See the
+[qualification report](QUALIFICATION.md#final-tick-correction) for the
+replay of the saved policies against the corrected grader.
 
 Four fresh Codex CLI 0.163.0 trials used `openai/gpt-6-luna` at medium
 reasoning effort. Harbor ran them sequentially in Docker with a

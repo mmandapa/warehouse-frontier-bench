@@ -1,6 +1,6 @@
 {
   "task_path": "tasks/warehouse-recovery",
-  "harbor_task_checksum": "2d3c666fb5534600aa26cf2f405f77a1aa61012276a88662f302f39cba0c5140",
+  "harbor_task_checksum": "e3e0ab699dbd32a13a6a77d07de3cd7839ab31079126ee141b2e2d09ed591e4d",
   "files": [
     {
       "path": "README.md",
@@ -14,8 +14,8 @@
     },
     {
       "path": "environment/workspace/README.md",
-      "sha256": "2764aa3540aafacf5ef5544771c3af05bf0ce3dcc01fce0ac41a0caf4c94f439",
-      "size_bytes": 3048
+      "sha256": "fe2fa423ac25e42308df6a4bd25432b7587738998f3600b10eb4afad61e94810",
+      "size_bytes": 3203
     },
     {
       "path": "environment/workspace/policy.py",
@@ -39,8 +39,8 @@
     },
     {
       "path": "environment/workspace/warehouse_sim/protocol.py",
-      "sha256": "5f17847e875447edc803d75721c1ea99b51b7f24fe003cfa9c6074825794a646",
-      "size_bytes": 6097
+      "sha256": "b4e6b546dc344fcdf78b191fe27cd5fb592dc316c734597e9b1b2f3146081dc2",
+      "size_bytes": 6126
     },
     {
       "path": "environment/workspace/warehouse_sim/world.py",
@@ -89,8 +89,8 @@
     },
     {
       "path": "tests/grader/public/protocol.py",
-      "sha256": "5f17847e875447edc803d75721c1ea99b51b7f24fe003cfa9c6074825794a646",
-      "size_bytes": 6097
+      "sha256": "b4e6b546dc344fcdf78b191fe27cd5fb592dc316c734597e9b1b2f3146081dc2",
+      "size_bytes": 6126
     },
     {
       "path": "tests/grader/public/world.py",
@@ -104,8 +104,8 @@
     },
     {
       "path": "tests/grader/warehouse_sim/protocol.py",
-      "sha256": "5f17847e875447edc803d75721c1ea99b51b7f24fe003cfa9c6074825794a646",
-      "size_bytes": 6097
+      "sha256": "b4e6b546dc344fcdf78b191fe27cd5fb592dc316c734597e9b1b2f3146081dc2",
+      "size_bytes": 6126
     },
     {
       "path": "tests/grader/warehouse_sim/scenes.py",
@@ -122,10 +122,5 @@
       "sha256": "217839c2313451a7ed9295ee9bf24c832e7ab174d3d0913375dc8d036b936f09",
       "size_bytes": 161
     }
-  ],
-  "evaluated_manifest": "frozen-v1.1.2.json",
-  "differences_from_evaluated_package": [
-    "README.md",
-    "task.toml"
   ]
 }

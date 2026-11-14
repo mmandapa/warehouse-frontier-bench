@@ -22,10 +22,34 @@ scored 16/16 and the [no-op](harbor-controls-v1.1.2/nop/result.json) scored
 exceptions, and recorded the same task checksum. The
 [freeze manifest](frozen-v1.1.2.json) records the qualified package.
 
-The [distributed package manifest](package-manifest.json) identifies the
-folder linked from the repository README. The original control and model
-records retain their evaluated package identifiers. See the [model results](RESULTS.md).
+The [manifest from the original distribution](evaluated-package-manifest.json)
+records the package before the final-tick correction. The original control
+and model records retain their evaluated package identifiers. See the
+[model results](RESULTS.md).
 
-Fresh Harbor controls on the distributed package matched its manifest.
+Harbor controls on that package matched its manifest.
 The [oracle](package-controls/oracle/result.json) scored 16/16;
 the [no-op](package-controls/nop/result.json) scored 0/16.
+
+## Final-tick correction
+
+The grader previously ended the mission on the last permitted movement
+tick. The practice runner and grader now acknowledge a command that
+uses exactly the remaining ticks, then allow observation and docking.
+An over-budget drive still fails. Docking still requires the cart to
+have stopped within both pose tolerances.
+
+The [corrected package manifest](package-manifest.json) records a new
+Harbor checksum. On that package, the Harbor
+[oracle](final-tick-controls/oracle/result.json) scored 16/16 and the
+[no-op](final-tick-controls/nop/result.json) scored 0/16, both without
+exceptions. Run the regression checks from the repository root:
+
+```sh
+python3 -B scripts/test_recovery_tick_budget.py
+```
+
+An [offline Docker replay](final-tick-replay.json) rescored all eight
+saved model submissions with the corrected verifier. All 128 mission
+pass/fail outcomes matched the original trials. One mission's diagnostic
+details changed while its outcome stayed a fail.
