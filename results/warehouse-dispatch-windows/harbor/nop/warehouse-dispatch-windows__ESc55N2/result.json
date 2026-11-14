@@ -1,0 +1,120 @@
+{
+    "id": "373e7b59-ec42-481a-990a-270c77287543",
+    "task_name": "research/warehouse-dispatch-windows",
+    "trial_name": "warehouse-dispatch-windows__ESc55N2",
+    "trial_uri": "file:///Users/maharshi12/Documents/Codex/2026-11-06/tg/outputs/warehouse-fault-isolation-qualification/dispatch-window-study/harbor/nop/warehouse-dispatch-windows__ESc55N2",
+    "task_id": {
+        "path": "/Users/maharshi12/Documents/Codex/2026-11-06/tg/outputs/warehouse-fault-isolation-qualification/checkout/tasks/warehouse-dispatch-windows"
+    },
+    "source": null,
+    "task_checksum": "8043249039690eb332c308725f2783e8f5161f082fc0dfeee09a783eb9bbc35d",
+    "config": {
+        "task": {
+            "path": "/Users/maharshi12/Documents/Codex/2026-11-06/tg/outputs/warehouse-fault-isolation-qualification/checkout/tasks/warehouse-dispatch-windows",
+            "git_url": null,
+            "git_commit_id": null,
+            "name": null,
+            "ref": null,
+            "overwrite": false,
+            "download_dir": null,
+            "source": null
+        },
+        "trial_name": "warehouse-dispatch-windows__ESc55N2",
+        "trials_dir": "/Users/maharshi12/Documents/Codex/2026-11-06/tg/outputs/warehouse-fault-isolation-qualification/dispatch-window-study/harbor/nop",
+        "install_only": false,
+        "timeout_multiplier": 1.0,
+        "agent_timeout_multiplier": null,
+        "verifier_timeout_multiplier": null,
+        "agent_setup_timeout_multiplier": null,
+        "environment_build_timeout_multiplier": null,
+        "agent": {
+            "name": "nop",
+            "import_path": null,
+            "model_name": null,
+            "base_url": null,
+            "model_api_key_name": null,
+            "model_api_format": null,
+            "skip_model_parsing": false,
+            "n_concurrent": null,
+            "concurrency_group": null,
+            "skills": [],
+            "override_timeout_sec": null,
+            "override_setup_timeout_sec": null,
+            "max_timeout_sec": null,
+            "resume_trajectory": false,
+            "load_trajectory": null,
+            "extra_allowed_hosts": [],
+            "kwargs": {},
+            "mcp_servers": []
+        },
+        "user_agent": null,
+        "environment": {
+            "type": "docker",
+            "import_path": null,
+            "force_build": false,
+            "delete": true,
+            "stream": false,
+            "cpu_enforcement_policy": "auto",
+            "memory_enforcement_policy": "auto",
+            "override_cpus": null,
+            "override_memory_mb": null,
+            "override_storage_mb": null,
+            "override_gpus": null,
+            "override_tpu": null,
+            "mounts": null,
+            "extra_docker_compose": [],
+            "kwargs": {},
+            "extra_allowed_hosts": []
+        },
+        "verifier": {
+            "override_timeout_sec": null,
+            "max_timeout_sec": null,
+            "disable": false
+        },
+        "artifacts": [],
+        "extra_instruction_paths": [],
+        "extra_instructions": [],
+        "job_id": "3bebcc7c-7d3a-4f36-a5f4-82a506418ccc",
+        "source_trial": null
+    },
+    "agent_info": {
+        "name": "nop",
+        "version": "1.0.0",
+        "model_info": null
+    },
+    "agent_result": {
+        "n_input_tokens": null,
+        "n_cache_tokens": null,
+        "n_output_tokens": null,
+        "cost_usd": null,
+        "model_usage": null,
+        "rollout_details": null,
+        "metadata": null
+    },
+    "verifier_result": {
+        "rewards": {
+            "reward": 0.0
+        }
+    },
+    "verifier_environment_mode": "separate",
+    "exception_info": null,
+    "started_at": "2026-11-14T07:25:58.859354Z",
+    "finished_at": "2026-11-14T07:26:23.771043Z",
+    "environment_setup": {
+        "started_at": "2026-11-14T07:25:59.017811Z",
+        "finished_at": "2026-11-14T07:26:03.352924Z"
+    },
+    "agent_setup": {
+        "started_at": "2026-11-14T07:26:03.352995Z",
+        "finished_at": "2026-11-14T07:26:03.353055Z"
+    },
+    "agent_execution": {
+        "started_at": "2026-11-14T07:26:03.353152Z",
+        "finished_at": "2026-11-14T07:26:07.569587Z"
+    },
+    "verifier": {
+        "started_at": "2026-11-14T07:26:11.361379Z",
+        "finished_at": "2026-11-14T07:26:23.770999Z"
+    },
+    "step_results": null
+}

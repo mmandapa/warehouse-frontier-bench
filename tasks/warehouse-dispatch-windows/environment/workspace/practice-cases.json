@@ -1,0 +1,332 @@
+[
+  {
+    "lanes": [
+      [
+        "gate",
+        "amber",
+        2
+      ],
+      [
+        "gate",
+        "blue",
+        2
+      ],
+      [
+        "amber",
+        "hub",
+        1
+      ],
+      [
+        "blue",
+        "hub",
+        1
+      ],
+      [
+        "hub",
+        "dock",
+        1
+      ],
+      [
+        "hub",
+        "out",
+        1
+      ]
+    ],
+    "carts": [
+      {
+        "id": "cargo",
+        "start": "gate",
+        "pickup": "gate",
+        "delivery": "dock",
+        "deadline": 5
+      },
+      {
+        "id": "return",
+        "start": "hub",
+        "pickup": "hub",
+        "delivery": "out",
+        "deadline": 2
+      }
+    ],
+    "notice": {
+      "announce_tick": 1,
+      "orders": [
+        [
+          {
+            "lane": [
+              "blue",
+              "hub"
+            ],
+            "start": 1,
+            "end": 7
+          }
+        ],
+        [
+          {
+            "lane": [
+              "amber",
+              "hub"
+            ],
+            "start": 1,
+            "end": 7
+          }
+        ]
+      ]
+    },
+    "selected": 0
+  },
+  {
+    "lanes": [
+      [
+        "A2",
+        "J2",
+        1
+      ],
+      [
+        "J2",
+        "B2",
+        1
+      ],
+      [
+        "B2",
+        "G2",
+        2
+      ],
+      [
+        "G2",
+        "A2",
+        2
+      ],
+      [
+        "J2",
+        "P2",
+        1
+      ],
+      [
+        "B2",
+        "D2",
+        1
+      ],
+      [
+        "G2",
+        "Q2",
+        1
+      ]
+    ],
+    "carts": [
+      {
+        "id": "orange",
+        "start": "A2",
+        "pickup": "P2",
+        "delivery": "D2",
+        "deadline": 11
+      },
+      {
+        "id": "yellow",
+        "start": "B2",
+        "pickup": "B2",
+        "delivery": "Q2",
+        "deadline": 9
+      }
+    ],
+    "notice": {
+      "announce_tick": 1,
+      "orders": [
+        [
+          {
+            "lane": [
+              "J2",
+              "B2"
+            ],
+            "start": 2,
+            "end": 5
+          },
+          {
+            "bay": "P2",
+            "start": 1,
+            "end": 4
+          }
+        ],
+        []
+      ]
+    },
+    "selected": 0
+  },
+  {
+    "lanes": [
+      [
+        "A3",
+        "B3",
+        1
+      ],
+      [
+        "B3",
+        "C3",
+        1
+      ],
+      [
+        "C3",
+        "D3",
+        2
+      ],
+      [
+        "D3",
+        "E3",
+        1
+      ],
+      [
+        "E3",
+        "F3",
+        1
+      ],
+      [
+        "F3",
+        "A3",
+        2
+      ],
+      [
+        "B3",
+        "G3",
+        1
+      ],
+      [
+        "D3",
+        "H3",
+        1
+      ],
+      [
+        "E3",
+        "I3",
+        1
+      ],
+      [
+        "F3",
+        "J3",
+        1
+      ]
+    ],
+    "carts": [
+      {
+        "id": "lilac",
+        "start": "A3",
+        "pickup": "A3",
+        "delivery": "H3",
+        "deadline": 11
+      },
+      {
+        "id": "cyan",
+        "start": "C3",
+        "pickup": "G3",
+        "delivery": "I3",
+        "deadline": 11
+      },
+      {
+        "id": "white",
+        "start": "D3",
+        "pickup": "D3",
+        "delivery": "F3",
+        "deadline": 9
+      },
+      {
+        "id": "gray",
+        "start": "J3",
+        "pickup": "J3",
+        "delivery": "A3",
+        "deadline": 11
+      }
+    ],
+    "notice": {
+      "announce_tick": 1,
+      "orders": [
+        [
+          {
+            "lane": [
+              "C3",
+              "D3"
+            ],
+            "start": 1,
+            "end": 5
+          }
+        ],
+        []
+      ]
+    },
+    "selected": 0
+  },
+  {
+    "lanes": [
+      [
+        "gate",
+        "amber",
+        2
+      ],
+      [
+        "gate",
+        "blue",
+        2
+      ],
+      [
+        "amber",
+        "hub",
+        1
+      ],
+      [
+        "blue",
+        "hub",
+        1
+      ],
+      [
+        "hub",
+        "dock",
+        1
+      ],
+      [
+        "hub",
+        "out",
+        1
+      ]
+    ],
+    "carts": [
+      {
+        "id": "cargo",
+        "start": "gate",
+        "pickup": "gate",
+        "delivery": "dock",
+        "deadline": 5
+      },
+      {
+        "id": "return",
+        "start": "hub",
+        "pickup": "hub",
+        "delivery": "out",
+        "deadline": 2
+      }
+    ],
+    "notice": {
+      "announce_tick": 1,
+      "orders": [
+        [
+          {
+            "lane": [
+              "blue",
+              "hub"
+            ],
+            "start": 1,
+            "end": 7
+          }
+        ],
+        [
+          {
+            "lane": [
+              "amber",
+              "hub"
+            ],
+            "start": 1,
+            "end": 7
+          }
+        ]
+      ]
+    },
+    "selected": 1
+  }
+]

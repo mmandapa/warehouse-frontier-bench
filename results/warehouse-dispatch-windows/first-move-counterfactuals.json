@@ -1,0 +1,4886 @@
+[
+  {
+    "attempt": "02",
+    "shift": "fork-2",
+    "kept_first_move": {
+      "line": "A",
+      "exit": "R"
+    },
+    "rest_of_shift": {
+      "success": false,
+      "reason": "delivery deadline missed",
+      "tick": 5,
+      "deliveries": {
+        "exit": 1
+      },
+      "missed": [
+        "empty"
+      ],
+      "decisions": [
+        {
+          "view": {
+            "tick": 0,
+            "lanes": [
+              [
+                "S",
+                "A",
+                3
+              ],
+              [
+                "S",
+                "B",
+                3
+              ],
+              [
+                "A",
+                "D",
+                1
+              ],
+              [
+                "B",
+                "D",
+                1
+              ],
+              [
+                "D",
+                "L",
+                1
+              ],
+              [
+                "D",
+                "R",
+                1
+              ],
+              [
+                "S",
+                "P",
+                1
+              ]
+            ],
+            "closed": [],
+            "paused": [],
+            "notice": {
+              "announce_tick": 1,
+              "orders": [
+                [
+                  {
+                    "lane": [
+                      "B",
+                      "D"
+                    ],
+                    "start": 1,
+                    "end": 8
+                  }
+                ],
+                [
+                  {
+                    "lane": [
+                      "A",
+                      "D"
+                    ],
+                    "start": 1,
+                    "end": 8
+                  }
+                ]
+              ]
+            },
+            "selected": null,
+            "carts": [
+              {
+                "id": "line",
+                "start": "S",
+                "pickup": "S",
+                "delivery": "L",
+                "deadline": 6,
+                "at": "S",
+                "to": null,
+                "remaining": 0,
+                "stage": 1
+              },
+              {
+                "id": "exit",
+                "start": "D",
+                "pickup": "D",
+                "delivery": "R",
+                "deadline": 3,
+                "at": "D",
+                "to": null,
+                "remaining": 0,
+                "stage": 1
+              },
+              {
+                "id": "empty",
+                "start": "P",
+                "pickup": "P",
+                "delivery": "S",
+                "deadline": 5,
+                "at": "P",
+                "to": null,
+                "remaining": 0,
+                "stage": 1
+              }
+            ]
+          },
+          "moves": {
+            "line": "A",
+            "exit": "R"
+          }
+        },
+        {
+          "view": {
+            "tick": 1,
+            "lanes": [
+              [
+                "S",
+                "A",
+                3
+              ],
+              [
+                "S",
+                "B",
+                3
+              ],
+              [
+                "A",
+                "D",
+                1
+              ],
+              [
+                "B",
+                "D",
+                1
+              ],
+              [
+                "D",
+                "L",
+                1
+              ],
+              [
+                "D",
+                "R",
+                1
+              ],
+              [
+                "S",
+                "P",
+                1
+              ]
+            ],
+            "closed": [
+              [
+                "A",
+                "D"
+              ]
+            ],
+            "paused": [],
+            "notice": {
+              "announce_tick": 1,
+              "orders": [
+                [
+                  {
+                    "lane": [
+                      "B",
+                      "D"
+                    ],
+                    "start": 1,
+                    "end": 8
+                  }
+                ],
+                [
+                  {
+                    "lane": [
+                      "A",
+                      "D"
+                    ],
+                    "start": 1,
+                    "end": 8
+                  }
+                ]
+              ]
+            },
+            "selected": 1,
+            "carts": [
+              {
+                "id": "line",
+                "start": "S",
+                "pickup": "S",
+                "delivery": "L",
+                "deadline": 6,
+                "at": "S",
+                "to": "A",
+                "remaining": 2,
+                "stage": 1
+              },
+              {
+                "id": "exit",
+                "start": "D",
+                "pickup": "D",
+                "delivery": "R",
+                "deadline": 3,
+                "at": "R",
+                "to": null,
+                "remaining": 0,
+                "stage": 2
+              },
+              {
+                "id": "empty",
+                "start": "P",
+                "pickup": "P",
+                "delivery": "S",
+                "deadline": 5,
+                "at": "P",
+                "to": null,
+                "remaining": 0,
+                "stage": 1
+              }
+            ]
+          },
+          "moves": {}
+        },
+        {
+          "view": {
+            "tick": 2,
+            "lanes": [
+              [
+                "S",
+                "A",
+                3
+              ],
+              [
+                "S",
+                "B",
+                3
+              ],
+              [
+                "A",
+                "D",
+                1
+              ],
+              [
+                "B",
+                "D",
+                1
+              ],
+              [
+                "D",
+                "L",
+                1
+              ],
+              [
+                "D",
+                "R",
+                1
+              ],
+              [
+                "S",
+                "P",
+                1
+              ]
+            ],
+            "closed": [
+              [
+                "A",
+                "D"
+              ]
+            ],
+            "paused": [],
+            "notice": {
+              "announce_tick": 1,
+              "orders": [
+                [
+                  {
+                    "lane": [
+                      "B",
+                      "D"
+                    ],
+                    "start": 1,
+                    "end": 8
+                  }
+                ],
+                [
+                  {
+                    "lane": [
+                      "A",
+                      "D"
+                    ],
+                    "start": 1,
+                    "end": 8
+                  }
+                ]
+              ]
+            },
+            "selected": 1,
+            "carts": [
+              {
+                "id": "line",
+                "start": "S",
+                "pickup": "S",
+                "delivery": "L",
+                "deadline": 6,
+                "at": "S",
+                "to": "A",
+                "remaining": 1,
+                "stage": 1
+              },
+              {
+                "id": "exit",
+                "start": "D",
+                "pickup": "D",
+                "delivery": "R",
+                "deadline": 3,
+                "at": "R",
+                "to": null,
+                "remaining": 0,
+                "stage": 2
+              },
+              {
+                "id": "empty",
+                "start": "P",
+                "pickup": "P",
+                "delivery": "S",
+                "deadline": 5,
+                "at": "P",
+                "to": null,
+                "remaining": 0,
+                "stage": 1
+              }
+            ]
+          },
+          "moves": {}
+        },
+        {
+          "view": {
+            "tick": 3,
+            "lanes": [
+              [
+                "S",
+                "A",
+                3
+              ],
+              [
+                "S",
+                "B",
+                3
+              ],
+              [
+                "A",
+                "D",
+                1
+              ],
+              [
+                "B",
+                "D",
+                1
+              ],
+              [
+                "D",
+                "L",
+                1
+              ],
+              [
+                "D",
+                "R",
+                1
+              ],
+              [
+                "S",
+                "P",
+                1
+              ]
+            ],
+            "closed": [
+              [
+                "A",
+                "D"
+              ]
+            ],
+            "paused": [],
+            "notice": {
+              "announce_tick": 1,
+              "orders": [
+                [
+                  {
+                    "lane": [
+                      "B",
+                      "D"
+                    ],
+                    "start": 1,
+                    "end": 8
+                  }
+                ],
+                [
+                  {
+                    "lane": [
+                      "A",
+                      "D"
+                    ],
+                    "start": 1,
+                    "end": 8
+                  }
+                ]
+              ]
+            },
+            "selected": 1,
+            "carts": [
+              {
+                "id": "line",
+                "start": "S",
+                "pickup": "S",
+                "delivery": "L",
+                "deadline": 6,
+                "at": "A",
+                "to": null,
+                "remaining": 0,
+                "stage": 1
+              },
+              {
+                "id": "exit",
+                "start": "D",
+                "pickup": "D",
+                "delivery": "R",
+                "deadline": 3,
+                "at": "R",
+                "to": null,
+                "remaining": 0,
+                "stage": 2
+              },
+              {
+                "id": "empty",
+                "start": "P",
+                "pickup": "P",
+                "delivery": "S",
+                "deadline": 5,
+                "at": "P",
+                "to": null,
+                "remaining": 0,
+                "stage": 1
+              }
+            ]
+          },
+          "moves": {}
+        },
+        {
+          "view": {
+            "tick": 4,
+            "lanes": [
+              [
+                "S",
+                "A",
+                3
+              ],
+              [
+                "S",
+                "B",
+                3
+              ],
+              [
+                "A",
+                "D",
+                1
+              ],
+              [
+                "B",
+                "D",
+                1
+              ],
+              [
+                "D",
+                "L",
+                1
+              ],
+              [
+                "D",
+                "R",
+                1
+              ],
+              [
+                "S",
+                "P",
+                1
+              ]
+            ],
+            "closed": [
+              [
+                "A",
+                "D"
+              ]
+            ],
+            "paused": [],
+            "notice": {
+              "announce_tick": 1,
+              "orders": [
+                [
+                  {
+                    "lane": [
+                      "B",
+                      "D"
+                    ],
+                    "start": 1,
+                    "end": 8
+                  }
+                ],
+                [
+                  {
+                    "lane": [
+                      "A",
+                      "D"
+                    ],
+                    "start": 1,
+                    "end": 8
+                  }
+                ]
+              ]
+            },
+            "selected": 1,
+            "carts": [
+              {
+                "id": "line",
+                "start": "S",
+                "pickup": "S",
+                "delivery": "L",
+                "deadline": 6,
+                "at": "A",
+                "to": null,
+                "remaining": 0,
+                "stage": 1
+              },
+              {
+                "id": "exit",
+                "start": "D",
+                "pickup": "D",
+                "delivery": "R",
+                "deadline": 3,
+                "at": "R",
+                "to": null,
+                "remaining": 0,
+                "stage": 2
+              },
+              {
+                "id": "empty",
+                "start": "P",
+                "pickup": "P",
+                "delivery": "S",
+                "deadline": 5,
+                "at": "P",
+                "to": null,
+                "remaining": 0,
+                "stage": 1
+              }
+            ]
+          },
+          "moves": {}
+        }
+      ]
+    }
+  },
+  {
+    "attempt": "02",
+    "shift": "pullout-1",
+    "kept_first_move": {
+      "load": "J"
+    },
+    "rest_of_shift": {
+      "success": true,
+      "reason": "all deliveries on time",
+      "tick": 9,
+      "deliveries": {
+        "return": 6,
+        "load": 9
+      },
+      "missed": [],
+      "decisions": [
+        {
+          "view": {
+            "tick": 0,
+            "lanes": [
+              [
+                "W",
+                "J",
+                1
+              ],
+              [
+                "J",
+                "E",
+                2
+              ],
+              [
+                "J",
+                "P",
+                1
+              ],
+              [
+                "E",
+                "O",
+                1
+              ],
+              [
+                "W",
+                "S",
+                1
+              ]
+            ],
+            "closed": [],
+            "paused": [],
+            "notice": {
+              "announce_tick": 3,
+              "orders": [
+                [
+                  {
+                    "lane": [
+                      "J",
+                      "E"
+                    ],
+                    "start": 3,
+                    "end": 6
+                  }
+                ],
+                [
+                  {
+                    "lane": [
+                      "J",
+                      "P"
+                    ],
+                    "start": 3,
+                    "end": 5
+                  }
+                ]
+              ]
+            },
+            "selected": null,
+            "carts": [
+              {
+                "id": "load",
+                "start": "W",
+                "pickup": "W",
+                "delivery": "O",
+                "deadline": 9,
+                "at": "W",
+                "to": null,
+                "remaining": 0,
+                "stage": 1
+              },
+              {
+                "id": "return",
+                "start": "E",
+                "pickup": "E",
+                "delivery": "S",
+                "deadline": 9,
+                "at": "E",
+                "to": null,
+                "remaining": 0,
+                "stage": 1
+              }
+            ]
+          },
+          "moves": {
+            "load": "J"
+          }
+        },
+        {
+          "view": {
+            "tick": 1,
+            "lanes": [
+              [
+                "W",
+                "J",
+                1
+              ],
+              [
+                "J",
+                "E",
+                2
+              ],
+              [
+                "J",
+                "P",
+                1
+              ],
+              [
+                "E",
+                "O",
+                1
+              ],
+              [
+                "W",
+                "S",
+                1
+              ]
+            ],
+            "closed": [],
+            "paused": [],
+            "notice": {
+              "announce_tick": 3,
+              "orders": [
+                [
+                  {
+                    "lane": [
+                      "J",
+                      "E"
+                    ],
+                    "start": 3,
+                    "end": 6
+                  }
+                ],
+                [
+                  {
+                    "lane": [
+                      "J",
+                      "P"
+                    ],
+                    "start": 3,
+                    "end": 5
+                  }
+                ]
+              ]
+            },
+            "selected": null,
+            "carts": [
+              {
+                "id": "load",
+                "start": "W",
+                "pickup": "W",
+                "delivery": "O",
+                "deadline": 9,
+                "at": "J",
+                "to": null,
+                "remaining": 0,
+                "stage": 1
+              },
+              {
+                "id": "return",
+                "start": "E",
+                "pickup": "E",
+                "delivery": "S",
+                "deadline": 9,
+                "at": "E",
+                "to": null,
+                "remaining": 0,
+                "stage": 1
+              }
+            ]
+          },
+          "moves": {
+            "load": "P"
+          }
+        },
+        {
+          "view": {
+            "tick": 2,
+            "lanes": [
+              [
+                "W",
+                "J",
+                1
+              ],
+              [
+                "J",
+                "E",
+                2
+              ],
+              [
+                "J",
+                "P",
+                1
+              ],
+              [
+                "E",
+                "O",
+                1
+              ],
+              [
+                "W",
+                "S",
+                1
+              ]
+            ],
+            "closed": [],
+            "paused": [],
+            "notice": {
+              "announce_tick": 3,
+              "orders": [
+                [
+                  {
+                    "lane": [
+                      "J",
+                      "E"
+                    ],
+                    "start": 3,
+                    "end": 6
+                  }
+                ],
+                [
+                  {
+                    "lane": [
+                      "J",
+                      "P"
+                    ],
+                    "start": 3,
+                    "end": 5
+                  }
+                ]
+              ]
+            },
+            "selected": null,
+            "carts": [
+              {
+                "id": "load",
+                "start": "W",
+                "pickup": "W",
+                "delivery": "O",
+                "deadline": 9,
+                "at": "P",
+                "to": null,
+                "remaining": 0,
+                "stage": 1
+              },
+              {
+                "id": "return",
+                "start": "E",
+                "pickup": "E",
+                "delivery": "S",
+                "deadline": 9,
+                "at": "E",
+                "to": null,
+                "remaining": 0,
+                "stage": 1
+              }
+            ]
+          },
+          "moves": {
+            "return": "J"
+          }
+        },
+        {
+          "view": {
+            "tick": 3,
+            "lanes": [
+              [
+                "W",
+                "J",
+                1
+              ],
+              [
+                "J",
+                "E",
+                2
+              ],
+              [
+                "J",
+                "P",
+                1
+              ],
+              [
+                "E",
+                "O",
+                1
+              ],
+              [
+                "W",
+                "S",
+                1
+              ]
+            ],
+            "closed": [
+              [
+                "E",
+                "J"
+              ]
+            ],
+            "paused": [],
+            "notice": {
+              "announce_tick": 3,
+              "orders": [
+                [
+                  {
+                    "lane": [
+                      "J",
+                      "E"
+                    ],
+                    "start": 3,
+                    "end": 6
+                  }
+                ],
+                [
+                  {
+                    "lane": [
+                      "J",
+                      "P"
+                    ],
+                    "start": 3,
+                    "end": 5
+                  }
+                ]
+              ]
+            },
+            "selected": 0,
+            "carts": [
+              {
+                "id": "load",
+                "start": "W",
+                "pickup": "W",
+                "delivery": "O",
+                "deadline": 9,
+                "at": "P",
+                "to": null,
+                "remaining": 0,
+                "stage": 1
+              },
+              {
+                "id": "return",
+                "start": "E",
+                "pickup": "E",
+                "delivery": "S",
+                "deadline": 9,
+                "at": "E",
+                "to": "J",
+                "remaining": 1,
+                "stage": 1
+              }
+            ]
+          },
+          "moves": {}
+        },
+        {
+          "view": {
+            "tick": 4,
+            "lanes": [
+              [
+                "W",
+                "J",
+                1
+              ],
+              [
+                "J",
+                "E",
+                2
+              ],
+              [
+                "J",
+                "P",
+                1
+              ],
+              [
+                "E",
+                "O",
+                1
+              ],
+              [
+                "W",
+                "S",
+                1
+              ]
+            ],
+            "closed": [
+              [
+                "E",
+                "J"
+              ]
+            ],
+            "paused": [],
+            "notice": {
+              "announce_tick": 3,
+              "orders": [
+                [
+                  {
+                    "lane": [
+                      "J",
+                      "E"
+                    ],
+                    "start": 3,
+                    "end": 6
+                  }
+                ],
+                [
+                  {
+                    "lane": [
+                      "J",
+                      "P"
+                    ],
+                    "start": 3,
+                    "end": 5
+                  }
+                ]
+              ]
+            },
+            "selected": 0,
+            "carts": [
+              {
+                "id": "load",
+                "start": "W",
+                "pickup": "W",
+                "delivery": "O",
+                "deadline": 9,
+                "at": "P",
+                "to": null,
+                "remaining": 0,
+                "stage": 1
+              },
+              {
+                "id": "return",
+                "start": "E",
+                "pickup": "E",
+                "delivery": "S",
+                "deadline": 9,
+                "at": "J",
+                "to": null,
+                "remaining": 0,
+                "stage": 1
+              }
+            ]
+          },
+          "moves": {
+            "return": "W"
+          }
+        },
+        {
+          "view": {
+            "tick": 5,
+            "lanes": [
+              [
+                "W",
+                "J",
+                1
+              ],
+              [
+                "J",
+                "E",
+                2
+              ],
+              [
+                "J",
+                "P",
+                1
+              ],
+              [
+                "E",
+                "O",
+                1
+              ],
+              [
+                "W",
+                "S",
+                1
+              ]
+            ],
+            "closed": [
+              [
+                "E",
+                "J"
+              ]
+            ],
+            "paused": [],
+            "notice": {
+              "announce_tick": 3,
+              "orders": [
+                [
+                  {
+                    "lane": [
+                      "J",
+                      "E"
+                    ],
+                    "start": 3,
+                    "end": 6
+                  }
+                ],
+                [
+                  {
+                    "lane": [
+                      "J",
+                      "P"
+                    ],
+                    "start": 3,
+                    "end": 5
+                  }
+                ]
+              ]
+            },
+            "selected": 0,
+            "carts": [
+              {
+                "id": "load",
+                "start": "W",
+                "pickup": "W",
+                "delivery": "O",
+                "deadline": 9,
+                "at": "P",
+                "to": null,
+                "remaining": 0,
+                "stage": 1
+              },
+              {
+                "id": "return",
+                "start": "E",
+                "pickup": "E",
+                "delivery": "S",
+                "deadline": 9,
+                "at": "W",
+                "to": null,
+                "remaining": 0,
+                "stage": 1
+              }
+            ]
+          },
+          "moves": {
+            "load": "J",
+            "return": "S"
+          }
+        },
+        {
+          "view": {
+            "tick": 6,
+            "lanes": [
+              [
+                "W",
+                "J",
+                1
+              ],
+              [
+                "J",
+                "E",
+                2
+              ],
+              [
+                "J",
+                "P",
+                1
+              ],
+              [
+                "E",
+                "O",
+                1
+              ],
+              [
+                "W",
+                "S",
+                1
+              ]
+            ],
+            "closed": [],
+            "paused": [],
+            "notice": {
+              "announce_tick": 3,
+              "orders": [
+                [
+                  {
+                    "lane": [
+                      "J",
+                      "E"
+                    ],
+                    "start": 3,
+                    "end": 6
+                  }
+                ],
+                [
+                  {
+                    "lane": [
+                      "J",
+                      "P"
+                    ],
+                    "start": 3,
+                    "end": 5
+                  }
+                ]
+              ]
+            },
+            "selected": 0,
+            "carts": [
+              {
+                "id": "load",
+                "start": "W",
+                "pickup": "W",
+                "delivery": "O",
+                "deadline": 9,
+                "at": "J",
+                "to": null,
+                "remaining": 0,
+                "stage": 1
+              },
+              {
+                "id": "return",
+                "start": "E",
+                "pickup": "E",
+                "delivery": "S",
+                "deadline": 9,
+                "at": "S",
+                "to": null,
+                "remaining": 0,
+                "stage": 2
+              }
+            ]
+          },
+          "moves": {
+            "load": "E",
+            "return": "W"
+          }
+        },
+        {
+          "view": {
+            "tick": 7,
+            "lanes": [
+              [
+                "W",
+                "J",
+                1
+              ],
+              [
+                "J",
+                "E",
+                2
+              ],
+              [
+                "J",
+                "P",
+                1
+              ],
+              [
+                "E",
+                "O",
+                1
+              ],
+              [
+                "W",
+                "S",
+                1
+              ]
+            ],
+            "closed": [],
+            "paused": [],
+            "notice": {
+              "announce_tick": 3,
+              "orders": [
+                [
+                  {
+                    "lane": [
+                      "J",
+                      "E"
+                    ],
+                    "start": 3,
+                    "end": 6
+                  }
+                ],
+                [
+                  {
+                    "lane": [
+                      "J",
+                      "P"
+                    ],
+                    "start": 3,
+                    "end": 5
+                  }
+                ]
+              ]
+            },
+            "selected": 0,
+            "carts": [
+              {
+                "id": "load",
+                "start": "W",
+                "pickup": "W",
+                "delivery": "O",
+                "deadline": 9,
+                "at": "J",
+                "to": "E",
+                "remaining": 1,
+                "stage": 1
+              },
+              {
+                "id": "return",
+                "start": "E",
+                "pickup": "E",
+                "delivery": "S",
+                "deadline": 9,
+                "at": "W",
+                "to": null,
+                "remaining": 0,
+                "stage": 2
+              }
+            ]
+          },
+          "moves": {
+            "return": "J"
+          }
+        },
+        {
+          "view": {
+            "tick": 8,
+            "lanes": [
+              [
+                "W",
+                "J",
+                1
+              ],
+              [
+                "J",
+                "E",
+                2
+              ],
+              [
+                "J",
+                "P",
+                1
+              ],
+              [
+                "E",
+                "O",
+                1
+              ],
+              [
+                "W",
+                "S",
+                1
+              ]
+            ],
+            "closed": [],
+            "paused": [],
+            "notice": {
+              "announce_tick": 3,
+              "orders": [
+                [
+                  {
+                    "lane": [
+                      "J",
+                      "E"
+                    ],
+                    "start": 3,
+                    "end": 6
+                  }
+                ],
+                [
+                  {
+                    "lane": [
+                      "J",
+                      "P"
+                    ],
+                    "start": 3,
+                    "end": 5
+                  }
+                ]
+              ]
+            },
+            "selected": 0,
+            "carts": [
+              {
+                "id": "load",
+                "start": "W",
+                "pickup": "W",
+                "delivery": "O",
+                "deadline": 9,
+                "at": "E",
+                "to": null,
+                "remaining": 0,
+                "stage": 1
+              },
+              {
+                "id": "return",
+                "start": "E",
+                "pickup": "E",
+                "delivery": "S",
+                "deadline": 9,
+                "at": "J",
+                "to": null,
+                "remaining": 0,
+                "stage": 2
+              }
+            ]
+          },
+          "moves": {
+            "load": "O",
+            "return": "W"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "attempt": "04",
+    "shift": "pullout-1",
+    "kept_first_move": {
+      "load": "J"
+    },
+    "rest_of_shift": {
+      "success": true,
+      "reason": "all deliveries on time",
+      "tick": 9,
+      "deliveries": {
+        "return": 6,
+        "load": 9
+      },
+      "missed": [],
+      "decisions": [
+        {
+          "view": {
+            "tick": 0,
+            "lanes": [
+              [
+                "W",
+                "J",
+                1
+              ],
+              [
+                "J",
+                "E",
+                2
+              ],
+              [
+                "J",
+                "P",
+                1
+              ],
+              [
+                "E",
+                "O",
+                1
+              ],
+              [
+                "W",
+                "S",
+                1
+              ]
+            ],
+            "closed": [],
+            "paused": [],
+            "notice": {
+              "announce_tick": 3,
+              "orders": [
+                [
+                  {
+                    "lane": [
+                      "J",
+                      "E"
+                    ],
+                    "start": 3,
+                    "end": 6
+                  }
+                ],
+                [
+                  {
+                    "lane": [
+                      "J",
+                      "P"
+                    ],
+                    "start": 3,
+                    "end": 5
+                  }
+                ]
+              ]
+            },
+            "selected": null,
+            "carts": [
+              {
+                "id": "load",
+                "start": "W",
+                "pickup": "W",
+                "delivery": "O",
+                "deadline": 9,
+                "at": "W",
+                "to": null,
+                "remaining": 0,
+                "stage": 1
+              },
+              {
+                "id": "return",
+                "start": "E",
+                "pickup": "E",
+                "delivery": "S",
+                "deadline": 9,
+                "at": "E",
+                "to": null,
+                "remaining": 0,
+                "stage": 1
+              }
+            ]
+          },
+          "moves": {
+            "load": "J"
+          }
+        },
+        {
+          "view": {
+            "tick": 1,
+            "lanes": [
+              [
+                "W",
+                "J",
+                1
+              ],
+              [
+                "J",
+                "E",
+                2
+              ],
+              [
+                "J",
+                "P",
+                1
+              ],
+              [
+                "E",
+                "O",
+                1
+              ],
+              [
+                "W",
+                "S",
+                1
+              ]
+            ],
+            "closed": [],
+            "paused": [],
+            "notice": {
+              "announce_tick": 3,
+              "orders": [
+                [
+                  {
+                    "lane": [
+                      "J",
+                      "E"
+                    ],
+                    "start": 3,
+                    "end": 6
+                  }
+                ],
+                [
+                  {
+                    "lane": [
+                      "J",
+                      "P"
+                    ],
+                    "start": 3,
+                    "end": 5
+                  }
+                ]
+              ]
+            },
+            "selected": null,
+            "carts": [
+              {
+                "id": "load",
+                "start": "W",
+                "pickup": "W",
+                "delivery": "O",
+                "deadline": 9,
+                "at": "J",
+                "to": null,
+                "remaining": 0,
+                "stage": 1
+              },
+              {
+                "id": "return",
+                "start": "E",
+                "pickup": "E",
+                "delivery": "S",
+                "deadline": 9,
+                "at": "E",
+                "to": null,
+                "remaining": 0,
+                "stage": 1
+              }
+            ]
+          },
+          "moves": {
+            "load": "P"
+          }
+        },
+        {
+          "view": {
+            "tick": 2,
+            "lanes": [
+              [
+                "W",
+                "J",
+                1
+              ],
+              [
+                "J",
+                "E",
+                2
+              ],
+              [
+                "J",
+                "P",
+                1
+              ],
+              [
+                "E",
+                "O",
+                1
+              ],
+              [
+                "W",
+                "S",
+                1
+              ]
+            ],
+            "closed": [],
+            "paused": [],
+            "notice": {
+              "announce_tick": 3,
+              "orders": [
+                [
+                  {
+                    "lane": [
+                      "J",
+                      "E"
+                    ],
+                    "start": 3,
+                    "end": 6
+                  }
+                ],
+                [
+                  {
+                    "lane": [
+                      "J",
+                      "P"
+                    ],
+                    "start": 3,
+                    "end": 5
+                  }
+                ]
+              ]
+            },
+            "selected": null,
+            "carts": [
+              {
+                "id": "load",
+                "start": "W",
+                "pickup": "W",
+                "delivery": "O",
+                "deadline": 9,
+                "at": "P",
+                "to": null,
+                "remaining": 0,
+                "stage": 1
+              },
+              {
+                "id": "return",
+                "start": "E",
+                "pickup": "E",
+                "delivery": "S",
+                "deadline": 9,
+                "at": "E",
+                "to": null,
+                "remaining": 0,
+                "stage": 1
+              }
+            ]
+          },
+          "moves": {
+            "return": "J"
+          }
+        },
+        {
+          "view": {
+            "tick": 3,
+            "lanes": [
+              [
+                "W",
+                "J",
+                1
+              ],
+              [
+                "J",
+                "E",
+                2
+              ],
+              [
+                "J",
+                "P",
+                1
+              ],
+              [
+                "E",
+                "O",
+                1
+              ],
+              [
+                "W",
+                "S",
+                1
+              ]
+            ],
+            "closed": [
+              [
+                "E",
+                "J"
+              ]
+            ],
+            "paused": [],
+            "notice": {
+              "announce_tick": 3,
+              "orders": [
+                [
+                  {
+                    "lane": [
+                      "J",
+                      "E"
+                    ],
+                    "start": 3,
+                    "end": 6
+                  }
+                ],
+                [
+                  {
+                    "lane": [
+                      "J",
+                      "P"
+                    ],
+                    "start": 3,
+                    "end": 5
+                  }
+                ]
+              ]
+            },
+            "selected": 0,
+            "carts": [
+              {
+                "id": "load",
+                "start": "W",
+                "pickup": "W",
+                "delivery": "O",
+                "deadline": 9,
+                "at": "P",
+                "to": null,
+                "remaining": 0,
+                "stage": 1
+              },
+              {
+                "id": "return",
+                "start": "E",
+                "pickup": "E",
+                "delivery": "S",
+                "deadline": 9,
+                "at": "E",
+                "to": "J",
+                "remaining": 1,
+                "stage": 1
+              }
+            ]
+          },
+          "moves": {}
+        },
+        {
+          "view": {
+            "tick": 4,
+            "lanes": [
+              [
+                "W",
+                "J",
+                1
+              ],
+              [
+                "J",
+                "E",
+                2
+              ],
+              [
+                "J",
+                "P",
+                1
+              ],
+              [
+                "E",
+                "O",
+                1
+              ],
+              [
+                "W",
+                "S",
+                1
+              ]
+            ],
+            "closed": [
+              [
+                "E",
+                "J"
+              ]
+            ],
+            "paused": [],
+            "notice": {
+              "announce_tick": 3,
+              "orders": [
+                [
+                  {
+                    "lane": [
+                      "J",
+                      "E"
+                    ],
+                    "start": 3,
+                    "end": 6
+                  }
+                ],
+                [
+                  {
+                    "lane": [
+                      "J",
+                      "P"
+                    ],
+                    "start": 3,
+                    "end": 5
+                  }
+                ]
+              ]
+            },
+            "selected": 0,
+            "carts": [
+              {
+                "id": "load",
+                "start": "W",
+                "pickup": "W",
+                "delivery": "O",
+                "deadline": 9,
+                "at": "P",
+                "to": null,
+                "remaining": 0,
+                "stage": 1
+              },
+              {
+                "id": "return",
+                "start": "E",
+                "pickup": "E",
+                "delivery": "S",
+                "deadline": 9,
+                "at": "J",
+                "to": null,
+                "remaining": 0,
+                "stage": 1
+              }
+            ]
+          },
+          "moves": {
+            "return": "W"
+          }
+        },
+        {
+          "view": {
+            "tick": 5,
+            "lanes": [
+              [
+                "W",
+                "J",
+                1
+              ],
+              [
+                "J",
+                "E",
+                2
+              ],
+              [
+                "J",
+                "P",
+                1
+              ],
+              [
+                "E",
+                "O",
+                1
+              ],
+              [
+                "W",
+                "S",
+                1
+              ]
+            ],
+            "closed": [
+              [
+                "E",
+                "J"
+              ]
+            ],
+            "paused": [],
+            "notice": {
+              "announce_tick": 3,
+              "orders": [
+                [
+                  {
+                    "lane": [
+                      "J",
+                      "E"
+                    ],
+                    "start": 3,
+                    "end": 6
+                  }
+                ],
+                [
+                  {
+                    "lane": [
+                      "J",
+                      "P"
+                    ],
+                    "start": 3,
+                    "end": 5
+                  }
+                ]
+              ]
+            },
+            "selected": 0,
+            "carts": [
+              {
+                "id": "load",
+                "start": "W",
+                "pickup": "W",
+                "delivery": "O",
+                "deadline": 9,
+                "at": "P",
+                "to": null,
+                "remaining": 0,
+                "stage": 1
+              },
+              {
+                "id": "return",
+                "start": "E",
+                "pickup": "E",
+                "delivery": "S",
+                "deadline": 9,
+                "at": "W",
+                "to": null,
+                "remaining": 0,
+                "stage": 1
+              }
+            ]
+          },
+          "moves": {
+            "load": "J",
+            "return": "S"
+          }
+        },
+        {
+          "view": {
+            "tick": 6,
+            "lanes": [
+              [
+                "W",
+                "J",
+                1
+              ],
+              [
+                "J",
+                "E",
+                2
+              ],
+              [
+                "J",
+                "P",
+                1
+              ],
+              [
+                "E",
+                "O",
+                1
+              ],
+              [
+                "W",
+                "S",
+                1
+              ]
+            ],
+            "closed": [],
+            "paused": [],
+            "notice": {
+              "announce_tick": 3,
+              "orders": [
+                [
+                  {
+                    "lane": [
+                      "J",
+                      "E"
+                    ],
+                    "start": 3,
+                    "end": 6
+                  }
+                ],
+                [
+                  {
+                    "lane": [
+                      "J",
+                      "P"
+                    ],
+                    "start": 3,
+                    "end": 5
+                  }
+                ]
+              ]
+            },
+            "selected": 0,
+            "carts": [
+              {
+                "id": "load",
+                "start": "W",
+                "pickup": "W",
+                "delivery": "O",
+                "deadline": 9,
+                "at": "J",
+                "to": null,
+                "remaining": 0,
+                "stage": 1
+              },
+              {
+                "id": "return",
+                "start": "E",
+                "pickup": "E",
+                "delivery": "S",
+                "deadline": 9,
+                "at": "S",
+                "to": null,
+                "remaining": 0,
+                "stage": 2
+              }
+            ]
+          },
+          "moves": {
+            "load": "E",
+            "return": "W"
+          }
+        },
+        {
+          "view": {
+            "tick": 7,
+            "lanes": [
+              [
+                "W",
+                "J",
+                1
+              ],
+              [
+                "J",
+                "E",
+                2
+              ],
+              [
+                "J",
+                "P",
+                1
+              ],
+              [
+                "E",
+                "O",
+                1
+              ],
+              [
+                "W",
+                "S",
+                1
+              ]
+            ],
+            "closed": [],
+            "paused": [],
+            "notice": {
+              "announce_tick": 3,
+              "orders": [
+                [
+                  {
+                    "lane": [
+                      "J",
+                      "E"
+                    ],
+                    "start": 3,
+                    "end": 6
+                  }
+                ],
+                [
+                  {
+                    "lane": [
+                      "J",
+                      "P"
+                    ],
+                    "start": 3,
+                    "end": 5
+                  }
+                ]
+              ]
+            },
+            "selected": 0,
+            "carts": [
+              {
+                "id": "load",
+                "start": "W",
+                "pickup": "W",
+                "delivery": "O",
+                "deadline": 9,
+                "at": "J",
+                "to": "E",
+                "remaining": 1,
+                "stage": 1
+              },
+              {
+                "id": "return",
+                "start": "E",
+                "pickup": "E",
+                "delivery": "S",
+                "deadline": 9,
+                "at": "W",
+                "to": null,
+                "remaining": 0,
+                "stage": 2
+              }
+            ]
+          },
+          "moves": {
+            "return": "J"
+          }
+        },
+        {
+          "view": {
+            "tick": 8,
+            "lanes": [
+              [
+                "W",
+                "J",
+                1
+              ],
+              [
+                "J",
+                "E",
+                2
+              ],
+              [
+                "J",
+                "P",
+                1
+              ],
+              [
+                "E",
+                "O",
+                1
+              ],
+              [
+                "W",
+                "S",
+                1
+              ]
+            ],
+            "closed": [],
+            "paused": [],
+            "notice": {
+              "announce_tick": 3,
+              "orders": [
+                [
+                  {
+                    "lane": [
+                      "J",
+                      "E"
+                    ],
+                    "start": 3,
+                    "end": 6
+                  }
+                ],
+                [
+                  {
+                    "lane": [
+                      "J",
+                      "P"
+                    ],
+                    "start": 3,
+                    "end": 5
+                  }
+                ]
+              ]
+            },
+            "selected": 0,
+            "carts": [
+              {
+                "id": "load",
+                "start": "W",
+                "pickup": "W",
+                "delivery": "O",
+                "deadline": 9,
+                "at": "E",
+                "to": null,
+                "remaining": 0,
+                "stage": 1
+              },
+              {
+                "id": "return",
+                "start": "E",
+                "pickup": "E",
+                "delivery": "S",
+                "deadline": 9,
+                "at": "J",
+                "to": null,
+                "remaining": 0,
+                "stage": 2
+              }
+            ]
+          },
+          "moves": {
+            "load": "O",
+            "return": "W"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "attempt": "04",
+    "shift": "pullout-2",
+    "kept_first_move": {
+      "load": "J"
+    },
+    "rest_of_shift": {
+      "success": true,
+      "reason": "all deliveries on time",
+      "tick": 9,
+      "deliveries": {
+        "return": 6,
+        "load": 9
+      },
+      "missed": [],
+      "decisions": [
+        {
+          "view": {
+            "tick": 0,
+            "lanes": [
+              [
+                "W",
+                "J",
+                1
+              ],
+              [
+                "J",
+                "E",
+                2
+              ],
+              [
+                "J",
+                "P",
+                1
+              ],
+              [
+                "E",
+                "O",
+                1
+              ],
+              [
+                "W",
+                "S",
+                1
+              ]
+            ],
+            "closed": [],
+            "paused": [],
+            "notice": {
+              "announce_tick": 3,
+              "orders": [
+                [
+                  {
+                    "lane": [
+                      "J",
+                      "E"
+                    ],
+                    "start": 3,
+                    "end": 6
+                  }
+                ],
+                [
+                  {
+                    "lane": [
+                      "J",
+                      "P"
+                    ],
+                    "start": 3,
+                    "end": 5
+                  }
+                ]
+              ]
+            },
+            "selected": null,
+            "carts": [
+              {
+                "id": "load",
+                "start": "W",
+                "pickup": "W",
+                "delivery": "O",
+                "deadline": 9,
+                "at": "W",
+                "to": null,
+                "remaining": 0,
+                "stage": 1
+              },
+              {
+                "id": "return",
+                "start": "E",
+                "pickup": "E",
+                "delivery": "S",
+                "deadline": 9,
+                "at": "E",
+                "to": null,
+                "remaining": 0,
+                "stage": 1
+              }
+            ]
+          },
+          "moves": {
+            "load": "J"
+          }
+        },
+        {
+          "view": {
+            "tick": 1,
+            "lanes": [
+              [
+                "W",
+                "J",
+                1
+              ],
+              [
+                "J",
+                "E",
+                2
+              ],
+              [
+                "J",
+                "P",
+                1
+              ],
+              [
+                "E",
+                "O",
+                1
+              ],
+              [
+                "W",
+                "S",
+                1
+              ]
+            ],
+            "closed": [],
+            "paused": [],
+            "notice": {
+              "announce_tick": 3,
+              "orders": [
+                [
+                  {
+                    "lane": [
+                      "J",
+                      "E"
+                    ],
+                    "start": 3,
+                    "end": 6
+                  }
+                ],
+                [
+                  {
+                    "lane": [
+                      "J",
+                      "P"
+                    ],
+                    "start": 3,
+                    "end": 5
+                  }
+                ]
+              ]
+            },
+            "selected": null,
+            "carts": [
+              {
+                "id": "load",
+                "start": "W",
+                "pickup": "W",
+                "delivery": "O",
+                "deadline": 9,
+                "at": "J",
+                "to": null,
+                "remaining": 0,
+                "stage": 1
+              },
+              {
+                "id": "return",
+                "start": "E",
+                "pickup": "E",
+                "delivery": "S",
+                "deadline": 9,
+                "at": "E",
+                "to": null,
+                "remaining": 0,
+                "stage": 1
+              }
+            ]
+          },
+          "moves": {
+            "load": "P"
+          }
+        },
+        {
+          "view": {
+            "tick": 2,
+            "lanes": [
+              [
+                "W",
+                "J",
+                1
+              ],
+              [
+                "J",
+                "E",
+                2
+              ],
+              [
+                "J",
+                "P",
+                1
+              ],
+              [
+                "E",
+                "O",
+                1
+              ],
+              [
+                "W",
+                "S",
+                1
+              ]
+            ],
+            "closed": [],
+            "paused": [],
+            "notice": {
+              "announce_tick": 3,
+              "orders": [
+                [
+                  {
+                    "lane": [
+                      "J",
+                      "E"
+                    ],
+                    "start": 3,
+                    "end": 6
+                  }
+                ],
+                [
+                  {
+                    "lane": [
+                      "J",
+                      "P"
+                    ],
+                    "start": 3,
+                    "end": 5
+                  }
+                ]
+              ]
+            },
+            "selected": null,
+            "carts": [
+              {
+                "id": "load",
+                "start": "W",
+                "pickup": "W",
+                "delivery": "O",
+                "deadline": 9,
+                "at": "P",
+                "to": null,
+                "remaining": 0,
+                "stage": 1
+              },
+              {
+                "id": "return",
+                "start": "E",
+                "pickup": "E",
+                "delivery": "S",
+                "deadline": 9,
+                "at": "E",
+                "to": null,
+                "remaining": 0,
+                "stage": 1
+              }
+            ]
+          },
+          "moves": {
+            "return": "J"
+          }
+        },
+        {
+          "view": {
+            "tick": 3,
+            "lanes": [
+              [
+                "W",
+                "J",
+                1
+              ],
+              [
+                "J",
+                "E",
+                2
+              ],
+              [
+                "J",
+                "P",
+                1
+              ],
+              [
+                "E",
+                "O",
+                1
+              ],
+              [
+                "W",
+                "S",
+                1
+              ]
+            ],
+            "closed": [
+              [
+                "J",
+                "P"
+              ]
+            ],
+            "paused": [],
+            "notice": {
+              "announce_tick": 3,
+              "orders": [
+                [
+                  {
+                    "lane": [
+                      "J",
+                      "E"
+                    ],
+                    "start": 3,
+                    "end": 6
+                  }
+                ],
+                [
+                  {
+                    "lane": [
+                      "J",
+                      "P"
+                    ],
+                    "start": 3,
+                    "end": 5
+                  }
+                ]
+              ]
+            },
+            "selected": 1,
+            "carts": [
+              {
+                "id": "load",
+                "start": "W",
+                "pickup": "W",
+                "delivery": "O",
+                "deadline": 9,
+                "at": "P",
+                "to": null,
+                "remaining": 0,
+                "stage": 1
+              },
+              {
+                "id": "return",
+                "start": "E",
+                "pickup": "E",
+                "delivery": "S",
+                "deadline": 9,
+                "at": "E",
+                "to": "J",
+                "remaining": 1,
+                "stage": 1
+              }
+            ]
+          },
+          "moves": {}
+        },
+        {
+          "view": {
+            "tick": 4,
+            "lanes": [
+              [
+                "W",
+                "J",
+                1
+              ],
+              [
+                "J",
+                "E",
+                2
+              ],
+              [
+                "J",
+                "P",
+                1
+              ],
+              [
+                "E",
+                "O",
+                1
+              ],
+              [
+                "W",
+                "S",
+                1
+              ]
+            ],
+            "closed": [
+              [
+                "J",
+                "P"
+              ]
+            ],
+            "paused": [],
+            "notice": {
+              "announce_tick": 3,
+              "orders": [
+                [
+                  {
+                    "lane": [
+                      "J",
+                      "E"
+                    ],
+                    "start": 3,
+                    "end": 6
+                  }
+                ],
+                [
+                  {
+                    "lane": [
+                      "J",
+                      "P"
+                    ],
+                    "start": 3,
+                    "end": 5
+                  }
+                ]
+              ]
+            },
+            "selected": 1,
+            "carts": [
+              {
+                "id": "load",
+                "start": "W",
+                "pickup": "W",
+                "delivery": "O",
+                "deadline": 9,
+                "at": "P",
+                "to": null,
+                "remaining": 0,
+                "stage": 1
+              },
+              {
+                "id": "return",
+                "start": "E",
+                "pickup": "E",
+                "delivery": "S",
+                "deadline": 9,
+                "at": "J",
+                "to": null,
+                "remaining": 0,
+                "stage": 1
+              }
+            ]
+          },
+          "moves": {
+            "return": "W"
+          }
+        },
+        {
+          "view": {
+            "tick": 5,
+            "lanes": [
+              [
+                "W",
+                "J",
+                1
+              ],
+              [
+                "J",
+                "E",
+                2
+              ],
+              [
+                "J",
+                "P",
+                1
+              ],
+              [
+                "E",
+                "O",
+                1
+              ],
+              [
+                "W",
+                "S",
+                1
+              ]
+            ],
+            "closed": [],
+            "paused": [],
+            "notice": {
+              "announce_tick": 3,
+              "orders": [
+                [
+                  {
+                    "lane": [
+                      "J",
+                      "E"
+                    ],
+                    "start": 3,
+                    "end": 6
+                  }
+                ],
+                [
+                  {
+                    "lane": [
+                      "J",
+                      "P"
+                    ],
+                    "start": 3,
+                    "end": 5
+                  }
+                ]
+              ]
+            },
+            "selected": 1,
+            "carts": [
+              {
+                "id": "load",
+                "start": "W",
+                "pickup": "W",
+                "delivery": "O",
+                "deadline": 9,
+                "at": "P",
+                "to": null,
+                "remaining": 0,
+                "stage": 1
+              },
+              {
+                "id": "return",
+                "start": "E",
+                "pickup": "E",
+                "delivery": "S",
+                "deadline": 9,
+                "at": "W",
+                "to": null,
+                "remaining": 0,
+                "stage": 1
+              }
+            ]
+          },
+          "moves": {
+            "load": "J",
+            "return": "S"
+          }
+        },
+        {
+          "view": {
+            "tick": 6,
+            "lanes": [
+              [
+                "W",
+                "J",
+                1
+              ],
+              [
+                "J",
+                "E",
+                2
+              ],
+              [
+                "J",
+                "P",
+                1
+              ],
+              [
+                "E",
+                "O",
+                1
+              ],
+              [
+                "W",
+                "S",
+                1
+              ]
+            ],
+            "closed": [],
+            "paused": [],
+            "notice": {
+              "announce_tick": 3,
+              "orders": [
+                [
+                  {
+                    "lane": [
+                      "J",
+                      "E"
+                    ],
+                    "start": 3,
+                    "end": 6
+                  }
+                ],
+                [
+                  {
+                    "lane": [
+                      "J",
+                      "P"
+                    ],
+                    "start": 3,
+                    "end": 5
+                  }
+                ]
+              ]
+            },
+            "selected": 1,
+            "carts": [
+              {
+                "id": "load",
+                "start": "W",
+                "pickup": "W",
+                "delivery": "O",
+                "deadline": 9,
+                "at": "J",
+                "to": null,
+                "remaining": 0,
+                "stage": 1
+              },
+              {
+                "id": "return",
+                "start": "E",
+                "pickup": "E",
+                "delivery": "S",
+                "deadline": 9,
+                "at": "S",
+                "to": null,
+                "remaining": 0,
+                "stage": 2
+              }
+            ]
+          },
+          "moves": {
+            "load": "E",
+            "return": "W"
+          }
+        },
+        {
+          "view": {
+            "tick": 7,
+            "lanes": [
+              [
+                "W",
+                "J",
+                1
+              ],
+              [
+                "J",
+                "E",
+                2
+              ],
+              [
+                "J",
+                "P",
+                1
+              ],
+              [
+                "E",
+                "O",
+                1
+              ],
+              [
+                "W",
+                "S",
+                1
+              ]
+            ],
+            "closed": [],
+            "paused": [],
+            "notice": {
+              "announce_tick": 3,
+              "orders": [
+                [
+                  {
+                    "lane": [
+                      "J",
+                      "E"
+                    ],
+                    "start": 3,
+                    "end": 6
+                  }
+                ],
+                [
+                  {
+                    "lane": [
+                      "J",
+                      "P"
+                    ],
+                    "start": 3,
+                    "end": 5
+                  }
+                ]
+              ]
+            },
+            "selected": 1,
+            "carts": [
+              {
+                "id": "load",
+                "start": "W",
+                "pickup": "W",
+                "delivery": "O",
+                "deadline": 9,
+                "at": "J",
+                "to": "E",
+                "remaining": 1,
+                "stage": 1
+              },
+              {
+                "id": "return",
+                "start": "E",
+                "pickup": "E",
+                "delivery": "S",
+                "deadline": 9,
+                "at": "W",
+                "to": null,
+                "remaining": 0,
+                "stage": 2
+              }
+            ]
+          },
+          "moves": {
+            "return": "J"
+          }
+        },
+        {
+          "view": {
+            "tick": 8,
+            "lanes": [
+              [
+                "W",
+                "J",
+                1
+              ],
+              [
+                "J",
+                "E",
+                2
+              ],
+              [
+                "J",
+                "P",
+                1
+              ],
+              [
+                "E",
+                "O",
+                1
+              ],
+              [
+                "W",
+                "S",
+                1
+              ]
+            ],
+            "closed": [],
+            "paused": [],
+            "notice": {
+              "announce_tick": 3,
+              "orders": [
+                [
+                  {
+                    "lane": [
+                      "J",
+                      "E"
+                    ],
+                    "start": 3,
+                    "end": 6
+                  }
+                ],
+                [
+                  {
+                    "lane": [
+                      "J",
+                      "P"
+                    ],
+                    "start": 3,
+                    "end": 5
+                  }
+                ]
+              ]
+            },
+            "selected": 1,
+            "carts": [
+              {
+                "id": "load",
+                "start": "W",
+                "pickup": "W",
+                "delivery": "O",
+                "deadline": 9,
+                "at": "E",
+                "to": null,
+                "remaining": 0,
+                "stage": 1
+              },
+              {
+                "id": "return",
+                "start": "E",
+                "pickup": "E",
+                "delivery": "S",
+                "deadline": 9,
+                "at": "J",
+                "to": null,
+                "remaining": 0,
+                "stage": 2
+              }
+            ]
+          },
+          "moves": {
+            "load": "O",
+            "return": "W"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "attempt": "04",
+    "shift": "grid-2",
+    "kept_first_move": {
+      "east": "C",
+      "west": "H",
+      "north": "B",
+      "south": "E"
+    },
+    "rest_of_shift": {
+      "success": true,
+      "reason": "all deliveries on time",
+      "tick": 11,
+      "deliveries": {
+        "west": 3,
+        "south": 9,
+        "north": 11,
+        "east": 11
+      },
+      "missed": [],
+      "decisions": [
+        {
+          "view": {
+            "tick": 0,
+            "lanes": [
+              [
+                "A",
+                "B",
+                1
+              ],
+              [
+                "B",
+                "C",
+                2
+              ],
+              [
+                "C",
+                "D",
+                1
+              ],
+              [
+                "D",
+                "E",
+                2
+              ],
+              [
+                "A",
+                "F",
+                2
+              ],
+              [
+                "B",
+                "G",
+                1
+              ],
+              [
+                "C",
+                "H",
+                1
+              ],
+              [
+                "D",
+                "I",
+                1
+              ],
+              [
+                "E",
+                "J",
+                2
+              ],
+              [
+                "F",
+                "G",
+                1
+              ],
+              [
+                "G",
+                "H",
+                2
+              ],
+              [
+                "H",
+                "I",
+                1
+              ],
+              [
+                "I",
+                "J",
+                1
+              ],
+              [
+                "H",
+                "K",
+                1
+              ]
+            ],
+            "closed": [],
+            "paused": [],
+            "notice": {
+              "announce_tick": 1,
+              "orders": [
+                [
+                  {
+                    "lane": [
+                      "G",
+                      "H"
+                    ],
+                    "start": 1,
+                    "end": 4
+                  },
+                  {
+                    "bay": "I",
+                    "start": 1,
+                    "end": 4
+                  }
+                ],
+                [
+                  {
+                    "lane": [
+                      "H",
+                      "I"
+                    ],
+                    "start": 1,
+                    "end": 4
+                  },
+                  {
+                    "bay": "E",
+                    "start": 1,
+                    "end": 3
+                  }
+                ]
+              ]
+            },
+            "selected": null,
+            "carts": [
+              {
+                "id": "north",
+                "start": "A",
+                "pickup": "F",
+                "delivery": "J",
+                "deadline": 11,
+                "at": "A",
+                "to": null,
+                "remaining": 0,
+                "stage": 0
+              },
+              {
+                "id": "south",
+                "start": "J",
+                "pickup": "E",
+                "delivery": "C",
+                "deadline": 10,
+                "at": "J",
+                "to": null,
+                "remaining": 0,
+                "stage": 0
+              },
+              {
+                "id": "east",
+                "start": "D",
+                "pickup": "I",
+                "delivery": "F",
+                "deadline": 11,
+                "at": "D",
+                "to": null,
+                "remaining": 0,
+                "stage": 0
+              },
+              {
+                "id": "west",
+                "start": "G",
+                "pickup": "G",
+                "delivery": "K",
+                "deadline": 9,
+                "at": "G",
+                "to": null,
+                "remaining": 0,
+                "stage": 1
+              }
+            ]
+          },
+          "moves": {
+            "east": "C",
+            "west": "H",
+            "north": "B",
+            "south": "E"
+          }
+        },
+        {
+          "view": {
+            "tick": 1,
+            "lanes": [
+              [
+                "A",
+                "B",
+                1
+              ],
+              [
+                "B",
+                "C",
+                2
+              ],
+              [
+                "C",
+                "D",
+                1
+              ],
+              [
+                "D",
+                "E",
+                2
+              ],
+              [
+                "A",
+                "F",
+                2
+              ],
+              [
+                "B",
+                "G",
+                1
+              ],
+              [
+                "C",
+                "H",
+                1
+              ],
+              [
+                "D",
+                "I",
+                1
+              ],
+              [
+                "E",
+                "J",
+                2
+              ],
+              [
+                "F",
+                "G",
+                1
+              ],
+              [
+                "G",
+                "H",
+                2
+              ],
+              [
+                "H",
+                "I",
+                1
+              ],
+              [
+                "I",
+                "J",
+                1
+              ],
+              [
+                "H",
+                "K",
+                1
+              ]
+            ],
+            "closed": [
+              [
+                "H",
+                "I"
+              ]
+            ],
+            "paused": [
+              "E"
+            ],
+            "notice": {
+              "announce_tick": 1,
+              "orders": [
+                [
+                  {
+                    "lane": [
+                      "G",
+                      "H"
+                    ],
+                    "start": 1,
+                    "end": 4
+                  },
+                  {
+                    "bay": "I",
+                    "start": 1,
+                    "end": 4
+                  }
+                ],
+                [
+                  {
+                    "lane": [
+                      "H",
+                      "I"
+                    ],
+                    "start": 1,
+                    "end": 4
+                  },
+                  {
+                    "bay": "E",
+                    "start": 1,
+                    "end": 3
+                  }
+                ]
+              ]
+            },
+            "selected": 1,
+            "carts": [
+              {
+                "id": "north",
+                "start": "A",
+                "pickup": "F",
+                "delivery": "J",
+                "deadline": 11,
+                "at": "B",
+                "to": null,
+                "remaining": 0,
+                "stage": 0
+              },
+              {
+                "id": "south",
+                "start": "J",
+                "pickup": "E",
+                "delivery": "C",
+                "deadline": 10,
+                "at": "J",
+                "to": "E",
+                "remaining": 1,
+                "stage": 0
+              },
+              {
+                "id": "east",
+                "start": "D",
+                "pickup": "I",
+                "delivery": "F",
+                "deadline": 11,
+                "at": "C",
+                "to": null,
+                "remaining": 0,
+                "stage": 0
+              },
+              {
+                "id": "west",
+                "start": "G",
+                "pickup": "G",
+                "delivery": "K",
+                "deadline": 9,
+                "at": "G",
+                "to": "H",
+                "remaining": 1,
+                "stage": 1
+              }
+            ]
+          },
+          "moves": {
+            "north": "G",
+            "east": "D"
+          }
+        },
+        {
+          "view": {
+            "tick": 2,
+            "lanes": [
+              [
+                "A",
+                "B",
+                1
+              ],
+              [
+                "B",
+                "C",
+                2
+              ],
+              [
+                "C",
+                "D",
+                1
+              ],
+              [
+                "D",
+                "E",
+                2
+              ],
+              [
+                "A",
+                "F",
+                2
+              ],
+              [
+                "B",
+                "G",
+                1
+              ],
+              [
+                "C",
+                "H",
+                1
+              ],
+              [
+                "D",
+                "I",
+                1
+              ],
+              [
+                "E",
+                "J",
+                2
+              ],
+              [
+                "F",
+                "G",
+                1
+              ],
+              [
+                "G",
+                "H",
+                2
+              ],
+              [
+                "H",
+                "I",
+                1
+              ],
+              [
+                "I",
+                "J",
+                1
+              ],
+              [
+                "H",
+                "K",
+                1
+              ]
+            ],
+            "closed": [
+              [
+                "H",
+                "I"
+              ]
+            ],
+            "paused": [
+              "E"
+            ],
+            "notice": {
+              "announce_tick": 1,
+              "orders": [
+                [
+                  {
+                    "lane": [
+                      "G",
+                      "H"
+                    ],
+                    "start": 1,
+                    "end": 4
+                  },
+                  {
+                    "bay": "I",
+                    "start": 1,
+                    "end": 4
+                  }
+                ],
+                [
+                  {
+                    "lane": [
+                      "H",
+                      "I"
+                    ],
+                    "start": 1,
+                    "end": 4
+                  },
+                  {
+                    "bay": "E",
+                    "start": 1,
+                    "end": 3
+                  }
+                ]
+              ]
+            },
+            "selected": 1,
+            "carts": [
+              {
+                "id": "north",
+                "start": "A",
+                "pickup": "F",
+                "delivery": "J",
+                "deadline": 11,
+                "at": "G",
+                "to": null,
+                "remaining": 0,
+                "stage": 0
+              },
+              {
+                "id": "south",
+                "start": "J",
+                "pickup": "E",
+                "delivery": "C",
+                "deadline": 10,
+                "at": "E",
+                "to": null,
+                "remaining": 0,
+                "stage": 0
+              },
+              {
+                "id": "east",
+                "start": "D",
+                "pickup": "I",
+                "delivery": "F",
+                "deadline": 11,
+                "at": "D",
+                "to": null,
+                "remaining": 0,
+                "stage": 0
+              },
+              {
+                "id": "west",
+                "start": "G",
+                "pickup": "G",
+                "delivery": "K",
+                "deadline": 9,
+                "at": "H",
+                "to": null,
+                "remaining": 0,
+                "stage": 1
+              }
+            ]
+          },
+          "moves": {
+            "north": "F",
+            "east": "I",
+            "west": "K"
+          }
+        },
+        {
+          "view": {
+            "tick": 3,
+            "lanes": [
+              [
+                "A",
+                "B",
+                1
+              ],
+              [
+                "B",
+                "C",
+                2
+              ],
+              [
+                "C",
+                "D",
+                1
+              ],
+              [
+                "D",
+                "E",
+                2
+              ],
+              [
+                "A",
+                "F",
+                2
+              ],
+              [
+                "B",
+                "G",
+                1
+              ],
+              [
+                "C",
+                "H",
+                1
+              ],
+              [
+                "D",
+                "I",
+                1
+              ],
+              [
+                "E",
+                "J",
+                2
+              ],
+              [
+                "F",
+                "G",
+                1
+              ],
+              [
+                "G",
+                "H",
+                2
+              ],
+              [
+                "H",
+                "I",
+                1
+              ],
+              [
+                "I",
+                "J",
+                1
+              ],
+              [
+                "H",
+                "K",
+                1
+              ]
+            ],
+            "closed": [
+              [
+                "H",
+                "I"
+              ]
+            ],
+            "paused": [],
+            "notice": {
+              "announce_tick": 1,
+              "orders": [
+                [
+                  {
+                    "lane": [
+                      "G",
+                      "H"
+                    ],
+                    "start": 1,
+                    "end": 4
+                  },
+                  {
+                    "bay": "I",
+                    "start": 1,
+                    "end": 4
+                  }
+                ],
+                [
+                  {
+                    "lane": [
+                      "H",
+                      "I"
+                    ],
+                    "start": 1,
+                    "end": 4
+                  },
+                  {
+                    "bay": "E",
+                    "start": 1,
+                    "end": 3
+                  }
+                ]
+              ]
+            },
+            "selected": 1,
+            "carts": [
+              {
+                "id": "north",
+                "start": "A",
+                "pickup": "F",
+                "delivery": "J",
+                "deadline": 11,
+                "at": "F",
+                "to": null,
+                "remaining": 0,
+                "stage": 1
+              },
+              {
+                "id": "south",
+                "start": "J",
+                "pickup": "E",
+                "delivery": "C",
+                "deadline": 10,
+                "at": "E",
+                "to": null,
+                "remaining": 0,
+                "stage": 1
+              },
+              {
+                "id": "east",
+                "start": "D",
+                "pickup": "I",
+                "delivery": "F",
+                "deadline": 11,
+                "at": "I",
+                "to": null,
+                "remaining": 0,
+                "stage": 1
+              },
+              {
+                "id": "west",
+                "start": "G",
+                "pickup": "G",
+                "delivery": "K",
+                "deadline": 9,
+                "at": "K",
+                "to": null,
+                "remaining": 0,
+                "stage": 2
+              }
+            ]
+          },
+          "moves": {
+            "north": "G",
+            "south": "D",
+            "west": "H"
+          }
+        },
+        {
+          "view": {
+            "tick": 4,
+            "lanes": [
+              [
+                "A",
+                "B",
+                1
+              ],
+              [
+                "B",
+                "C",
+                2
+              ],
+              [
+                "C",
+                "D",
+                1
+              ],
+              [
+                "D",
+                "E",
+                2
+              ],
+              [
+                "A",
+                "F",
+                2
+              ],
+              [
+                "B",
+                "G",
+                1
+              ],
+              [
+                "C",
+                "H",
+                1
+              ],
+              [
+                "D",
+                "I",
+                1
+              ],
+              [
+                "E",
+                "J",
+                2
+              ],
+              [
+                "F",
+                "G",
+                1
+              ],
+              [
+                "G",
+                "H",
+                2
+              ],
+              [
+                "H",
+                "I",
+                1
+              ],
+              [
+                "I",
+                "J",
+                1
+              ],
+              [
+                "H",
+                "K",
+                1
+              ]
+            ],
+            "closed": [],
+            "paused": [],
+            "notice": {
+              "announce_tick": 1,
+              "orders": [
+                [
+                  {
+                    "lane": [
+                      "G",
+                      "H"
+                    ],
+                    "start": 1,
+                    "end": 4
+                  },
+                  {
+                    "bay": "I",
+                    "start": 1,
+                    "end": 4
+                  }
+                ],
+                [
+                  {
+                    "lane": [
+                      "H",
+                      "I"
+                    ],
+                    "start": 1,
+                    "end": 4
+                  },
+                  {
+                    "bay": "E",
+                    "start": 1,
+                    "end": 3
+                  }
+                ]
+              ]
+            },
+            "selected": 1,
+            "carts": [
+              {
+                "id": "north",
+                "start": "A",
+                "pickup": "F",
+                "delivery": "J",
+                "deadline": 11,
+                "at": "G",
+                "to": null,
+                "remaining": 0,
+                "stage": 1
+              },
+              {
+                "id": "south",
+                "start": "J",
+                "pickup": "E",
+                "delivery": "C",
+                "deadline": 10,
+                "at": "E",
+                "to": "D",
+                "remaining": 1,
+                "stage": 1
+              },
+              {
+                "id": "east",
+                "start": "D",
+                "pickup": "I",
+                "delivery": "F",
+                "deadline": 11,
+                "at": "I",
+                "to": null,
+                "remaining": 0,
+                "stage": 1
+              },
+              {
+                "id": "west",
+                "start": "G",
+                "pickup": "G",
+                "delivery": "K",
+                "deadline": 9,
+                "at": "H",
+                "to": null,
+                "remaining": 0,
+                "stage": 2
+              }
+            ]
+          },
+          "moves": {
+            "west": "K"
+          }
+        },
+        {
+          "view": {
+            "tick": 5,
+            "lanes": [
+              [
+                "A",
+                "B",
+                1
+              ],
+              [
+                "B",
+                "C",
+                2
+              ],
+              [
+                "C",
+                "D",
+                1
+              ],
+              [
+                "D",
+                "E",
+                2
+              ],
+              [
+                "A",
+                "F",
+                2
+              ],
+              [
+                "B",
+                "G",
+                1
+              ],
+              [
+                "C",
+                "H",
+                1
+              ],
+              [
+                "D",
+                "I",
+                1
+              ],
+              [
+                "E",
+                "J",
+                2
+              ],
+              [
+                "F",
+                "G",
+                1
+              ],
+              [
+                "G",
+                "H",
+                2
+              ],
+              [
+                "H",
+                "I",
+                1
+              ],
+              [
+                "I",
+                "J",
+                1
+              ],
+              [
+                "H",
+                "K",
+                1
+              ]
+            ],
+            "closed": [],
+            "paused": [],
+            "notice": {
+              "announce_tick": 1,
+              "orders": [
+                [
+                  {
+                    "lane": [
+                      "G",
+                      "H"
+                    ],
+                    "start": 1,
+                    "end": 4
+                  },
+                  {
+                    "bay": "I",
+                    "start": 1,
+                    "end": 4
+                  }
+                ],
+                [
+                  {
+                    "lane": [
+                      "H",
+                      "I"
+                    ],
+                    "start": 1,
+                    "end": 4
+                  },
+                  {
+                    "bay": "E",
+                    "start": 1,
+                    "end": 3
+                  }
+                ]
+              ]
+            },
+            "selected": 1,
+            "carts": [
+              {
+                "id": "north",
+                "start": "A",
+                "pickup": "F",
+                "delivery": "J",
+                "deadline": 11,
+                "at": "G",
+                "to": null,
+                "remaining": 0,
+                "stage": 1
+              },
+              {
+                "id": "south",
+                "start": "J",
+                "pickup": "E",
+                "delivery": "C",
+                "deadline": 10,
+                "at": "D",
+                "to": null,
+                "remaining": 0,
+                "stage": 1
+              },
+              {
+                "id": "east",
+                "start": "D",
+                "pickup": "I",
+                "delivery": "F",
+                "deadline": 11,
+                "at": "I",
+                "to": null,
+                "remaining": 0,
+                "stage": 1
+              },
+              {
+                "id": "west",
+                "start": "G",
+                "pickup": "G",
+                "delivery": "K",
+                "deadline": 9,
+                "at": "K",
+                "to": null,
+                "remaining": 0,
+                "stage": 2
+              }
+            ]
+          },
+          "moves": {
+            "east": "H"
+          }
+        },
+        {
+          "view": {
+            "tick": 6,
+            "lanes": [
+              [
+                "A",
+                "B",
+                1
+              ],
+              [
+                "B",
+                "C",
+                2
+              ],
+              [
+                "C",
+                "D",
+                1
+              ],
+              [
+                "D",
+                "E",
+                2
+              ],
+              [
+                "A",
+                "F",
+                2
+              ],
+              [
+                "B",
+                "G",
+                1
+              ],
+              [
+                "C",
+                "H",
+                1
+              ],
+              [
+                "D",
+                "I",
+                1
+              ],
+              [
+                "E",
+                "J",
+                2
+              ],
+              [
+                "F",
+                "G",
+                1
+              ],
+              [
+                "G",
+                "H",
+                2
+              ],
+              [
+                "H",
+                "I",
+                1
+              ],
+              [
+                "I",
+                "J",
+                1
+              ],
+              [
+                "H",
+                "K",
+                1
+              ]
+            ],
+            "closed": [],
+            "paused": [],
+            "notice": {
+              "announce_tick": 1,
+              "orders": [
+                [
+                  {
+                    "lane": [
+                      "G",
+                      "H"
+                    ],
+                    "start": 1,
+                    "end": 4
+                  },
+                  {
+                    "bay": "I",
+                    "start": 1,
+                    "end": 4
+                  }
+                ],
+                [
+                  {
+                    "lane": [
+                      "H",
+                      "I"
+                    ],
+                    "start": 1,
+                    "end": 4
+                  },
+                  {
+                    "bay": "E",
+                    "start": 1,
+                    "end": 3
+                  }
+                ]
+              ]
+            },
+            "selected": 1,
+            "carts": [
+              {
+                "id": "north",
+                "start": "A",
+                "pickup": "F",
+                "delivery": "J",
+                "deadline": 11,
+                "at": "G",
+                "to": null,
+                "remaining": 0,
+                "stage": 1
+              },
+              {
+                "id": "south",
+                "start": "J",
+                "pickup": "E",
+                "delivery": "C",
+                "deadline": 10,
+                "at": "D",
+                "to": null,
+                "remaining": 0,
+                "stage": 1
+              },
+              {
+                "id": "east",
+                "start": "D",
+                "pickup": "I",
+                "delivery": "F",
+                "deadline": 11,
+                "at": "H",
+                "to": null,
+                "remaining": 0,
+                "stage": 1
+              },
+              {
+                "id": "west",
+                "start": "G",
+                "pickup": "G",
+                "delivery": "K",
+                "deadline": 9,
+                "at": "K",
+                "to": null,
+                "remaining": 0,
+                "stage": 2
+              }
+            ]
+          },
+          "moves": {
+            "east": "C"
+          }
+        },
+        {
+          "view": {
+            "tick": 7,
+            "lanes": [
+              [
+                "A",
+                "B",
+                1
+              ],
+              [
+                "B",
+                "C",
+                2
+              ],
+              [
+                "C",
+                "D",
+                1
+              ],
+              [
+                "D",
+                "E",
+                2
+              ],
+              [
+                "A",
+                "F",
+                2
+              ],
+              [
+                "B",
+                "G",
+                1
+              ],
+              [
+                "C",
+                "H",
+                1
+              ],
+              [
+                "D",
+                "I",
+                1
+              ],
+              [
+                "E",
+                "J",
+                2
+              ],
+              [
+                "F",
+                "G",
+                1
+              ],
+              [
+                "G",
+                "H",
+                2
+              ],
+              [
+                "H",
+                "I",
+                1
+              ],
+              [
+                "I",
+                "J",
+                1
+              ],
+              [
+                "H",
+                "K",
+                1
+              ]
+            ],
+            "closed": [],
+            "paused": [],
+            "notice": {
+              "announce_tick": 1,
+              "orders": [
+                [
+                  {
+                    "lane": [
+                      "G",
+                      "H"
+                    ],
+                    "start": 1,
+                    "end": 4
+                  },
+                  {
+                    "bay": "I",
+                    "start": 1,
+                    "end": 4
+                  }
+                ],
+                [
+                  {
+                    "lane": [
+                      "H",
+                      "I"
+                    ],
+                    "start": 1,
+                    "end": 4
+                  },
+                  {
+                    "bay": "E",
+                    "start": 1,
+                    "end": 3
+                  }
+                ]
+              ]
+            },
+            "selected": 1,
+            "carts": [
+              {
+                "id": "north",
+                "start": "A",
+                "pickup": "F",
+                "delivery": "J",
+                "deadline": 11,
+                "at": "G",
+                "to": null,
+                "remaining": 0,
+                "stage": 1
+              },
+              {
+                "id": "south",
+                "start": "J",
+                "pickup": "E",
+                "delivery": "C",
+                "deadline": 10,
+                "at": "D",
+                "to": null,
+                "remaining": 0,
+                "stage": 1
+              },
+              {
+                "id": "east",
+                "start": "D",
+                "pickup": "I",
+                "delivery": "F",
+                "deadline": 11,
+                "at": "C",
+                "to": null,
+                "remaining": 0,
+                "stage": 1
+              },
+              {
+                "id": "west",
+                "start": "G",
+                "pickup": "G",
+                "delivery": "K",
+                "deadline": 9,
+                "at": "K",
+                "to": null,
+                "remaining": 0,
+                "stage": 2
+              }
+            ]
+          },
+          "moves": {
+            "north": "H",
+            "east": "B"
+          }
+        },
+        {
+          "view": {
+            "tick": 8,
+            "lanes": [
+              [
+                "A",
+                "B",
+                1
+              ],
+              [
+                "B",
+                "C",
+                2
+              ],
+              [
+                "C",
+                "D",
+                1
+              ],
+              [
+                "D",
+                "E",
+                2
+              ],
+              [
+                "A",
+                "F",
+                2
+              ],
+              [
+                "B",
+                "G",
+                1
+              ],
+              [
+                "C",
+                "H",
+                1
+              ],
+              [
+                "D",
+                "I",
+                1
+              ],
+              [
+                "E",
+                "J",
+                2
+              ],
+              [
+                "F",
+                "G",
+                1
+              ],
+              [
+                "G",
+                "H",
+                2
+              ],
+              [
+                "H",
+                "I",
+                1
+              ],
+              [
+                "I",
+                "J",
+                1
+              ],
+              [
+                "H",
+                "K",
+                1
+              ]
+            ],
+            "closed": [],
+            "paused": [],
+            "notice": {
+              "announce_tick": 1,
+              "orders": [
+                [
+                  {
+                    "lane": [
+                      "G",
+                      "H"
+                    ],
+                    "start": 1,
+                    "end": 4
+                  },
+                  {
+                    "bay": "I",
+                    "start": 1,
+                    "end": 4
+                  }
+                ],
+                [
+                  {
+                    "lane": [
+                      "H",
+                      "I"
+                    ],
+                    "start": 1,
+                    "end": 4
+                  },
+                  {
+                    "bay": "E",
+                    "start": 1,
+                    "end": 3
+                  }
+                ]
+              ]
+            },
+            "selected": 1,
+            "carts": [
+              {
+                "id": "north",
+                "start": "A",
+                "pickup": "F",
+                "delivery": "J",
+                "deadline": 11,
+                "at": "G",
+                "to": "H",
+                "remaining": 1,
+                "stage": 1
+              },
+              {
+                "id": "south",
+                "start": "J",
+                "pickup": "E",
+                "delivery": "C",
+                "deadline": 10,
+                "at": "D",
+                "to": null,
+                "remaining": 0,
+                "stage": 1
+              },
+              {
+                "id": "east",
+                "start": "D",
+                "pickup": "I",
+                "delivery": "F",
+                "deadline": 11,
+                "at": "C",
+                "to": "B",
+                "remaining": 1,
+                "stage": 1
+              },
+              {
+                "id": "west",
+                "start": "G",
+                "pickup": "G",
+                "delivery": "K",
+                "deadline": 9,
+                "at": "K",
+                "to": null,
+                "remaining": 0,
+                "stage": 2
+              }
+            ]
+          },
+          "moves": {
+            "south": "C"
+          }
+        },
+        {
+          "view": {
+            "tick": 9,
+            "lanes": [
+              [
+                "A",
+                "B",
+                1
+              ],
+              [
+                "B",
+                "C",
+                2
+              ],
+              [
+                "C",
+                "D",
+                1
+              ],
+              [
+                "D",
+                "E",
+                2
+              ],
+              [
+                "A",
+                "F",
+                2
+              ],
+              [
+                "B",
+                "G",
+                1
+              ],
+              [
+                "C",
+                "H",
+                1
+              ],
+              [
+                "D",
+                "I",
+                1
+              ],
+              [
+                "E",
+                "J",
+                2
+              ],
+              [
+                "F",
+                "G",
+                1
+              ],
+              [
+                "G",
+                "H",
+                2
+              ],
+              [
+                "H",
+                "I",
+                1
+              ],
+              [
+                "I",
+                "J",
+                1
+              ],
+              [
+                "H",
+                "K",
+                1
+              ]
+            ],
+            "closed": [],
+            "paused": [],
+            "notice": {
+              "announce_tick": 1,
+              "orders": [
+                [
+                  {
+                    "lane": [
+                      "G",
+                      "H"
+                    ],
+                    "start": 1,
+                    "end": 4
+                  },
+                  {
+                    "bay": "I",
+                    "start": 1,
+                    "end": 4
+                  }
+                ],
+                [
+                  {
+                    "lane": [
+                      "H",
+                      "I"
+                    ],
+                    "start": 1,
+                    "end": 4
+                  },
+                  {
+                    "bay": "E",
+                    "start": 1,
+                    "end": 3
+                  }
+                ]
+              ]
+            },
+            "selected": 1,
+            "carts": [
+              {
+                "id": "north",
+                "start": "A",
+                "pickup": "F",
+                "delivery": "J",
+                "deadline": 11,
+                "at": "H",
+                "to": null,
+                "remaining": 0,
+                "stage": 1
+              },
+              {
+                "id": "south",
+                "start": "J",
+                "pickup": "E",
+                "delivery": "C",
+                "deadline": 10,
+                "at": "C",
+                "to": null,
+                "remaining": 0,
+                "stage": 2
+              },
+              {
+                "id": "east",
+                "start": "D",
+                "pickup": "I",
+                "delivery": "F",
+                "deadline": 11,
+                "at": "B",
+                "to": null,
+                "remaining": 0,
+                "stage": 1
+              },
+              {
+                "id": "west",
+                "start": "G",
+                "pickup": "G",
+                "delivery": "K",
+                "deadline": 9,
+                "at": "K",
+                "to": null,
+                "remaining": 0,
+                "stage": 2
+              }
+            ]
+          },
+          "moves": {
+            "north": "I",
+            "south": "D",
+            "east": "G"
+          }
+        },
+        {
+          "view": {
+            "tick": 10,
+            "lanes": [
+              [
+                "A",
+                "B",
+                1
+              ],
+              [
+                "B",
+                "C",
+                2
+              ],
+              [
+                "C",
+                "D",
+                1
+              ],
+              [
+                "D",
+                "E",
+                2
+              ],
+              [
+                "A",
+                "F",
+                2
+              ],
+              [
+                "B",
+                "G",
+                1
+              ],
+              [
+                "C",
+                "H",
+                1
+              ],
+              [
+                "D",
+                "I",
+                1
+              ],
+              [
+                "E",
+                "J",
+                2
+              ],
+              [
+                "F",
+                "G",
+                1
+              ],
+              [
+                "G",
+                "H",
+                2
+              ],
+              [
+                "H",
+                "I",
+                1
+              ],
+              [
+                "I",
+                "J",
+                1
+              ],
+              [
+                "H",
+                "K",
+                1
+              ]
+            ],
+            "closed": [],
+            "paused": [],
+            "notice": {
+              "announce_tick": 1,
+              "orders": [
+                [
+                  {
+                    "lane": [
+                      "G",
+                      "H"
+                    ],
+                    "start": 1,
+                    "end": 4
+                  },
+                  {
+                    "bay": "I",
+                    "start": 1,
+                    "end": 4
+                  }
+                ],
+                [
+                  {
+                    "lane": [
+                      "H",
+                      "I"
+                    ],
+                    "start": 1,
+                    "end": 4
+                  },
+                  {
+                    "bay": "E",
+                    "start": 1,
+                    "end": 3
+                  }
+                ]
+              ]
+            },
+            "selected": 1,
+            "carts": [
+              {
+                "id": "north",
+                "start": "A",
+                "pickup": "F",
+                "delivery": "J",
+                "deadline": 11,
+                "at": "I",
+                "to": null,
+                "remaining": 0,
+                "stage": 1
+              },
+              {
+                "id": "south",
+                "start": "J",
+                "pickup": "E",
+                "delivery": "C",
+                "deadline": 10,
+                "at": "D",
+                "to": null,
+                "remaining": 0,
+                "stage": 2
+              },
+              {
+                "id": "east",
+                "start": "D",
+                "pickup": "I",
+                "delivery": "F",
+                "deadline": 11,
+                "at": "G",
+                "to": null,
+                "remaining": 0,
+                "stage": 1
+              },
+              {
+                "id": "west",
+                "start": "G",
+                "pickup": "G",
+                "delivery": "K",
+                "deadline": 9,
+                "at": "K",
+                "to": null,
+                "remaining": 0,
+                "stage": 2
+              }
+            ]
+          },
+          "moves": {
+            "north": "J",
+            "south": "C",
+            "east": "F",
+            "west": "H"
+          }
+        }
+      ]
+    }
+  }
+]

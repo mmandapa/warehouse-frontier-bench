@@ -1,0 +1,26 @@
+{
+  "job_name": "warehouse-dispatch-windows-luna",
+  "jobs_dir": "jobs/dispatch-windows-luna",
+  "n_attempts": 4,
+  "n_concurrent_trials": 1,
+  "timeout_multiplier": 1.0,
+  "environment": {
+    "type": "docker"
+  },
+  "agents": [
+    {
+      "name": "codex",
+      "model_name": "openai/gpt-6-luna",
+      "kwargs": {
+        "version": "0.163.0",
+        "web_search": "disabled",
+        "reasoning_effort": "medium"
+      }
+    }
+  ],
+  "tasks": [
+    {
+      "path": "tasks/warehouse-dispatch-windows"
+    }
+  ]
+}

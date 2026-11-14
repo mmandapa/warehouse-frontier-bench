@@ -1,0 +1,85 @@
+{
+  "harbor_task_checksum": "8043249039690eb332c308725f2783e8f5161f082fc0dfeee09a783eb9bbc35d",
+  "files": [
+    {
+      "path": "README.md",
+      "sha256": "6ddcc0ee6ba92010aaaaab8db43a73f118cf4e1fe26e93d41888bad73c901c6d"
+    },
+    {
+      "path": "environment/Dockerfile",
+      "sha256": "a99ec02e8cc65b77d01c2cbd7f0baaa3b169593005b81b71cd49545b81060006"
+    },
+    {
+      "path": "environment/workspace/README.md",
+      "sha256": "895edbbc248df35fb019fa40f17f36d952ba2d0f6cb57813d101d37c219e2c12"
+    },
+    {
+      "path": "environment/workspace/client.py",
+      "sha256": "d61db89b809915250039da31c12bc7119081bcfb0ff35382d90f42da35e75b8f"
+    },
+    {
+      "path": "environment/workspace/policy.py",
+      "sha256": "c10667bdc3225d5a26600b6b985365c99d788470432a2474ebcde413d512d7f0"
+    },
+    {
+      "path": "environment/workspace/practice-cases.json",
+      "sha256": "4036c97a7020b9bdfbd311415a7ac9c8bbe29048c4fd2c8b57a1c5f9997559b6"
+    },
+    {
+      "path": "environment/workspace/practice.py",
+      "sha256": "b9f4f6f8dc1ce63274219c9d6630ce508851bb251b2605217a831d09c95db4d3"
+    },
+    {
+      "path": "environment/workspace/session.py",
+      "sha256": "d2ffbc3226b1a3253fee2de7ec1e32ef2171144e5c23acd8cd28b326e50460fe"
+    },
+    {
+      "path": "instruction.md",
+      "sha256": "322bbe237a07114feeedd93cbb26cc45d8a6ee78a5cbdf99745766246be6210c"
+    },
+    {
+      "path": "solution/policy.py",
+      "sha256": "05938dccad815d6d1465b4b45732e8bd7d40829af80f831110c820439dd8110e"
+    },
+    {
+      "path": "solution/solve.sh",
+      "sha256": "f92206b06ebb539ea2651d9037d25966c843de5f8d909b3de08fa239ef732ef5"
+    },
+    {
+      "path": "task.toml",
+      "sha256": "b1d00b4a8a30c627a6e2e91e1255f7b1ee6c68067ab8de2a02bbfb96c80060c6"
+    },
+    {
+      "path": "tests/Dockerfile",
+      "sha256": "f46b2309369268800aea0caa025f87518d4d4edf23239d63346f0c3a4753a16d"
+    },
+    {
+      "path": "tests/grader/fixtures.py",
+      "sha256": "26a36b72888d9a26495d53c7a236d72bc9b2990a012bcaa996bef07a87d83a6d"
+    },
+    {
+      "path": "tests/grader/grade.py",
+      "sha256": "fbdabb8f602093bef196ae7fbdb21d47f4b15793971fe3b609d6d5d20baf934e"
+    },
+    {
+      "path": "tests/grader/policy_fs.py",
+      "sha256": "ee9b9018bf886e5f7c43b69e3f9321dd65ff19755a254a747216f18c8504e9ee"
+    },
+    {
+      "path": "tests/grader/public/client.py",
+      "sha256": "d61db89b809915250039da31c12bc7119081bcfb0ff35382d90f42da35e75b8f"
+    },
+    {
+      "path": "tests/grader/runner.py",
+      "sha256": "1c80d8cc861deafe286a53e096afc639cde9b9c1213e52974cea25c1136b529b"
+    },
+    {
+      "path": "tests/grader/session.py",
+      "sha256": "d2ffbc3226b1a3253fee2de7ec1e32ef2171144e5c23acd8cd28b326e50460fe"
+    },
+    {
+      "path": "tests/test.sh",
+      "sha256": "229e02a9092aa91d9bdf35bd90294c3bd9a4c82fc6bfcfb6f93b78e76f54eedf"
+    }
+  ]
+}

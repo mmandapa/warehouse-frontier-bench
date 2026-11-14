@@ -1,0 +1,17 @@
+{
+    "task": {
+        "path": "tasks/warehouse-dispatch-windows"
+    },
+    "trial_name": "warehouse-dispatch-windows__bQhJkfw",
+    "trials_dir": "/Users/maharshi12/Documents/Codex/2026-11-06/tg/outputs/warehouse-fault-isolation-qualification/dispatch-window-study/harbor/dispatch-windows-luna-02",
+    "agent": {
+        "name": "codex",
+        "model_name": "openai/gpt-6-luna",
+        "kwargs": {
+            "version": "0.163.0",
+            "web_search": "disabled",
+            "reasoning_effort": "medium"
+        }
+    },
+    "job_id": "29aef5ad-cb41-4b14-850f-93db8ab77c2c"
+}
