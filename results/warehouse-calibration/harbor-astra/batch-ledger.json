@@ -1,0 +1,55 @@
+{
+  "task_checksum": "6c1732c38242d0df75757c7d26ebe2d73d5e43bbddf4f714f8048782c0328784",
+  "attempts": [
+    {
+      "attempt": 1,
+      "job": "calibration-astra-01",
+      "started_at": "2026-11-14T03:56:26.068375+00:00",
+      "returncode": 0,
+      "finished_at": "2026-11-14T03:59:22.783976+00:00",
+      "result": "results/warehouse-calibration/harbor-astra/calibration-astra-01/warehouse-calibration__iYxrMov/result.json",
+      "trial": "warehouse-calibration__iYxrMov",
+      "reward": 1.0,
+      "cost_usd": 0.7589895000000001,
+      "status": "valid"
+    },
+    {
+      "attempt": 2,
+      "job": "calibration-astra-02",
+      "started_at": "2026-11-14T03:59:22.785672+00:00",
+      "returncode": 0,
+      "finished_at": "2026-11-14T04:03:30.770429+00:00",
+      "result": "results/warehouse-calibration/harbor-astra/calibration-astra-02/warehouse-calibration__t2Ajwpg/result.json",
+      "trial": "warehouse-calibration__t2Ajwpg",
+      "reward": 1.0,
+      "cost_usd": 1.016496,
+      "status": "valid"
+    },
+    {
+      "attempt": 3,
+      "job": "calibration-astra-03",
+      "started_at": "2026-11-14T04:03:30.771644+00:00",
+      "returncode": 0,
+      "finished_at": "2026-11-14T04:08:53.818960+00:00",
+      "result": "results/warehouse-calibration/harbor-astra/calibration-astra-03/warehouse-calibration__oE6Y8L2/result.json",
+      "trial": "warehouse-calibration__oE6Y8L2",
+      "reward": 1.0,
+      "cost_usd": 1.3652634999999997,
+      "status": "valid"
+    },
+    {
+      "attempt": 4,
+      "job": "calibration-astra-04",
+      "started_at": "2026-11-14T04:08:53.820388+00:00",
+      "returncode": 0,
+      "finished_at": "2026-11-14T04:14:12.300542+00:00",
+      "result": "results/warehouse-calibration/harbor-astra/calibration-astra-04/warehouse-calibration__biRb848/result.json",
+      "trial": "warehouse-calibration__biRb848",
+      "reward": 1.0,
+      "cost_usd": 1.3317605000000001,
+      "status": "valid"
+    }
+  ],
+  "recorded_cost_usd": "4.4725094999999999",
+  "source_commit": "467870c25ccd919d6655773a86cda2fb25967915"
+}

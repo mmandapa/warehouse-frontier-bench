@@ -58,6 +58,7 @@ The reports link to trajectories, policies, and verifier diagnostics.
 | [Recovery](results/warehouse-recovery/RESULTS.md) | GPT-6 Luna | Four attempts | 5/16, 13/16, 6/16, 9/16 | Collisions and motion-budget misses |
 | [Recovery](results/warehouse-recovery/RESULTS.md#astra-comparison) | GPT-6 Astra | Four attempts | 16/16, 16/16, 16/16, 16/16 | All missions completed |
 | [Calibration](results/warehouse-calibration/RESULTS.md#fresh-four-attempts) | GPT-6 Luna | Fresh four | 56/60, 52/60, 58/60, 60/60 | Fourteen position misses, one full solve |
+| [Calibration](results/warehouse-calibration/RESULTS.md#astra-comparison) | GPT-6 Astra | Four attempts | 60/60, 60/60, 60/60, 60/60 | Every forecast met both tolerances |
 | [Calibration](results/warehouse-calibration/RESULTS.md#original-four-attempts) | GPT-6 Luna | Original four | 54/60, 52/60, 0/60, 48/60 | Position misses and one syntax error |
 | [Calibration](results/warehouse-calibration/RESULTS.md#retest-after-attempt-3) | GPT-6 Luna | Follow-up | 57/60 | Three sustained reverse misses |
 
@@ -107,4 +108,4 @@ harbor run -c configs/calibration-luna.json -e docker -k 4 -n 1 -r 0 -o jobs/cal
 
 Each environment uses two CPUs and 4 GiB of RAM, with a 15-minute agent
 limit and a four-minute verifier limit. The recorded model trials
-used about 73 minutes of combined Harbor trial time.
+used about 91 minutes of combined Harbor trial time.

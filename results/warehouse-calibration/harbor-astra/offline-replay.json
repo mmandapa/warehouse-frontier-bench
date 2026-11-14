@@ -1,0 +1,50 @@
+{
+  "harbor_task_checksum": "6c1732c38242d0df75757c7d26ebe2d73d5e43bbddf4f714f8048782c0328784",
+  "network": "none",
+  "trials": [
+    {
+      "attempt": 1,
+      "policy_sha256": "f5b6595f5349c216db4684d407dcd1a2296be9eaf2143f96aa00859982450728",
+      "official_reward": 1.0,
+      "case_outcomes": {
+        "submitted": 12
+      },
+      "result": "results/warehouse-calibration/harbor-astra/calibration-astra-01/warehouse-calibration__iYxrMov/result.json",
+      "replayed_reward": 1.0,
+      "exact_diagnostic_match": true
+    },
+    {
+      "attempt": 2,
+      "policy_sha256": "836262dd0367f9288d1d54882af425fbc9aaae4d37661c1cea7cd87fbf08da42",
+      "official_reward": 1.0,
+      "case_outcomes": {
+        "submitted": 12
+      },
+      "result": "results/warehouse-calibration/harbor-astra/calibration-astra-02/warehouse-calibration__t2Ajwpg/result.json",
+      "replayed_reward": 1.0,
+      "exact_diagnostic_match": true
+    },
+    {
+      "attempt": 3,
+      "policy_sha256": "ddfad1b7461c40495b8a95e19c699da24c77ef0710ad760adbdc2ca7714de88b",
+      "official_reward": 1.0,
+      "case_outcomes": {
+        "submitted": 12
+      },
+      "result": "results/warehouse-calibration/harbor-astra/calibration-astra-03/warehouse-calibration__oE6Y8L2/result.json",
+      "replayed_reward": 1.0,
+      "exact_diagnostic_match": true
+    },
+    {
+      "attempt": 4,
+      "policy_sha256": "ccc062af7b34caa3e3c0a186d7db951c33b71737ab1f3c4394b667b5d0402c81",
+      "official_reward": 1.0,
+      "case_outcomes": {
+        "submitted": 12
+      },
+      "result": "results/warehouse-calibration/harbor-astra/calibration-astra-04/warehouse-calibration__biRb848/result.json",
+      "replayed_reward": 1.0,
+      "exact_diagnostic_match": true
+    }
+  ]
+}

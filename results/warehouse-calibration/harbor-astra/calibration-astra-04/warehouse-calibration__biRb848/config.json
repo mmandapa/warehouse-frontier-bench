@@ -1,0 +1,17 @@
+{
+    "task": {
+        "path": "tasks/warehouse-calibration"
+    },
+    "trial_name": "warehouse-calibration__biRb848",
+    "trials_dir": "/private/tmp/warehouse-calibration-astra.KyO7PD/jobs/calibration-astra-04",
+    "agent": {
+        "name": "codex",
+        "model_name": "openai/gpt-6-astra",
+        "kwargs": {
+            "version": "0.163.0",
+            "web_search": "disabled",
+            "reasoning_effort": "medium"
+        }
+    },
+    "job_id": "6d1b081e-7da1-4893-8753-2cde7a261867"
+}

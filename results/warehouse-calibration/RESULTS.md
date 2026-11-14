@@ -28,6 +28,30 @@ records the runs and $0.08200 in recorded
 model spend. The [launch blocked by API quota](harbor-luna-fresh/quota-blocked-launch.json)
 has no model score.
 
+## Astra comparison
+
+GPT-6 Astra used the same Cart Calibration package as the fresh Luna
+batch, with Codex CLI 0.163.0 at medium reasoning effort, Harbor 0.25.0
+on Docker, two CPUs, 4 GiB of RAM, and a 15-minute agent limit.
+All four Astra submissions scored **60/60**, for **240/240** forecasts.
+The fresh Luna batch passed **226/240 (94.2%)** and scored 60/60 in one
+of four attempts.
+
+| Attempt | Reward | Correct forecasts | Harbor wall time | Finding | Artifacts |
+| --- | ---: | ---: | ---: | --- | --- |
+| 1 | 1.0000 | 60/60 | 2m 53s | All forecasts met tolerance. | [Trace](harbor-astra/calibration-astra-01/warehouse-calibration__iYxrMov/agent/trajectory.json), [Policy](harbor-astra/calibration-astra-01/warehouse-calibration__iYxrMov/artifacts/app/policy.py), [Verifier](harbor-astra/calibration-astra-01/warehouse-calibration__iYxrMov/verifier/diagnostics.json), [Harbor](harbor-astra/calibration-astra-01/warehouse-calibration__iYxrMov/result.json) |
+| 2 | 1.0000 | 60/60 | 4m 05s | All forecasts met tolerance. | [Trace](harbor-astra/calibration-astra-02/warehouse-calibration__t2Ajwpg/agent/trajectory.json), [Policy](harbor-astra/calibration-astra-02/warehouse-calibration__t2Ajwpg/artifacts/app/policy.py), [Verifier](harbor-astra/calibration-astra-02/warehouse-calibration__t2Ajwpg/verifier/diagnostics.json), [Harbor](harbor-astra/calibration-astra-02/warehouse-calibration__t2Ajwpg/result.json) |
+| 3 | 1.0000 | 60/60 | 5m 20s | All forecasts met tolerance. | [Trace](harbor-astra/calibration-astra-03/warehouse-calibration__oE6Y8L2/agent/trajectory.json), [Policy](harbor-astra/calibration-astra-03/warehouse-calibration__oE6Y8L2/artifacts/app/policy.py), [Verifier](harbor-astra/calibration-astra-03/warehouse-calibration__oE6Y8L2/verifier/diagnostics.json), [Harbor](harbor-astra/calibration-astra-03/warehouse-calibration__oE6Y8L2/result.json) |
+| 4 | 1.0000 | 60/60 | 5m 15s | All forecasts met tolerance. | [Trace](harbor-astra/calibration-astra-04/warehouse-calibration__biRb848/agent/trajectory.json), [Policy](harbor-astra/calibration-astra-04/warehouse-calibration__biRb848/artifacts/app/policy.py), [Verifier](harbor-astra/calibration-astra-04/warehouse-calibration__biRb848/verifier/diagnostics.json), [Harbor](harbor-astra/calibration-astra-04/warehouse-calibration__biRb848/result.json) |
+
+Offline replay reproduced all four policies' verifier diagnostics. Recorded
+model spend was $4.47. [Offline replay](harbor-astra/offline-replay.json) · [Batch ledger](harbor-astra/batch-ledger.json)
+
+Astra's largest position error on the scored suite was 4.83 mm against a
+45 mm tolerance. The fixed suite reached its scoring ceiling for Astra.
+A follow-up could vary how traction responds to sustained motor commands and
+change camera resolution on new carts with the same measurement budget.
+
 ## Original four attempts
 
 GPT-6 Luna fully solved 0 of 4 attempts in the original batch. The
@@ -72,8 +96,7 @@ and [qualification report](QUALIFICATION.md).
 These trials show calibration failures on this simulator and setup.
 A next study could
 hold the estimator and cart fixed while comparing agent-chosen probes
-against a known informative probe. No stronger-model run was performed
-on this task version.
+against a known informative probe.
 
 ## Retest after attempt 3
 
