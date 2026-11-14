@@ -1,66 +1,97 @@
-# Research Reliability Bench
+# Warehouse Cart Benchmark
 
-A mini Harbor benchmark for **ML implementation under resource constraints**. The main task asks an agent to preserve CTC loss and complete logit gradients while replacing a dense dynamic-programming implementation to fit 1.5 MiB of WebAssembly linear memory. It measures algorithm selection, memory planning, numerical stability, and debugging of a real training primitive.
+Can a coding agent build a controller that makes reliable decisions from
+limited sensor data? A warehouse cart's survey can be out of date, and
+its motion can differ from what the motor commands imply. These tasks
+test two ways to handle that uncertainty: adapt to evidence during a
+mission and choose measurements before making a prediction.
 
-The first task, a model-selection audit, saturated: four Codex/gpt-6-luna attempts scored 1.0. Its public helper did too much of the work. We retain those trajectories and add one more substantive task rather than changing the old scores. The replacement also scored **4/4 on Codex/gpt-6-luna**. Its oracle passes and no-op fails, but it did not expose a genuine final capability failure. No Astra batch was run. See the [research and diagnosis](docs/RESEARCH.md), [design decision](docs/decisions/0002-memory-bounded-ctc.md), [observed results](results/ctc/RESULTS.md), and [assignment requirements audit](docs/OA_REQUIREMENTS.md).
+| Task | What the agent receives and does | A case passes when |
+| --- | --- | --- |
+| [Cart Recovery](tasks/warehouse-recovery/README.md) | A surveyed map, simulator client, starter code, and three practice missions. Use lidar, odometry, gyro, and visible markers to localize a moved cart, route around uncharted obstructions, and dock. | The cart docks without collision, with no movement pending, within 0.22 m and 0.12 rad of the target pose. |
+| [Cart Calibration](tasks/warehouse-calibration/README.md) | A simulator client, motion equations, starter code, and two practice cases. Use up to 30 command ticks and two camera readings to estimate traction, then predict endpoints for new command sequences. | The predicted endpoint is within 0.045 m and 0.025 rad of the simulated endpoint. |
 
-## Setup and run
+Both tasks require a Python standard library policy at `/app/policy.py`.
+Recovery calls the simulator to drive and stop the cart. Calibration
+submits one position and heading per forecast sequence.
 
-Requirements: Python 3.12, uv, Docker, and enough local disk to build the images. Data and test fixtures are packaged. From the repository root:
+## Scoring and validity
 
-```bash
-uv sync --extra dev --locked
-uv run pytest -q
-uv run harbor run -p tasks/ctc-memory-kernel -e docker -a oracle -k 2 -n 1 -r 0 --job-name ctc-oracle-check -o jobs
-uv run harbor run -p tasks/ctc-memory-kernel -e docker -a nop -k 1 -n 1 -r 0 --job-name ctc-noop-check -o jobs
+The offline verifier returns one scalar, the fraction of cases passed.
+Recovery grades 16 missions across four matched layouts. Calibration
+grades 60 forecasts across 12 carts. Each case is pass/fail. The fraction
+distinguishes a policy that docks on 13 of 16 missions from one that
+docks on 5 of 16, even though neither is a full solve. This also gives
+group-relative RL a reward difference when no rollout fully succeeds.
+Report full solves and inspect per-case diagnostics alongside the
+average so strong performance on easier cases cannot hide recurring
+failures on harder ones.
+
+The agent image contains the practice workspace. The offline verifier
+owns the scored initial states, obstacle placements, cart parameters,
+and expected outcomes. The oracle and scored fixtures sit outside the
+agent image. Each mission or cart starts a fresh policy process in the
+verifier. Model web search was disabled and rollout egress was restricted
+to the inference host. Both [Recovery](results/warehouse-recovery/QUALIFICATION.md)
+and [Calibration](results/warehouse-calibration/QUALIFICATION.md)
+passed Harbor lint and scored 1.0 with the oracle and 0.0 with no-op.
+
+## Model results
+
+All runs used Codex CLI 0.163.0 at medium reasoning effort through Harbor
+0.25.0 and Docker. Entries are in attempt order and show cases passed
+over cases evaluated. Run reports link to trajectories, submitted
+policies, per-attempt rewards, and verifier diagnostics.
+
+| Task | Model | Attempts | Cases passed | Full solves | Main finding |
+| --- | --- | --- | --- | ---: | --- |
+| [Recovery](results/warehouse-recovery/RESULTS.md) | GPT-6 Luna | 1–4 | 5/16, 13/16, 6/16, 9/16 | 0/4 | The best policy docked on every clear and single-closure route, then exhausted its motion budget on three two-closure routes. Other policies also collided on clear routes. |
+| [Recovery](results/warehouse-recovery/RESULTS.md#astra-comparison) | GPT-6 Astra | 1–4 | 16/16, 16/16, 16/16, 16/16 | 4/4 | All four policies docked on every mission. |
+| [Calibration](results/warehouse-calibration/RESULTS.md) | GPT-6 Luna | 1–4 | 54/60, 52/60, 0/60, 48/60 | 0/4 | Three submissions missed position forecasts. One did not run. |
+
+In Calibration attempt 2, a local analysis recovered all 60 forecasts
+with exact camera positions and reproduced the eight misses with the
+published millimeter rounding. The oracle got 60/60 at the same
+resolution by choosing a different probe. For Recovery, offline replay
+reproduced all 64 Luna episode diagnostics.
+
+## Run the tasks
+
+Install Harbor and start Docker. From the repository root:
+
+```sh
+uv tool install 'harbor==0.25.0'
+for task in tasks/warehouse-recovery tasks/warehouse-calibration; do
+  harbor lint "$task"
+  harbor run -p "$task" -e docker -a oracle -r 0 -o "jobs/${task##*/}" --job-name oracle
+  harbor run -p "$task" -e docker -a nop -r 0 -o "jobs/${task##*/}" --job-name nop
+done
 ```
 
-Oracle rewards must both be 1.0; no-op must be 0.0. Each trial uses two CPU cores and 4 GiB. Agent timeout is 20 minutes, verifier five minutes, and each image build ten minutes. This is CPU-only, within the OA's two-hour per-task budget. The reference control job completed two trials in 63 seconds on the measured Docker host; cold builds can take longer.
+To evaluate Luna, configure your OpenAI credentials and run the saved
+configs into a fresh output directory. These commands make model calls.
 
-For four model attempts, supply your own authorized key through the environment and run:
-
-```bash
-uv run python scripts/run_trials.py --task ctc-memory-kernel --model gpt-6-luna --job-name ctc-primary-gpt-6-luna
+```sh
+harbor run -c configs/recovery-luna.json -e docker -k 4 -n 1 -r 0 -o jobs/recovery-luna
+harbor run -c configs/calibration-luna.json -e docker -k 4 -n 1 -r 0 -o jobs/calibration-luna
 ```
 
-This incurs model charges. It uses Harbor 0.25.0, Codex 0.163.0, medium effort, four attempts, concurrency two, and zero automatic retries. Network is restricted to `api.openai.com` during the agent phase; verifier execution has no network. Native web search is disabled. Credentials stay outside task artifacts and version control. The job wrapper adds a two-hour total deadline. Use a new job name for each independent experiment.
+Both tasks use two CPUs and 4 GiB per environment, with a 15-minute agent
+limit and a four-minute verifier limit. Recorded model trials used about
+57 minutes of combined Harbor trial time. Design and iteration exceeded
+the five-hour authoring timebox.
 
-Daytona is supported by Harbor (`--environment daytona` plus a working `DAYTONA_API_KEY`). The OA's supplied key returned HTTP 401, so measured runs use the explicitly authorized Docker fallback. Daytona execution remains unvalidated. The assignment permits CPU-only environments and describes Daytona as optional.
+## Coverage and next steps
 
-## Task and success criterion
+Recovery can vary the number and placement of closures and the length
+of a safe detour. Match layouts and start poses so a clear-route control
+separates navigation errors from difficulty with replanning. Calibration
+can vary traction parameters, camera precision, and forecast command
+histories. Check that an oracle can still identify traction within the
+same measurement budget. The challenge is that a plausible route or fit
+can work on practice inputs and fail when new evidence changes what the
+policy should do.
 
-The agent receives a complete [contract](tasks/ctc-memory-kernel/environment/workspace/CONTRACT.md), correct dense C baseline, stable mathematical routines, LLVM/WASI compiler, Wasmtime runner, and public examples from every tested family. Inputs include empty targets, repeated labels, arbitrary blank labels, minimum-length and impossible alignments, extreme logits, and long sequences. It submits exactly `kernel.wasm`.
-
-For the largest case, a dense alpha table alone needs about 12.0 MiB, before inputs and gradients. The final module has only 1.5 MiB for everything. The reference uses recursive recomputation; any implementation satisfying the published behavior and limits is accepted. No oracle storage recipe is included in the agent image. A generous deterministic fuel bound prevents unbounded recomputation; elapsed-time speedups are neither required nor claimed.
-
-Binary reward is 1 only if **all** private cases have the correct status, loss, and full gradient. Numerical tolerances, shapes, memory, fuel, and ABI are public. Per-case results are diagnostic. A loss-only implementation or one passing small cases cannot receive complete reward.
-
-## Verifier architecture and validity
-
-```mermaid
-flowchart LR
-    A[Agent: baseline + compiler + public cases] -->|kernel.wasm only| B[Separate verifier container]
-    B --> C[Wasmtime: no imports; memory + fuel limits]
-    D[Trusted private inputs + expected outputs] --> C
-    C --> E[Check status, loss, every gradient, inputs and guards]
-    E --> F[Scalar reward + diagnostic JSON]
-```
-
-The module receives only numeric buffers. It has no WASI, host callbacks, filesystem, network, or clock and cannot import the grader's Python or reference outputs. A fresh instance is used for each case. The verifier rejects missing/oversized modules, forbidden imports, buffer corruption, memory excess, and fuel exhaustion. The outer container bounds host and JIT resources; the linear-memory cap is not a bound on all host allocations.
-
-Fixture generation checks an independent NumPy full-table reference against PyTorch float64 CTCLoss and autograd. Unit tests add exhaustive path enumeration and finite differences. Oracle, no-op, unchanged-baseline, and adversarial controls probe different validity claims. They do not by themselves establish model difficulty or complete attack resistance. Expected outputs and oracle source are in this private reviewer repository, never the agent build context; giving a solving agent the entire repository would invalidate that boundary.
-
-## Reproduce and extend
-
-`src/ctcbench/` owns the reference, fixture generator, runtime, and scorer. Rebuild fixtures and stage source into the two separate build contexts with:
-
-```bash
-uv run python scripts/prepare_ctc.py
-uv run pytest -q
-```
-
-Hashes are recorded in `results/ctc/fixture-manifest.json`. The final task checksum and per-file hashes are in `results/ctc/freeze.json`. Changing task inputs, limits, runtime, or verifier requires new controls and a clearly versioned model batch. Preserve all runs, including infrastructure failures. Do not tighten the task after observing outcomes and silently report the old batch against a new version.
-
-A larger benchmark would vary shape, numerical conditioning, and memory/work ratios across several differentiable dynamic programs. Difficulty should be calibrated using oracle-feasible budget ladders and held-out generator families, rather than seed changes alone. See the research note for alternatives, validation protocol, and scope limits.
-
-The older [audit task](docs/V1_AUDIT.md) and its [results](results/RESULTS.md) remain reproducible. Its UCI HAR data is by Anguita et al., [DOI 10.24432/C54S4K](https://doi.org/10.24432/C54S4K), under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/); source documentation is included. CTC fixtures are synthetic. This project supplies episodic tasks and rewards, not an RL training pipeline or evidence of learning gains. The full research/redesign effort was not verified to fit the OA's five-hour timebox; recorded intervals and limitations are explicit in the results.
+These small fixed simulation suites show how the tested agents behave in
+this setting. A follow-up would compare agent-selected probes with a
+known informative probe and evaluate a stronger model on Calibration.

@@ -1,0 +1,46 @@
+{
+  "task_sha256": "e4f701315bb4b80396ef01a0d95a0817f32c808503c1b67038d7f61cca916088",
+  "network": "none",
+  "trials": [
+    {
+      "attempt": 1,
+      "policy_sha256": "933651e445a1018db8d310dfa337f894f11b80d598e518239370bfdafb13c548",
+      "official_reward": 0.9,
+      "replayed_reward": 0.9,
+      "exact_diagnostic_match": true,
+      "case_outcomes": {
+        "submitted": 12
+      }
+    },
+    {
+      "attempt": 2,
+      "policy_sha256": "9431d3170b9f70387a516d521833b4659fc9fc74cb95bfa551c8f198adf901fb",
+      "official_reward": 0.8666666666666667,
+      "replayed_reward": 0.8666666666666667,
+      "exact_diagnostic_match": true,
+      "case_outcomes": {
+        "submitted": 12
+      }
+    },
+    {
+      "attempt": 3,
+      "policy_sha256": "3b89c47ecbb4468d32e436422415d311b7f09848ea7bae0c463b1c71776e7232",
+      "official_reward": 0.0,
+      "replayed_reward": 0.0,
+      "exact_diagnostic_match": true,
+      "case_outcomes": {
+        "policy exited before finish": 12
+      }
+    },
+    {
+      "attempt": 4,
+      "policy_sha256": "44a866459a8ad55c4dac924b2e8d4a73858e5d2995dd389d81b8e69fe5b937d4",
+      "official_reward": 0.8,
+      "replayed_reward": 0.8,
+      "exact_diagnostic_match": true,
+      "case_outcomes": {
+        "submitted": 12
+      }
+    }
+  ]
+}

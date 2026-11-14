@@ -1,0 +1,5 @@
+Agent 'nop' does not declare an options_model; leftover kwargs are ignored
+Skipping image OS validation for hb__ba3ea52f3cdaf867680438e8d5bca582: docker inspect returned 1
+Agent 'nop' exposes no native web search or fetch tools for Harbor to disable; continuing. Sandbox network policy still applies.
+Collecting main service artifacts
+Skipping image OS validation for hb__83372d3e8ddc73d8eea4ced67e529b34: docker inspect returned 1

@@ -1,0 +1,60 @@
+{
+  "task": "warehouse-recovery-v1.1.2",
+  "task_manifest_sha256": "a13721156f6bf19a2d51951284c8d9dbffc23ca97a8ad5197756d3ef63bf4eb0",
+  "harbor_task_checksum": "05928dbe905012e915d6f364e9fcd677730a6e1c851dca848fd903ea3797d599",
+  "model": "openai/gpt-6-luna",
+  "agent_timeout_sec": 900,
+  "spend_threshold_usd": 1.0,
+  "estimated_spend_usd": 0.105246635,
+  "attempts": [
+    {
+      "attempt": 1,
+      "job": "warehouse-recovery-v1.1.2-luna-docker-2026-11-12-01",
+      "status": "scored",
+      "host_free_mib_at_start": 4380,
+      "returncode": 0,
+      "result_path": "results/warehouse-recovery/harbor-luna4-v1.1.2-docker-2026-11-12/warehouse-recovery-v1.1.2-luna-docker-2026-11-12-01/warehouse-recovery-v1.1.2__B7XZKxp/result.json",
+      "trial": "warehouse-recovery-v1.1.2__B7XZKxp",
+      "reward": 0.3125,
+      "cost_usd": 0.026316695,
+      "exception": null
+    },
+    {
+      "attempt": 2,
+      "job": "warehouse-recovery-v1.1.2-luna-docker-2026-11-12-02",
+      "status": "scored",
+      "host_free_mib_at_start": 3818,
+      "returncode": 0,
+      "result_path": "results/warehouse-recovery/harbor-luna4-v1.1.2-docker-2026-11-12/warehouse-recovery-v1.1.2-luna-docker-2026-11-12-02/warehouse-recovery-v1.1.2__UTLAitt/result.json",
+      "trial": "warehouse-recovery-v1.1.2__UTLAitt",
+      "reward": 0.8125,
+      "cost_usd": 0.035472844999999996,
+      "exception": null
+    },
+    {
+      "attempt": 3,
+      "job": "warehouse-recovery-v1.1.2-luna-docker-2026-11-12-03",
+      "status": "scored",
+      "host_free_mib_at_start": 3548,
+      "returncode": 0,
+      "result_path": "results/warehouse-recovery/harbor-luna4-v1.1.2-docker-2026-11-12/warehouse-recovery-v1.1.2-luna-docker-2026-11-12-03/warehouse-recovery-v1.1.2__FQiSncA/result.json",
+      "trial": "warehouse-recovery-v1.1.2__FQiSncA",
+      "reward": 0.375,
+      "cost_usd": 0.027849225000000005,
+      "exception": null
+    },
+    {
+      "attempt": 4,
+      "job": "warehouse-recovery-v1.1.2-luna-docker-2026-11-12-04",
+      "status": "scored",
+      "host_free_mib_at_start": 3407,
+      "returncode": 0,
+      "result_path": "results/warehouse-recovery/harbor-luna4-v1.1.2-docker-2026-11-12/warehouse-recovery-v1.1.2-luna-docker-2026-11-12-04/warehouse-recovery-v1.1.2__mBRyrmC/result.json",
+      "trial": "warehouse-recovery-v1.1.2__mBRyrmC",
+      "reward": 0.5625,
+      "cost_usd": 0.01560787,
+      "exception": null
+    }
+  ],
+  "stop_reason": null
+}

@@ -1,0 +1,134 @@
+{
+    "id": "b6069216-7659-40c6-83b6-bdd5cba01ee6",
+    "task_name": "research/warehouse-calibration",
+    "trial_name": "warehouse-calibration-v1.1.0__3AmDaW3",
+    "trial_uri": "file:///Users/maharshi12/Documents/Codex/2026-11-06/tg/outputs/research-reliability-bench/results/warehouse-calibration/harbor-luna4-v1.1.0-docker-2026-11-12/warehouse-calibration-v1.1.0-luna-docker-2026-11-12-03/warehouse-calibration-v1.1.0__3AmDaW3",
+    "task_id": {
+        "path": "tasks/warehouse-calibration-v1.1.0"
+    },
+    "source": null,
+    "task_checksum": "974e6f35db919c3697d657fe88efa2817ae4547342b8b9618d0d38eacbfc9441",
+    "config": {
+        "task": {
+            "path": "tasks/warehouse-calibration-v1.1.0",
+            "git_url": null,
+            "git_commit_id": null,
+            "name": null,
+            "ref": null,
+            "overwrite": false,
+            "download_dir": null,
+            "source": null
+        },
+        "trial_name": "warehouse-calibration-v1.1.0__3AmDaW3",
+        "trials_dir": "results/warehouse-calibration/harbor-luna4-v1.1.0-docker-2026-11-12/warehouse-calibration-v1.1.0-luna-docker-2026-11-12-03",
+        "install_only": false,
+        "timeout_multiplier": 1.0,
+        "agent_timeout_multiplier": null,
+        "verifier_timeout_multiplier": null,
+        "agent_setup_timeout_multiplier": null,
+        "environment_build_timeout_multiplier": null,
+        "agent": {
+            "name": "codex",
+            "import_path": null,
+            "model_name": "openai/gpt-6-luna",
+            "base_url": null,
+            "model_api_key_name": null,
+            "model_api_format": null,
+            "skip_model_parsing": false,
+            "n_concurrent": null,
+            "concurrency_group": null,
+            "skills": [],
+            "override_timeout_sec": null,
+            "override_setup_timeout_sec": null,
+            "max_timeout_sec": null,
+            "resume_trajectory": false,
+            "load_trajectory": null,
+            "extra_allowed_hosts": [],
+            "kwargs": {
+                "version": "0.163.0",
+                "web_search": "disabled",
+                "reasoning_effort": "medium"
+            },
+            "mcp_servers": []
+        },
+        "user_agent": null,
+        "environment": {
+            "type": "docker",
+            "import_path": null,
+            "force_build": false,
+            "delete": true,
+            "stream": false,
+            "cpu_enforcement_policy": "auto",
+            "memory_enforcement_policy": "auto",
+            "override_cpus": null,
+            "override_memory_mb": null,
+            "override_storage_mb": null,
+            "override_gpus": null,
+            "override_tpu": null,
+            "mounts": null,
+            "extra_docker_compose": [],
+            "kwargs": {},
+            "extra_allowed_hosts": []
+        },
+        "verifier": {
+            "override_timeout_sec": null,
+            "max_timeout_sec": null,
+            "disable": false
+        },
+        "artifacts": [],
+        "extra_instruction_paths": [],
+        "extra_instructions": [],
+        "job_id": "536ba6c6-7208-455e-b9b5-33f432b0c8e3",
+        "source_trial": null
+    },
+    "agent_info": {
+        "name": "codex",
+        "version": "0.163.0",
+        "model_info": {
+            "name": "gpt-6-luna",
+            "provider": "openai"
+        }
+    },
+    "agent_result": {
+        "n_input_tokens": 191365,
+        "n_cache_tokens": 162029,
+        "n_output_tokens": 14457,
+        "cost_usd": 0.012515115,
+        "model_usage": {
+            "openai/gpt-6-luna": {
+                "n_input_tokens": 191365,
+                "n_cache_tokens": 162029,
+                "n_output_tokens": 14457,
+                "cost_usd": 0.012515115
+            }
+        },
+        "rollout_details": null,
+        "metadata": null
+    },
+    "verifier_result": {
+        "rewards": {
+            "reward": 0.0
+        }
+    },
+    "verifier_environment_mode": "separate",
+    "exception_info": null,
+    "started_at": "2026-11-13T04:00:55.739196Z",
+    "finished_at": "2026-11-13T04:03:34.100274Z",
+    "environment_setup": {
+        "started_at": "2026-11-13T04:00:55.922330Z",
+        "finished_at": "2026-11-13T04:01:04.987125Z"
+    },
+    "agent_setup": {
+        "started_at": "2026-11-13T04:01:04.987262Z",
+        "finished_at": "2026-11-13T04:01:05.187001Z"
+    },
+    "agent_execution": {
+        "started_at": "2026-11-13T04:01:05.187549Z",
+        "finished_at": "2026-11-13T04:03:20.434519Z"
+    },
+    "verifier": {
+        "started_at": "2026-11-13T04:03:24.372042Z",
+        "finished_at": "2026-11-13T04:03:34.100234Z"
+    },
+    "step_results": null
+}
