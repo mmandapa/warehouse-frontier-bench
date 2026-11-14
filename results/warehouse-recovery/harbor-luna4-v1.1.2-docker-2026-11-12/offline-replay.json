@@ -1,0 +1,52 @@
+[
+  {
+    "attempt": 1,
+    "policy_sha256": "1e6e4345557d222d95578061d5e5d470be980948e152067622c9966f708f3382",
+    "official_reward": 0.3125,
+    "replayed_reward": 0.3125,
+    "differing_cases": [],
+    "outcomes": {
+      "motion limit": 3,
+      "docked": 5,
+      "collision": 8
+    },
+    "early_policy_exits": []
+  },
+  {
+    "attempt": 2,
+    "policy_sha256": "9135a80c0a2ff07cfd07a7506bfd7c16845905f00a37a5bec0ee177e0f302422",
+    "official_reward": 0.8125,
+    "replayed_reward": 0.8125,
+    "differing_cases": [],
+    "outcomes": {
+      "docked": 13,
+      "motion limit": 3
+    },
+    "early_policy_exits": []
+  },
+  {
+    "attempt": 3,
+    "policy_sha256": "b38d83e3ee162ff8c9d0d9ae0f980de8208ca86e6f7ac645f5c7f324a33ad89f",
+    "official_reward": 0.375,
+    "replayed_reward": 0.375,
+    "differing_cases": [],
+    "outcomes": {
+      "collision": 10,
+      "docked": 6
+    },
+    "early_policy_exits": []
+  },
+  {
+    "attempt": 4,
+    "policy_sha256": "57bf254c9bcf712f9bbd5ebbdcc67ba29314aa999f04e0be32e5ea5f20e9e5cf",
+    "official_reward": 0.5625,
+    "replayed_reward": 0.5625,
+    "differing_cases": [],
+    "outcomes": {
+      "docked": 9,
+      "collision": 6,
+      "incorrect final pose or cart still moving": 1
+    },
+    "early_policy_exits": []
+  }
+]

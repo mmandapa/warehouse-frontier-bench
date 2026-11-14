@@ -1,9 +1,0 @@
-{
-  "clean_task_checksum": "4bf30c031a02125116f01915874d6ea87b70fe4defbbc085fe47da57eb59a2d7",
-  "task_checksum_with_oracle_bytecode": "17e19d28102568305af9d934a52030426d20d11418833012b45a488282c84139",
-  "moved_generated_files": {
-    "solution/__pycache__/network_probe.cpython-312.pyc": "f2a56f147be69607b281389aef413ec2739b01929b9a9b1521b84646a1239d02",
-    "solution/__pycache__/solve.cpython-312.pyc": "55255c3f0dbb06c085adbf08e4a043063c714990153092760fa83320ee6c173c"
-  },
-  "interpretation": "The only byte differences between the two recorded task checksums were these host-generated caches in solution/. Codex attempts do not receive solution/. Agent environment, instructions, public data, and trusted verifier code were unchanged."
-}
