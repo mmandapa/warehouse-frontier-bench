@@ -1,0 +1,26 @@
+{
+  "job_name": "warehouse-recovery-v1.1.2-astra-docker-2026-11-12-01",
+  "jobs_dir": "results/warehouse-recovery/harbor-astra1-v1.1.2-docker-2026-11-12",
+  "n_attempts": 1,
+  "n_concurrent_trials": 1,
+  "timeout_multiplier": 1.0,
+  "environment": {
+    "type": "docker"
+  },
+  "agents": [
+    {
+      "name": "codex",
+      "model_name": "openai/gpt-6-astra",
+      "kwargs": {
+        "version": "0.163.0",
+        "web_search": "disabled",
+        "reasoning_effort": "medium"
+      }
+    }
+  ],
+  "tasks": [
+    {
+      "path": "tasks/warehouse-recovery-v1.1.2"
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "task_sha256": "e4f701315bb4b80396ef01a0d95a0817f32c808503c1b67038d7f61cca916088",
+  "harbor_task_checksum": "974e6f35db919c3697d657fe88efa2817ae4547342b8b9618d0d38eacbfc9441",
+  "prelaunch_spend_threshold_usd": "1.00",
+  "recorded_cost_usd": "0.055164874999999998",
+  "trials": [
+    {
+      "attempt": 1,
+      "job": "warehouse-calibration-v1.1.0-luna-docker-2026-11-12-01",
+      "status": "valid",
+      "started_at": "2026-11-13T03:54:36.845665+00:00",
+      "free_disk_mib_at_launch": 1989,
+      "returncode": 0,
+      "finished_at": "2026-11-13T03:57:45.139089+00:00",
+      "result": "results/warehouse-calibration/harbor-luna4-v1.1.0-docker-2026-11-12/warehouse-calibration-v1.1.0-luna-docker-2026-11-12-01/warehouse-calibration-v1.1.0__w6JJ6vx/result.json",
+      "trial": "warehouse-calibration-v1.1.0__w6JJ6vx",
+      "reward": 0.9,
+      "cost_usd": 0.014647375,
+      "exception_type": null,
+      "same_freeze": true
+    },
+    {
+      "attempt": 2,
+      "job": "warehouse-calibration-v1.1.0-luna-docker-2026-11-12-02",
+      "status": "valid",
+      "started_at": "2026-11-13T03:57:45.274751+00:00",
+      "free_disk_mib_at_launch": 2026,
+      "returncode": 0,
+      "finished_at": "2026-11-13T04:00:52.826861+00:00",
+      "result": "results/warehouse-calibration/harbor-luna4-v1.1.0-docker-2026-11-12/warehouse-calibration-v1.1.0-luna-docker-2026-11-12-02/warehouse-calibration-v1.1.0__2i3B9DT/result.json",
+      "trial": "warehouse-calibration-v1.1.0__2i3B9DT",
+      "reward": 0.8666666666666667,
+      "cost_usd": 0.013662144999999999,
+      "exception_type": null,
+      "same_freeze": true
+    },
+    {
+      "attempt": 3,
+      "job": "warehouse-calibration-v1.1.0-luna-docker-2026-11-12-03",
+      "status": "valid",
+      "started_at": "2026-11-13T04:00:53.006608+00:00",
+      "free_disk_mib_at_launch": 2014,
+      "returncode": 0,
+      "finished_at": "2026-11-13T04:03:34.597784+00:00",
+      "result": "results/warehouse-calibration/harbor-luna4-v1.1.0-docker-2026-11-12/warehouse-calibration-v1.1.0-luna-docker-2026-11-12-03/warehouse-calibration-v1.1.0__3AmDaW3/result.json",
+      "trial": "warehouse-calibration-v1.1.0__3AmDaW3",
+      "reward": 0.0,
+      "cost_usd": 0.012515115,
+      "exception_type": null,
+      "same_freeze": true
+    },
+    {
+      "attempt": 4,
+      "job": "warehouse-calibration-v1.1.0-luna-docker-2026-11-12-04",
+      "status": "valid",
+      "started_at": "2026-11-13T04:03:34.779283+00:00",
+      "free_disk_mib_at_launch": 2022,
+      "returncode": 0,
+      "finished_at": "2026-11-13T04:07:03.242509+00:00",
+      "result": "results/warehouse-calibration/harbor-luna4-v1.1.0-docker-2026-11-12/warehouse-calibration-v1.1.0-luna-docker-2026-11-12-04/warehouse-calibration-v1.1.0__WRnAKRg/result.json",
+      "trial": "warehouse-calibration-v1.1.0__WRnAKRg",
+      "reward": 0.8,
+      "cost_usd": 0.014340239999999999,
+      "exception_type": null,
+      "same_freeze": true
+    }
+  ]
+}
