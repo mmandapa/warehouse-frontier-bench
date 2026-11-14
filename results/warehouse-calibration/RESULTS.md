@@ -1,9 +1,34 @@
 # Warehouse Cart Calibration model results
 
-The recorded model trials use the same agent workspace, instructions,
-simulator, and grader as the task linked from the repository README.
-The task package label and its top-level README were updated for
-distribution. Original trial IDs and hashes are retained below.
+The simulator, agent instructions, and grader are the same across the
+recorded model trials. The published package uses different distribution
+metadata from the original batch. The ledgers link to the checksums and
+original trial records.
+
+## Fresh four attempts
+
+Four fresh GPT-6 Luna attempts used the published Cart Calibration package.
+The original and fresh batches use the same simulator, verifier, and model
+settings. All four new policies submitted forecasts for every cart. They
+passed **226/240 (94.2%)** forecasts and fully solved **1/4**
+attempts. All 14 forecast misses were position errors.
+
+| Attempt | Reward | Correct forecasts | Harbor wall time | Misses by forecast type | Artifacts |
+| --- | ---: | ---: | ---: | --- | --- |
+| 1 | 0.9333 | 56/60 | 3m 46s | 3 sustained reverse (position), 1 mixed direction (position) | [Trace](harbor-luna-fresh/calibration-luna-fresh-01/warehouse-calibration__8NHu45B/agent/trajectory.json), [Policy](harbor-luna-fresh/calibration-luna-fresh-01/warehouse-calibration__8NHu45B/artifacts/app/policy.py), [Verifier](harbor-luna-fresh/calibration-luna-fresh-01/warehouse-calibration__8NHu45B/verifier/diagnostics.json), [Harbor](harbor-luna-fresh/calibration-luna-fresh-01/warehouse-calibration__8NHu45B/result.json) |
+| 2 | 0.8667 | 52/60 | 4m 12s | 4 sustained reverse (position), 3 mixed direction (position), 1 sustained forward (position) | [Trace](harbor-luna-fresh/calibration-luna-fresh-02/warehouse-calibration__me6kGCr/agent/trajectory.json), [Policy](harbor-luna-fresh/calibration-luna-fresh-02/warehouse-calibration__me6kGCr/artifacts/app/policy.py), [Verifier](harbor-luna-fresh/calibration-luna-fresh-02/warehouse-calibration__me6kGCr/verifier/diagnostics.json), [Harbor](harbor-luna-fresh/calibration-luna-fresh-02/warehouse-calibration__me6kGCr/result.json) |
+| 3 | 0.9667 | 58/60 | 5m 42s | 2 sustained reverse (position) | [Trace](harbor-luna-fresh/calibration-luna-fresh-03/warehouse-calibration__XsAaVbd/agent/trajectory.json), [Policy](harbor-luna-fresh/calibration-luna-fresh-03/warehouse-calibration__XsAaVbd/artifacts/app/policy.py), [Verifier](harbor-luna-fresh/calibration-luna-fresh-03/warehouse-calibration__XsAaVbd/verifier/diagnostics.json), [Harbor](harbor-luna-fresh/calibration-luna-fresh-03/warehouse-calibration__XsAaVbd/result.json) |
+| 4 | 1.0000 | 60/60 | 2m 04s | All forecasts met tolerance. | [Trace](harbor-luna-fresh/calibration-luna-fresh-04/warehouse-calibration__kXV6zo9/agent/trajectory.json), [Policy](harbor-luna-fresh/calibration-luna-fresh-04/warehouse-calibration__kXV6zo9/artifacts/app/policy.py), [Verifier](harbor-luna-fresh/calibration-luna-fresh-04/warehouse-calibration__kXV6zo9/verifier/diagnostics.json), [Harbor](harbor-luna-fresh/calibration-luna-fresh-04/warehouse-calibration__kXV6zo9/result.json) |
+
+The 60/60 policy fit the motion model jointly to gyro and camera readings
+using bounded least squares from several starting points. The three
+other policies passed every heading check but missed 14 positions.
+
+[Offline replay](harbor-luna-fresh/offline-replay.json) reproduced all four
+verifier diagnostics. [Batch ledger](harbor-luna-fresh/batch-ledger.json)
+records the runs and $0.08200 in recorded
+model spend. The [launch blocked by API quota](harbor-luna-fresh/quota-blocked-launch.json)
+has no model score.
 
 Four runnable GPT-6 Luna submissions passed **211/240 forecasts (87.9%)**
 on the frozen task. The results were **54/60, 52/60, 48/60, and 57/60**.
@@ -78,4 +103,4 @@ reverse forecasts. Position errors were 9.35–13.34 cm against the
 every diagnostic. Recorded spend was $0.01630.
 Artifacts: [trace](harbor-luna-followup-v1.1.0-docker-2026-11-12/warehouse-calibration-v1.1.0-luna-followup-01/warehouse-calibration-v1.1.0__6tqXHM6/agent/trajectory.json), [policy](harbor-luna-followup-v1.1.0-docker-2026-11-12/warehouse-calibration-v1.1.0-luna-followup-01/warehouse-calibration-v1.1.0__6tqXHM6/artifacts/app/policy.py), [verifier diagnostics](harbor-luna-followup-v1.1.0-docker-2026-11-12/warehouse-calibration-v1.1.0-luna-followup-01/warehouse-calibration-v1.1.0__6tqXHM6/verifier/diagnostics.json), [Harbor result](harbor-luna-followup-v1.1.0-docker-2026-11-12/warehouse-calibration-v1.1.0-luna-followup-01/warehouse-calibration-v1.1.0__6tqXHM6/result.json).
 
-Across the five launches, Luna fully solved zero.
+Across these five earlier launches, Luna fully solved zero.

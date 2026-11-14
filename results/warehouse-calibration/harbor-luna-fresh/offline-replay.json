@@ -1,0 +1,46 @@
+{
+  "harbor_task_checksum": "6c1732c38242d0df75757c7d26ebe2d73d5e43bbddf4f714f8048782c0328784",
+  "network": "none",
+  "trials": [
+    {
+      "attempt": 1,
+      "policy_sha256": "2ba6f17c36bc4c31065f8d3acb46c5adb5303ce84f9f4de550e1343157ea543e",
+      "official_reward": 0.9333333333333333,
+      "replayed_reward": 0.9333333333333333,
+      "exact_diagnostic_match": true,
+      "case_outcomes": {
+        "submitted": 12
+      }
+    },
+    {
+      "attempt": 2,
+      "policy_sha256": "3ce758db06293b2a2f73b31f603dd7ed09c8b585cdb6f441d9bedbdce7b0c1e7",
+      "official_reward": 0.8666666666666667,
+      "replayed_reward": 0.8666666666666667,
+      "exact_diagnostic_match": true,
+      "case_outcomes": {
+        "submitted": 12
+      }
+    },
+    {
+      "attempt": 3,
+      "policy_sha256": "0fd1c52a488209b7d534fefdc41c723bf31b874a387c1afeeea7112fe7a59ac8",
+      "official_reward": 0.9666666666666667,
+      "replayed_reward": 0.9666666666666667,
+      "exact_diagnostic_match": true,
+      "case_outcomes": {
+        "submitted": 12
+      }
+    },
+    {
+      "attempt": 4,
+      "policy_sha256": "cc3f8703bdc276e07a788053de64fd50190f4585a63123745e44e949b676eaf8",
+      "official_reward": 1.0,
+      "replayed_reward": 1.0,
+      "exact_diagnostic_match": true,
+      "case_outcomes": {
+        "submitted": 12
+      }
+    }
+  ]
+}

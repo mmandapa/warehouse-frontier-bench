@@ -1,0 +1,439 @@
+{
+  "reward": 0.8666666666666667,
+  "passed": 52,
+  "total": 60,
+  "cases": [
+    {
+      "family": 0,
+      "variant": 0,
+      "passed": 4,
+      "reason": "submitted",
+      "ticks": 30,
+      "camera_used": true,
+      "camera_readings": 2,
+      "forecasts": [
+        {
+          "success": true,
+          "position_error_m": 0.00239244,
+          "heading_error_rad": 6.9e-06
+        },
+        {
+          "success": false,
+          "position_error_m": 0.09386032,
+          "heading_error_rad": 9.14e-06
+        },
+        {
+          "success": true,
+          "position_error_m": 0.02521552,
+          "heading_error_rad": 8.93e-06
+        },
+        {
+          "success": true,
+          "position_error_m": 0.00011929,
+          "heading_error_rad": 2.87e-06
+        },
+        {
+          "success": true,
+          "position_error_m": 5.961e-05,
+          "heading_error_rad": 2.85e-06
+        }
+      ]
+    },
+    {
+      "family": 0,
+      "variant": 1,
+      "passed": 5,
+      "reason": "submitted",
+      "ticks": 30,
+      "camera_used": true,
+      "camera_readings": 2,
+      "forecasts": [
+        {
+          "success": true,
+          "position_error_m": 0.01009767,
+          "heading_error_rad": 6.9e-06
+        },
+        {
+          "success": true,
+          "position_error_m": 0.0249732,
+          "heading_error_rad": 9.14e-06
+        },
+        {
+          "success": true,
+          "position_error_m": 0.00334806,
+          "heading_error_rad": 8.93e-06
+        },
+        {
+          "success": true,
+          "position_error_m": 0.00225852,
+          "heading_error_rad": 2.87e-06
+        },
+        {
+          "success": true,
+          "position_error_m": 0.00191894,
+          "heading_error_rad": 2.85e-06
+        }
+      ]
+    },
+    {
+      "family": 1,
+      "variant": 0,
+      "passed": 5,
+      "reason": "submitted",
+      "ticks": 30,
+      "camera_used": true,
+      "camera_readings": 2,
+      "forecasts": [
+        {
+          "success": true,
+          "position_error_m": 0.01401194,
+          "heading_error_rad": 4.54e-06
+        },
+        {
+          "success": true,
+          "position_error_m": 0.01955267,
+          "heading_error_rad": 1.91e-06
+        },
+        {
+          "success": true,
+          "position_error_m": 0.01233037,
+          "heading_error_rad": 2.76e-06
+        },
+        {
+          "success": true,
+          "position_error_m": 0.00163291,
+          "heading_error_rad": 2.19e-06
+        },
+        {
+          "success": true,
+          "position_error_m": 0.00169358,
+          "heading_error_rad": 1.98e-06
+        }
+      ]
+    },
+    {
+      "family": 1,
+      "variant": 1,
+      "passed": 5,
+      "reason": "submitted",
+      "ticks": 30,
+      "camera_used": true,
+      "camera_readings": 2,
+      "forecasts": [
+        {
+          "success": true,
+          "position_error_m": 0.04284134,
+          "heading_error_rad": 4.54e-06
+        },
+        {
+          "success": true,
+          "position_error_m": 0.00323277,
+          "heading_error_rad": 1.91e-06
+        },
+        {
+          "success": true,
+          "position_error_m": 0.01542562,
+          "heading_error_rad": 2.76e-06
+        },
+        {
+          "success": true,
+          "position_error_m": 0.00741456,
+          "heading_error_rad": 2.19e-06
+        },
+        {
+          "success": true,
+          "position_error_m": 0.00731168,
+          "heading_error_rad": 1.98e-06
+        }
+      ]
+    },
+    {
+      "family": 2,
+      "variant": 0,
+      "passed": 5,
+      "reason": "submitted",
+      "ticks": 30,
+      "camera_used": true,
+      "camera_readings": 2,
+      "forecasts": [
+        {
+          "success": true,
+          "position_error_m": 0.01173324,
+          "heading_error_rad": 1.446e-05
+        },
+        {
+          "success": true,
+          "position_error_m": 0.02376616,
+          "heading_error_rad": 1.89e-06
+        },
+        {
+          "success": true,
+          "position_error_m": 0.01656453,
+          "heading_error_rad": 7.66e-06
+        },
+        {
+          "success": true,
+          "position_error_m": 0.00187181,
+          "heading_error_rad": 6.82e-06
+        },
+        {
+          "success": true,
+          "position_error_m": 0.00179416,
+          "heading_error_rad": 6.01e-06
+        }
+      ]
+    },
+    {
+      "family": 2,
+      "variant": 1,
+      "passed": 3,
+      "reason": "submitted",
+      "ticks": 30,
+      "camera_used": true,
+      "camera_readings": 2,
+      "forecasts": [
+        {
+          "success": true,
+          "position_error_m": 0.00962703,
+          "heading_error_rad": 1.446e-05
+        },
+        {
+          "success": false,
+          "position_error_m": 0.10424188,
+          "heading_error_rad": 1.89e-06
+        },
+        {
+          "success": false,
+          "position_error_m": 0.04555179,
+          "heading_error_rad": 7.66e-06
+        },
+        {
+          "success": true,
+          "position_error_m": 0.00117001,
+          "heading_error_rad": 6.82e-06
+        },
+        {
+          "success": true,
+          "position_error_m": 0.00115905,
+          "heading_error_rad": 6.01e-06
+        }
+      ]
+    },
+    {
+      "family": 3,
+      "variant": 0,
+      "passed": 5,
+      "reason": "submitted",
+      "ticks": 30,
+      "camera_used": true,
+      "camera_readings": 2,
+      "forecasts": [
+        {
+          "success": true,
+          "position_error_m": 0.02522968,
+          "heading_error_rad": 1.319e-05
+        },
+        {
+          "success": true,
+          "position_error_m": 0.02390259,
+          "heading_error_rad": 1.219e-05
+        },
+        {
+          "success": true,
+          "position_error_m": 0.02290831,
+          "heading_error_rad": 1.2e-05
+        },
+        {
+          "success": true,
+          "position_error_m": 0.0043438,
+          "heading_error_rad": 5.45e-06
+        },
+        {
+          "success": true,
+          "position_error_m": 0.00463387,
+          "heading_error_rad": 5.69e-06
+        }
+      ]
+    },
+    {
+      "family": 3,
+      "variant": 1,
+      "passed": 3,
+      "reason": "submitted",
+      "ticks": 30,
+      "camera_used": true,
+      "camera_readings": 2,
+      "forecasts": [
+        {
+          "success": true,
+          "position_error_m": 0.03030564,
+          "heading_error_rad": 1.319e-05
+        },
+        {
+          "success": false,
+          "position_error_m": 0.12855275,
+          "heading_error_rad": 1.219e-05
+        },
+        {
+          "success": false,
+          "position_error_m": 0.07673419,
+          "heading_error_rad": 1.2e-05
+        },
+        {
+          "success": true,
+          "position_error_m": 0.00486464,
+          "heading_error_rad": 5.45e-06
+        },
+        {
+          "success": true,
+          "position_error_m": 0.00525448,
+          "heading_error_rad": 5.69e-06
+        }
+      ]
+    },
+    {
+      "family": 4,
+      "variant": 0,
+      "passed": 4,
+      "reason": "submitted",
+      "ticks": 30,
+      "camera_used": true,
+      "camera_readings": 2,
+      "forecasts": [
+        {
+          "success": false,
+          "position_error_m": 0.04602087,
+          "heading_error_rad": 1.32e-06
+        },
+        {
+          "success": true,
+          "position_error_m": 0.02177355,
+          "heading_error_rad": 2.18e-06
+        },
+        {
+          "success": true,
+          "position_error_m": 0.02684177,
+          "heading_error_rad": 2.7e-06
+        },
+        {
+          "success": true,
+          "position_error_m": 0.00189703,
+          "heading_error_rad": 5.1e-07
+        },
+        {
+          "success": true,
+          "position_error_m": 0.00330334,
+          "heading_error_rad": 4.7e-07
+        }
+      ]
+    },
+    {
+      "family": 4,
+      "variant": 1,
+      "passed": 5,
+      "reason": "submitted",
+      "ticks": 30,
+      "camera_used": true,
+      "camera_readings": 2,
+      "forecasts": [
+        {
+          "success": true,
+          "position_error_m": 0.02599989,
+          "heading_error_rad": 1.32e-06
+        },
+        {
+          "success": true,
+          "position_error_m": 0.01965993,
+          "heading_error_rad": 2.18e-06
+        },
+        {
+          "success": true,
+          "position_error_m": 0.01730726,
+          "heading_error_rad": 2.7e-06
+        },
+        {
+          "success": true,
+          "position_error_m": 0.00234411,
+          "heading_error_rad": 5.1e-07
+        },
+        {
+          "success": true,
+          "position_error_m": 0.00297243,
+          "heading_error_rad": 4.7e-07
+        }
+      ]
+    },
+    {
+      "family": 5,
+      "variant": 0,
+      "passed": 5,
+      "reason": "submitted",
+      "ticks": 30,
+      "camera_used": true,
+      "camera_readings": 2,
+      "forecasts": [
+        {
+          "success": true,
+          "position_error_m": 0.00626666,
+          "heading_error_rad": 2.239e-05
+        },
+        {
+          "success": true,
+          "position_error_m": 0.01029141,
+          "heading_error_rad": 1.719e-05
+        },
+        {
+          "success": true,
+          "position_error_m": 0.00127762,
+          "heading_error_rad": 1.667e-05
+        },
+        {
+          "success": true,
+          "position_error_m": 0.00114622,
+          "heading_error_rad": 9.47e-06
+        },
+        {
+          "success": true,
+          "position_error_m": 0.00115316,
+          "heading_error_rad": 8.54e-06
+        }
+      ]
+    },
+    {
+      "family": 5,
+      "variant": 1,
+      "passed": 3,
+      "reason": "submitted",
+      "ticks": 30,
+      "camera_used": true,
+      "camera_readings": 2,
+      "forecasts": [
+        {
+          "success": true,
+          "position_error_m": 0.01508587,
+          "heading_error_rad": 2.239e-05
+        },
+        {
+          "success": false,
+          "position_error_m": 0.09580622,
+          "heading_error_rad": 1.719e-05
+        },
+        {
+          "success": false,
+          "position_error_m": 0.04958878,
+          "heading_error_rad": 1.667e-05
+        },
+        {
+          "success": true,
+          "position_error_m": 0.00307261,
+          "heading_error_rad": 9.47e-06
+        },
+        {
+          "success": true,
+          "position_error_m": 0.00305163,
+          "heading_error_rad": 8.54e-06
+        }
+      ]
+    }
+  ]
+}
