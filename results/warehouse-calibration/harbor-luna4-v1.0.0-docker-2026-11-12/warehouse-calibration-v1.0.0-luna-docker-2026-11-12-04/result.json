@@ -1,0 +1,39 @@
+{
+    "id": "5739f1a1-aa5d-403e-9b7d-0a30788f32a0",
+    "started_at": "2026-11-12T21:18:08.583211",
+    "updated_at": "2026-11-12T21:20:33.418748",
+    "finished_at": "2026-11-12T21:20:33.418748",
+    "n_total_trials": 1,
+    "stats": {
+        "n_completed_trials": 1,
+        "n_errored_trials": 0,
+        "n_running_trials": 0,
+        "n_pending_trials": 0,
+        "n_cancelled_trials": 0,
+        "n_retries": 0,
+        "evals": {
+            "codex__gpt-6-luna__adhoc": {
+                "n_trials": 1,
+                "n_errors": 0,
+                "metrics": [
+                    {
+                        "mean": 1.0
+                    }
+                ],
+                "pass_at_k": {},
+                "reward_stats": {
+                    "reward": {
+                        "1.0": [
+                            "warehouse-calibration-v1.0.0__tyQ2cgR"
+                        ]
+                    }
+                },
+                "exception_stats": {}
+            }
+        },
+        "n_input_tokens": 99064,
+        "n_cache_tokens": 75030,
+        "n_output_tokens": 11894,
+        "cost_usd": 0.009701099999999999
+    }
+}

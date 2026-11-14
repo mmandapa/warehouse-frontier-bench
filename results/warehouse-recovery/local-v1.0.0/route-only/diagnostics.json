@@ -1,0 +1,281 @@
+{
+  "reward": 0.0,
+  "passed": 0,
+  "total": 16,
+  "collisions": 2,
+  "seconds": 2.357,
+  "cases": [
+    {
+      "case": "0-0-east",
+      "success": false,
+      "reason": "incorrect final pose or cart still moving",
+      "ticks": 299,
+      "collision": false,
+      "position_error_m": 0.27978,
+      "heading_error_rad": 1.14131,
+      "exposures": [
+        {
+          "tick": 169,
+          "tags": [
+            "west-1"
+          ]
+        }
+      ]
+    },
+    {
+      "case": "0-0-west",
+      "success": false,
+      "reason": "incorrect final pose or cart still moving",
+      "ticks": 351,
+      "collision": false,
+      "position_error_m": 0.61486,
+      "heading_error_rad": 0.19893,
+      "exposures": [
+        {
+          "tick": 90,
+          "tags": [
+            "east-1"
+          ]
+        }
+      ]
+    },
+    {
+      "case": "0-1-east",
+      "success": false,
+      "reason": "incorrect final pose or cart still moving",
+      "ticks": 451,
+      "collision": false,
+      "position_error_m": 0.19662,
+      "heading_error_rad": 0.41254,
+      "exposures": [
+        {
+          "tick": 226,
+          "tags": [
+            "west-2"
+          ]
+        }
+      ]
+    },
+    {
+      "case": "0-1-west",
+      "success": false,
+      "reason": "incorrect final pose or cart still moving",
+      "ticks": 442,
+      "collision": false,
+      "position_error_m": 0.81191,
+      "heading_error_rad": 0.44379,
+      "exposures": [
+        {
+          "tick": 99,
+          "tags": [
+            "east-2"
+          ]
+        }
+      ]
+    },
+    {
+      "case": "1-0-east",
+      "success": false,
+      "reason": "incorrect final pose or cart still moving",
+      "ticks": 355,
+      "collision": false,
+      "position_error_m": 0.18529,
+      "heading_error_rad": 0.54685,
+      "exposures": [
+        {
+          "tick": 205,
+          "tags": [
+            "west-0"
+          ]
+        }
+      ]
+    },
+    {
+      "case": "1-0-west",
+      "success": false,
+      "reason": "collision",
+      "ticks": 425,
+      "collision": true,
+      "position_error_m": 1.74877,
+      "heading_error_rad": 1.33337,
+      "exposures": [
+        {
+          "tick": 120,
+          "tags": [
+            "east-0"
+          ]
+        }
+      ]
+    },
+    {
+      "case": "1-1-east",
+      "success": false,
+      "reason": "incorrect final pose or cart still moving",
+      "ticks": 390,
+      "collision": false,
+      "position_error_m": 0.19823,
+      "heading_error_rad": 0.73435,
+      "exposures": [
+        {
+          "tick": 230,
+          "tags": [
+            "west-2"
+          ]
+        }
+      ]
+    },
+    {
+      "case": "1-1-west",
+      "success": false,
+      "reason": "incorrect final pose or cart still moving",
+      "ticks": 345,
+      "collision": false,
+      "position_error_m": 1.19029,
+      "heading_error_rad": 0.14912,
+      "exposures": [
+        {
+          "tick": 94,
+          "tags": [
+            "east-2"
+          ]
+        }
+      ]
+    },
+    {
+      "case": "2-0-east",
+      "success": false,
+      "reason": "incorrect final pose or cart still moving",
+      "ticks": 399,
+      "collision": false,
+      "position_error_m": 0.29404,
+      "heading_error_rad": 0.86373,
+      "exposures": [
+        {
+          "tick": 236,
+          "tags": [
+            "west-0"
+          ]
+        }
+      ]
+    },
+    {
+      "case": "2-0-west",
+      "success": false,
+      "reason": "collision",
+      "ticks": 407,
+      "collision": true,
+      "position_error_m": 1.54874,
+      "heading_error_rad": 1.15265,
+      "exposures": [
+        {
+          "tick": 114,
+          "tags": [
+            "east-0"
+          ]
+        }
+      ]
+    },
+    {
+      "case": "2-1-east",
+      "success": false,
+      "reason": "incorrect final pose or cart still moving",
+      "ticks": 299,
+      "collision": false,
+      "position_error_m": 0.31213,
+      "heading_error_rad": 1.33394,
+      "exposures": [
+        {
+          "tick": 169,
+          "tags": [
+            "west-2"
+          ]
+        }
+      ]
+    },
+    {
+      "case": "2-1-west",
+      "success": false,
+      "reason": "incorrect final pose or cart still moving",
+      "ticks": 379,
+      "collision": false,
+      "position_error_m": 0.87499,
+      "heading_error_rad": 0.58351,
+      "exposures": [
+        {
+          "tick": 104,
+          "tags": [
+            "east-2"
+          ]
+        }
+      ]
+    },
+    {
+      "case": "3-0-east",
+      "success": false,
+      "reason": "incorrect final pose or cart still moving",
+      "ticks": 416,
+      "collision": false,
+      "position_error_m": 0.27298,
+      "heading_error_rad": 0.37148,
+      "exposures": [
+        {
+          "tick": 203,
+          "tags": [
+            "west-0"
+          ]
+        }
+      ]
+    },
+    {
+      "case": "3-0-west",
+      "success": false,
+      "reason": "incorrect final pose or cart still moving",
+      "ticks": 383,
+      "collision": false,
+      "position_error_m": 1.20736,
+      "heading_error_rad": 0.43016,
+      "exposures": [
+        {
+          "tick": 88,
+          "tags": [
+            "east-0"
+          ]
+        }
+      ]
+    },
+    {
+      "case": "3-1-east",
+      "success": false,
+      "reason": "incorrect final pose or cart still moving",
+      "ticks": 341,
+      "collision": false,
+      "position_error_m": 0.20396,
+      "heading_error_rad": 0.64554,
+      "exposures": [
+        {
+          "tick": 198,
+          "tags": [
+            "west-1"
+          ]
+        }
+      ]
+    },
+    {
+      "case": "3-1-west",
+      "success": false,
+      "reason": "incorrect final pose or cart still moving",
+      "ticks": 417,
+      "collision": false,
+      "position_error_m": 1.12989,
+      "heading_error_rad": 0.77318,
+      "exposures": [
+        {
+          "tick": 112,
+          "tags": [
+            "east-1"
+          ]
+        }
+      ]
+    }
+  ]
+}

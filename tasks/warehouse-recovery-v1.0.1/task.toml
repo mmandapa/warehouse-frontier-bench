@@ -1,0 +1,34 @@
+schema_version = "1.4"
+artifacts = ["/app/policy.py"]
+
+[task]
+name = "research/warehouse-recovery"
+version = "1.0.1"
+
+[metadata]
+category = "science-and-engineering"
+difficulty_explanation = "Relocalize a cart after relocation, cope with changes to route and traction, and meet a physical docking target from sensor observations."
+
+[environment]
+cpus = 2
+memory_mb = 4096
+storage_mb = 4096
+build_timeout_sec = 600.0
+network_mode = "no-network"
+
+[agent]
+timeout_sec = 1200.0
+network_mode = "allowlist"
+allowed_hosts = ["api.openai.com"]
+
+[verifier]
+environment_mode = "separate"
+timeout_sec = 240.0
+network_mode = "no-network"
+
+[verifier.environment]
+cpus = 2
+memory_mb = 4096
+storage_mb = 4096
+build_timeout_sec = 600.0
+network_mode = "no-network"

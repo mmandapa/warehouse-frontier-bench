@@ -1,0 +1,9 @@
+{
+  "job_name": "warehouse-recovery-v1.0.0-oracle-nop",
+  "jobs_dir": "results/warehouse-recovery/harbor-controls-v1.0.0",
+  "n_attempts": 1,
+  "n_concurrent_trials": 1,
+  "environment": {"type": "docker"},
+  "agents": [{"name": "oracle"}, {"name": "nop"}],
+  "tasks": [{"path": "tasks/warehouse-recovery-v1.0.0"}]
+}

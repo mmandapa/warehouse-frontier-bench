@@ -1,0 +1,8 @@
+{
+  "task_sha256": "e4f701315bb4b80396ef01a0d95a0817f32c808503c1b67038d7f61cca916088",
+  "network": "none",
+  "policy_sha256": "12bb8be59faa3e3a004b18d1ee77574d141d27a8d7676063c4f14a28c2db3535",
+  "official_reward": 0.95,
+  "replayed_reward": 0.95,
+  "exact_diagnostic_match": true
+}

@@ -1,0 +1,14 @@
+{
+    "job_name": "nop",
+    "jobs_dir": "results/warehouse-calibration/harbor-controls-v1.0.0",
+    "agents": [
+        {
+            "name": "nop"
+        }
+    ],
+    "tasks": [
+        {
+            "path": "tasks/warehouse-calibration-v1.0.0"
+        }
+    ]
+}

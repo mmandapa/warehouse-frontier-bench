@@ -1,0 +1,8 @@
+{
+    "task": {
+        "path": "tasks/warehouse-calibration-v1.0.0"
+    },
+    "trial_name": "warehouse-calibration-v1.0.0__w24YjiF",
+    "trials_dir": "results/warehouse-calibration/harbor-controls-v1.0.0/oracle",
+    "job_id": "e6ebd96f-4a38-41df-9fb0-586f9105619c"
+}

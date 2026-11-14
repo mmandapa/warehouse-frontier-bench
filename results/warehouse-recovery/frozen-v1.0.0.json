@@ -1,0 +1,145 @@
+{
+  "agent_image_files": [
+    "environment/Dockerfile",
+    "environment/workspace/README.md",
+    "environment/workspace/policy.py",
+    "environment/workspace/practice.py",
+    "environment/workspace/warehouse_sim/client.py",
+    "environment/workspace/warehouse_sim/protocol.py",
+    "environment/workspace/warehouse_sim/world.py",
+    "instruction.md",
+    "task.toml"
+  ],
+  "files": [
+    {
+      "path": "README.md",
+      "sha256": "f35b12d89ced326ed6b84532de703deb0ae3fdec72910bb489cc5c2773343c7c",
+      "size_bytes": 1605
+    },
+    {
+      "path": "environment/Dockerfile",
+      "sha256": "28ed78863d5ecd3f13922ada0e5128f0fa1c69047e4a911ff61c643425881250",
+      "size_bytes": 693
+    },
+    {
+      "path": "environment/workspace/README.md",
+      "sha256": "71b7ba523960da1b6a26ef613935847f787c4e1b6f2c0b9dcd426f639a39c238",
+      "size_bytes": 2484
+    },
+    {
+      "path": "environment/workspace/policy.py",
+      "sha256": "0b167a2197a57a1fe2a42e7ca2cc65ba07724f527f3e638f4a1e09730ecdfac8",
+      "size_bytes": 164
+    },
+    {
+      "path": "environment/workspace/practice.py",
+      "sha256": "b26d595397a4a7b5fee41a3013059ac4bad73cddc80c222a7c7fbe181c6c23ad",
+      "size_bytes": 1214
+    },
+    {
+      "path": "environment/workspace/warehouse_sim/client.py",
+      "sha256": "3a267a61d855a3b3f6cd75a2abd37b69da7991713a5caaa9b68cf6204829ab58",
+      "size_bytes": 1606
+    },
+    {
+      "path": "environment/workspace/warehouse_sim/protocol.py",
+      "sha256": "a8fb64917b9cd29257f5cefee6123ace77591c4439918a793fc887f81660c6c3",
+      "size_bytes": 6151
+    },
+    {
+      "path": "environment/workspace/warehouse_sim/world.py",
+      "sha256": "9c6afbf461e042bb5033d3f7406fd06afa9d356ec29f9588ef7b3174af30d126",
+      "size_bytes": 7685
+    },
+    {
+      "path": "instruction.md",
+      "sha256": "9080c3b535d2797974a3be484546f034a01170e785797eddfb95b7e00a99e15b",
+      "size_bytes": 700
+    },
+    {
+      "path": "solution/policy.py",
+      "sha256": "4491c4d0e031bfe29d425c31aa82eb9cc1b31b0193a7df9ff8262f180fe7cfea",
+      "size_bytes": 7343
+    },
+    {
+      "path": "solution/solve.sh",
+      "sha256": "f92206b06ebb539ea2651d9037d25966c843de5f8d909b3de08fa239ef732ef5",
+      "size_bytes": 76
+    },
+    {
+      "path": "task.toml",
+      "sha256": "9541bd265177cc4d8b94525dc03506c5949b173c86e019dc5cc616c7a56ab7e0",
+      "size_bytes": 748
+    },
+    {
+      "path": "tests/Dockerfile",
+      "sha256": "e99ca373b77cef945dff01c7a02f522eb91325f467eea6f666fb7c0e15f1778e",
+      "size_bytes": 279
+    },
+    {
+      "path": "tests/controls/fixed-east.py",
+      "sha256": "251930f5aa3179271f50294cd7d062e4db7f2b73bc82b9fdabd2f554b604195e",
+      "size_bytes": 7344
+    },
+    {
+      "path": "tests/controls/route-only.py",
+      "sha256": "3b750c1b1f4de8e61235e3d06269a6a6de6919e63451ff9bdf34a5c9d50d885f",
+      "size_bytes": 7344
+    },
+    {
+      "path": "tests/grader/grade.py",
+      "sha256": "13cbc077682036d28b0c3dea469146b7a3aaa94312de5ac4d390df9531aa6587",
+      "size_bytes": 2192
+    },
+    {
+      "path": "tests/grader/public/client.py",
+      "sha256": "3a267a61d855a3b3f6cd75a2abd37b69da7991713a5caaa9b68cf6204829ab58",
+      "size_bytes": 1606
+    },
+    {
+      "path": "tests/grader/public/world.py",
+      "sha256": "9c6afbf461e042bb5033d3f7406fd06afa9d356ec29f9588ef7b3174af30d126",
+      "size_bytes": 7685
+    },
+    {
+      "path": "tests/grader/warehouse_sim/protocol.py",
+      "sha256": "a8fb64917b9cd29257f5cefee6123ace77591c4439918a793fc887f81660c6c3",
+      "size_bytes": 6151
+    },
+    {
+      "path": "tests/grader/warehouse_sim/scenes.py",
+      "sha256": "9cd103df08b4e7818236e4933980c869ec1b6a99e897d815dc75f8aef3ac83c5",
+      "size_bytes": 752
+    },
+    {
+      "path": "tests/grader/warehouse_sim/world.py",
+      "sha256": "9c6afbf461e042bb5033d3f7406fd06afa9d356ec29f9588ef7b3174af30d126",
+      "size_bytes": 7685
+    },
+    {
+      "path": "tests/test.sh",
+      "sha256": "217839c2313451a7ed9295ee9bf24c832e7ab174d3d0913375dc8d036b936f09",
+      "size_bytes": 161
+    }
+  ],
+  "frozen_at_local_date": "2026-11-11",
+  "model_trials": 0,
+  "task": "research/warehouse-recovery",
+  "task_sha256": "946732545d11552ef0f9f81d2973347b1df39ce7459fc7b814ce46f6e819024c",
+  "verifier_or_authoring_only_files": [
+    "README.md",
+    "solution/policy.py",
+    "solution/solve.sh",
+    "tests/Dockerfile",
+    "tests/controls/fixed-east.py",
+    "tests/controls/route-only.py",
+    "tests/grader/grade.py",
+    "tests/grader/public/client.py",
+    "tests/grader/public/world.py",
+    "tests/grader/warehouse_sim/protocol.py",
+    "tests/grader/warehouse_sim/scenes.py",
+    "tests/grader/warehouse_sim/world.py",
+    "tests/test.sh"
+  ],
+  "version": "1.0.0"
+}

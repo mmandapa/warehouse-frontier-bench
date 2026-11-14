@@ -1,0 +1,92 @@
+{
+  "success": true,
+  "reason": "docked",
+  "ticks": 446,
+  "collision": false,
+  "position_error_m": 0.10295,
+  "heading_error_rad": 0.00518,
+  "exposures": [
+    {
+      "tick": 95,
+      "tags": [
+        "east-0"
+      ]
+    },
+    {
+      "tick": 368,
+      "tags": []
+    },
+    {
+      "tick": 373,
+      "tags": []
+    },
+    {
+      "tick": 378,
+      "tags": []
+    },
+    {
+      "tick": 383,
+      "tags": []
+    },
+    {
+      "tick": 388,
+      "tags": []
+    },
+    {
+      "tick": 393,
+      "tags": []
+    },
+    {
+      "tick": 398,
+      "tags": []
+    },
+    {
+      "tick": 403,
+      "tags": [
+        "west-2"
+      ]
+    },
+    {
+      "tick": 408,
+      "tags": [
+        "west-2"
+      ]
+    },
+    {
+      "tick": 413,
+      "tags": [
+        "west-2"
+      ]
+    },
+    {
+      "tick": 418,
+      "tags": [
+        "west-2"
+      ]
+    },
+    {
+      "tick": 423,
+      "tags": [
+        "west-2"
+      ]
+    },
+    {
+      "tick": 428,
+      "tags": [
+        "west-2"
+      ]
+    },
+    {
+      "tick": 433,
+      "tags": [
+        "west-2"
+      ]
+    },
+    {
+      "tick": 438,
+      "tags": [
+        "west-2"
+      ]
+    }
+  ]
+}

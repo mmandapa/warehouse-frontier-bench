@@ -1,0 +1,18 @@
+{
+    "job_name": "warehouse-recovery-v1.0.2-oracle-nop",
+    "jobs_dir": "results/warehouse-recovery/harbor-controls-v1.0.2",
+    "n_concurrent_trials": 1,
+    "agents": [
+        {
+            "name": "oracle"
+        },
+        {
+            "name": "nop"
+        }
+    ],
+    "tasks": [
+        {
+            "path": "tasks/warehouse-recovery-v1.0.2"
+        }
+    ]
+}

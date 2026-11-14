@@ -1,0 +1,8 @@
+{
+    "task": {
+        "path": "tasks/warehouse-recovery-v1.1.1"
+    },
+    "trial_name": "warehouse-recovery-v1.1.1__PkFpzps",
+    "trials_dir": "results/warehouse-recovery/harbor-controls-v1.1.1/oracle",
+    "job_id": "255d4cc7-9e4c-47f6-8a2e-5520a2af5400"
+}

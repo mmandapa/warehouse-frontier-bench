@@ -1,0 +1,14 @@
+{
+    "job_name": "nop",
+    "jobs_dir": "results/warehouse-recovery/harbor-controls-v1.1.2",
+    "agents": [
+        {
+            "name": "nop"
+        }
+    ],
+    "tasks": [
+        {
+            "path": "tasks/warehouse-recovery-v1.1.2"
+        }
+    ]
+}

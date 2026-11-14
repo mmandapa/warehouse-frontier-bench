@@ -1,0 +1,9 @@
+{
+    "job_name": "oracle-frozen",
+    "jobs_dir": "results/warehouse-calibration/harbor-controls-v1.0.0",
+    "tasks": [
+        {
+            "path": "tasks/warehouse-calibration-v1.0.0"
+        }
+    ]
+}

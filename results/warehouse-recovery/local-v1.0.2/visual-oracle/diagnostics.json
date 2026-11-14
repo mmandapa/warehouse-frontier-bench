@@ -1,0 +1,1413 @@
+{
+  "reward": 1.0,
+  "passed": 16,
+  "total": 16,
+  "collisions": 0,
+  "seconds": 2.781,
+  "cases": [
+    {
+      "case": "0-0-east",
+      "floor_span_m": null,
+      "success": true,
+      "reason": "docked",
+      "ticks": 316,
+      "collision": false,
+      "position_error_m": 0.10096,
+      "heading_error_rad": 0.02052,
+      "exposures": [
+        {
+          "tick": 149,
+          "tags": [
+            "west-1"
+          ]
+        },
+        {
+          "tick": 282,
+          "tags": [
+            "west-0"
+          ]
+        },
+        {
+          "tick": 287,
+          "tags": [
+            "west-0"
+          ]
+        },
+        {
+          "tick": 292,
+          "tags": [
+            "west-0"
+          ]
+        },
+        {
+          "tick": 297,
+          "tags": [
+            "west-0"
+          ]
+        },
+        {
+          "tick": 302,
+          "tags": [
+            "west-0"
+          ]
+        },
+        {
+          "tick": 307,
+          "tags": [
+            "west-0"
+          ]
+        },
+        {
+          "tick": 312,
+          "tags": [
+            "west-0"
+          ]
+        }
+      ]
+    },
+    {
+      "case": "0-0-west",
+      "floor_span_m": [
+        7.4,
+        9.65
+      ],
+      "success": true,
+      "reason": "docked",
+      "ticks": 476,
+      "collision": false,
+      "position_error_m": 0.05996,
+      "heading_error_rad": 0.0024,
+      "exposures": [
+        {
+          "tick": 104,
+          "tags": [
+            "east-1"
+          ]
+        },
+        {
+          "tick": 365,
+          "tags": []
+        },
+        {
+          "tick": 372,
+          "tags": []
+        },
+        {
+          "tick": 379,
+          "tags": []
+        },
+        {
+          "tick": 386,
+          "tags": []
+        },
+        {
+          "tick": 393,
+          "tags": []
+        },
+        {
+          "tick": 400,
+          "tags": []
+        },
+        {
+          "tick": 407,
+          "tags": []
+        },
+        {
+          "tick": 414,
+          "tags": [
+            "west-0"
+          ]
+        },
+        {
+          "tick": 421,
+          "tags": [
+            "west-0"
+          ]
+        },
+        {
+          "tick": 428,
+          "tags": [
+            "west-0"
+          ]
+        },
+        {
+          "tick": 435,
+          "tags": [
+            "west-0"
+          ]
+        },
+        {
+          "tick": 442,
+          "tags": [
+            "west-0"
+          ]
+        },
+        {
+          "tick": 449,
+          "tags": [
+            "west-0"
+          ]
+        },
+        {
+          "tick": 456,
+          "tags": [
+            "west-0"
+          ]
+        },
+        {
+          "tick": 463,
+          "tags": [
+            "west-0"
+          ]
+        },
+        {
+          "tick": 470,
+          "tags": [
+            "west-0"
+          ]
+        }
+      ]
+    },
+    {
+      "case": "0-1-east",
+      "floor_span_m": [
+        9.6,
+        12.65
+      ],
+      "success": true,
+      "reason": "docked",
+      "ticks": 448,
+      "collision": false,
+      "position_error_m": 0.07891,
+      "heading_error_rad": 0.01366,
+      "exposures": [
+        {
+          "tick": 198,
+          "tags": [
+            "west-2"
+          ]
+        },
+        {
+          "tick": 407,
+          "tags": [
+            "west-0"
+          ]
+        },
+        {
+          "tick": 413,
+          "tags": [
+            "west-0"
+          ]
+        },
+        {
+          "tick": 419,
+          "tags": [
+            "west-0"
+          ]
+        },
+        {
+          "tick": 425,
+          "tags": [
+            "west-0"
+          ]
+        },
+        {
+          "tick": 431,
+          "tags": [
+            "west-0"
+          ]
+        },
+        {
+          "tick": 437,
+          "tags": [
+            "west-0"
+          ]
+        },
+        {
+          "tick": 443,
+          "tags": [
+            "west-0"
+          ]
+        }
+      ]
+    },
+    {
+      "case": "0-1-west",
+      "floor_span_m": [
+        8.6,
+        10.25
+      ],
+      "success": true,
+      "reason": "docked",
+      "ticks": 497,
+      "collision": false,
+      "position_error_m": 0.09948,
+      "heading_error_rad": 0.00874,
+      "exposures": [
+        {
+          "tick": 99,
+          "tags": [
+            "east-2"
+          ]
+        },
+        {
+          "tick": 407,
+          "tags": []
+        },
+        {
+          "tick": 413,
+          "tags": []
+        },
+        {
+          "tick": 419,
+          "tags": []
+        },
+        {
+          "tick": 425,
+          "tags": []
+        },
+        {
+          "tick": 431,
+          "tags": []
+        },
+        {
+          "tick": 437,
+          "tags": []
+        },
+        {
+          "tick": 443,
+          "tags": []
+        },
+        {
+          "tick": 449,
+          "tags": [
+            "west-0"
+          ]
+        },
+        {
+          "tick": 455,
+          "tags": [
+            "west-0"
+          ]
+        },
+        {
+          "tick": 461,
+          "tags": [
+            "west-0"
+          ]
+        },
+        {
+          "tick": 467,
+          "tags": [
+            "west-0"
+          ]
+        },
+        {
+          "tick": 473,
+          "tags": [
+            "west-0"
+          ]
+        },
+        {
+          "tick": 479,
+          "tags": [
+            "west-0"
+          ]
+        },
+        {
+          "tick": 485,
+          "tags": [
+            "west-0"
+          ]
+        },
+        {
+          "tick": 491,
+          "tags": [
+            "west-0"
+          ]
+        },
+        {
+          "tick": 497,
+          "tags": [
+            "west-0"
+          ]
+        }
+      ]
+    },
+    {
+      "case": "1-0-east",
+      "floor_span_m": [
+        7.4,
+        9.65
+      ],
+      "success": true,
+      "reason": "docked",
+      "ticks": 423,
+      "collision": false,
+      "position_error_m": 0.08694,
+      "heading_error_rad": 0.00229,
+      "exposures": [
+        {
+          "tick": 205,
+          "tags": [
+            "west-0"
+          ]
+        },
+        {
+          "tick": 358,
+          "tags": [
+            "west-1"
+          ]
+        },
+        {
+          "tick": 364,
+          "tags": [
+            "west-1"
+          ]
+        },
+        {
+          "tick": 370,
+          "tags": [
+            "west-1"
+          ]
+        },
+        {
+          "tick": 376,
+          "tags": [
+            "west-1"
+          ]
+        },
+        {
+          "tick": 382,
+          "tags": [
+            "west-1"
+          ]
+        },
+        {
+          "tick": 388,
+          "tags": [
+            "west-1"
+          ]
+        },
+        {
+          "tick": 394,
+          "tags": [
+            "west-1"
+          ]
+        },
+        {
+          "tick": 400,
+          "tags": [
+            "west-1"
+          ]
+        },
+        {
+          "tick": 406,
+          "tags": [
+            "west-1"
+          ]
+        },
+        {
+          "tick": 412,
+          "tags": [
+            "west-1"
+          ]
+        },
+        {
+          "tick": 418,
+          "tags": [
+            "west-1"
+          ]
+        }
+      ]
+    },
+    {
+      "case": "1-0-west",
+      "floor_span_m": [
+        9.6,
+        12.65
+      ],
+      "success": true,
+      "reason": "docked",
+      "ticks": 490,
+      "collision": false,
+      "position_error_m": 0.03667,
+      "heading_error_rad": 0.0173,
+      "exposures": [
+        {
+          "tick": 114,
+          "tags": [
+            "east-0"
+          ]
+        },
+        {
+          "tick": 377,
+          "tags": []
+        },
+        {
+          "tick": 383,
+          "tags": []
+        },
+        {
+          "tick": 389,
+          "tags": []
+        },
+        {
+          "tick": 395,
+          "tags": []
+        },
+        {
+          "tick": 401,
+          "tags": []
+        },
+        {
+          "tick": 407,
+          "tags": []
+        },
+        {
+          "tick": 413,
+          "tags": []
+        },
+        {
+          "tick": 419,
+          "tags": []
+        },
+        {
+          "tick": 425,
+          "tags": []
+        },
+        {
+          "tick": 431,
+          "tags": []
+        },
+        {
+          "tick": 437,
+          "tags": []
+        },
+        {
+          "tick": 443,
+          "tags": []
+        },
+        {
+          "tick": 449,
+          "tags": [
+            "west-1"
+          ]
+        },
+        {
+          "tick": 455,
+          "tags": [
+            "west-1"
+          ]
+        },
+        {
+          "tick": 461,
+          "tags": [
+            "west-1"
+          ]
+        },
+        {
+          "tick": 467,
+          "tags": [
+            "west-1"
+          ]
+        },
+        {
+          "tick": 473,
+          "tags": [
+            "west-1"
+          ]
+        },
+        {
+          "tick": 479,
+          "tags": [
+            "west-1"
+          ]
+        },
+        {
+          "tick": 485,
+          "tags": [
+            "west-1"
+          ]
+        }
+      ]
+    },
+    {
+      "case": "1-1-east",
+      "floor_span_m": [
+        8.6,
+        10.25
+      ],
+      "success": true,
+      "reason": "docked",
+      "ticks": 512,
+      "collision": false,
+      "position_error_m": 0.06689,
+      "heading_error_rad": 0.008,
+      "exposures": [
+        {
+          "tick": 259,
+          "tags": [
+            "west-2"
+          ]
+        },
+        {
+          "tick": 436,
+          "tags": [
+            "west-1"
+          ]
+        },
+        {
+          "tick": 443,
+          "tags": [
+            "west-1"
+          ]
+        },
+        {
+          "tick": 450,
+          "tags": [
+            "west-1"
+          ]
+        },
+        {
+          "tick": 457,
+          "tags": [
+            "west-1"
+          ]
+        },
+        {
+          "tick": 464,
+          "tags": [
+            "west-1"
+          ]
+        },
+        {
+          "tick": 471,
+          "tags": [
+            "west-1"
+          ]
+        },
+        {
+          "tick": 478,
+          "tags": [
+            "west-1"
+          ]
+        },
+        {
+          "tick": 485,
+          "tags": [
+            "west-1"
+          ]
+        },
+        {
+          "tick": 492,
+          "tags": [
+            "west-1"
+          ]
+        },
+        {
+          "tick": 499,
+          "tags": [
+            "west-1"
+          ]
+        },
+        {
+          "tick": 506,
+          "tags": [
+            "west-1"
+          ]
+        }
+      ]
+    },
+    {
+      "case": "1-1-west",
+      "floor_span_m": null,
+      "success": true,
+      "reason": "docked",
+      "ticks": 395,
+      "collision": false,
+      "position_error_m": 0.12996,
+      "heading_error_rad": 0.00547,
+      "exposures": [
+        {
+          "tick": 94,
+          "tags": [
+            "east-2"
+          ]
+        },
+        {
+          "tick": 316,
+          "tags": []
+        },
+        {
+          "tick": 321,
+          "tags": []
+        },
+        {
+          "tick": 326,
+          "tags": []
+        },
+        {
+          "tick": 331,
+          "tags": []
+        },
+        {
+          "tick": 336,
+          "tags": []
+        },
+        {
+          "tick": 341,
+          "tags": []
+        },
+        {
+          "tick": 346,
+          "tags": []
+        },
+        {
+          "tick": 351,
+          "tags": []
+        },
+        {
+          "tick": 356,
+          "tags": []
+        },
+        {
+          "tick": 361,
+          "tags": []
+        },
+        {
+          "tick": 366,
+          "tags": []
+        },
+        {
+          "tick": 371,
+          "tags": [
+            "west-1"
+          ]
+        },
+        {
+          "tick": 376,
+          "tags": [
+            "west-1"
+          ]
+        },
+        {
+          "tick": 381,
+          "tags": [
+            "west-1"
+          ]
+        },
+        {
+          "tick": 386,
+          "tags": [
+            "west-1"
+          ]
+        },
+        {
+          "tick": 391,
+          "tags": [
+            "west-1"
+          ]
+        }
+      ]
+    },
+    {
+      "case": "2-0-east",
+      "floor_span_m": [
+        9.6,
+        12.65
+      ],
+      "success": true,
+      "reason": "docked",
+      "ticks": 477,
+      "collision": false,
+      "position_error_m": 0.09603,
+      "heading_error_rad": 0.01909,
+      "exposures": [
+        {
+          "tick": 252,
+          "tags": [
+            "west-0"
+          ]
+        },
+        {
+          "tick": 429,
+          "tags": [
+            "west-1"
+          ]
+        },
+        {
+          "tick": 436,
+          "tags": [
+            "west-1"
+          ]
+        },
+        {
+          "tick": 443,
+          "tags": [
+            "west-1"
+          ]
+        },
+        {
+          "tick": 450,
+          "tags": [
+            "west-1"
+          ]
+        },
+        {
+          "tick": 457,
+          "tags": [
+            "west-1"
+          ]
+        },
+        {
+          "tick": 464,
+          "tags": [
+            "west-1"
+          ]
+        },
+        {
+          "tick": 471,
+          "tags": [
+            "west-1"
+          ]
+        }
+      ]
+    },
+    {
+      "case": "2-0-west",
+      "floor_span_m": [
+        8.6,
+        10.25
+      ],
+      "success": true,
+      "reason": "docked",
+      "ticks": 401,
+      "collision": false,
+      "position_error_m": 0.08702,
+      "heading_error_rad": 0.00919,
+      "exposures": [
+        {
+          "tick": 94,
+          "tags": [
+            "east-0"
+          ]
+        },
+        {
+          "tick": 316,
+          "tags": []
+        },
+        {
+          "tick": 321,
+          "tags": []
+        },
+        {
+          "tick": 326,
+          "tags": []
+        },
+        {
+          "tick": 331,
+          "tags": []
+        },
+        {
+          "tick": 336,
+          "tags": []
+        },
+        {
+          "tick": 341,
+          "tags": []
+        },
+        {
+          "tick": 346,
+          "tags": []
+        },
+        {
+          "tick": 351,
+          "tags": [
+            "west-1"
+          ]
+        },
+        {
+          "tick": 356,
+          "tags": [
+            "west-1"
+          ]
+        },
+        {
+          "tick": 361,
+          "tags": [
+            "west-1"
+          ]
+        },
+        {
+          "tick": 366,
+          "tags": [
+            "west-1"
+          ]
+        },
+        {
+          "tick": 371,
+          "tags": [
+            "west-1"
+          ]
+        },
+        {
+          "tick": 376,
+          "tags": [
+            "west-1"
+          ]
+        },
+        {
+          "tick": 381,
+          "tags": [
+            "west-1"
+          ]
+        },
+        {
+          "tick": 386,
+          "tags": [
+            "west-1"
+          ]
+        },
+        {
+          "tick": 391,
+          "tags": [
+            "west-1"
+          ]
+        },
+        {
+          "tick": 396,
+          "tags": [
+            "west-1"
+          ]
+        },
+        {
+          "tick": 401,
+          "tags": [
+            "west-1"
+          ]
+        }
+      ]
+    },
+    {
+      "case": "2-1-east",
+      "floor_span_m": null,
+      "success": true,
+      "reason": "docked",
+      "ticks": 380,
+      "collision": false,
+      "position_error_m": 0.09101,
+      "heading_error_rad": 0.0198,
+      "exposures": [
+        {
+          "tick": 179,
+          "tags": [
+            "west-2"
+          ]
+        },
+        {
+          "tick": 339,
+          "tags": [
+            "west-1"
+          ]
+        },
+        {
+          "tick": 345,
+          "tags": [
+            "west-1"
+          ]
+        },
+        {
+          "tick": 351,
+          "tags": [
+            "west-1"
+          ]
+        },
+        {
+          "tick": 357,
+          "tags": [
+            "west-1"
+          ]
+        },
+        {
+          "tick": 363,
+          "tags": [
+            "west-1"
+          ]
+        },
+        {
+          "tick": 369,
+          "tags": [
+            "west-1"
+          ]
+        },
+        {
+          "tick": 375,
+          "tags": [
+            "west-1"
+          ]
+        }
+      ]
+    },
+    {
+      "case": "2-1-west",
+      "floor_span_m": [
+        7.4,
+        9.65
+      ],
+      "success": true,
+      "reason": "docked",
+      "ticks": 437,
+      "collision": false,
+      "position_error_m": 0.05511,
+      "heading_error_rad": 0.0042,
+      "exposures": [
+        {
+          "tick": 104,
+          "tags": [
+            "east-2"
+          ]
+        },
+        {
+          "tick": 347,
+          "tags": []
+        },
+        {
+          "tick": 353,
+          "tags": []
+        },
+        {
+          "tick": 359,
+          "tags": []
+        },
+        {
+          "tick": 365,
+          "tags": []
+        },
+        {
+          "tick": 371,
+          "tags": []
+        },
+        {
+          "tick": 377,
+          "tags": []
+        },
+        {
+          "tick": 383,
+          "tags": []
+        },
+        {
+          "tick": 389,
+          "tags": [
+            "west-1"
+          ]
+        },
+        {
+          "tick": 395,
+          "tags": [
+            "west-1"
+          ]
+        },
+        {
+          "tick": 401,
+          "tags": [
+            "west-1"
+          ]
+        },
+        {
+          "tick": 407,
+          "tags": [
+            "west-1"
+          ]
+        },
+        {
+          "tick": 413,
+          "tags": [
+            "west-1"
+          ]
+        },
+        {
+          "tick": 419,
+          "tags": [
+            "west-1"
+          ]
+        },
+        {
+          "tick": 425,
+          "tags": [
+            "west-1"
+          ]
+        },
+        {
+          "tick": 431,
+          "tags": [
+            "west-1"
+          ]
+        },
+        {
+          "tick": 437,
+          "tags": [
+            "west-1"
+          ]
+        }
+      ]
+    },
+    {
+      "case": "3-0-east",
+      "floor_span_m": [
+        8.6,
+        10.25
+      ],
+      "success": true,
+      "reason": "docked",
+      "ticks": 447,
+      "collision": false,
+      "position_error_m": 0.05847,
+      "heading_error_rad": 0.01275,
+      "exposures": [
+        {
+          "tick": 179,
+          "tags": [
+            "west-0"
+          ]
+        },
+        {
+          "tick": 400,
+          "tags": [
+            "west-2"
+          ]
+        },
+        {
+          "tick": 406,
+          "tags": [
+            "west-2"
+          ]
+        },
+        {
+          "tick": 412,
+          "tags": [
+            "west-2"
+          ]
+        },
+        {
+          "tick": 418,
+          "tags": [
+            "west-2"
+          ]
+        },
+        {
+          "tick": 424,
+          "tags": [
+            "west-2"
+          ]
+        },
+        {
+          "tick": 430,
+          "tags": [
+            "west-2"
+          ]
+        },
+        {
+          "tick": 436,
+          "tags": [
+            "west-2"
+          ]
+        },
+        {
+          "tick": 442,
+          "tags": [
+            "west-2"
+          ]
+        }
+      ]
+    },
+    {
+      "case": "3-0-west",
+      "floor_span_m": null,
+      "success": true,
+      "reason": "docked",
+      "ticks": 478,
+      "collision": false,
+      "position_error_m": 0.11744,
+      "heading_error_rad": 0.01386,
+      "exposures": [
+        {
+          "tick": 97,
+          "tags": [
+            "east-0"
+          ]
+        },
+        {
+          "tick": 389,
+          "tags": []
+        },
+        {
+          "tick": 395,
+          "tags": []
+        },
+        {
+          "tick": 401,
+          "tags": []
+        },
+        {
+          "tick": 407,
+          "tags": []
+        },
+        {
+          "tick": 413,
+          "tags": []
+        },
+        {
+          "tick": 419,
+          "tags": []
+        },
+        {
+          "tick": 425,
+          "tags": []
+        },
+        {
+          "tick": 431,
+          "tags": [
+            "west-2"
+          ]
+        },
+        {
+          "tick": 437,
+          "tags": [
+            "west-2"
+          ]
+        },
+        {
+          "tick": 443,
+          "tags": [
+            "west-2"
+          ]
+        },
+        {
+          "tick": 449,
+          "tags": [
+            "west-2"
+          ]
+        },
+        {
+          "tick": 455,
+          "tags": [
+            "west-2"
+          ]
+        },
+        {
+          "tick": 461,
+          "tags": [
+            "west-2"
+          ]
+        },
+        {
+          "tick": 467,
+          "tags": [
+            "west-2"
+          ]
+        },
+        {
+          "tick": 473,
+          "tags": [
+            "west-2"
+          ]
+        }
+      ]
+    },
+    {
+      "case": "3-1-east",
+      "floor_span_m": [
+        7.4,
+        9.65
+      ],
+      "success": true,
+      "reason": "docked",
+      "ticks": 357,
+      "collision": false,
+      "position_error_m": 0.1296,
+      "heading_error_rad": 0.01827,
+      "exposures": [
+        {
+          "tick": 179,
+          "tags": [
+            "west-1"
+          ]
+        },
+        {
+          "tick": 312,
+          "tags": [
+            "west-2"
+          ]
+        },
+        {
+          "tick": 317,
+          "tags": [
+            "west-2"
+          ]
+        },
+        {
+          "tick": 322,
+          "tags": [
+            "west-2"
+          ]
+        },
+        {
+          "tick": 327,
+          "tags": [
+            "west-2"
+          ]
+        },
+        {
+          "tick": 332,
+          "tags": [
+            "west-2"
+          ]
+        },
+        {
+          "tick": 337,
+          "tags": [
+            "west-2"
+          ]
+        },
+        {
+          "tick": 342,
+          "tags": [
+            "west-2"
+          ]
+        },
+        {
+          "tick": 347,
+          "tags": [
+            "west-2"
+          ]
+        },
+        {
+          "tick": 352,
+          "tags": [
+            "west-2"
+          ]
+        },
+        {
+          "tick": 357,
+          "tags": [
+            "west-2"
+          ]
+        }
+      ]
+    },
+    {
+      "case": "3-1-west",
+      "floor_span_m": [
+        9.6,
+        12.65
+      ],
+      "success": true,
+      "reason": "docked",
+      "ticks": 505,
+      "collision": false,
+      "position_error_m": 0.03054,
+      "heading_error_rad": 0.01142,
+      "exposures": [
+        {
+          "tick": 112,
+          "tags": [
+            "east-1"
+          ]
+        },
+        {
+          "tick": 380,
+          "tags": []
+        },
+        {
+          "tick": 387,
+          "tags": []
+        },
+        {
+          "tick": 394,
+          "tags": []
+        },
+        {
+          "tick": 401,
+          "tags": []
+        },
+        {
+          "tick": 408,
+          "tags": []
+        },
+        {
+          "tick": 415,
+          "tags": []
+        },
+        {
+          "tick": 422,
+          "tags": []
+        },
+        {
+          "tick": 429,
+          "tags": []
+        },
+        {
+          "tick": 436,
+          "tags": [
+            "west-2"
+          ]
+        },
+        {
+          "tick": 443,
+          "tags": [
+            "west-2"
+          ]
+        },
+        {
+          "tick": 450,
+          "tags": [
+            "west-2"
+          ]
+        },
+        {
+          "tick": 457,
+          "tags": [
+            "west-2"
+          ]
+        },
+        {
+          "tick": 464,
+          "tags": [
+            "west-2"
+          ]
+        },
+        {
+          "tick": 471,
+          "tags": [
+            "west-2"
+          ]
+        },
+        {
+          "tick": 478,
+          "tags": [
+            "west-2"
+          ]
+        },
+        {
+          "tick": 485,
+          "tags": [
+            "west-2"
+          ]
+        },
+        {
+          "tick": 492,
+          "tags": [
+            "west-2"
+          ]
+        },
+        {
+          "tick": 499,
+          "tags": [
+            "west-2"
+          ]
+        }
+      ]
+    }
+  ]
+}

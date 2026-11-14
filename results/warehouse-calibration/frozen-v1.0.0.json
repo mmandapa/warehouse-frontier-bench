@@ -1,0 +1,133 @@
+{
+  "agent_image_files": [
+    "environment/Dockerfile",
+    "environment/workspace/README.md",
+    "environment/workspace/client.py",
+    "environment/workspace/motion.py",
+    "environment/workspace/policy.py",
+    "environment/workspace/practice.py",
+    "environment/workspace/protocol.py",
+    "instruction.md",
+    "task.toml"
+  ],
+  "files": [
+    {
+      "path": "README.md",
+      "sha256": "63b17be12a804a76fa05001353703c77edae133eb061c674aa1c020a37b6d976",
+      "size_bytes": 2151
+    },
+    {
+      "path": "environment/Dockerfile",
+      "sha256": "28ed78863d5ecd3f13922ada0e5128f0fa1c69047e4a911ff61c643425881250",
+      "size_bytes": 693
+    },
+    {
+      "path": "environment/workspace/README.md",
+      "sha256": "3bc62b3a85a9cc2974a987ed1d4114c72a8d25dfafc702e9e131fc08df255ac5",
+      "size_bytes": 2481
+    },
+    {
+      "path": "environment/workspace/client.py",
+      "sha256": "0129b0ae2346977048ed2c0f6213abe5ecf86958b06b8cee71805668b3ae3f0e",
+      "size_bytes": 730
+    },
+    {
+      "path": "environment/workspace/motion.py",
+      "sha256": "7801f80223798e73cbefb75aace78678a88d66785be10d4e6bea2f6f6a3b5e14",
+      "size_bytes": 2375
+    },
+    {
+      "path": "environment/workspace/policy.py",
+      "sha256": "d73112a32d30218d18e9cf916a6196f18f1cee09eddb86e63ccf88a868220541",
+      "size_bytes": 196
+    },
+    {
+      "path": "environment/workspace/practice.py",
+      "sha256": "aff43968b9ea9671546cf963a52464f86591d629c83fff5cf6a31dbcf1fa1cae",
+      "size_bytes": 906
+    },
+    {
+      "path": "environment/workspace/protocol.py",
+      "sha256": "00869060714f4b13c14f043a2d88407450a00be054727dd5f1a19ed0cc56d56a",
+      "size_bytes": 6757
+    },
+    {
+      "path": "instruction.md",
+      "sha256": "5f0d07f74536eef97ab2123df2bbef648e7e1bf3b3badb7b21cc2ca76cf6b9b3",
+      "size_bytes": 451
+    },
+    {
+      "path": "solution/policy.py",
+      "sha256": "682a2868b5a489c0a899a5dfc1d5c50b0627eade1d96f8e34e6d7895a23ada61",
+      "size_bytes": 2763
+    },
+    {
+      "path": "solution/solve.sh",
+      "sha256": "f92206b06ebb539ea2651d9037d25966c843de5f8d909b3de08fa239ef732ef5",
+      "size_bytes": 76
+    },
+    {
+      "path": "task.toml",
+      "sha256": "7a08965f4f4fb2d2ca08e8f27cb82f9cc3648791aa25a9d2797733c455df3b89",
+      "size_bytes": 734
+    },
+    {
+      "path": "tests/Dockerfile",
+      "sha256": "0010aaffc507aed7564c5ef93b2cfe793a645e7ee49921ea2147065abde49bc5",
+      "size_bytes": 307
+    },
+    {
+      "path": "tests/grader/grade.py",
+      "sha256": "9a51d4a876659b1d638c4e5a81f5f1acea3f2c53052f99d604feca8725091025",
+      "size_bytes": 1148
+    },
+    {
+      "path": "tests/grader/protocol.py",
+      "sha256": "d6828945a90a4d3461f7e93ca25fee26bd6f4d4dd447918b46cb72bae1110eaf",
+      "size_bytes": 6764
+    },
+    {
+      "path": "tests/grader/public/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size_bytes": 0
+    },
+    {
+      "path": "tests/grader/public/client.py",
+      "sha256": "0129b0ae2346977048ed2c0f6213abe5ecf86958b06b8cee71805668b3ae3f0e",
+      "size_bytes": 730
+    },
+    {
+      "path": "tests/grader/public/motion.py",
+      "sha256": "7801f80223798e73cbefb75aace78678a88d66785be10d4e6bea2f6f6a3b5e14",
+      "size_bytes": 2375
+    },
+    {
+      "path": "tests/grader/scenes.py",
+      "sha256": "1849b308eea721b2b0c4e3e3539c620f77b8a32a29f382acbdd92671e7ad8cd3",
+      "size_bytes": 1468
+    },
+    {
+      "path": "tests/test.sh",
+      "sha256": "217839c2313451a7ed9295ee9bf24c832e7ab174d3d0913375dc8d036b936f09",
+      "size_bytes": 161
+    }
+  ],
+  "frozen_at_local_date": "2026-11-12",
+  "model_trials": 0,
+  "task": "research/warehouse-calibration",
+  "task_sha256": "389e73ca5c52f77d9236f579d074557a29f225e096e1e4b8ece859ff62d50288",
+  "verifier_or_authoring_only_files": [
+    "README.md",
+    "solution/policy.py",
+    "solution/solve.sh",
+    "tests/Dockerfile",
+    "tests/grader/grade.py",
+    "tests/grader/protocol.py",
+    "tests/grader/public/__init__.py",
+    "tests/grader/public/client.py",
+    "tests/grader/public/motion.py",
+    "tests/grader/scenes.py",
+    "tests/test.sh"
+  ],
+  "version": "1.0.0"
+}

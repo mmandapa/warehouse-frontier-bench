@@ -1,0 +1,1283 @@
+{
+  "seconds": 1.431,
+  "summary": {
+    "informed": {
+      "total": 24,
+      "docked": 24,
+      "collisions": 0
+    },
+    "wrong-aisle": {
+      "total": 24,
+      "docked": 8,
+      "collisions": 8
+    },
+    "nominal-drive": {
+      "total": 24,
+      "docked": 6,
+      "collisions": 18
+    },
+    "fixed-probe": {
+      "total": 24,
+      "docked": 24,
+      "collisions": 0
+    }
+  },
+  "trials": {
+    "informed": [
+      {
+        "seed": 42,
+        "start": 0,
+        "drive": [
+          1,
+          1,
+          0
+        ],
+        "docked": true,
+        "collision": false,
+        "ticks": 75,
+        "position_error_m": 0.0714
+      },
+      {
+        "seed": 42,
+        "start": 0,
+        "drive": [
+          0.72,
+          0.72,
+          1
+        ],
+        "docked": true,
+        "collision": false,
+        "ticks": 83,
+        "position_error_m": 0.0591
+      },
+      {
+        "seed": 42,
+        "start": 0,
+        "drive": [
+          0.64,
+          0.82,
+          2
+        ],
+        "docked": true,
+        "collision": false,
+        "ticks": 94,
+        "position_error_m": 0.0461
+      },
+      {
+        "seed": 42,
+        "start": 0,
+        "drive": [
+          0.86,
+          0.66,
+          1
+        ],
+        "docked": true,
+        "collision": false,
+        "ticks": 89,
+        "position_error_m": 0.0415
+      },
+      {
+        "seed": 42,
+        "start": 1,
+        "drive": [
+          1,
+          1,
+          0
+        ],
+        "docked": true,
+        "collision": false,
+        "ticks": 188,
+        "position_error_m": 0.04
+      },
+      {
+        "seed": 42,
+        "start": 1,
+        "drive": [
+          0.72,
+          0.72,
+          1
+        ],
+        "docked": true,
+        "collision": false,
+        "ticks": 205,
+        "position_error_m": 0.0746
+      },
+      {
+        "seed": 42,
+        "start": 1,
+        "drive": [
+          0.64,
+          0.82,
+          2
+        ],
+        "docked": true,
+        "collision": false,
+        "ticks": 230,
+        "position_error_m": 0.0554
+      },
+      {
+        "seed": 42,
+        "start": 1,
+        "drive": [
+          0.86,
+          0.66,
+          1
+        ],
+        "docked": true,
+        "collision": false,
+        "ticks": 219,
+        "position_error_m": 0.0422
+      },
+      {
+        "seed": 42,
+        "start": 2,
+        "drive": [
+          1,
+          1,
+          0
+        ],
+        "docked": true,
+        "collision": false,
+        "ticks": 239,
+        "position_error_m": 0.0401
+      },
+      {
+        "seed": 42,
+        "start": 2,
+        "drive": [
+          0.72,
+          0.72,
+          1
+        ],
+        "docked": true,
+        "collision": false,
+        "ticks": 261,
+        "position_error_m": 0.0746
+      },
+      {
+        "seed": 42,
+        "start": 2,
+        "drive": [
+          0.64,
+          0.82,
+          2
+        ],
+        "docked": true,
+        "collision": false,
+        "ticks": 292,
+        "position_error_m": 0.0556
+      },
+      {
+        "seed": 42,
+        "start": 2,
+        "drive": [
+          0.86,
+          0.66,
+          1
+        ],
+        "docked": true,
+        "collision": false,
+        "ticks": 280,
+        "position_error_m": 0.0421
+      },
+      {
+        "seed": 108,
+        "start": 0,
+        "drive": [
+          1,
+          1,
+          0
+        ],
+        "docked": true,
+        "collision": false,
+        "ticks": 264,
+        "position_error_m": 0.0693
+      },
+      {
+        "seed": 108,
+        "start": 0,
+        "drive": [
+          0.72,
+          0.72,
+          1
+        ],
+        "docked": true,
+        "collision": false,
+        "ticks": 289,
+        "position_error_m": 0.0701
+      },
+      {
+        "seed": 108,
+        "start": 0,
+        "drive": [
+          0.64,
+          0.82,
+          2
+        ],
+        "docked": true,
+        "collision": false,
+        "ticks": 324,
+        "position_error_m": 0.0443
+      },
+      {
+        "seed": 108,
+        "start": 0,
+        "drive": [
+          0.86,
+          0.66,
+          1
+        ],
+        "docked": true,
+        "collision": false,
+        "ticks": 310,
+        "position_error_m": 0.0456
+      },
+      {
+        "seed": 108,
+        "start": 1,
+        "drive": [
+          1,
+          1,
+          0
+        ],
+        "docked": true,
+        "collision": false,
+        "ticks": 213,
+        "position_error_m": 0.0692
+      },
+      {
+        "seed": 108,
+        "start": 1,
+        "drive": [
+          0.72,
+          0.72,
+          1
+        ],
+        "docked": true,
+        "collision": false,
+        "ticks": 233,
+        "position_error_m": 0.0701
+      },
+      {
+        "seed": 108,
+        "start": 1,
+        "drive": [
+          0.64,
+          0.82,
+          2
+        ],
+        "docked": true,
+        "collision": false,
+        "ticks": 262,
+        "position_error_m": 0.0442
+      },
+      {
+        "seed": 108,
+        "start": 1,
+        "drive": [
+          0.86,
+          0.66,
+          1
+        ],
+        "docked": true,
+        "collision": false,
+        "ticks": 249,
+        "position_error_m": 0.0456
+      },
+      {
+        "seed": 108,
+        "start": 2,
+        "drive": [
+          1,
+          1,
+          0
+        ],
+        "docked": true,
+        "collision": false,
+        "ticks": 75,
+        "position_error_m": 0.0714
+      },
+      {
+        "seed": 108,
+        "start": 2,
+        "drive": [
+          0.72,
+          0.72,
+          1
+        ],
+        "docked": true,
+        "collision": false,
+        "ticks": 83,
+        "position_error_m": 0.0591
+      },
+      {
+        "seed": 108,
+        "start": 2,
+        "drive": [
+          0.64,
+          0.82,
+          2
+        ],
+        "docked": true,
+        "collision": false,
+        "ticks": 94,
+        "position_error_m": 0.0461
+      },
+      {
+        "seed": 108,
+        "start": 2,
+        "drive": [
+          0.86,
+          0.66,
+          1
+        ],
+        "docked": true,
+        "collision": false,
+        "ticks": 89,
+        "position_error_m": 0.0415
+      }
+    ],
+    "wrong-aisle": [
+      {
+        "seed": 42,
+        "start": 0,
+        "drive": [
+          1,
+          1,
+          0
+        ],
+        "docked": true,
+        "collision": false,
+        "ticks": 75,
+        "position_error_m": 0.0714
+      },
+      {
+        "seed": 42,
+        "start": 0,
+        "drive": [
+          0.72,
+          0.72,
+          1
+        ],
+        "docked": true,
+        "collision": false,
+        "ticks": 83,
+        "position_error_m": 0.0591
+      },
+      {
+        "seed": 42,
+        "start": 0,
+        "drive": [
+          0.64,
+          0.82,
+          2
+        ],
+        "docked": true,
+        "collision": false,
+        "ticks": 94,
+        "position_error_m": 0.0461
+      },
+      {
+        "seed": 42,
+        "start": 0,
+        "drive": [
+          0.86,
+          0.66,
+          1
+        ],
+        "docked": true,
+        "collision": false,
+        "ticks": 89,
+        "position_error_m": 0.0415
+      },
+      {
+        "seed": 42,
+        "start": 1,
+        "drive": [
+          1,
+          1,
+          0
+        ],
+        "docked": false,
+        "collision": false,
+        "ticks": 75,
+        "position_error_m": 8.0003
+      },
+      {
+        "seed": 42,
+        "start": 1,
+        "drive": [
+          0.72,
+          0.72,
+          1
+        ],
+        "docked": false,
+        "collision": false,
+        "ticks": 83,
+        "position_error_m": 8.0002
+      },
+      {
+        "seed": 42,
+        "start": 1,
+        "drive": [
+          0.64,
+          0.82,
+          2
+        ],
+        "docked": false,
+        "collision": false,
+        "ticks": 94,
+        "position_error_m": 8.0001
+      },
+      {
+        "seed": 42,
+        "start": 1,
+        "drive": [
+          0.86,
+          0.66,
+          1
+        ],
+        "docked": false,
+        "collision": false,
+        "ticks": 89,
+        "position_error_m": 8.0001
+      },
+      {
+        "seed": 42,
+        "start": 2,
+        "drive": [
+          1,
+          1,
+          0
+        ],
+        "docked": false,
+        "collision": false,
+        "ticks": 75,
+        "position_error_m": 16.0001
+      },
+      {
+        "seed": 42,
+        "start": 2,
+        "drive": [
+          0.72,
+          0.72,
+          1
+        ],
+        "docked": false,
+        "collision": false,
+        "ticks": 83,
+        "position_error_m": 16.0001
+      },
+      {
+        "seed": 42,
+        "start": 2,
+        "drive": [
+          0.64,
+          0.82,
+          2
+        ],
+        "docked": false,
+        "collision": false,
+        "ticks": 94,
+        "position_error_m": 16.0001
+      },
+      {
+        "seed": 42,
+        "start": 2,
+        "drive": [
+          0.86,
+          0.66,
+          1
+        ],
+        "docked": false,
+        "collision": false,
+        "ticks": 89,
+        "position_error_m": 16.0
+      },
+      {
+        "seed": 108,
+        "start": 0,
+        "drive": [
+          1,
+          1,
+          0
+        ],
+        "docked": true,
+        "collision": false,
+        "ticks": 264,
+        "position_error_m": 0.0693
+      },
+      {
+        "seed": 108,
+        "start": 0,
+        "drive": [
+          0.72,
+          0.72,
+          1
+        ],
+        "docked": true,
+        "collision": false,
+        "ticks": 289,
+        "position_error_m": 0.0701
+      },
+      {
+        "seed": 108,
+        "start": 0,
+        "drive": [
+          0.64,
+          0.82,
+          2
+        ],
+        "docked": true,
+        "collision": false,
+        "ticks": 324,
+        "position_error_m": 0.0443
+      },
+      {
+        "seed": 108,
+        "start": 0,
+        "drive": [
+          0.86,
+          0.66,
+          1
+        ],
+        "docked": true,
+        "collision": false,
+        "ticks": 310,
+        "position_error_m": 0.0456
+      },
+      {
+        "seed": 108,
+        "start": 1,
+        "drive": [
+          1,
+          1,
+          0
+        ],
+        "docked": false,
+        "collision": true,
+        "ticks": 168,
+        "position_error_m": 4.1223
+      },
+      {
+        "seed": 108,
+        "start": 1,
+        "drive": [
+          0.72,
+          0.72,
+          1
+        ],
+        "docked": false,
+        "collision": true,
+        "ticks": 184,
+        "position_error_m": 4.1296
+      },
+      {
+        "seed": 108,
+        "start": 1,
+        "drive": [
+          0.64,
+          0.82,
+          2
+        ],
+        "docked": false,
+        "collision": true,
+        "ticks": 206,
+        "position_error_m": 4.1224
+      },
+      {
+        "seed": 108,
+        "start": 1,
+        "drive": [
+          0.86,
+          0.66,
+          1
+        ],
+        "docked": false,
+        "collision": true,
+        "ticks": 197,
+        "position_error_m": 4.1217
+      },
+      {
+        "seed": 108,
+        "start": 2,
+        "drive": [
+          1,
+          1,
+          0
+        ],
+        "docked": false,
+        "collision": true,
+        "ticks": 116,
+        "position_error_m": 4.0974
+      },
+      {
+        "seed": 108,
+        "start": 2,
+        "drive": [
+          0.72,
+          0.72,
+          1
+        ],
+        "docked": false,
+        "collision": true,
+        "ticks": 128,
+        "position_error_m": 4.0987
+      },
+      {
+        "seed": 108,
+        "start": 2,
+        "drive": [
+          0.64,
+          0.82,
+          2
+        ],
+        "docked": false,
+        "collision": true,
+        "ticks": 144,
+        "position_error_m": 4.097
+      },
+      {
+        "seed": 108,
+        "start": 2,
+        "drive": [
+          0.86,
+          0.66,
+          1
+        ],
+        "docked": false,
+        "collision": true,
+        "ticks": 137,
+        "position_error_m": 4.1011
+      }
+    ],
+    "nominal-drive": [
+      {
+        "seed": 42,
+        "start": 0,
+        "drive": [
+          1,
+          1,
+          0
+        ],
+        "docked": true,
+        "collision": false,
+        "ticks": 75,
+        "position_error_m": 0.0714
+      },
+      {
+        "seed": 42,
+        "start": 0,
+        "drive": [
+          0.72,
+          0.72,
+          1
+        ],
+        "docked": false,
+        "collision": true,
+        "ticks": 29,
+        "position_error_m": 8.1774
+      },
+      {
+        "seed": 42,
+        "start": 0,
+        "drive": [
+          0.64,
+          0.82,
+          2
+        ],
+        "docked": false,
+        "collision": true,
+        "ticks": 29,
+        "position_error_m": 8.5052
+      },
+      {
+        "seed": 42,
+        "start": 0,
+        "drive": [
+          0.86,
+          0.66,
+          1
+        ],
+        "docked": false,
+        "collision": true,
+        "ticks": 55,
+        "position_error_m": 5.5859
+      },
+      {
+        "seed": 42,
+        "start": 1,
+        "drive": [
+          1,
+          1,
+          0
+        ],
+        "docked": true,
+        "collision": false,
+        "ticks": 188,
+        "position_error_m": 0.04
+      },
+      {
+        "seed": 42,
+        "start": 1,
+        "drive": [
+          0.72,
+          0.72,
+          1
+        ],
+        "docked": false,
+        "collision": true,
+        "ticks": 29,
+        "position_error_m": 10.6563
+      },
+      {
+        "seed": 42,
+        "start": 1,
+        "drive": [
+          0.64,
+          0.82,
+          2
+        ],
+        "docked": false,
+        "collision": true,
+        "ticks": 29,
+        "position_error_m": 10.9066
+      },
+      {
+        "seed": 42,
+        "start": 1,
+        "drive": [
+          0.86,
+          0.66,
+          1
+        ],
+        "docked": false,
+        "collision": true,
+        "ticks": 55,
+        "position_error_m": 10.604
+      },
+      {
+        "seed": 42,
+        "start": 2,
+        "drive": [
+          1,
+          1,
+          0
+        ],
+        "docked": true,
+        "collision": false,
+        "ticks": 239,
+        "position_error_m": 0.0401
+      },
+      {
+        "seed": 42,
+        "start": 2,
+        "drive": [
+          0.72,
+          0.72,
+          1
+        ],
+        "docked": false,
+        "collision": true,
+        "ticks": 29,
+        "position_error_m": 16.9777
+      },
+      {
+        "seed": 42,
+        "start": 2,
+        "drive": [
+          0.64,
+          0.82,
+          2
+        ],
+        "docked": false,
+        "collision": true,
+        "ticks": 29,
+        "position_error_m": 17.1338
+      },
+      {
+        "seed": 42,
+        "start": 2,
+        "drive": [
+          0.86,
+          0.66,
+          1
+        ],
+        "docked": false,
+        "collision": true,
+        "ticks": 55,
+        "position_error_m": 17.9356
+      },
+      {
+        "seed": 108,
+        "start": 0,
+        "drive": [
+          1,
+          1,
+          0
+        ],
+        "docked": true,
+        "collision": false,
+        "ticks": 264,
+        "position_error_m": 0.0693
+      },
+      {
+        "seed": 108,
+        "start": 0,
+        "drive": [
+          0.72,
+          0.72,
+          1
+        ],
+        "docked": false,
+        "collision": true,
+        "ticks": 29,
+        "position_error_m": 18.9077
+      },
+      {
+        "seed": 108,
+        "start": 0,
+        "drive": [
+          0.64,
+          0.82,
+          2
+        ],
+        "docked": false,
+        "collision": true,
+        "ticks": 29,
+        "position_error_m": 19.0554
+      },
+      {
+        "seed": 108,
+        "start": 0,
+        "drive": [
+          0.86,
+          0.66,
+          1
+        ],
+        "docked": false,
+        "collision": true,
+        "ticks": 55,
+        "position_error_m": 15.8971
+      },
+      {
+        "seed": 108,
+        "start": 1,
+        "drive": [
+          1,
+          1,
+          0
+        ],
+        "docked": true,
+        "collision": false,
+        "ticks": 213,
+        "position_error_m": 0.0692
+      },
+      {
+        "seed": 108,
+        "start": 1,
+        "drive": [
+          0.72,
+          0.72,
+          1
+        ],
+        "docked": false,
+        "collision": true,
+        "ticks": 29,
+        "position_error_m": 12.1731
+      },
+      {
+        "seed": 108,
+        "start": 1,
+        "drive": [
+          0.64,
+          0.82,
+          2
+        ],
+        "docked": false,
+        "collision": true,
+        "ticks": 29,
+        "position_error_m": 12.3985
+      },
+      {
+        "seed": 108,
+        "start": 1,
+        "drive": [
+          0.86,
+          0.66,
+          1
+        ],
+        "docked": false,
+        "collision": true,
+        "ticks": 55,
+        "position_error_m": 8.8295
+      },
+      {
+        "seed": 108,
+        "start": 2,
+        "drive": [
+          1,
+          1,
+          0
+        ],
+        "docked": true,
+        "collision": false,
+        "ticks": 75,
+        "position_error_m": 0.0714
+      },
+      {
+        "seed": 108,
+        "start": 2,
+        "drive": [
+          0.72,
+          0.72,
+          1
+        ],
+        "docked": false,
+        "collision": true,
+        "ticks": 29,
+        "position_error_m": 8.1774
+      },
+      {
+        "seed": 108,
+        "start": 2,
+        "drive": [
+          0.64,
+          0.82,
+          2
+        ],
+        "docked": false,
+        "collision": true,
+        "ticks": 29,
+        "position_error_m": 8.5052
+      },
+      {
+        "seed": 108,
+        "start": 2,
+        "drive": [
+          0.86,
+          0.66,
+          1
+        ],
+        "docked": false,
+        "collision": true,
+        "ticks": 55,
+        "position_error_m": 5.5859
+      }
+    ],
+    "fixed-probe": [
+      {
+        "seed": 42,
+        "start": 0,
+        "drive": [
+          1,
+          1,
+          0
+        ],
+        "docked": true,
+        "collision": false,
+        "ticks": 219,
+        "position_error_m": 0.0739
+      },
+      {
+        "seed": 42,
+        "start": 0,
+        "drive": [
+          0.72,
+          0.72,
+          1
+        ],
+        "docked": true,
+        "collision": false,
+        "ticks": 242,
+        "position_error_m": 0.0389
+      },
+      {
+        "seed": 42,
+        "start": 0,
+        "drive": [
+          0.64,
+          0.82,
+          2
+        ],
+        "docked": true,
+        "collision": false,
+        "ticks": 275,
+        "position_error_m": 0.0421
+      },
+      {
+        "seed": 42,
+        "start": 0,
+        "drive": [
+          0.86,
+          0.66,
+          1
+        ],
+        "docked": true,
+        "collision": false,
+        "ticks": 262,
+        "position_error_m": 0.0662
+      },
+      {
+        "seed": 42,
+        "start": 1,
+        "drive": [
+          1,
+          1,
+          0
+        ],
+        "docked": true,
+        "collision": false,
+        "ticks": 332,
+        "position_error_m": 0.0392
+      },
+      {
+        "seed": 42,
+        "start": 1,
+        "drive": [
+          0.72,
+          0.72,
+          1
+        ],
+        "docked": true,
+        "collision": false,
+        "ticks": 363,
+        "position_error_m": 0.075
+      },
+      {
+        "seed": 42,
+        "start": 1,
+        "drive": [
+          0.64,
+          0.82,
+          2
+        ],
+        "docked": true,
+        "collision": false,
+        "ticks": 411,
+        "position_error_m": 0.0581
+      },
+      {
+        "seed": 42,
+        "start": 1,
+        "drive": [
+          0.86,
+          0.66,
+          1
+        ],
+        "docked": true,
+        "collision": false,
+        "ticks": 392,
+        "position_error_m": 0.0388
+      },
+      {
+        "seed": 42,
+        "start": 2,
+        "drive": [
+          1,
+          1,
+          0
+        ],
+        "docked": true,
+        "collision": false,
+        "ticks": 383,
+        "position_error_m": 0.039
+      },
+      {
+        "seed": 42,
+        "start": 2,
+        "drive": [
+          0.72,
+          0.72,
+          1
+        ],
+        "docked": true,
+        "collision": false,
+        "ticks": 419,
+        "position_error_m": 0.0749
+      },
+      {
+        "seed": 42,
+        "start": 2,
+        "drive": [
+          0.64,
+          0.82,
+          2
+        ],
+        "docked": true,
+        "collision": false,
+        "ticks": 473,
+        "position_error_m": 0.0619
+      },
+      {
+        "seed": 42,
+        "start": 2,
+        "drive": [
+          0.86,
+          0.66,
+          1
+        ],
+        "docked": true,
+        "collision": false,
+        "ticks": 453,
+        "position_error_m": 0.0338
+      },
+      {
+        "seed": 108,
+        "start": 0,
+        "drive": [
+          1,
+          1,
+          0
+        ],
+        "docked": true,
+        "collision": false,
+        "ticks": 396,
+        "position_error_m": 0.0407
+      },
+      {
+        "seed": 108,
+        "start": 0,
+        "drive": [
+          0.72,
+          0.72,
+          1
+        ],
+        "docked": true,
+        "collision": false,
+        "ticks": 435,
+        "position_error_m": 0.0662
+      },
+      {
+        "seed": 108,
+        "start": 0,
+        "drive": [
+          0.64,
+          0.82,
+          2
+        ],
+        "docked": true,
+        "collision": false,
+        "ticks": 495,
+        "position_error_m": 0.055
+      },
+      {
+        "seed": 108,
+        "start": 0,
+        "drive": [
+          0.86,
+          0.66,
+          1
+        ],
+        "docked": true,
+        "collision": false,
+        "ticks": 472,
+        "position_error_m": 0.0646
+      },
+      {
+        "seed": 108,
+        "start": 1,
+        "drive": [
+          1,
+          1,
+          0
+        ],
+        "docked": true,
+        "collision": false,
+        "ticks": 345,
+        "position_error_m": 0.0406
+      },
+      {
+        "seed": 108,
+        "start": 1,
+        "drive": [
+          0.72,
+          0.72,
+          1
+        ],
+        "docked": true,
+        "collision": false,
+        "ticks": 379,
+        "position_error_m": 0.0659
+      },
+      {
+        "seed": 108,
+        "start": 1,
+        "drive": [
+          0.64,
+          0.82,
+          2
+        ],
+        "docked": true,
+        "collision": false,
+        "ticks": 433,
+        "position_error_m": 0.0524
+      },
+      {
+        "seed": 108,
+        "start": 1,
+        "drive": [
+          0.86,
+          0.66,
+          1
+        ],
+        "docked": true,
+        "collision": false,
+        "ticks": 411,
+        "position_error_m": 0.0659
+      },
+      {
+        "seed": 108,
+        "start": 2,
+        "drive": [
+          1,
+          1,
+          0
+        ],
+        "docked": true,
+        "collision": false,
+        "ticks": 245,
+        "position_error_m": 0.0679
+      },
+      {
+        "seed": 108,
+        "start": 2,
+        "drive": [
+          0.72,
+          0.72,
+          1
+        ],
+        "docked": true,
+        "collision": false,
+        "ticks": 269,
+        "position_error_m": 0.0724
+      },
+      {
+        "seed": 108,
+        "start": 2,
+        "drive": [
+          0.64,
+          0.82,
+          2
+        ],
+        "docked": true,
+        "collision": false,
+        "ticks": 306,
+        "position_error_m": 0.067
+      },
+      {
+        "seed": 108,
+        "start": 2,
+        "drive": [
+          0.86,
+          0.66,
+          1
+        ],
+        "docked": true,
+        "collision": false,
+        "ticks": 292,
+        "position_error_m": 0.0707
+      }
+    ]
+  }
+}

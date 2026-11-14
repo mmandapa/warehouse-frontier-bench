@@ -1,0 +1,8915 @@
+{
+  "reward": 1.0,
+  "passed": 16,
+  "total": 16,
+  "collisions": 0,
+  "seconds": 9.454,
+  "cases": [
+    {
+      "case": "0-0-east",
+      "floor_span_m": null,
+      "success": true,
+      "reason": "docked",
+      "ticks": 217,
+      "collision": false,
+      "position_error_m": 0.03588,
+      "heading_error_rad": 0.02657,
+      "exposures": [
+        {
+          "tick": 0,
+          "tags": []
+        },
+        {
+          "tick": 1,
+          "tags": []
+        },
+        {
+          "tick": 2,
+          "tags": []
+        },
+        {
+          "tick": 3,
+          "tags": []
+        },
+        {
+          "tick": 4,
+          "tags": []
+        },
+        {
+          "tick": 5,
+          "tags": []
+        },
+        {
+          "tick": 6,
+          "tags": []
+        },
+        {
+          "tick": 7,
+          "tags": []
+        },
+        {
+          "tick": 8,
+          "tags": []
+        },
+        {
+          "tick": 9,
+          "tags": []
+        },
+        {
+          "tick": 10,
+          "tags": []
+        },
+        {
+          "tick": 11,
+          "tags": []
+        },
+        {
+          "tick": 12,
+          "tags": []
+        },
+        {
+          "tick": 13,
+          "tags": []
+        },
+        {
+          "tick": 14,
+          "tags": []
+        },
+        {
+          "tick": 15,
+          "tags": []
+        },
+        {
+          "tick": 16,
+          "tags": []
+        },
+        {
+          "tick": 17,
+          "tags": []
+        },
+        {
+          "tick": 18,
+          "tags": []
+        },
+        {
+          "tick": 19,
+          "tags": []
+        },
+        {
+          "tick": 20,
+          "tags": []
+        },
+        {
+          "tick": 21,
+          "tags": []
+        },
+        {
+          "tick": 22,
+          "tags": []
+        },
+        {
+          "tick": 23,
+          "tags": []
+        },
+        {
+          "tick": 24,
+          "tags": []
+        },
+        {
+          "tick": 25,
+          "tags": []
+        },
+        {
+          "tick": 26,
+          "tags": []
+        },
+        {
+          "tick": 27,
+          "tags": []
+        },
+        {
+          "tick": 28,
+          "tags": []
+        },
+        {
+          "tick": 29,
+          "tags": []
+        },
+        {
+          "tick": 30,
+          "tags": []
+        },
+        {
+          "tick": 31,
+          "tags": []
+        },
+        {
+          "tick": 32,
+          "tags": []
+        },
+        {
+          "tick": 33,
+          "tags": []
+        },
+        {
+          "tick": 34,
+          "tags": []
+        },
+        {
+          "tick": 35,
+          "tags": []
+        },
+        {
+          "tick": 36,
+          "tags": []
+        },
+        {
+          "tick": 37,
+          "tags": []
+        },
+        {
+          "tick": 38,
+          "tags": []
+        },
+        {
+          "tick": 39,
+          "tags": []
+        },
+        {
+          "tick": 40,
+          "tags": []
+        },
+        {
+          "tick": 41,
+          "tags": []
+        },
+        {
+          "tick": 42,
+          "tags": []
+        },
+        {
+          "tick": 43,
+          "tags": []
+        },
+        {
+          "tick": 44,
+          "tags": []
+        },
+        {
+          "tick": 45,
+          "tags": []
+        },
+        {
+          "tick": 46,
+          "tags": []
+        },
+        {
+          "tick": 47,
+          "tags": []
+        },
+        {
+          "tick": 48,
+          "tags": []
+        },
+        {
+          "tick": 49,
+          "tags": []
+        },
+        {
+          "tick": 50,
+          "tags": []
+        },
+        {
+          "tick": 51,
+          "tags": []
+        },
+        {
+          "tick": 52,
+          "tags": []
+        },
+        {
+          "tick": 53,
+          "tags": []
+        },
+        {
+          "tick": 54,
+          "tags": []
+        },
+        {
+          "tick": 55,
+          "tags": []
+        },
+        {
+          "tick": 56,
+          "tags": []
+        },
+        {
+          "tick": 57,
+          "tags": []
+        },
+        {
+          "tick": 58,
+          "tags": []
+        },
+        {
+          "tick": 59,
+          "tags": []
+        },
+        {
+          "tick": 60,
+          "tags": []
+        },
+        {
+          "tick": 61,
+          "tags": []
+        },
+        {
+          "tick": 62,
+          "tags": []
+        },
+        {
+          "tick": 63,
+          "tags": []
+        },
+        {
+          "tick": 64,
+          "tags": []
+        },
+        {
+          "tick": 65,
+          "tags": []
+        },
+        {
+          "tick": 66,
+          "tags": []
+        },
+        {
+          "tick": 67,
+          "tags": []
+        },
+        {
+          "tick": 68,
+          "tags": []
+        },
+        {
+          "tick": 69,
+          "tags": []
+        },
+        {
+          "tick": 70,
+          "tags": [
+            "west-1"
+          ]
+        },
+        {
+          "tick": 71,
+          "tags": [
+            "west-1"
+          ]
+        },
+        {
+          "tick": 72,
+          "tags": [
+            "west-1"
+          ]
+        },
+        {
+          "tick": 73,
+          "tags": [
+            "west-1"
+          ]
+        },
+        {
+          "tick": 74,
+          "tags": [
+            "west-1"
+          ]
+        },
+        {
+          "tick": 75,
+          "tags": [
+            "west-1"
+          ]
+        },
+        {
+          "tick": 76,
+          "tags": [
+            "west-1"
+          ]
+        },
+        {
+          "tick": 77,
+          "tags": [
+            "west-1"
+          ]
+        },
+        {
+          "tick": 78,
+          "tags": [
+            "west-1"
+          ]
+        },
+        {
+          "tick": 79,
+          "tags": [
+            "west-1"
+          ]
+        },
+        {
+          "tick": 80,
+          "tags": [
+            "west-1"
+          ]
+        },
+        {
+          "tick": 81,
+          "tags": [
+            "west-1"
+          ]
+        },
+        {
+          "tick": 82,
+          "tags": [
+            "west-1"
+          ]
+        },
+        {
+          "tick": 83,
+          "tags": [
+            "west-1"
+          ]
+        },
+        {
+          "tick": 84,
+          "tags": [
+            "west-1"
+          ]
+        },
+        {
+          "tick": 85,
+          "tags": [
+            "west-1"
+          ]
+        },
+        {
+          "tick": 86,
+          "tags": [
+            "west-1"
+          ]
+        },
+        {
+          "tick": 87,
+          "tags": [
+            "west-1"
+          ]
+        },
+        {
+          "tick": 88,
+          "tags": [
+            "west-1"
+          ]
+        },
+        {
+          "tick": 89,
+          "tags": [
+            "west-1"
+          ]
+        },
+        {
+          "tick": 90,
+          "tags": [
+            "west-1"
+          ]
+        },
+        {
+          "tick": 91,
+          "tags": [
+            "west-1"
+          ]
+        },
+        {
+          "tick": 92,
+          "tags": [
+            "west-1"
+          ]
+        },
+        {
+          "tick": 93,
+          "tags": [
+            "west-1"
+          ]
+        },
+        {
+          "tick": 94,
+          "tags": [
+            "west-1"
+          ]
+        },
+        {
+          "tick": 95,
+          "tags": [
+            "west-1"
+          ]
+        },
+        {
+          "tick": 96,
+          "tags": [
+            "west-1"
+          ]
+        },
+        {
+          "tick": 97,
+          "tags": [
+            "west-1"
+          ]
+        },
+        {
+          "tick": 98,
+          "tags": [
+            "west-1"
+          ]
+        },
+        {
+          "tick": 99,
+          "tags": [
+            "west-1"
+          ]
+        },
+        {
+          "tick": 100,
+          "tags": [
+            "west-1"
+          ]
+        },
+        {
+          "tick": 101,
+          "tags": [
+            "west-1"
+          ]
+        },
+        {
+          "tick": 102,
+          "tags": [
+            "west-1"
+          ]
+        },
+        {
+          "tick": 103,
+          "tags": []
+        },
+        {
+          "tick": 104,
+          "tags": []
+        },
+        {
+          "tick": 105,
+          "tags": []
+        },
+        {
+          "tick": 106,
+          "tags": []
+        },
+        {
+          "tick": 107,
+          "tags": []
+        },
+        {
+          "tick": 108,
+          "tags": []
+        },
+        {
+          "tick": 109,
+          "tags": []
+        },
+        {
+          "tick": 110,
+          "tags": []
+        },
+        {
+          "tick": 111,
+          "tags": []
+        },
+        {
+          "tick": 112,
+          "tags": []
+        },
+        {
+          "tick": 113,
+          "tags": []
+        },
+        {
+          "tick": 114,
+          "tags": []
+        },
+        {
+          "tick": 115,
+          "tags": []
+        },
+        {
+          "tick": 116,
+          "tags": []
+        },
+        {
+          "tick": 117,
+          "tags": []
+        },
+        {
+          "tick": 118,
+          "tags": []
+        },
+        {
+          "tick": 119,
+          "tags": []
+        },
+        {
+          "tick": 120,
+          "tags": []
+        },
+        {
+          "tick": 121,
+          "tags": []
+        },
+        {
+          "tick": 122,
+          "tags": []
+        },
+        {
+          "tick": 123,
+          "tags": []
+        },
+        {
+          "tick": 124,
+          "tags": []
+        },
+        {
+          "tick": 125,
+          "tags": []
+        },
+        {
+          "tick": 126,
+          "tags": [
+            "west-0"
+          ]
+        },
+        {
+          "tick": 127,
+          "tags": [
+            "west-0"
+          ]
+        }
+      ]
+    },
+    {
+      "case": "0-0-west",
+      "floor_span_m": [
+        7.4,
+        9.65
+      ],
+      "success": true,
+      "reason": "docked",
+      "ticks": 830,
+      "collision": false,
+      "position_error_m": 0.02871,
+      "heading_error_rad": 0.05131,
+      "exposures": [
+        {
+          "tick": 0,
+          "tags": []
+        },
+        {
+          "tick": 1,
+          "tags": []
+        },
+        {
+          "tick": 2,
+          "tags": []
+        },
+        {
+          "tick": 3,
+          "tags": []
+        },
+        {
+          "tick": 4,
+          "tags": []
+        },
+        {
+          "tick": 5,
+          "tags": []
+        },
+        {
+          "tick": 6,
+          "tags": []
+        },
+        {
+          "tick": 7,
+          "tags": []
+        },
+        {
+          "tick": 8,
+          "tags": []
+        },
+        {
+          "tick": 9,
+          "tags": []
+        },
+        {
+          "tick": 10,
+          "tags": []
+        },
+        {
+          "tick": 11,
+          "tags": []
+        },
+        {
+          "tick": 12,
+          "tags": []
+        },
+        {
+          "tick": 13,
+          "tags": []
+        },
+        {
+          "tick": 14,
+          "tags": []
+        },
+        {
+          "tick": 15,
+          "tags": []
+        },
+        {
+          "tick": 16,
+          "tags": []
+        },
+        {
+          "tick": 17,
+          "tags": []
+        },
+        {
+          "tick": 18,
+          "tags": []
+        },
+        {
+          "tick": 19,
+          "tags": []
+        },
+        {
+          "tick": 20,
+          "tags": []
+        },
+        {
+          "tick": 21,
+          "tags": []
+        },
+        {
+          "tick": 22,
+          "tags": []
+        },
+        {
+          "tick": 23,
+          "tags": []
+        },
+        {
+          "tick": 24,
+          "tags": []
+        },
+        {
+          "tick": 25,
+          "tags": []
+        },
+        {
+          "tick": 26,
+          "tags": []
+        },
+        {
+          "tick": 27,
+          "tags": []
+        },
+        {
+          "tick": 28,
+          "tags": []
+        },
+        {
+          "tick": 29,
+          "tags": []
+        },
+        {
+          "tick": 30,
+          "tags": []
+        },
+        {
+          "tick": 31,
+          "tags": []
+        },
+        {
+          "tick": 32,
+          "tags": []
+        },
+        {
+          "tick": 33,
+          "tags": []
+        },
+        {
+          "tick": 34,
+          "tags": []
+        },
+        {
+          "tick": 35,
+          "tags": []
+        },
+        {
+          "tick": 36,
+          "tags": []
+        },
+        {
+          "tick": 37,
+          "tags": []
+        },
+        {
+          "tick": 38,
+          "tags": []
+        },
+        {
+          "tick": 39,
+          "tags": []
+        },
+        {
+          "tick": 40,
+          "tags": []
+        },
+        {
+          "tick": 41,
+          "tags": []
+        },
+        {
+          "tick": 42,
+          "tags": []
+        },
+        {
+          "tick": 43,
+          "tags": []
+        },
+        {
+          "tick": 44,
+          "tags": []
+        },
+        {
+          "tick": 45,
+          "tags": []
+        },
+        {
+          "tick": 46,
+          "tags": []
+        },
+        {
+          "tick": 47,
+          "tags": []
+        },
+        {
+          "tick": 48,
+          "tags": []
+        },
+        {
+          "tick": 49,
+          "tags": []
+        },
+        {
+          "tick": 50,
+          "tags": []
+        },
+        {
+          "tick": 51,
+          "tags": []
+        },
+        {
+          "tick": 52,
+          "tags": []
+        },
+        {
+          "tick": 53,
+          "tags": []
+        },
+        {
+          "tick": 54,
+          "tags": []
+        },
+        {
+          "tick": 55,
+          "tags": []
+        },
+        {
+          "tick": 56,
+          "tags": []
+        },
+        {
+          "tick": 57,
+          "tags": []
+        },
+        {
+          "tick": 58,
+          "tags": []
+        },
+        {
+          "tick": 59,
+          "tags": []
+        },
+        {
+          "tick": 60,
+          "tags": []
+        },
+        {
+          "tick": 61,
+          "tags": []
+        },
+        {
+          "tick": 62,
+          "tags": []
+        },
+        {
+          "tick": 63,
+          "tags": []
+        },
+        {
+          "tick": 64,
+          "tags": []
+        },
+        {
+          "tick": 65,
+          "tags": []
+        },
+        {
+          "tick": 66,
+          "tags": []
+        },
+        {
+          "tick": 67,
+          "tags": []
+        },
+        {
+          "tick": 68,
+          "tags": []
+        },
+        {
+          "tick": 69,
+          "tags": []
+        },
+        {
+          "tick": 70,
+          "tags": []
+        },
+        {
+          "tick": 71,
+          "tags": []
+        },
+        {
+          "tick": 72,
+          "tags": []
+        },
+        {
+          "tick": 73,
+          "tags": []
+        },
+        {
+          "tick": 74,
+          "tags": []
+        },
+        {
+          "tick": 75,
+          "tags": []
+        },
+        {
+          "tick": 76,
+          "tags": []
+        },
+        {
+          "tick": 77,
+          "tags": []
+        },
+        {
+          "tick": 78,
+          "tags": []
+        },
+        {
+          "tick": 79,
+          "tags": []
+        },
+        {
+          "tick": 80,
+          "tags": []
+        },
+        {
+          "tick": 81,
+          "tags": []
+        },
+        {
+          "tick": 82,
+          "tags": []
+        },
+        {
+          "tick": 83,
+          "tags": []
+        },
+        {
+          "tick": 84,
+          "tags": []
+        },
+        {
+          "tick": 85,
+          "tags": []
+        },
+        {
+          "tick": 86,
+          "tags": []
+        },
+        {
+          "tick": 87,
+          "tags": []
+        },
+        {
+          "tick": 88,
+          "tags": []
+        },
+        {
+          "tick": 89,
+          "tags": []
+        },
+        {
+          "tick": 90,
+          "tags": []
+        },
+        {
+          "tick": 91,
+          "tags": []
+        },
+        {
+          "tick": 92,
+          "tags": []
+        },
+        {
+          "tick": 93,
+          "tags": []
+        },
+        {
+          "tick": 94,
+          "tags": []
+        },
+        {
+          "tick": 95,
+          "tags": []
+        },
+        {
+          "tick": 96,
+          "tags": []
+        },
+        {
+          "tick": 97,
+          "tags": []
+        },
+        {
+          "tick": 98,
+          "tags": []
+        },
+        {
+          "tick": 99,
+          "tags": []
+        },
+        {
+          "tick": 100,
+          "tags": []
+        },
+        {
+          "tick": 101,
+          "tags": []
+        },
+        {
+          "tick": 102,
+          "tags": []
+        },
+        {
+          "tick": 103,
+          "tags": []
+        },
+        {
+          "tick": 104,
+          "tags": []
+        },
+        {
+          "tick": 105,
+          "tags": []
+        },
+        {
+          "tick": 106,
+          "tags": []
+        },
+        {
+          "tick": 107,
+          "tags": []
+        },
+        {
+          "tick": 108,
+          "tags": []
+        },
+        {
+          "tick": 109,
+          "tags": []
+        },
+        {
+          "tick": 110,
+          "tags": []
+        },
+        {
+          "tick": 111,
+          "tags": []
+        },
+        {
+          "tick": 112,
+          "tags": []
+        },
+        {
+          "tick": 113,
+          "tags": []
+        },
+        {
+          "tick": 114,
+          "tags": []
+        },
+        {
+          "tick": 115,
+          "tags": []
+        },
+        {
+          "tick": 116,
+          "tags": []
+        },
+        {
+          "tick": 117,
+          "tags": []
+        },
+        {
+          "tick": 118,
+          "tags": []
+        },
+        {
+          "tick": 119,
+          "tags": []
+        },
+        {
+          "tick": 120,
+          "tags": []
+        },
+        {
+          "tick": 121,
+          "tags": []
+        },
+        {
+          "tick": 122,
+          "tags": []
+        },
+        {
+          "tick": 123,
+          "tags": []
+        },
+        {
+          "tick": 124,
+          "tags": []
+        },
+        {
+          "tick": 125,
+          "tags": []
+        },
+        {
+          "tick": 126,
+          "tags": []
+        },
+        {
+          "tick": 127,
+          "tags": []
+        }
+      ]
+    },
+    {
+      "case": "0-1-east",
+      "floor_span_m": [
+        9.6,
+        12.65
+      ],
+      "success": true,
+      "reason": "docked",
+      "ticks": 362,
+      "collision": false,
+      "position_error_m": 0.02795,
+      "heading_error_rad": 0.01469,
+      "exposures": [
+        {
+          "tick": 0,
+          "tags": []
+        },
+        {
+          "tick": 1,
+          "tags": []
+        },
+        {
+          "tick": 2,
+          "tags": []
+        },
+        {
+          "tick": 3,
+          "tags": []
+        },
+        {
+          "tick": 4,
+          "tags": []
+        },
+        {
+          "tick": 5,
+          "tags": []
+        },
+        {
+          "tick": 6,
+          "tags": []
+        },
+        {
+          "tick": 7,
+          "tags": []
+        },
+        {
+          "tick": 8,
+          "tags": []
+        },
+        {
+          "tick": 9,
+          "tags": []
+        },
+        {
+          "tick": 10,
+          "tags": []
+        },
+        {
+          "tick": 11,
+          "tags": []
+        },
+        {
+          "tick": 12,
+          "tags": []
+        },
+        {
+          "tick": 13,
+          "tags": []
+        },
+        {
+          "tick": 14,
+          "tags": []
+        },
+        {
+          "tick": 15,
+          "tags": []
+        },
+        {
+          "tick": 16,
+          "tags": []
+        },
+        {
+          "tick": 17,
+          "tags": []
+        },
+        {
+          "tick": 18,
+          "tags": []
+        },
+        {
+          "tick": 19,
+          "tags": []
+        },
+        {
+          "tick": 20,
+          "tags": []
+        },
+        {
+          "tick": 21,
+          "tags": []
+        },
+        {
+          "tick": 22,
+          "tags": []
+        },
+        {
+          "tick": 23,
+          "tags": []
+        },
+        {
+          "tick": 24,
+          "tags": []
+        },
+        {
+          "tick": 25,
+          "tags": []
+        },
+        {
+          "tick": 26,
+          "tags": []
+        },
+        {
+          "tick": 27,
+          "tags": []
+        },
+        {
+          "tick": 28,
+          "tags": []
+        },
+        {
+          "tick": 29,
+          "tags": []
+        },
+        {
+          "tick": 30,
+          "tags": []
+        },
+        {
+          "tick": 31,
+          "tags": []
+        },
+        {
+          "tick": 32,
+          "tags": []
+        },
+        {
+          "tick": 33,
+          "tags": []
+        },
+        {
+          "tick": 34,
+          "tags": []
+        },
+        {
+          "tick": 35,
+          "tags": []
+        },
+        {
+          "tick": 36,
+          "tags": []
+        },
+        {
+          "tick": 37,
+          "tags": []
+        },
+        {
+          "tick": 38,
+          "tags": []
+        },
+        {
+          "tick": 39,
+          "tags": []
+        },
+        {
+          "tick": 40,
+          "tags": []
+        },
+        {
+          "tick": 41,
+          "tags": []
+        },
+        {
+          "tick": 42,
+          "tags": []
+        },
+        {
+          "tick": 43,
+          "tags": []
+        },
+        {
+          "tick": 44,
+          "tags": []
+        },
+        {
+          "tick": 45,
+          "tags": []
+        },
+        {
+          "tick": 46,
+          "tags": []
+        },
+        {
+          "tick": 47,
+          "tags": []
+        },
+        {
+          "tick": 48,
+          "tags": []
+        },
+        {
+          "tick": 49,
+          "tags": []
+        },
+        {
+          "tick": 50,
+          "tags": []
+        },
+        {
+          "tick": 51,
+          "tags": []
+        },
+        {
+          "tick": 52,
+          "tags": []
+        },
+        {
+          "tick": 53,
+          "tags": []
+        },
+        {
+          "tick": 54,
+          "tags": []
+        },
+        {
+          "tick": 55,
+          "tags": []
+        },
+        {
+          "tick": 56,
+          "tags": []
+        },
+        {
+          "tick": 57,
+          "tags": []
+        },
+        {
+          "tick": 58,
+          "tags": []
+        },
+        {
+          "tick": 59,
+          "tags": []
+        },
+        {
+          "tick": 60,
+          "tags": []
+        },
+        {
+          "tick": 61,
+          "tags": []
+        },
+        {
+          "tick": 62,
+          "tags": []
+        },
+        {
+          "tick": 63,
+          "tags": []
+        },
+        {
+          "tick": 64,
+          "tags": []
+        },
+        {
+          "tick": 65,
+          "tags": []
+        },
+        {
+          "tick": 66,
+          "tags": []
+        },
+        {
+          "tick": 67,
+          "tags": []
+        },
+        {
+          "tick": 68,
+          "tags": []
+        },
+        {
+          "tick": 69,
+          "tags": []
+        },
+        {
+          "tick": 70,
+          "tags": []
+        },
+        {
+          "tick": 71,
+          "tags": []
+        },
+        {
+          "tick": 72,
+          "tags": []
+        },
+        {
+          "tick": 73,
+          "tags": []
+        },
+        {
+          "tick": 74,
+          "tags": []
+        },
+        {
+          "tick": 75,
+          "tags": []
+        },
+        {
+          "tick": 76,
+          "tags": []
+        },
+        {
+          "tick": 77,
+          "tags": []
+        },
+        {
+          "tick": 78,
+          "tags": []
+        },
+        {
+          "tick": 79,
+          "tags": []
+        },
+        {
+          "tick": 80,
+          "tags": []
+        },
+        {
+          "tick": 81,
+          "tags": []
+        },
+        {
+          "tick": 82,
+          "tags": []
+        },
+        {
+          "tick": 83,
+          "tags": []
+        },
+        {
+          "tick": 84,
+          "tags": []
+        },
+        {
+          "tick": 85,
+          "tags": []
+        },
+        {
+          "tick": 86,
+          "tags": []
+        },
+        {
+          "tick": 87,
+          "tags": []
+        },
+        {
+          "tick": 88,
+          "tags": []
+        },
+        {
+          "tick": 89,
+          "tags": []
+        },
+        {
+          "tick": 90,
+          "tags": []
+        },
+        {
+          "tick": 91,
+          "tags": []
+        },
+        {
+          "tick": 92,
+          "tags": []
+        },
+        {
+          "tick": 93,
+          "tags": []
+        },
+        {
+          "tick": 94,
+          "tags": []
+        },
+        {
+          "tick": 95,
+          "tags": []
+        },
+        {
+          "tick": 96,
+          "tags": [
+            "west-2"
+          ]
+        },
+        {
+          "tick": 97,
+          "tags": [
+            "west-2"
+          ]
+        },
+        {
+          "tick": 98,
+          "tags": [
+            "west-2"
+          ]
+        },
+        {
+          "tick": 99,
+          "tags": [
+            "west-2"
+          ]
+        },
+        {
+          "tick": 100,
+          "tags": [
+            "west-2"
+          ]
+        },
+        {
+          "tick": 101,
+          "tags": [
+            "west-2"
+          ]
+        },
+        {
+          "tick": 102,
+          "tags": [
+            "west-2"
+          ]
+        },
+        {
+          "tick": 103,
+          "tags": [
+            "west-2"
+          ]
+        },
+        {
+          "tick": 104,
+          "tags": [
+            "west-2"
+          ]
+        },
+        {
+          "tick": 105,
+          "tags": [
+            "west-2"
+          ]
+        },
+        {
+          "tick": 106,
+          "tags": [
+            "west-2"
+          ]
+        },
+        {
+          "tick": 107,
+          "tags": [
+            "west-2"
+          ]
+        },
+        {
+          "tick": 108,
+          "tags": [
+            "west-2"
+          ]
+        },
+        {
+          "tick": 109,
+          "tags": [
+            "west-2"
+          ]
+        },
+        {
+          "tick": 110,
+          "tags": [
+            "west-2"
+          ]
+        },
+        {
+          "tick": 111,
+          "tags": [
+            "west-2"
+          ]
+        },
+        {
+          "tick": 112,
+          "tags": [
+            "west-2"
+          ]
+        },
+        {
+          "tick": 113,
+          "tags": [
+            "west-2"
+          ]
+        },
+        {
+          "tick": 114,
+          "tags": [
+            "west-2"
+          ]
+        },
+        {
+          "tick": 115,
+          "tags": [
+            "west-2"
+          ]
+        },
+        {
+          "tick": 116,
+          "tags": [
+            "west-2"
+          ]
+        },
+        {
+          "tick": 117,
+          "tags": [
+            "west-2"
+          ]
+        },
+        {
+          "tick": 118,
+          "tags": [
+            "west-2"
+          ]
+        },
+        {
+          "tick": 119,
+          "tags": [
+            "west-2"
+          ]
+        },
+        {
+          "tick": 120,
+          "tags": [
+            "west-2"
+          ]
+        },
+        {
+          "tick": 121,
+          "tags": [
+            "west-2"
+          ]
+        },
+        {
+          "tick": 122,
+          "tags": [
+            "west-2"
+          ]
+        },
+        {
+          "tick": 123,
+          "tags": [
+            "west-2"
+          ]
+        },
+        {
+          "tick": 124,
+          "tags": [
+            "west-2"
+          ]
+        },
+        {
+          "tick": 125,
+          "tags": [
+            "west-2"
+          ]
+        },
+        {
+          "tick": 126,
+          "tags": [
+            "west-2"
+          ]
+        },
+        {
+          "tick": 127,
+          "tags": [
+            "west-2"
+          ]
+        }
+      ]
+    },
+    {
+      "case": "0-1-west",
+      "floor_span_m": [
+        8.6,
+        10.25
+      ],
+      "success": true,
+      "reason": "docked",
+      "ticks": 708,
+      "collision": false,
+      "position_error_m": 0.04252,
+      "heading_error_rad": 0.00883,
+      "exposures": [
+        {
+          "tick": 0,
+          "tags": []
+        },
+        {
+          "tick": 1,
+          "tags": []
+        },
+        {
+          "tick": 2,
+          "tags": []
+        },
+        {
+          "tick": 3,
+          "tags": []
+        },
+        {
+          "tick": 4,
+          "tags": []
+        },
+        {
+          "tick": 5,
+          "tags": []
+        },
+        {
+          "tick": 6,
+          "tags": []
+        },
+        {
+          "tick": 7,
+          "tags": []
+        },
+        {
+          "tick": 8,
+          "tags": []
+        },
+        {
+          "tick": 9,
+          "tags": []
+        },
+        {
+          "tick": 10,
+          "tags": []
+        },
+        {
+          "tick": 11,
+          "tags": []
+        },
+        {
+          "tick": 12,
+          "tags": []
+        },
+        {
+          "tick": 13,
+          "tags": []
+        },
+        {
+          "tick": 14,
+          "tags": []
+        },
+        {
+          "tick": 15,
+          "tags": []
+        },
+        {
+          "tick": 16,
+          "tags": []
+        },
+        {
+          "tick": 17,
+          "tags": []
+        },
+        {
+          "tick": 18,
+          "tags": []
+        },
+        {
+          "tick": 19,
+          "tags": []
+        },
+        {
+          "tick": 20,
+          "tags": []
+        },
+        {
+          "tick": 21,
+          "tags": []
+        },
+        {
+          "tick": 22,
+          "tags": []
+        },
+        {
+          "tick": 23,
+          "tags": []
+        },
+        {
+          "tick": 24,
+          "tags": []
+        },
+        {
+          "tick": 25,
+          "tags": []
+        },
+        {
+          "tick": 26,
+          "tags": []
+        },
+        {
+          "tick": 27,
+          "tags": []
+        },
+        {
+          "tick": 28,
+          "tags": []
+        },
+        {
+          "tick": 29,
+          "tags": []
+        },
+        {
+          "tick": 30,
+          "tags": []
+        },
+        {
+          "tick": 31,
+          "tags": []
+        },
+        {
+          "tick": 32,
+          "tags": []
+        },
+        {
+          "tick": 33,
+          "tags": []
+        },
+        {
+          "tick": 34,
+          "tags": []
+        },
+        {
+          "tick": 35,
+          "tags": []
+        },
+        {
+          "tick": 36,
+          "tags": []
+        },
+        {
+          "tick": 37,
+          "tags": []
+        },
+        {
+          "tick": 38,
+          "tags": []
+        },
+        {
+          "tick": 39,
+          "tags": []
+        },
+        {
+          "tick": 40,
+          "tags": []
+        },
+        {
+          "tick": 41,
+          "tags": []
+        },
+        {
+          "tick": 42,
+          "tags": []
+        },
+        {
+          "tick": 43,
+          "tags": []
+        },
+        {
+          "tick": 44,
+          "tags": []
+        },
+        {
+          "tick": 45,
+          "tags": []
+        },
+        {
+          "tick": 46,
+          "tags": []
+        },
+        {
+          "tick": 47,
+          "tags": []
+        },
+        {
+          "tick": 48,
+          "tags": []
+        },
+        {
+          "tick": 49,
+          "tags": []
+        },
+        {
+          "tick": 50,
+          "tags": []
+        },
+        {
+          "tick": 51,
+          "tags": []
+        },
+        {
+          "tick": 52,
+          "tags": []
+        },
+        {
+          "tick": 53,
+          "tags": []
+        },
+        {
+          "tick": 54,
+          "tags": []
+        },
+        {
+          "tick": 55,
+          "tags": []
+        },
+        {
+          "tick": 56,
+          "tags": []
+        },
+        {
+          "tick": 57,
+          "tags": []
+        },
+        {
+          "tick": 58,
+          "tags": []
+        },
+        {
+          "tick": 59,
+          "tags": []
+        },
+        {
+          "tick": 60,
+          "tags": []
+        },
+        {
+          "tick": 61,
+          "tags": []
+        },
+        {
+          "tick": 62,
+          "tags": []
+        },
+        {
+          "tick": 63,
+          "tags": []
+        },
+        {
+          "tick": 64,
+          "tags": []
+        },
+        {
+          "tick": 65,
+          "tags": []
+        },
+        {
+          "tick": 66,
+          "tags": []
+        },
+        {
+          "tick": 67,
+          "tags": []
+        },
+        {
+          "tick": 68,
+          "tags": []
+        },
+        {
+          "tick": 69,
+          "tags": []
+        },
+        {
+          "tick": 70,
+          "tags": []
+        },
+        {
+          "tick": 71,
+          "tags": []
+        },
+        {
+          "tick": 72,
+          "tags": []
+        },
+        {
+          "tick": 73,
+          "tags": []
+        },
+        {
+          "tick": 74,
+          "tags": []
+        },
+        {
+          "tick": 75,
+          "tags": []
+        },
+        {
+          "tick": 76,
+          "tags": []
+        },
+        {
+          "tick": 77,
+          "tags": []
+        },
+        {
+          "tick": 78,
+          "tags": []
+        },
+        {
+          "tick": 79,
+          "tags": []
+        },
+        {
+          "tick": 80,
+          "tags": []
+        },
+        {
+          "tick": 81,
+          "tags": []
+        },
+        {
+          "tick": 82,
+          "tags": []
+        },
+        {
+          "tick": 83,
+          "tags": []
+        },
+        {
+          "tick": 84,
+          "tags": []
+        },
+        {
+          "tick": 85,
+          "tags": []
+        },
+        {
+          "tick": 86,
+          "tags": []
+        },
+        {
+          "tick": 87,
+          "tags": []
+        },
+        {
+          "tick": 88,
+          "tags": []
+        },
+        {
+          "tick": 89,
+          "tags": []
+        },
+        {
+          "tick": 90,
+          "tags": []
+        },
+        {
+          "tick": 91,
+          "tags": []
+        },
+        {
+          "tick": 92,
+          "tags": []
+        },
+        {
+          "tick": 93,
+          "tags": []
+        },
+        {
+          "tick": 94,
+          "tags": []
+        },
+        {
+          "tick": 95,
+          "tags": []
+        },
+        {
+          "tick": 96,
+          "tags": []
+        },
+        {
+          "tick": 97,
+          "tags": []
+        },
+        {
+          "tick": 98,
+          "tags": []
+        },
+        {
+          "tick": 99,
+          "tags": []
+        },
+        {
+          "tick": 100,
+          "tags": []
+        },
+        {
+          "tick": 101,
+          "tags": []
+        },
+        {
+          "tick": 102,
+          "tags": []
+        },
+        {
+          "tick": 103,
+          "tags": []
+        },
+        {
+          "tick": 104,
+          "tags": []
+        },
+        {
+          "tick": 105,
+          "tags": []
+        },
+        {
+          "tick": 106,
+          "tags": []
+        },
+        {
+          "tick": 107,
+          "tags": []
+        },
+        {
+          "tick": 108,
+          "tags": []
+        },
+        {
+          "tick": 109,
+          "tags": []
+        },
+        {
+          "tick": 110,
+          "tags": []
+        },
+        {
+          "tick": 111,
+          "tags": []
+        },
+        {
+          "tick": 112,
+          "tags": []
+        },
+        {
+          "tick": 113,
+          "tags": []
+        },
+        {
+          "tick": 114,
+          "tags": []
+        },
+        {
+          "tick": 115,
+          "tags": []
+        },
+        {
+          "tick": 116,
+          "tags": []
+        },
+        {
+          "tick": 117,
+          "tags": []
+        },
+        {
+          "tick": 118,
+          "tags": []
+        },
+        {
+          "tick": 119,
+          "tags": []
+        },
+        {
+          "tick": 120,
+          "tags": []
+        },
+        {
+          "tick": 121,
+          "tags": []
+        },
+        {
+          "tick": 122,
+          "tags": []
+        },
+        {
+          "tick": 123,
+          "tags": []
+        },
+        {
+          "tick": 124,
+          "tags": []
+        },
+        {
+          "tick": 125,
+          "tags": []
+        },
+        {
+          "tick": 126,
+          "tags": []
+        },
+        {
+          "tick": 127,
+          "tags": []
+        }
+      ]
+    },
+    {
+      "case": "1-0-east",
+      "floor_span_m": [
+        7.4,
+        9.65
+      ],
+      "success": true,
+      "reason": "docked",
+      "ticks": 475,
+      "collision": false,
+      "position_error_m": 0.0643,
+      "heading_error_rad": 0.01386,
+      "exposures": [
+        {
+          "tick": 0,
+          "tags": []
+        },
+        {
+          "tick": 1,
+          "tags": []
+        },
+        {
+          "tick": 2,
+          "tags": []
+        },
+        {
+          "tick": 3,
+          "tags": []
+        },
+        {
+          "tick": 4,
+          "tags": []
+        },
+        {
+          "tick": 5,
+          "tags": []
+        },
+        {
+          "tick": 6,
+          "tags": []
+        },
+        {
+          "tick": 7,
+          "tags": []
+        },
+        {
+          "tick": 8,
+          "tags": []
+        },
+        {
+          "tick": 9,
+          "tags": []
+        },
+        {
+          "tick": 10,
+          "tags": []
+        },
+        {
+          "tick": 11,
+          "tags": []
+        },
+        {
+          "tick": 12,
+          "tags": []
+        },
+        {
+          "tick": 13,
+          "tags": []
+        },
+        {
+          "tick": 14,
+          "tags": []
+        },
+        {
+          "tick": 15,
+          "tags": []
+        },
+        {
+          "tick": 16,
+          "tags": []
+        },
+        {
+          "tick": 17,
+          "tags": []
+        },
+        {
+          "tick": 18,
+          "tags": []
+        },
+        {
+          "tick": 19,
+          "tags": []
+        },
+        {
+          "tick": 20,
+          "tags": []
+        },
+        {
+          "tick": 21,
+          "tags": []
+        },
+        {
+          "tick": 22,
+          "tags": []
+        },
+        {
+          "tick": 23,
+          "tags": []
+        },
+        {
+          "tick": 24,
+          "tags": []
+        },
+        {
+          "tick": 25,
+          "tags": []
+        },
+        {
+          "tick": 26,
+          "tags": []
+        },
+        {
+          "tick": 27,
+          "tags": []
+        },
+        {
+          "tick": 28,
+          "tags": []
+        },
+        {
+          "tick": 29,
+          "tags": []
+        },
+        {
+          "tick": 30,
+          "tags": []
+        },
+        {
+          "tick": 31,
+          "tags": []
+        },
+        {
+          "tick": 32,
+          "tags": []
+        },
+        {
+          "tick": 33,
+          "tags": []
+        },
+        {
+          "tick": 34,
+          "tags": []
+        },
+        {
+          "tick": 35,
+          "tags": []
+        },
+        {
+          "tick": 36,
+          "tags": []
+        },
+        {
+          "tick": 37,
+          "tags": []
+        },
+        {
+          "tick": 38,
+          "tags": []
+        },
+        {
+          "tick": 39,
+          "tags": []
+        },
+        {
+          "tick": 40,
+          "tags": []
+        },
+        {
+          "tick": 41,
+          "tags": []
+        },
+        {
+          "tick": 42,
+          "tags": []
+        },
+        {
+          "tick": 43,
+          "tags": []
+        },
+        {
+          "tick": 44,
+          "tags": []
+        },
+        {
+          "tick": 45,
+          "tags": []
+        },
+        {
+          "tick": 46,
+          "tags": []
+        },
+        {
+          "tick": 47,
+          "tags": []
+        },
+        {
+          "tick": 48,
+          "tags": []
+        },
+        {
+          "tick": 49,
+          "tags": []
+        },
+        {
+          "tick": 50,
+          "tags": []
+        },
+        {
+          "tick": 51,
+          "tags": []
+        },
+        {
+          "tick": 52,
+          "tags": []
+        },
+        {
+          "tick": 53,
+          "tags": []
+        },
+        {
+          "tick": 54,
+          "tags": []
+        },
+        {
+          "tick": 55,
+          "tags": []
+        },
+        {
+          "tick": 56,
+          "tags": []
+        },
+        {
+          "tick": 57,
+          "tags": []
+        },
+        {
+          "tick": 58,
+          "tags": []
+        },
+        {
+          "tick": 59,
+          "tags": []
+        },
+        {
+          "tick": 60,
+          "tags": []
+        },
+        {
+          "tick": 61,
+          "tags": []
+        },
+        {
+          "tick": 62,
+          "tags": []
+        },
+        {
+          "tick": 63,
+          "tags": []
+        },
+        {
+          "tick": 64,
+          "tags": []
+        },
+        {
+          "tick": 65,
+          "tags": []
+        },
+        {
+          "tick": 66,
+          "tags": []
+        },
+        {
+          "tick": 67,
+          "tags": []
+        },
+        {
+          "tick": 68,
+          "tags": []
+        },
+        {
+          "tick": 69,
+          "tags": []
+        },
+        {
+          "tick": 70,
+          "tags": []
+        },
+        {
+          "tick": 71,
+          "tags": []
+        },
+        {
+          "tick": 72,
+          "tags": []
+        },
+        {
+          "tick": 73,
+          "tags": []
+        },
+        {
+          "tick": 74,
+          "tags": []
+        },
+        {
+          "tick": 75,
+          "tags": []
+        },
+        {
+          "tick": 76,
+          "tags": []
+        },
+        {
+          "tick": 77,
+          "tags": []
+        },
+        {
+          "tick": 78,
+          "tags": []
+        },
+        {
+          "tick": 79,
+          "tags": []
+        },
+        {
+          "tick": 80,
+          "tags": []
+        },
+        {
+          "tick": 81,
+          "tags": []
+        },
+        {
+          "tick": 82,
+          "tags": []
+        },
+        {
+          "tick": 83,
+          "tags": []
+        },
+        {
+          "tick": 84,
+          "tags": []
+        },
+        {
+          "tick": 85,
+          "tags": []
+        },
+        {
+          "tick": 86,
+          "tags": []
+        },
+        {
+          "tick": 87,
+          "tags": []
+        },
+        {
+          "tick": 88,
+          "tags": []
+        },
+        {
+          "tick": 89,
+          "tags": []
+        },
+        {
+          "tick": 90,
+          "tags": []
+        },
+        {
+          "tick": 91,
+          "tags": []
+        },
+        {
+          "tick": 92,
+          "tags": []
+        },
+        {
+          "tick": 93,
+          "tags": []
+        },
+        {
+          "tick": 94,
+          "tags": []
+        },
+        {
+          "tick": 95,
+          "tags": []
+        },
+        {
+          "tick": 96,
+          "tags": []
+        },
+        {
+          "tick": 97,
+          "tags": []
+        },
+        {
+          "tick": 98,
+          "tags": []
+        },
+        {
+          "tick": 99,
+          "tags": []
+        },
+        {
+          "tick": 100,
+          "tags": []
+        },
+        {
+          "tick": 101,
+          "tags": []
+        },
+        {
+          "tick": 102,
+          "tags": []
+        },
+        {
+          "tick": 103,
+          "tags": []
+        },
+        {
+          "tick": 104,
+          "tags": []
+        },
+        {
+          "tick": 105,
+          "tags": []
+        },
+        {
+          "tick": 106,
+          "tags": []
+        },
+        {
+          "tick": 107,
+          "tags": []
+        },
+        {
+          "tick": 108,
+          "tags": []
+        },
+        {
+          "tick": 109,
+          "tags": [
+            "west-0"
+          ]
+        },
+        {
+          "tick": 110,
+          "tags": [
+            "west-0"
+          ]
+        },
+        {
+          "tick": 111,
+          "tags": [
+            "west-0"
+          ]
+        },
+        {
+          "tick": 112,
+          "tags": [
+            "west-0"
+          ]
+        },
+        {
+          "tick": 113,
+          "tags": [
+            "west-0"
+          ]
+        },
+        {
+          "tick": 114,
+          "tags": [
+            "west-0"
+          ]
+        },
+        {
+          "tick": 115,
+          "tags": [
+            "west-0"
+          ]
+        },
+        {
+          "tick": 116,
+          "tags": [
+            "west-0"
+          ]
+        },
+        {
+          "tick": 117,
+          "tags": [
+            "west-0"
+          ]
+        },
+        {
+          "tick": 118,
+          "tags": [
+            "west-0"
+          ]
+        },
+        {
+          "tick": 119,
+          "tags": [
+            "west-0"
+          ]
+        },
+        {
+          "tick": 120,
+          "tags": [
+            "west-0"
+          ]
+        },
+        {
+          "tick": 121,
+          "tags": [
+            "west-0"
+          ]
+        },
+        {
+          "tick": 122,
+          "tags": [
+            "west-0"
+          ]
+        },
+        {
+          "tick": 123,
+          "tags": [
+            "west-0"
+          ]
+        },
+        {
+          "tick": 124,
+          "tags": [
+            "west-0"
+          ]
+        },
+        {
+          "tick": 125,
+          "tags": [
+            "west-0"
+          ]
+        },
+        {
+          "tick": 126,
+          "tags": [
+            "west-0"
+          ]
+        },
+        {
+          "tick": 127,
+          "tags": [
+            "west-0"
+          ]
+        }
+      ]
+    },
+    {
+      "case": "1-0-west",
+      "floor_span_m": [
+        9.6,
+        12.65
+      ],
+      "success": true,
+      "reason": "docked",
+      "ticks": 798,
+      "collision": false,
+      "position_error_m": 0.05769,
+      "heading_error_rad": 0.0004,
+      "exposures": [
+        {
+          "tick": 0,
+          "tags": []
+        },
+        {
+          "tick": 1,
+          "tags": []
+        },
+        {
+          "tick": 2,
+          "tags": []
+        },
+        {
+          "tick": 3,
+          "tags": []
+        },
+        {
+          "tick": 4,
+          "tags": []
+        },
+        {
+          "tick": 5,
+          "tags": []
+        },
+        {
+          "tick": 6,
+          "tags": []
+        },
+        {
+          "tick": 7,
+          "tags": []
+        },
+        {
+          "tick": 8,
+          "tags": []
+        },
+        {
+          "tick": 9,
+          "tags": []
+        },
+        {
+          "tick": 10,
+          "tags": []
+        },
+        {
+          "tick": 11,
+          "tags": []
+        },
+        {
+          "tick": 12,
+          "tags": []
+        },
+        {
+          "tick": 13,
+          "tags": []
+        },
+        {
+          "tick": 14,
+          "tags": []
+        },
+        {
+          "tick": 15,
+          "tags": []
+        },
+        {
+          "tick": 16,
+          "tags": []
+        },
+        {
+          "tick": 17,
+          "tags": []
+        },
+        {
+          "tick": 18,
+          "tags": []
+        },
+        {
+          "tick": 19,
+          "tags": []
+        },
+        {
+          "tick": 20,
+          "tags": []
+        },
+        {
+          "tick": 21,
+          "tags": []
+        },
+        {
+          "tick": 22,
+          "tags": []
+        },
+        {
+          "tick": 23,
+          "tags": []
+        },
+        {
+          "tick": 24,
+          "tags": []
+        },
+        {
+          "tick": 25,
+          "tags": []
+        },
+        {
+          "tick": 26,
+          "tags": []
+        },
+        {
+          "tick": 27,
+          "tags": []
+        },
+        {
+          "tick": 28,
+          "tags": []
+        },
+        {
+          "tick": 29,
+          "tags": []
+        },
+        {
+          "tick": 30,
+          "tags": []
+        },
+        {
+          "tick": 31,
+          "tags": []
+        },
+        {
+          "tick": 32,
+          "tags": []
+        },
+        {
+          "tick": 33,
+          "tags": []
+        },
+        {
+          "tick": 34,
+          "tags": []
+        },
+        {
+          "tick": 35,
+          "tags": []
+        },
+        {
+          "tick": 36,
+          "tags": []
+        },
+        {
+          "tick": 37,
+          "tags": []
+        },
+        {
+          "tick": 38,
+          "tags": []
+        },
+        {
+          "tick": 39,
+          "tags": []
+        },
+        {
+          "tick": 40,
+          "tags": []
+        },
+        {
+          "tick": 41,
+          "tags": []
+        },
+        {
+          "tick": 42,
+          "tags": []
+        },
+        {
+          "tick": 43,
+          "tags": []
+        },
+        {
+          "tick": 44,
+          "tags": []
+        },
+        {
+          "tick": 45,
+          "tags": []
+        },
+        {
+          "tick": 46,
+          "tags": []
+        },
+        {
+          "tick": 47,
+          "tags": []
+        },
+        {
+          "tick": 48,
+          "tags": []
+        },
+        {
+          "tick": 49,
+          "tags": []
+        },
+        {
+          "tick": 50,
+          "tags": []
+        },
+        {
+          "tick": 51,
+          "tags": []
+        },
+        {
+          "tick": 52,
+          "tags": []
+        },
+        {
+          "tick": 53,
+          "tags": []
+        },
+        {
+          "tick": 54,
+          "tags": []
+        },
+        {
+          "tick": 55,
+          "tags": []
+        },
+        {
+          "tick": 56,
+          "tags": []
+        },
+        {
+          "tick": 57,
+          "tags": []
+        },
+        {
+          "tick": 58,
+          "tags": []
+        },
+        {
+          "tick": 59,
+          "tags": []
+        },
+        {
+          "tick": 60,
+          "tags": []
+        },
+        {
+          "tick": 61,
+          "tags": []
+        },
+        {
+          "tick": 62,
+          "tags": []
+        },
+        {
+          "tick": 63,
+          "tags": []
+        },
+        {
+          "tick": 64,
+          "tags": []
+        },
+        {
+          "tick": 65,
+          "tags": []
+        },
+        {
+          "tick": 66,
+          "tags": []
+        },
+        {
+          "tick": 67,
+          "tags": []
+        },
+        {
+          "tick": 68,
+          "tags": []
+        },
+        {
+          "tick": 69,
+          "tags": []
+        },
+        {
+          "tick": 70,
+          "tags": []
+        },
+        {
+          "tick": 71,
+          "tags": []
+        },
+        {
+          "tick": 72,
+          "tags": []
+        },
+        {
+          "tick": 73,
+          "tags": []
+        },
+        {
+          "tick": 74,
+          "tags": []
+        },
+        {
+          "tick": 75,
+          "tags": []
+        },
+        {
+          "tick": 76,
+          "tags": []
+        },
+        {
+          "tick": 77,
+          "tags": []
+        },
+        {
+          "tick": 78,
+          "tags": []
+        },
+        {
+          "tick": 79,
+          "tags": []
+        },
+        {
+          "tick": 80,
+          "tags": []
+        },
+        {
+          "tick": 81,
+          "tags": []
+        },
+        {
+          "tick": 82,
+          "tags": []
+        },
+        {
+          "tick": 83,
+          "tags": []
+        },
+        {
+          "tick": 84,
+          "tags": []
+        },
+        {
+          "tick": 85,
+          "tags": []
+        },
+        {
+          "tick": 86,
+          "tags": []
+        },
+        {
+          "tick": 87,
+          "tags": []
+        },
+        {
+          "tick": 88,
+          "tags": []
+        },
+        {
+          "tick": 89,
+          "tags": []
+        },
+        {
+          "tick": 90,
+          "tags": []
+        },
+        {
+          "tick": 91,
+          "tags": []
+        },
+        {
+          "tick": 92,
+          "tags": []
+        },
+        {
+          "tick": 93,
+          "tags": []
+        },
+        {
+          "tick": 94,
+          "tags": []
+        },
+        {
+          "tick": 95,
+          "tags": []
+        },
+        {
+          "tick": 96,
+          "tags": []
+        },
+        {
+          "tick": 97,
+          "tags": []
+        },
+        {
+          "tick": 98,
+          "tags": []
+        },
+        {
+          "tick": 99,
+          "tags": []
+        },
+        {
+          "tick": 100,
+          "tags": []
+        },
+        {
+          "tick": 101,
+          "tags": []
+        },
+        {
+          "tick": 102,
+          "tags": []
+        },
+        {
+          "tick": 103,
+          "tags": []
+        },
+        {
+          "tick": 104,
+          "tags": []
+        },
+        {
+          "tick": 105,
+          "tags": []
+        },
+        {
+          "tick": 106,
+          "tags": []
+        },
+        {
+          "tick": 107,
+          "tags": []
+        },
+        {
+          "tick": 108,
+          "tags": []
+        },
+        {
+          "tick": 109,
+          "tags": []
+        },
+        {
+          "tick": 110,
+          "tags": []
+        },
+        {
+          "tick": 111,
+          "tags": []
+        },
+        {
+          "tick": 112,
+          "tags": []
+        },
+        {
+          "tick": 113,
+          "tags": []
+        },
+        {
+          "tick": 114,
+          "tags": []
+        },
+        {
+          "tick": 115,
+          "tags": []
+        },
+        {
+          "tick": 116,
+          "tags": []
+        },
+        {
+          "tick": 117,
+          "tags": []
+        },
+        {
+          "tick": 118,
+          "tags": []
+        },
+        {
+          "tick": 119,
+          "tags": []
+        },
+        {
+          "tick": 120,
+          "tags": []
+        },
+        {
+          "tick": 121,
+          "tags": []
+        },
+        {
+          "tick": 122,
+          "tags": []
+        },
+        {
+          "tick": 123,
+          "tags": []
+        },
+        {
+          "tick": 124,
+          "tags": []
+        },
+        {
+          "tick": 125,
+          "tags": []
+        },
+        {
+          "tick": 126,
+          "tags": []
+        },
+        {
+          "tick": 127,
+          "tags": []
+        }
+      ]
+    },
+    {
+      "case": "1-1-east",
+      "floor_span_m": [
+        8.6,
+        10.25
+      ],
+      "success": true,
+      "reason": "docked",
+      "ticks": 440,
+      "collision": false,
+      "position_error_m": 0.08129,
+      "heading_error_rad": 0.01527,
+      "exposures": [
+        {
+          "tick": 0,
+          "tags": []
+        },
+        {
+          "tick": 1,
+          "tags": []
+        },
+        {
+          "tick": 2,
+          "tags": []
+        },
+        {
+          "tick": 3,
+          "tags": []
+        },
+        {
+          "tick": 4,
+          "tags": []
+        },
+        {
+          "tick": 5,
+          "tags": []
+        },
+        {
+          "tick": 6,
+          "tags": []
+        },
+        {
+          "tick": 7,
+          "tags": []
+        },
+        {
+          "tick": 8,
+          "tags": []
+        },
+        {
+          "tick": 9,
+          "tags": []
+        },
+        {
+          "tick": 10,
+          "tags": []
+        },
+        {
+          "tick": 11,
+          "tags": []
+        },
+        {
+          "tick": 12,
+          "tags": []
+        },
+        {
+          "tick": 13,
+          "tags": []
+        },
+        {
+          "tick": 14,
+          "tags": []
+        },
+        {
+          "tick": 15,
+          "tags": []
+        },
+        {
+          "tick": 16,
+          "tags": []
+        },
+        {
+          "tick": 17,
+          "tags": []
+        },
+        {
+          "tick": 18,
+          "tags": []
+        },
+        {
+          "tick": 19,
+          "tags": []
+        },
+        {
+          "tick": 20,
+          "tags": []
+        },
+        {
+          "tick": 21,
+          "tags": []
+        },
+        {
+          "tick": 22,
+          "tags": []
+        },
+        {
+          "tick": 23,
+          "tags": []
+        },
+        {
+          "tick": 24,
+          "tags": []
+        },
+        {
+          "tick": 25,
+          "tags": []
+        },
+        {
+          "tick": 26,
+          "tags": []
+        },
+        {
+          "tick": 27,
+          "tags": []
+        },
+        {
+          "tick": 28,
+          "tags": []
+        },
+        {
+          "tick": 29,
+          "tags": []
+        },
+        {
+          "tick": 30,
+          "tags": []
+        },
+        {
+          "tick": 31,
+          "tags": []
+        },
+        {
+          "tick": 32,
+          "tags": []
+        },
+        {
+          "tick": 33,
+          "tags": []
+        },
+        {
+          "tick": 34,
+          "tags": []
+        },
+        {
+          "tick": 35,
+          "tags": []
+        },
+        {
+          "tick": 36,
+          "tags": []
+        },
+        {
+          "tick": 37,
+          "tags": []
+        },
+        {
+          "tick": 38,
+          "tags": []
+        },
+        {
+          "tick": 39,
+          "tags": []
+        },
+        {
+          "tick": 40,
+          "tags": []
+        },
+        {
+          "tick": 41,
+          "tags": []
+        },
+        {
+          "tick": 42,
+          "tags": []
+        },
+        {
+          "tick": 43,
+          "tags": []
+        },
+        {
+          "tick": 44,
+          "tags": []
+        },
+        {
+          "tick": 45,
+          "tags": []
+        },
+        {
+          "tick": 46,
+          "tags": []
+        },
+        {
+          "tick": 47,
+          "tags": []
+        },
+        {
+          "tick": 48,
+          "tags": []
+        },
+        {
+          "tick": 49,
+          "tags": []
+        },
+        {
+          "tick": 50,
+          "tags": []
+        },
+        {
+          "tick": 51,
+          "tags": []
+        },
+        {
+          "tick": 52,
+          "tags": []
+        },
+        {
+          "tick": 53,
+          "tags": []
+        },
+        {
+          "tick": 54,
+          "tags": []
+        },
+        {
+          "tick": 55,
+          "tags": []
+        },
+        {
+          "tick": 56,
+          "tags": []
+        },
+        {
+          "tick": 57,
+          "tags": []
+        },
+        {
+          "tick": 58,
+          "tags": []
+        },
+        {
+          "tick": 59,
+          "tags": []
+        },
+        {
+          "tick": 60,
+          "tags": []
+        },
+        {
+          "tick": 61,
+          "tags": []
+        },
+        {
+          "tick": 62,
+          "tags": []
+        },
+        {
+          "tick": 63,
+          "tags": []
+        },
+        {
+          "tick": 64,
+          "tags": []
+        },
+        {
+          "tick": 65,
+          "tags": []
+        },
+        {
+          "tick": 66,
+          "tags": []
+        },
+        {
+          "tick": 67,
+          "tags": []
+        },
+        {
+          "tick": 68,
+          "tags": []
+        },
+        {
+          "tick": 69,
+          "tags": []
+        },
+        {
+          "tick": 70,
+          "tags": []
+        },
+        {
+          "tick": 71,
+          "tags": []
+        },
+        {
+          "tick": 72,
+          "tags": []
+        },
+        {
+          "tick": 73,
+          "tags": []
+        },
+        {
+          "tick": 74,
+          "tags": []
+        },
+        {
+          "tick": 75,
+          "tags": []
+        },
+        {
+          "tick": 76,
+          "tags": []
+        },
+        {
+          "tick": 77,
+          "tags": []
+        },
+        {
+          "tick": 78,
+          "tags": []
+        },
+        {
+          "tick": 79,
+          "tags": []
+        },
+        {
+          "tick": 80,
+          "tags": []
+        },
+        {
+          "tick": 81,
+          "tags": []
+        },
+        {
+          "tick": 82,
+          "tags": []
+        },
+        {
+          "tick": 83,
+          "tags": []
+        },
+        {
+          "tick": 84,
+          "tags": []
+        },
+        {
+          "tick": 85,
+          "tags": []
+        },
+        {
+          "tick": 86,
+          "tags": []
+        },
+        {
+          "tick": 87,
+          "tags": []
+        },
+        {
+          "tick": 88,
+          "tags": []
+        },
+        {
+          "tick": 89,
+          "tags": []
+        },
+        {
+          "tick": 90,
+          "tags": []
+        },
+        {
+          "tick": 91,
+          "tags": []
+        },
+        {
+          "tick": 92,
+          "tags": []
+        },
+        {
+          "tick": 93,
+          "tags": []
+        },
+        {
+          "tick": 94,
+          "tags": []
+        },
+        {
+          "tick": 95,
+          "tags": []
+        },
+        {
+          "tick": 96,
+          "tags": []
+        },
+        {
+          "tick": 97,
+          "tags": []
+        },
+        {
+          "tick": 98,
+          "tags": []
+        },
+        {
+          "tick": 99,
+          "tags": []
+        },
+        {
+          "tick": 100,
+          "tags": []
+        },
+        {
+          "tick": 101,
+          "tags": []
+        },
+        {
+          "tick": 102,
+          "tags": []
+        },
+        {
+          "tick": 103,
+          "tags": []
+        },
+        {
+          "tick": 104,
+          "tags": []
+        },
+        {
+          "tick": 105,
+          "tags": []
+        },
+        {
+          "tick": 106,
+          "tags": []
+        },
+        {
+          "tick": 107,
+          "tags": []
+        },
+        {
+          "tick": 108,
+          "tags": []
+        },
+        {
+          "tick": 109,
+          "tags": []
+        },
+        {
+          "tick": 110,
+          "tags": []
+        },
+        {
+          "tick": 111,
+          "tags": []
+        },
+        {
+          "tick": 112,
+          "tags": []
+        },
+        {
+          "tick": 113,
+          "tags": []
+        },
+        {
+          "tick": 114,
+          "tags": []
+        },
+        {
+          "tick": 115,
+          "tags": []
+        },
+        {
+          "tick": 116,
+          "tags": [
+            "west-2"
+          ]
+        },
+        {
+          "tick": 117,
+          "tags": [
+            "west-2"
+          ]
+        },
+        {
+          "tick": 118,
+          "tags": [
+            "west-2"
+          ]
+        },
+        {
+          "tick": 119,
+          "tags": [
+            "west-2"
+          ]
+        },
+        {
+          "tick": 120,
+          "tags": [
+            "west-2"
+          ]
+        },
+        {
+          "tick": 121,
+          "tags": [
+            "west-2"
+          ]
+        },
+        {
+          "tick": 122,
+          "tags": [
+            "west-2"
+          ]
+        },
+        {
+          "tick": 123,
+          "tags": [
+            "west-2"
+          ]
+        },
+        {
+          "tick": 124,
+          "tags": [
+            "west-2"
+          ]
+        },
+        {
+          "tick": 125,
+          "tags": [
+            "west-2"
+          ]
+        },
+        {
+          "tick": 126,
+          "tags": [
+            "west-2"
+          ]
+        },
+        {
+          "tick": 127,
+          "tags": [
+            "west-2"
+          ]
+        }
+      ]
+    },
+    {
+      "case": "1-1-west",
+      "floor_span_m": null,
+      "success": true,
+      "reason": "docked",
+      "ticks": 479,
+      "collision": false,
+      "position_error_m": 0.03643,
+      "heading_error_rad": 0.02968,
+      "exposures": [
+        {
+          "tick": 0,
+          "tags": []
+        },
+        {
+          "tick": 1,
+          "tags": []
+        },
+        {
+          "tick": 2,
+          "tags": []
+        },
+        {
+          "tick": 3,
+          "tags": []
+        },
+        {
+          "tick": 4,
+          "tags": []
+        },
+        {
+          "tick": 5,
+          "tags": []
+        },
+        {
+          "tick": 6,
+          "tags": []
+        },
+        {
+          "tick": 7,
+          "tags": []
+        },
+        {
+          "tick": 8,
+          "tags": []
+        },
+        {
+          "tick": 9,
+          "tags": []
+        },
+        {
+          "tick": 10,
+          "tags": []
+        },
+        {
+          "tick": 11,
+          "tags": []
+        },
+        {
+          "tick": 12,
+          "tags": []
+        },
+        {
+          "tick": 13,
+          "tags": []
+        },
+        {
+          "tick": 14,
+          "tags": []
+        },
+        {
+          "tick": 15,
+          "tags": []
+        },
+        {
+          "tick": 16,
+          "tags": []
+        },
+        {
+          "tick": 17,
+          "tags": []
+        },
+        {
+          "tick": 18,
+          "tags": []
+        },
+        {
+          "tick": 19,
+          "tags": []
+        },
+        {
+          "tick": 20,
+          "tags": []
+        },
+        {
+          "tick": 21,
+          "tags": []
+        },
+        {
+          "tick": 22,
+          "tags": []
+        },
+        {
+          "tick": 23,
+          "tags": []
+        },
+        {
+          "tick": 24,
+          "tags": []
+        },
+        {
+          "tick": 25,
+          "tags": []
+        },
+        {
+          "tick": 26,
+          "tags": []
+        },
+        {
+          "tick": 27,
+          "tags": []
+        },
+        {
+          "tick": 28,
+          "tags": []
+        },
+        {
+          "tick": 29,
+          "tags": []
+        },
+        {
+          "tick": 30,
+          "tags": []
+        },
+        {
+          "tick": 31,
+          "tags": []
+        },
+        {
+          "tick": 32,
+          "tags": []
+        },
+        {
+          "tick": 33,
+          "tags": []
+        },
+        {
+          "tick": 34,
+          "tags": []
+        },
+        {
+          "tick": 35,
+          "tags": []
+        },
+        {
+          "tick": 36,
+          "tags": []
+        },
+        {
+          "tick": 37,
+          "tags": []
+        },
+        {
+          "tick": 38,
+          "tags": []
+        },
+        {
+          "tick": 39,
+          "tags": []
+        },
+        {
+          "tick": 40,
+          "tags": []
+        },
+        {
+          "tick": 41,
+          "tags": []
+        },
+        {
+          "tick": 42,
+          "tags": []
+        },
+        {
+          "tick": 43,
+          "tags": []
+        },
+        {
+          "tick": 44,
+          "tags": []
+        },
+        {
+          "tick": 45,
+          "tags": []
+        },
+        {
+          "tick": 46,
+          "tags": []
+        },
+        {
+          "tick": 47,
+          "tags": []
+        },
+        {
+          "tick": 48,
+          "tags": []
+        },
+        {
+          "tick": 49,
+          "tags": []
+        },
+        {
+          "tick": 50,
+          "tags": []
+        },
+        {
+          "tick": 51,
+          "tags": []
+        },
+        {
+          "tick": 52,
+          "tags": []
+        },
+        {
+          "tick": 53,
+          "tags": []
+        },
+        {
+          "tick": 54,
+          "tags": []
+        },
+        {
+          "tick": 55,
+          "tags": []
+        },
+        {
+          "tick": 56,
+          "tags": []
+        },
+        {
+          "tick": 57,
+          "tags": []
+        },
+        {
+          "tick": 58,
+          "tags": []
+        },
+        {
+          "tick": 59,
+          "tags": []
+        },
+        {
+          "tick": 60,
+          "tags": []
+        },
+        {
+          "tick": 61,
+          "tags": []
+        },
+        {
+          "tick": 62,
+          "tags": []
+        },
+        {
+          "tick": 63,
+          "tags": []
+        },
+        {
+          "tick": 64,
+          "tags": []
+        },
+        {
+          "tick": 65,
+          "tags": []
+        },
+        {
+          "tick": 66,
+          "tags": []
+        },
+        {
+          "tick": 67,
+          "tags": []
+        },
+        {
+          "tick": 68,
+          "tags": []
+        },
+        {
+          "tick": 69,
+          "tags": []
+        },
+        {
+          "tick": 70,
+          "tags": []
+        },
+        {
+          "tick": 71,
+          "tags": []
+        },
+        {
+          "tick": 72,
+          "tags": []
+        },
+        {
+          "tick": 73,
+          "tags": []
+        },
+        {
+          "tick": 74,
+          "tags": []
+        },
+        {
+          "tick": 75,
+          "tags": []
+        },
+        {
+          "tick": 76,
+          "tags": []
+        },
+        {
+          "tick": 77,
+          "tags": []
+        },
+        {
+          "tick": 78,
+          "tags": []
+        },
+        {
+          "tick": 79,
+          "tags": []
+        },
+        {
+          "tick": 80,
+          "tags": []
+        },
+        {
+          "tick": 81,
+          "tags": []
+        },
+        {
+          "tick": 82,
+          "tags": []
+        },
+        {
+          "tick": 83,
+          "tags": []
+        },
+        {
+          "tick": 84,
+          "tags": []
+        },
+        {
+          "tick": 85,
+          "tags": []
+        },
+        {
+          "tick": 86,
+          "tags": []
+        },
+        {
+          "tick": 87,
+          "tags": []
+        },
+        {
+          "tick": 88,
+          "tags": []
+        },
+        {
+          "tick": 89,
+          "tags": []
+        },
+        {
+          "tick": 90,
+          "tags": []
+        },
+        {
+          "tick": 91,
+          "tags": []
+        },
+        {
+          "tick": 92,
+          "tags": []
+        },
+        {
+          "tick": 93,
+          "tags": []
+        },
+        {
+          "tick": 94,
+          "tags": []
+        },
+        {
+          "tick": 95,
+          "tags": []
+        },
+        {
+          "tick": 96,
+          "tags": []
+        },
+        {
+          "tick": 97,
+          "tags": []
+        },
+        {
+          "tick": 98,
+          "tags": []
+        },
+        {
+          "tick": 99,
+          "tags": []
+        },
+        {
+          "tick": 100,
+          "tags": []
+        },
+        {
+          "tick": 101,
+          "tags": []
+        },
+        {
+          "tick": 102,
+          "tags": []
+        },
+        {
+          "tick": 103,
+          "tags": []
+        },
+        {
+          "tick": 104,
+          "tags": []
+        },
+        {
+          "tick": 105,
+          "tags": []
+        },
+        {
+          "tick": 106,
+          "tags": []
+        },
+        {
+          "tick": 107,
+          "tags": []
+        },
+        {
+          "tick": 108,
+          "tags": []
+        },
+        {
+          "tick": 109,
+          "tags": [
+            "east-2"
+          ]
+        },
+        {
+          "tick": 110,
+          "tags": [
+            "east-2"
+          ]
+        },
+        {
+          "tick": 111,
+          "tags": [
+            "east-2"
+          ]
+        },
+        {
+          "tick": 112,
+          "tags": [
+            "east-2"
+          ]
+        },
+        {
+          "tick": 113,
+          "tags": []
+        },
+        {
+          "tick": 114,
+          "tags": []
+        },
+        {
+          "tick": 115,
+          "tags": []
+        },
+        {
+          "tick": 116,
+          "tags": []
+        },
+        {
+          "tick": 117,
+          "tags": []
+        },
+        {
+          "tick": 118,
+          "tags": []
+        },
+        {
+          "tick": 119,
+          "tags": []
+        },
+        {
+          "tick": 120,
+          "tags": []
+        },
+        {
+          "tick": 121,
+          "tags": []
+        },
+        {
+          "tick": 122,
+          "tags": []
+        },
+        {
+          "tick": 123,
+          "tags": []
+        },
+        {
+          "tick": 124,
+          "tags": []
+        },
+        {
+          "tick": 125,
+          "tags": []
+        },
+        {
+          "tick": 126,
+          "tags": []
+        },
+        {
+          "tick": 127,
+          "tags": []
+        }
+      ]
+    },
+    {
+      "case": "2-0-east",
+      "floor_span_m": [
+        9.6,
+        12.65
+      ],
+      "success": true,
+      "reason": "docked",
+      "ticks": 404,
+      "collision": false,
+      "position_error_m": 0.0817,
+      "heading_error_rad": 0.06053,
+      "exposures": [
+        {
+          "tick": 0,
+          "tags": []
+        },
+        {
+          "tick": 1,
+          "tags": []
+        },
+        {
+          "tick": 2,
+          "tags": []
+        },
+        {
+          "tick": 3,
+          "tags": []
+        },
+        {
+          "tick": 4,
+          "tags": []
+        },
+        {
+          "tick": 5,
+          "tags": []
+        },
+        {
+          "tick": 6,
+          "tags": []
+        },
+        {
+          "tick": 7,
+          "tags": []
+        },
+        {
+          "tick": 8,
+          "tags": []
+        },
+        {
+          "tick": 9,
+          "tags": []
+        },
+        {
+          "tick": 10,
+          "tags": []
+        },
+        {
+          "tick": 11,
+          "tags": []
+        },
+        {
+          "tick": 12,
+          "tags": []
+        },
+        {
+          "tick": 13,
+          "tags": []
+        },
+        {
+          "tick": 14,
+          "tags": []
+        },
+        {
+          "tick": 15,
+          "tags": []
+        },
+        {
+          "tick": 16,
+          "tags": []
+        },
+        {
+          "tick": 17,
+          "tags": []
+        },
+        {
+          "tick": 18,
+          "tags": []
+        },
+        {
+          "tick": 19,
+          "tags": []
+        },
+        {
+          "tick": 20,
+          "tags": []
+        },
+        {
+          "tick": 21,
+          "tags": []
+        },
+        {
+          "tick": 22,
+          "tags": []
+        },
+        {
+          "tick": 23,
+          "tags": []
+        },
+        {
+          "tick": 24,
+          "tags": []
+        },
+        {
+          "tick": 25,
+          "tags": []
+        },
+        {
+          "tick": 26,
+          "tags": []
+        },
+        {
+          "tick": 27,
+          "tags": []
+        },
+        {
+          "tick": 28,
+          "tags": []
+        },
+        {
+          "tick": 29,
+          "tags": []
+        },
+        {
+          "tick": 30,
+          "tags": []
+        },
+        {
+          "tick": 31,
+          "tags": []
+        },
+        {
+          "tick": 32,
+          "tags": []
+        },
+        {
+          "tick": 33,
+          "tags": []
+        },
+        {
+          "tick": 34,
+          "tags": []
+        },
+        {
+          "tick": 35,
+          "tags": []
+        },
+        {
+          "tick": 36,
+          "tags": []
+        },
+        {
+          "tick": 37,
+          "tags": []
+        },
+        {
+          "tick": 38,
+          "tags": []
+        },
+        {
+          "tick": 39,
+          "tags": []
+        },
+        {
+          "tick": 40,
+          "tags": []
+        },
+        {
+          "tick": 41,
+          "tags": []
+        },
+        {
+          "tick": 42,
+          "tags": []
+        },
+        {
+          "tick": 43,
+          "tags": []
+        },
+        {
+          "tick": 44,
+          "tags": []
+        },
+        {
+          "tick": 45,
+          "tags": []
+        },
+        {
+          "tick": 46,
+          "tags": []
+        },
+        {
+          "tick": 47,
+          "tags": []
+        },
+        {
+          "tick": 48,
+          "tags": []
+        },
+        {
+          "tick": 49,
+          "tags": []
+        },
+        {
+          "tick": 50,
+          "tags": []
+        },
+        {
+          "tick": 51,
+          "tags": []
+        },
+        {
+          "tick": 52,
+          "tags": []
+        },
+        {
+          "tick": 53,
+          "tags": []
+        },
+        {
+          "tick": 54,
+          "tags": []
+        },
+        {
+          "tick": 55,
+          "tags": []
+        },
+        {
+          "tick": 56,
+          "tags": []
+        },
+        {
+          "tick": 57,
+          "tags": []
+        },
+        {
+          "tick": 58,
+          "tags": []
+        },
+        {
+          "tick": 59,
+          "tags": []
+        },
+        {
+          "tick": 60,
+          "tags": []
+        },
+        {
+          "tick": 61,
+          "tags": []
+        },
+        {
+          "tick": 62,
+          "tags": []
+        },
+        {
+          "tick": 63,
+          "tags": []
+        },
+        {
+          "tick": 64,
+          "tags": []
+        },
+        {
+          "tick": 65,
+          "tags": []
+        },
+        {
+          "tick": 66,
+          "tags": []
+        },
+        {
+          "tick": 67,
+          "tags": []
+        },
+        {
+          "tick": 68,
+          "tags": []
+        },
+        {
+          "tick": 69,
+          "tags": []
+        },
+        {
+          "tick": 70,
+          "tags": []
+        },
+        {
+          "tick": 71,
+          "tags": []
+        },
+        {
+          "tick": 72,
+          "tags": []
+        },
+        {
+          "tick": 73,
+          "tags": []
+        },
+        {
+          "tick": 74,
+          "tags": []
+        },
+        {
+          "tick": 75,
+          "tags": []
+        },
+        {
+          "tick": 76,
+          "tags": []
+        },
+        {
+          "tick": 77,
+          "tags": []
+        },
+        {
+          "tick": 78,
+          "tags": []
+        },
+        {
+          "tick": 79,
+          "tags": []
+        },
+        {
+          "tick": 80,
+          "tags": []
+        },
+        {
+          "tick": 81,
+          "tags": []
+        },
+        {
+          "tick": 82,
+          "tags": []
+        },
+        {
+          "tick": 83,
+          "tags": []
+        },
+        {
+          "tick": 84,
+          "tags": []
+        },
+        {
+          "tick": 85,
+          "tags": []
+        },
+        {
+          "tick": 86,
+          "tags": []
+        },
+        {
+          "tick": 87,
+          "tags": []
+        },
+        {
+          "tick": 88,
+          "tags": []
+        },
+        {
+          "tick": 89,
+          "tags": []
+        },
+        {
+          "tick": 90,
+          "tags": []
+        },
+        {
+          "tick": 91,
+          "tags": []
+        },
+        {
+          "tick": 92,
+          "tags": []
+        },
+        {
+          "tick": 93,
+          "tags": []
+        },
+        {
+          "tick": 94,
+          "tags": []
+        },
+        {
+          "tick": 95,
+          "tags": []
+        },
+        {
+          "tick": 96,
+          "tags": []
+        },
+        {
+          "tick": 97,
+          "tags": []
+        },
+        {
+          "tick": 98,
+          "tags": []
+        },
+        {
+          "tick": 99,
+          "tags": []
+        },
+        {
+          "tick": 100,
+          "tags": []
+        },
+        {
+          "tick": 101,
+          "tags": []
+        },
+        {
+          "tick": 102,
+          "tags": []
+        },
+        {
+          "tick": 103,
+          "tags": [
+            "west-0"
+          ]
+        },
+        {
+          "tick": 104,
+          "tags": [
+            "west-0"
+          ]
+        },
+        {
+          "tick": 105,
+          "tags": [
+            "west-0"
+          ]
+        },
+        {
+          "tick": 106,
+          "tags": [
+            "west-0"
+          ]
+        },
+        {
+          "tick": 107,
+          "tags": [
+            "west-0"
+          ]
+        },
+        {
+          "tick": 108,
+          "tags": [
+            "west-0"
+          ]
+        },
+        {
+          "tick": 109,
+          "tags": [
+            "west-0"
+          ]
+        },
+        {
+          "tick": 110,
+          "tags": [
+            "west-0"
+          ]
+        },
+        {
+          "tick": 111,
+          "tags": [
+            "west-0"
+          ]
+        },
+        {
+          "tick": 112,
+          "tags": [
+            "west-0"
+          ]
+        },
+        {
+          "tick": 113,
+          "tags": [
+            "west-0"
+          ]
+        },
+        {
+          "tick": 114,
+          "tags": [
+            "west-0"
+          ]
+        },
+        {
+          "tick": 115,
+          "tags": [
+            "west-0"
+          ]
+        },
+        {
+          "tick": 116,
+          "tags": [
+            "west-0"
+          ]
+        },
+        {
+          "tick": 117,
+          "tags": [
+            "west-0"
+          ]
+        },
+        {
+          "tick": 118,
+          "tags": [
+            "west-0"
+          ]
+        },
+        {
+          "tick": 119,
+          "tags": [
+            "west-0"
+          ]
+        },
+        {
+          "tick": 120,
+          "tags": [
+            "west-0"
+          ]
+        },
+        {
+          "tick": 121,
+          "tags": [
+            "west-0"
+          ]
+        },
+        {
+          "tick": 122,
+          "tags": [
+            "west-0"
+          ]
+        },
+        {
+          "tick": 123,
+          "tags": [
+            "west-0"
+          ]
+        },
+        {
+          "tick": 124,
+          "tags": [
+            "west-0"
+          ]
+        },
+        {
+          "tick": 125,
+          "tags": [
+            "west-0"
+          ]
+        },
+        {
+          "tick": 126,
+          "tags": [
+            "west-0"
+          ]
+        },
+        {
+          "tick": 127,
+          "tags": [
+            "west-0"
+          ]
+        }
+      ]
+    },
+    {
+      "case": "2-0-west",
+      "floor_span_m": [
+        8.6,
+        10.25
+      ],
+      "success": true,
+      "reason": "docked",
+      "ticks": 586,
+      "collision": false,
+      "position_error_m": 0.05749,
+      "heading_error_rad": 0.04411,
+      "exposures": [
+        {
+          "tick": 0,
+          "tags": []
+        },
+        {
+          "tick": 1,
+          "tags": []
+        },
+        {
+          "tick": 2,
+          "tags": []
+        },
+        {
+          "tick": 3,
+          "tags": []
+        },
+        {
+          "tick": 4,
+          "tags": []
+        },
+        {
+          "tick": 5,
+          "tags": []
+        },
+        {
+          "tick": 6,
+          "tags": []
+        },
+        {
+          "tick": 7,
+          "tags": []
+        },
+        {
+          "tick": 8,
+          "tags": []
+        },
+        {
+          "tick": 9,
+          "tags": []
+        },
+        {
+          "tick": 10,
+          "tags": []
+        },
+        {
+          "tick": 11,
+          "tags": []
+        },
+        {
+          "tick": 12,
+          "tags": []
+        },
+        {
+          "tick": 13,
+          "tags": []
+        },
+        {
+          "tick": 14,
+          "tags": []
+        },
+        {
+          "tick": 15,
+          "tags": []
+        },
+        {
+          "tick": 16,
+          "tags": []
+        },
+        {
+          "tick": 17,
+          "tags": []
+        },
+        {
+          "tick": 18,
+          "tags": []
+        },
+        {
+          "tick": 19,
+          "tags": []
+        },
+        {
+          "tick": 20,
+          "tags": []
+        },
+        {
+          "tick": 21,
+          "tags": []
+        },
+        {
+          "tick": 22,
+          "tags": []
+        },
+        {
+          "tick": 23,
+          "tags": []
+        },
+        {
+          "tick": 24,
+          "tags": []
+        },
+        {
+          "tick": 25,
+          "tags": []
+        },
+        {
+          "tick": 26,
+          "tags": []
+        },
+        {
+          "tick": 27,
+          "tags": []
+        },
+        {
+          "tick": 28,
+          "tags": []
+        },
+        {
+          "tick": 29,
+          "tags": []
+        },
+        {
+          "tick": 30,
+          "tags": []
+        },
+        {
+          "tick": 31,
+          "tags": []
+        },
+        {
+          "tick": 32,
+          "tags": []
+        },
+        {
+          "tick": 33,
+          "tags": []
+        },
+        {
+          "tick": 34,
+          "tags": []
+        },
+        {
+          "tick": 35,
+          "tags": []
+        },
+        {
+          "tick": 36,
+          "tags": []
+        },
+        {
+          "tick": 37,
+          "tags": []
+        },
+        {
+          "tick": 38,
+          "tags": []
+        },
+        {
+          "tick": 39,
+          "tags": []
+        },
+        {
+          "tick": 40,
+          "tags": []
+        },
+        {
+          "tick": 41,
+          "tags": []
+        },
+        {
+          "tick": 42,
+          "tags": []
+        },
+        {
+          "tick": 43,
+          "tags": []
+        },
+        {
+          "tick": 44,
+          "tags": []
+        },
+        {
+          "tick": 45,
+          "tags": []
+        },
+        {
+          "tick": 46,
+          "tags": []
+        },
+        {
+          "tick": 47,
+          "tags": []
+        },
+        {
+          "tick": 48,
+          "tags": []
+        },
+        {
+          "tick": 49,
+          "tags": []
+        },
+        {
+          "tick": 50,
+          "tags": []
+        },
+        {
+          "tick": 51,
+          "tags": []
+        },
+        {
+          "tick": 52,
+          "tags": []
+        },
+        {
+          "tick": 53,
+          "tags": []
+        },
+        {
+          "tick": 54,
+          "tags": []
+        },
+        {
+          "tick": 55,
+          "tags": []
+        },
+        {
+          "tick": 56,
+          "tags": []
+        },
+        {
+          "tick": 57,
+          "tags": []
+        },
+        {
+          "tick": 58,
+          "tags": []
+        },
+        {
+          "tick": 59,
+          "tags": []
+        },
+        {
+          "tick": 60,
+          "tags": []
+        },
+        {
+          "tick": 61,
+          "tags": []
+        },
+        {
+          "tick": 62,
+          "tags": []
+        },
+        {
+          "tick": 63,
+          "tags": []
+        },
+        {
+          "tick": 64,
+          "tags": []
+        },
+        {
+          "tick": 65,
+          "tags": []
+        },
+        {
+          "tick": 66,
+          "tags": []
+        },
+        {
+          "tick": 67,
+          "tags": []
+        },
+        {
+          "tick": 68,
+          "tags": []
+        },
+        {
+          "tick": 69,
+          "tags": []
+        },
+        {
+          "tick": 70,
+          "tags": []
+        },
+        {
+          "tick": 71,
+          "tags": []
+        },
+        {
+          "tick": 72,
+          "tags": []
+        },
+        {
+          "tick": 73,
+          "tags": []
+        },
+        {
+          "tick": 74,
+          "tags": []
+        },
+        {
+          "tick": 75,
+          "tags": []
+        },
+        {
+          "tick": 76,
+          "tags": []
+        },
+        {
+          "tick": 77,
+          "tags": []
+        },
+        {
+          "tick": 78,
+          "tags": []
+        },
+        {
+          "tick": 79,
+          "tags": []
+        },
+        {
+          "tick": 80,
+          "tags": []
+        },
+        {
+          "tick": 81,
+          "tags": []
+        },
+        {
+          "tick": 82,
+          "tags": []
+        },
+        {
+          "tick": 83,
+          "tags": []
+        },
+        {
+          "tick": 84,
+          "tags": []
+        },
+        {
+          "tick": 85,
+          "tags": []
+        },
+        {
+          "tick": 86,
+          "tags": []
+        },
+        {
+          "tick": 87,
+          "tags": []
+        },
+        {
+          "tick": 88,
+          "tags": []
+        },
+        {
+          "tick": 89,
+          "tags": []
+        },
+        {
+          "tick": 90,
+          "tags": []
+        },
+        {
+          "tick": 91,
+          "tags": []
+        },
+        {
+          "tick": 92,
+          "tags": []
+        },
+        {
+          "tick": 93,
+          "tags": []
+        },
+        {
+          "tick": 94,
+          "tags": []
+        },
+        {
+          "tick": 95,
+          "tags": []
+        },
+        {
+          "tick": 96,
+          "tags": []
+        },
+        {
+          "tick": 97,
+          "tags": []
+        },
+        {
+          "tick": 98,
+          "tags": []
+        },
+        {
+          "tick": 99,
+          "tags": []
+        },
+        {
+          "tick": 100,
+          "tags": []
+        },
+        {
+          "tick": 101,
+          "tags": []
+        },
+        {
+          "tick": 102,
+          "tags": []
+        },
+        {
+          "tick": 103,
+          "tags": []
+        },
+        {
+          "tick": 104,
+          "tags": []
+        },
+        {
+          "tick": 105,
+          "tags": []
+        },
+        {
+          "tick": 106,
+          "tags": []
+        },
+        {
+          "tick": 107,
+          "tags": []
+        },
+        {
+          "tick": 108,
+          "tags": []
+        },
+        {
+          "tick": 109,
+          "tags": [
+            "east-0"
+          ]
+        },
+        {
+          "tick": 110,
+          "tags": [
+            "east-0"
+          ]
+        },
+        {
+          "tick": 111,
+          "tags": [
+            "east-0"
+          ]
+        },
+        {
+          "tick": 112,
+          "tags": [
+            "east-0"
+          ]
+        },
+        {
+          "tick": 113,
+          "tags": []
+        },
+        {
+          "tick": 114,
+          "tags": []
+        },
+        {
+          "tick": 115,
+          "tags": []
+        },
+        {
+          "tick": 116,
+          "tags": []
+        },
+        {
+          "tick": 117,
+          "tags": []
+        },
+        {
+          "tick": 118,
+          "tags": []
+        },
+        {
+          "tick": 119,
+          "tags": []
+        },
+        {
+          "tick": 120,
+          "tags": []
+        },
+        {
+          "tick": 121,
+          "tags": []
+        },
+        {
+          "tick": 122,
+          "tags": []
+        },
+        {
+          "tick": 123,
+          "tags": []
+        },
+        {
+          "tick": 124,
+          "tags": []
+        },
+        {
+          "tick": 125,
+          "tags": []
+        },
+        {
+          "tick": 126,
+          "tags": []
+        },
+        {
+          "tick": 127,
+          "tags": []
+        }
+      ]
+    },
+    {
+      "case": "2-1-east",
+      "floor_span_m": null,
+      "success": true,
+      "reason": "docked",
+      "ticks": 426,
+      "collision": false,
+      "position_error_m": 0.03309,
+      "heading_error_rad": 0.01628,
+      "exposures": [
+        {
+          "tick": 0,
+          "tags": []
+        },
+        {
+          "tick": 1,
+          "tags": []
+        },
+        {
+          "tick": 2,
+          "tags": []
+        },
+        {
+          "tick": 3,
+          "tags": []
+        },
+        {
+          "tick": 4,
+          "tags": []
+        },
+        {
+          "tick": 5,
+          "tags": []
+        },
+        {
+          "tick": 6,
+          "tags": []
+        },
+        {
+          "tick": 7,
+          "tags": []
+        },
+        {
+          "tick": 8,
+          "tags": []
+        },
+        {
+          "tick": 9,
+          "tags": []
+        },
+        {
+          "tick": 10,
+          "tags": []
+        },
+        {
+          "tick": 11,
+          "tags": []
+        },
+        {
+          "tick": 12,
+          "tags": []
+        },
+        {
+          "tick": 13,
+          "tags": []
+        },
+        {
+          "tick": 14,
+          "tags": []
+        },
+        {
+          "tick": 15,
+          "tags": []
+        },
+        {
+          "tick": 16,
+          "tags": []
+        },
+        {
+          "tick": 17,
+          "tags": []
+        },
+        {
+          "tick": 18,
+          "tags": []
+        },
+        {
+          "tick": 19,
+          "tags": []
+        },
+        {
+          "tick": 20,
+          "tags": []
+        },
+        {
+          "tick": 21,
+          "tags": []
+        },
+        {
+          "tick": 22,
+          "tags": []
+        },
+        {
+          "tick": 23,
+          "tags": []
+        },
+        {
+          "tick": 24,
+          "tags": []
+        },
+        {
+          "tick": 25,
+          "tags": []
+        },
+        {
+          "tick": 26,
+          "tags": []
+        },
+        {
+          "tick": 27,
+          "tags": []
+        },
+        {
+          "tick": 28,
+          "tags": []
+        },
+        {
+          "tick": 29,
+          "tags": []
+        },
+        {
+          "tick": 30,
+          "tags": []
+        },
+        {
+          "tick": 31,
+          "tags": []
+        },
+        {
+          "tick": 32,
+          "tags": []
+        },
+        {
+          "tick": 33,
+          "tags": []
+        },
+        {
+          "tick": 34,
+          "tags": []
+        },
+        {
+          "tick": 35,
+          "tags": []
+        },
+        {
+          "tick": 36,
+          "tags": []
+        },
+        {
+          "tick": 37,
+          "tags": []
+        },
+        {
+          "tick": 38,
+          "tags": []
+        },
+        {
+          "tick": 39,
+          "tags": []
+        },
+        {
+          "tick": 40,
+          "tags": []
+        },
+        {
+          "tick": 41,
+          "tags": []
+        },
+        {
+          "tick": 42,
+          "tags": []
+        },
+        {
+          "tick": 43,
+          "tags": []
+        },
+        {
+          "tick": 44,
+          "tags": []
+        },
+        {
+          "tick": 45,
+          "tags": []
+        },
+        {
+          "tick": 46,
+          "tags": []
+        },
+        {
+          "tick": 47,
+          "tags": []
+        },
+        {
+          "tick": 48,
+          "tags": []
+        },
+        {
+          "tick": 49,
+          "tags": []
+        },
+        {
+          "tick": 50,
+          "tags": []
+        },
+        {
+          "tick": 51,
+          "tags": []
+        },
+        {
+          "tick": 52,
+          "tags": []
+        },
+        {
+          "tick": 53,
+          "tags": []
+        },
+        {
+          "tick": 54,
+          "tags": []
+        },
+        {
+          "tick": 55,
+          "tags": []
+        },
+        {
+          "tick": 56,
+          "tags": []
+        },
+        {
+          "tick": 57,
+          "tags": []
+        },
+        {
+          "tick": 58,
+          "tags": []
+        },
+        {
+          "tick": 59,
+          "tags": []
+        },
+        {
+          "tick": 60,
+          "tags": []
+        },
+        {
+          "tick": 61,
+          "tags": []
+        },
+        {
+          "tick": 62,
+          "tags": []
+        },
+        {
+          "tick": 63,
+          "tags": []
+        },
+        {
+          "tick": 64,
+          "tags": []
+        },
+        {
+          "tick": 65,
+          "tags": []
+        },
+        {
+          "tick": 66,
+          "tags": []
+        },
+        {
+          "tick": 67,
+          "tags": []
+        },
+        {
+          "tick": 68,
+          "tags": []
+        },
+        {
+          "tick": 69,
+          "tags": []
+        },
+        {
+          "tick": 70,
+          "tags": []
+        },
+        {
+          "tick": 71,
+          "tags": []
+        },
+        {
+          "tick": 72,
+          "tags": []
+        },
+        {
+          "tick": 73,
+          "tags": []
+        },
+        {
+          "tick": 74,
+          "tags": []
+        },
+        {
+          "tick": 75,
+          "tags": []
+        },
+        {
+          "tick": 76,
+          "tags": []
+        },
+        {
+          "tick": 77,
+          "tags": []
+        },
+        {
+          "tick": 78,
+          "tags": []
+        },
+        {
+          "tick": 79,
+          "tags": []
+        },
+        {
+          "tick": 80,
+          "tags": []
+        },
+        {
+          "tick": 81,
+          "tags": []
+        },
+        {
+          "tick": 82,
+          "tags": []
+        },
+        {
+          "tick": 83,
+          "tags": []
+        },
+        {
+          "tick": 84,
+          "tags": []
+        },
+        {
+          "tick": 85,
+          "tags": []
+        },
+        {
+          "tick": 86,
+          "tags": []
+        },
+        {
+          "tick": 87,
+          "tags": []
+        },
+        {
+          "tick": 88,
+          "tags": []
+        },
+        {
+          "tick": 89,
+          "tags": []
+        },
+        {
+          "tick": 90,
+          "tags": []
+        },
+        {
+          "tick": 91,
+          "tags": []
+        },
+        {
+          "tick": 92,
+          "tags": [
+            "west-2"
+          ]
+        },
+        {
+          "tick": 93,
+          "tags": [
+            "west-2"
+          ]
+        },
+        {
+          "tick": 94,
+          "tags": [
+            "west-2"
+          ]
+        },
+        {
+          "tick": 95,
+          "tags": [
+            "west-2"
+          ]
+        },
+        {
+          "tick": 96,
+          "tags": [
+            "west-2"
+          ]
+        },
+        {
+          "tick": 97,
+          "tags": [
+            "west-2"
+          ]
+        },
+        {
+          "tick": 98,
+          "tags": [
+            "west-2"
+          ]
+        },
+        {
+          "tick": 99,
+          "tags": [
+            "west-2"
+          ]
+        },
+        {
+          "tick": 100,
+          "tags": [
+            "west-2"
+          ]
+        },
+        {
+          "tick": 101,
+          "tags": [
+            "west-2"
+          ]
+        },
+        {
+          "tick": 102,
+          "tags": [
+            "west-2"
+          ]
+        },
+        {
+          "tick": 103,
+          "tags": [
+            "west-2"
+          ]
+        },
+        {
+          "tick": 104,
+          "tags": [
+            "west-2"
+          ]
+        },
+        {
+          "tick": 105,
+          "tags": [
+            "west-2"
+          ]
+        },
+        {
+          "tick": 106,
+          "tags": [
+            "west-2"
+          ]
+        },
+        {
+          "tick": 107,
+          "tags": [
+            "west-2"
+          ]
+        },
+        {
+          "tick": 108,
+          "tags": [
+            "west-2"
+          ]
+        },
+        {
+          "tick": 109,
+          "tags": [
+            "west-2"
+          ]
+        },
+        {
+          "tick": 110,
+          "tags": [
+            "west-2"
+          ]
+        },
+        {
+          "tick": 111,
+          "tags": [
+            "west-2"
+          ]
+        },
+        {
+          "tick": 112,
+          "tags": [
+            "west-2"
+          ]
+        },
+        {
+          "tick": 113,
+          "tags": [
+            "west-2"
+          ]
+        },
+        {
+          "tick": 114,
+          "tags": [
+            "west-2"
+          ]
+        },
+        {
+          "tick": 115,
+          "tags": [
+            "west-2"
+          ]
+        },
+        {
+          "tick": 116,
+          "tags": [
+            "west-2"
+          ]
+        },
+        {
+          "tick": 117,
+          "tags": [
+            "west-2"
+          ]
+        },
+        {
+          "tick": 118,
+          "tags": [
+            "west-2"
+          ]
+        },
+        {
+          "tick": 119,
+          "tags": [
+            "west-2"
+          ]
+        },
+        {
+          "tick": 120,
+          "tags": [
+            "west-2"
+          ]
+        },
+        {
+          "tick": 121,
+          "tags": [
+            "west-2"
+          ]
+        },
+        {
+          "tick": 122,
+          "tags": [
+            "west-2"
+          ]
+        },
+        {
+          "tick": 123,
+          "tags": [
+            "west-2"
+          ]
+        },
+        {
+          "tick": 124,
+          "tags": [
+            "west-2"
+          ]
+        },
+        {
+          "tick": 125,
+          "tags": [
+            "west-2"
+          ]
+        },
+        {
+          "tick": 126,
+          "tags": [
+            "west-2"
+          ]
+        },
+        {
+          "tick": 127,
+          "tags": [
+            "west-2"
+          ]
+        }
+      ]
+    },
+    {
+      "case": "2-1-west",
+      "floor_span_m": [
+        7.4,
+        9.65
+      ],
+      "success": true,
+      "reason": "docked",
+      "ticks": 954,
+      "collision": false,
+      "position_error_m": 0.01943,
+      "heading_error_rad": 0.01519,
+      "exposures": [
+        {
+          "tick": 0,
+          "tags": []
+        },
+        {
+          "tick": 1,
+          "tags": []
+        },
+        {
+          "tick": 2,
+          "tags": []
+        },
+        {
+          "tick": 3,
+          "tags": []
+        },
+        {
+          "tick": 4,
+          "tags": []
+        },
+        {
+          "tick": 5,
+          "tags": []
+        },
+        {
+          "tick": 6,
+          "tags": []
+        },
+        {
+          "tick": 7,
+          "tags": []
+        },
+        {
+          "tick": 8,
+          "tags": []
+        },
+        {
+          "tick": 9,
+          "tags": []
+        },
+        {
+          "tick": 10,
+          "tags": []
+        },
+        {
+          "tick": 11,
+          "tags": []
+        },
+        {
+          "tick": 12,
+          "tags": []
+        },
+        {
+          "tick": 13,
+          "tags": []
+        },
+        {
+          "tick": 14,
+          "tags": []
+        },
+        {
+          "tick": 15,
+          "tags": []
+        },
+        {
+          "tick": 16,
+          "tags": []
+        },
+        {
+          "tick": 17,
+          "tags": []
+        },
+        {
+          "tick": 18,
+          "tags": []
+        },
+        {
+          "tick": 19,
+          "tags": []
+        },
+        {
+          "tick": 20,
+          "tags": []
+        },
+        {
+          "tick": 21,
+          "tags": []
+        },
+        {
+          "tick": 22,
+          "tags": []
+        },
+        {
+          "tick": 23,
+          "tags": []
+        },
+        {
+          "tick": 24,
+          "tags": []
+        },
+        {
+          "tick": 25,
+          "tags": []
+        },
+        {
+          "tick": 26,
+          "tags": []
+        },
+        {
+          "tick": 27,
+          "tags": []
+        },
+        {
+          "tick": 28,
+          "tags": []
+        },
+        {
+          "tick": 29,
+          "tags": []
+        },
+        {
+          "tick": 30,
+          "tags": []
+        },
+        {
+          "tick": 31,
+          "tags": []
+        },
+        {
+          "tick": 32,
+          "tags": []
+        },
+        {
+          "tick": 33,
+          "tags": []
+        },
+        {
+          "tick": 34,
+          "tags": []
+        },
+        {
+          "tick": 35,
+          "tags": []
+        },
+        {
+          "tick": 36,
+          "tags": []
+        },
+        {
+          "tick": 37,
+          "tags": []
+        },
+        {
+          "tick": 38,
+          "tags": []
+        },
+        {
+          "tick": 39,
+          "tags": []
+        },
+        {
+          "tick": 40,
+          "tags": []
+        },
+        {
+          "tick": 41,
+          "tags": []
+        },
+        {
+          "tick": 42,
+          "tags": []
+        },
+        {
+          "tick": 43,
+          "tags": []
+        },
+        {
+          "tick": 44,
+          "tags": []
+        },
+        {
+          "tick": 45,
+          "tags": []
+        },
+        {
+          "tick": 46,
+          "tags": []
+        },
+        {
+          "tick": 47,
+          "tags": []
+        },
+        {
+          "tick": 48,
+          "tags": []
+        },
+        {
+          "tick": 49,
+          "tags": []
+        },
+        {
+          "tick": 50,
+          "tags": []
+        },
+        {
+          "tick": 51,
+          "tags": []
+        },
+        {
+          "tick": 52,
+          "tags": []
+        },
+        {
+          "tick": 53,
+          "tags": []
+        },
+        {
+          "tick": 54,
+          "tags": []
+        },
+        {
+          "tick": 55,
+          "tags": []
+        },
+        {
+          "tick": 56,
+          "tags": []
+        },
+        {
+          "tick": 57,
+          "tags": []
+        },
+        {
+          "tick": 58,
+          "tags": []
+        },
+        {
+          "tick": 59,
+          "tags": []
+        },
+        {
+          "tick": 60,
+          "tags": []
+        },
+        {
+          "tick": 61,
+          "tags": []
+        },
+        {
+          "tick": 62,
+          "tags": []
+        },
+        {
+          "tick": 63,
+          "tags": []
+        },
+        {
+          "tick": 64,
+          "tags": []
+        },
+        {
+          "tick": 65,
+          "tags": []
+        },
+        {
+          "tick": 66,
+          "tags": []
+        },
+        {
+          "tick": 67,
+          "tags": []
+        },
+        {
+          "tick": 68,
+          "tags": []
+        },
+        {
+          "tick": 69,
+          "tags": []
+        },
+        {
+          "tick": 70,
+          "tags": []
+        },
+        {
+          "tick": 71,
+          "tags": []
+        },
+        {
+          "tick": 72,
+          "tags": []
+        },
+        {
+          "tick": 73,
+          "tags": []
+        },
+        {
+          "tick": 74,
+          "tags": []
+        },
+        {
+          "tick": 75,
+          "tags": []
+        },
+        {
+          "tick": 76,
+          "tags": []
+        },
+        {
+          "tick": 77,
+          "tags": []
+        },
+        {
+          "tick": 78,
+          "tags": []
+        },
+        {
+          "tick": 79,
+          "tags": []
+        },
+        {
+          "tick": 80,
+          "tags": []
+        },
+        {
+          "tick": 81,
+          "tags": []
+        },
+        {
+          "tick": 82,
+          "tags": []
+        },
+        {
+          "tick": 83,
+          "tags": []
+        },
+        {
+          "tick": 84,
+          "tags": []
+        },
+        {
+          "tick": 85,
+          "tags": []
+        },
+        {
+          "tick": 86,
+          "tags": []
+        },
+        {
+          "tick": 87,
+          "tags": []
+        },
+        {
+          "tick": 88,
+          "tags": []
+        },
+        {
+          "tick": 89,
+          "tags": []
+        },
+        {
+          "tick": 90,
+          "tags": []
+        },
+        {
+          "tick": 91,
+          "tags": []
+        },
+        {
+          "tick": 92,
+          "tags": []
+        },
+        {
+          "tick": 93,
+          "tags": []
+        },
+        {
+          "tick": 94,
+          "tags": []
+        },
+        {
+          "tick": 95,
+          "tags": []
+        },
+        {
+          "tick": 96,
+          "tags": []
+        },
+        {
+          "tick": 97,
+          "tags": []
+        },
+        {
+          "tick": 98,
+          "tags": []
+        },
+        {
+          "tick": 99,
+          "tags": []
+        },
+        {
+          "tick": 100,
+          "tags": []
+        },
+        {
+          "tick": 101,
+          "tags": []
+        },
+        {
+          "tick": 102,
+          "tags": []
+        },
+        {
+          "tick": 103,
+          "tags": []
+        },
+        {
+          "tick": 104,
+          "tags": []
+        },
+        {
+          "tick": 105,
+          "tags": []
+        },
+        {
+          "tick": 106,
+          "tags": []
+        },
+        {
+          "tick": 107,
+          "tags": []
+        },
+        {
+          "tick": 108,
+          "tags": []
+        },
+        {
+          "tick": 109,
+          "tags": []
+        },
+        {
+          "tick": 110,
+          "tags": []
+        },
+        {
+          "tick": 111,
+          "tags": []
+        },
+        {
+          "tick": 112,
+          "tags": []
+        },
+        {
+          "tick": 113,
+          "tags": []
+        },
+        {
+          "tick": 114,
+          "tags": []
+        },
+        {
+          "tick": 115,
+          "tags": []
+        },
+        {
+          "tick": 116,
+          "tags": []
+        },
+        {
+          "tick": 117,
+          "tags": []
+        },
+        {
+          "tick": 118,
+          "tags": []
+        },
+        {
+          "tick": 119,
+          "tags": []
+        },
+        {
+          "tick": 120,
+          "tags": []
+        },
+        {
+          "tick": 121,
+          "tags": []
+        },
+        {
+          "tick": 122,
+          "tags": []
+        },
+        {
+          "tick": 123,
+          "tags": []
+        },
+        {
+          "tick": 124,
+          "tags": []
+        },
+        {
+          "tick": 125,
+          "tags": []
+        },
+        {
+          "tick": 126,
+          "tags": []
+        },
+        {
+          "tick": 127,
+          "tags": []
+        }
+      ]
+    },
+    {
+      "case": "3-0-east",
+      "floor_span_m": [
+        8.6,
+        10.25
+      ],
+      "success": true,
+      "reason": "docked",
+      "ticks": 507,
+      "collision": false,
+      "position_error_m": 0.01664,
+      "heading_error_rad": 0.01606,
+      "exposures": [
+        {
+          "tick": 0,
+          "tags": []
+        },
+        {
+          "tick": 1,
+          "tags": []
+        },
+        {
+          "tick": 2,
+          "tags": []
+        },
+        {
+          "tick": 3,
+          "tags": []
+        },
+        {
+          "tick": 4,
+          "tags": []
+        },
+        {
+          "tick": 5,
+          "tags": []
+        },
+        {
+          "tick": 6,
+          "tags": []
+        },
+        {
+          "tick": 7,
+          "tags": []
+        },
+        {
+          "tick": 8,
+          "tags": []
+        },
+        {
+          "tick": 9,
+          "tags": []
+        },
+        {
+          "tick": 10,
+          "tags": []
+        },
+        {
+          "tick": 11,
+          "tags": []
+        },
+        {
+          "tick": 12,
+          "tags": []
+        },
+        {
+          "tick": 13,
+          "tags": []
+        },
+        {
+          "tick": 14,
+          "tags": []
+        },
+        {
+          "tick": 15,
+          "tags": []
+        },
+        {
+          "tick": 16,
+          "tags": []
+        },
+        {
+          "tick": 17,
+          "tags": []
+        },
+        {
+          "tick": 18,
+          "tags": []
+        },
+        {
+          "tick": 19,
+          "tags": []
+        },
+        {
+          "tick": 20,
+          "tags": []
+        },
+        {
+          "tick": 21,
+          "tags": []
+        },
+        {
+          "tick": 22,
+          "tags": []
+        },
+        {
+          "tick": 23,
+          "tags": []
+        },
+        {
+          "tick": 24,
+          "tags": []
+        },
+        {
+          "tick": 25,
+          "tags": []
+        },
+        {
+          "tick": 26,
+          "tags": []
+        },
+        {
+          "tick": 27,
+          "tags": []
+        },
+        {
+          "tick": 28,
+          "tags": []
+        },
+        {
+          "tick": 29,
+          "tags": []
+        },
+        {
+          "tick": 30,
+          "tags": []
+        },
+        {
+          "tick": 31,
+          "tags": []
+        },
+        {
+          "tick": 32,
+          "tags": []
+        },
+        {
+          "tick": 33,
+          "tags": []
+        },
+        {
+          "tick": 34,
+          "tags": []
+        },
+        {
+          "tick": 35,
+          "tags": []
+        },
+        {
+          "tick": 36,
+          "tags": []
+        },
+        {
+          "tick": 37,
+          "tags": []
+        },
+        {
+          "tick": 38,
+          "tags": []
+        },
+        {
+          "tick": 39,
+          "tags": []
+        },
+        {
+          "tick": 40,
+          "tags": []
+        },
+        {
+          "tick": 41,
+          "tags": []
+        },
+        {
+          "tick": 42,
+          "tags": []
+        },
+        {
+          "tick": 43,
+          "tags": []
+        },
+        {
+          "tick": 44,
+          "tags": []
+        },
+        {
+          "tick": 45,
+          "tags": []
+        },
+        {
+          "tick": 46,
+          "tags": []
+        },
+        {
+          "tick": 47,
+          "tags": []
+        },
+        {
+          "tick": 48,
+          "tags": []
+        },
+        {
+          "tick": 49,
+          "tags": []
+        },
+        {
+          "tick": 50,
+          "tags": []
+        },
+        {
+          "tick": 51,
+          "tags": []
+        },
+        {
+          "tick": 52,
+          "tags": []
+        },
+        {
+          "tick": 53,
+          "tags": []
+        },
+        {
+          "tick": 54,
+          "tags": []
+        },
+        {
+          "tick": 55,
+          "tags": []
+        },
+        {
+          "tick": 56,
+          "tags": []
+        },
+        {
+          "tick": 57,
+          "tags": []
+        },
+        {
+          "tick": 58,
+          "tags": []
+        },
+        {
+          "tick": 59,
+          "tags": []
+        },
+        {
+          "tick": 60,
+          "tags": []
+        },
+        {
+          "tick": 61,
+          "tags": []
+        },
+        {
+          "tick": 62,
+          "tags": []
+        },
+        {
+          "tick": 63,
+          "tags": []
+        },
+        {
+          "tick": 64,
+          "tags": []
+        },
+        {
+          "tick": 65,
+          "tags": []
+        },
+        {
+          "tick": 66,
+          "tags": []
+        },
+        {
+          "tick": 67,
+          "tags": []
+        },
+        {
+          "tick": 68,
+          "tags": []
+        },
+        {
+          "tick": 69,
+          "tags": []
+        },
+        {
+          "tick": 70,
+          "tags": []
+        },
+        {
+          "tick": 71,
+          "tags": []
+        },
+        {
+          "tick": 72,
+          "tags": []
+        },
+        {
+          "tick": 73,
+          "tags": []
+        },
+        {
+          "tick": 74,
+          "tags": []
+        },
+        {
+          "tick": 75,
+          "tags": []
+        },
+        {
+          "tick": 76,
+          "tags": []
+        },
+        {
+          "tick": 77,
+          "tags": []
+        },
+        {
+          "tick": 78,
+          "tags": []
+        },
+        {
+          "tick": 79,
+          "tags": []
+        },
+        {
+          "tick": 80,
+          "tags": []
+        },
+        {
+          "tick": 81,
+          "tags": []
+        },
+        {
+          "tick": 82,
+          "tags": []
+        },
+        {
+          "tick": 83,
+          "tags": []
+        },
+        {
+          "tick": 84,
+          "tags": []
+        },
+        {
+          "tick": 85,
+          "tags": []
+        },
+        {
+          "tick": 86,
+          "tags": []
+        },
+        {
+          "tick": 87,
+          "tags": []
+        },
+        {
+          "tick": 88,
+          "tags": []
+        },
+        {
+          "tick": 89,
+          "tags": []
+        },
+        {
+          "tick": 90,
+          "tags": []
+        },
+        {
+          "tick": 91,
+          "tags": []
+        },
+        {
+          "tick": 92,
+          "tags": [
+            "west-0"
+          ]
+        },
+        {
+          "tick": 93,
+          "tags": [
+            "west-0"
+          ]
+        },
+        {
+          "tick": 94,
+          "tags": [
+            "west-0"
+          ]
+        },
+        {
+          "tick": 95,
+          "tags": [
+            "west-0"
+          ]
+        },
+        {
+          "tick": 96,
+          "tags": [
+            "west-0"
+          ]
+        },
+        {
+          "tick": 97,
+          "tags": [
+            "west-0"
+          ]
+        },
+        {
+          "tick": 98,
+          "tags": [
+            "west-0"
+          ]
+        },
+        {
+          "tick": 99,
+          "tags": [
+            "west-0"
+          ]
+        },
+        {
+          "tick": 100,
+          "tags": [
+            "west-0"
+          ]
+        },
+        {
+          "tick": 101,
+          "tags": [
+            "west-0"
+          ]
+        },
+        {
+          "tick": 102,
+          "tags": [
+            "west-0"
+          ]
+        },
+        {
+          "tick": 103,
+          "tags": [
+            "west-0"
+          ]
+        },
+        {
+          "tick": 104,
+          "tags": [
+            "west-0"
+          ]
+        },
+        {
+          "tick": 105,
+          "tags": [
+            "west-0"
+          ]
+        },
+        {
+          "tick": 106,
+          "tags": [
+            "west-0"
+          ]
+        },
+        {
+          "tick": 107,
+          "tags": [
+            "west-0"
+          ]
+        },
+        {
+          "tick": 108,
+          "tags": [
+            "west-0"
+          ]
+        },
+        {
+          "tick": 109,
+          "tags": [
+            "west-0"
+          ]
+        },
+        {
+          "tick": 110,
+          "tags": [
+            "west-0"
+          ]
+        },
+        {
+          "tick": 111,
+          "tags": [
+            "west-0"
+          ]
+        },
+        {
+          "tick": 112,
+          "tags": [
+            "west-0"
+          ]
+        },
+        {
+          "tick": 113,
+          "tags": [
+            "west-0"
+          ]
+        },
+        {
+          "tick": 114,
+          "tags": [
+            "west-0"
+          ]
+        },
+        {
+          "tick": 115,
+          "tags": [
+            "west-0"
+          ]
+        },
+        {
+          "tick": 116,
+          "tags": [
+            "west-0"
+          ]
+        },
+        {
+          "tick": 117,
+          "tags": [
+            "west-0"
+          ]
+        },
+        {
+          "tick": 118,
+          "tags": [
+            "west-0"
+          ]
+        },
+        {
+          "tick": 119,
+          "tags": [
+            "west-0"
+          ]
+        },
+        {
+          "tick": 120,
+          "tags": [
+            "west-0"
+          ]
+        },
+        {
+          "tick": 121,
+          "tags": [
+            "west-0"
+          ]
+        },
+        {
+          "tick": 122,
+          "tags": [
+            "west-0"
+          ]
+        },
+        {
+          "tick": 123,
+          "tags": [
+            "west-0"
+          ]
+        },
+        {
+          "tick": 124,
+          "tags": [
+            "west-0"
+          ]
+        },
+        {
+          "tick": 125,
+          "tags": [
+            "west-0"
+          ]
+        },
+        {
+          "tick": 126,
+          "tags": [
+            "west-0"
+          ]
+        },
+        {
+          "tick": 127,
+          "tags": [
+            "west-0"
+          ]
+        }
+      ]
+    },
+    {
+      "case": "3-0-west",
+      "floor_span_m": null,
+      "success": true,
+      "reason": "docked",
+      "ticks": 869,
+      "collision": false,
+      "position_error_m": 0.02677,
+      "heading_error_rad": 0.01453,
+      "exposures": [
+        {
+          "tick": 0,
+          "tags": []
+        },
+        {
+          "tick": 1,
+          "tags": []
+        },
+        {
+          "tick": 2,
+          "tags": []
+        },
+        {
+          "tick": 3,
+          "tags": []
+        },
+        {
+          "tick": 4,
+          "tags": []
+        },
+        {
+          "tick": 5,
+          "tags": []
+        },
+        {
+          "tick": 6,
+          "tags": []
+        },
+        {
+          "tick": 7,
+          "tags": []
+        },
+        {
+          "tick": 8,
+          "tags": []
+        },
+        {
+          "tick": 9,
+          "tags": []
+        },
+        {
+          "tick": 10,
+          "tags": []
+        },
+        {
+          "tick": 11,
+          "tags": []
+        },
+        {
+          "tick": 12,
+          "tags": []
+        },
+        {
+          "tick": 13,
+          "tags": []
+        },
+        {
+          "tick": 14,
+          "tags": []
+        },
+        {
+          "tick": 15,
+          "tags": []
+        },
+        {
+          "tick": 16,
+          "tags": []
+        },
+        {
+          "tick": 17,
+          "tags": []
+        },
+        {
+          "tick": 18,
+          "tags": []
+        },
+        {
+          "tick": 19,
+          "tags": []
+        },
+        {
+          "tick": 20,
+          "tags": []
+        },
+        {
+          "tick": 21,
+          "tags": []
+        },
+        {
+          "tick": 22,
+          "tags": []
+        },
+        {
+          "tick": 23,
+          "tags": []
+        },
+        {
+          "tick": 24,
+          "tags": []
+        },
+        {
+          "tick": 25,
+          "tags": []
+        },
+        {
+          "tick": 26,
+          "tags": []
+        },
+        {
+          "tick": 27,
+          "tags": []
+        },
+        {
+          "tick": 28,
+          "tags": []
+        },
+        {
+          "tick": 29,
+          "tags": []
+        },
+        {
+          "tick": 30,
+          "tags": []
+        },
+        {
+          "tick": 31,
+          "tags": []
+        },
+        {
+          "tick": 32,
+          "tags": []
+        },
+        {
+          "tick": 33,
+          "tags": []
+        },
+        {
+          "tick": 34,
+          "tags": []
+        },
+        {
+          "tick": 35,
+          "tags": []
+        },
+        {
+          "tick": 36,
+          "tags": []
+        },
+        {
+          "tick": 37,
+          "tags": []
+        },
+        {
+          "tick": 38,
+          "tags": []
+        },
+        {
+          "tick": 39,
+          "tags": []
+        },
+        {
+          "tick": 40,
+          "tags": []
+        },
+        {
+          "tick": 41,
+          "tags": []
+        },
+        {
+          "tick": 42,
+          "tags": []
+        },
+        {
+          "tick": 43,
+          "tags": []
+        },
+        {
+          "tick": 44,
+          "tags": []
+        },
+        {
+          "tick": 45,
+          "tags": []
+        },
+        {
+          "tick": 46,
+          "tags": []
+        },
+        {
+          "tick": 47,
+          "tags": []
+        },
+        {
+          "tick": 48,
+          "tags": []
+        },
+        {
+          "tick": 49,
+          "tags": []
+        },
+        {
+          "tick": 50,
+          "tags": []
+        },
+        {
+          "tick": 51,
+          "tags": []
+        },
+        {
+          "tick": 52,
+          "tags": []
+        },
+        {
+          "tick": 53,
+          "tags": []
+        },
+        {
+          "tick": 54,
+          "tags": []
+        },
+        {
+          "tick": 55,
+          "tags": []
+        },
+        {
+          "tick": 56,
+          "tags": []
+        },
+        {
+          "tick": 57,
+          "tags": []
+        },
+        {
+          "tick": 58,
+          "tags": []
+        },
+        {
+          "tick": 59,
+          "tags": []
+        },
+        {
+          "tick": 60,
+          "tags": []
+        },
+        {
+          "tick": 61,
+          "tags": []
+        },
+        {
+          "tick": 62,
+          "tags": []
+        },
+        {
+          "tick": 63,
+          "tags": []
+        },
+        {
+          "tick": 64,
+          "tags": []
+        },
+        {
+          "tick": 65,
+          "tags": []
+        },
+        {
+          "tick": 66,
+          "tags": []
+        },
+        {
+          "tick": 67,
+          "tags": []
+        },
+        {
+          "tick": 68,
+          "tags": []
+        },
+        {
+          "tick": 69,
+          "tags": []
+        },
+        {
+          "tick": 70,
+          "tags": []
+        },
+        {
+          "tick": 71,
+          "tags": []
+        },
+        {
+          "tick": 72,
+          "tags": []
+        },
+        {
+          "tick": 73,
+          "tags": []
+        },
+        {
+          "tick": 74,
+          "tags": []
+        },
+        {
+          "tick": 75,
+          "tags": []
+        },
+        {
+          "tick": 76,
+          "tags": []
+        },
+        {
+          "tick": 77,
+          "tags": []
+        },
+        {
+          "tick": 78,
+          "tags": []
+        },
+        {
+          "tick": 79,
+          "tags": []
+        },
+        {
+          "tick": 80,
+          "tags": []
+        },
+        {
+          "tick": 81,
+          "tags": []
+        },
+        {
+          "tick": 82,
+          "tags": []
+        },
+        {
+          "tick": 83,
+          "tags": []
+        },
+        {
+          "tick": 84,
+          "tags": []
+        },
+        {
+          "tick": 85,
+          "tags": []
+        },
+        {
+          "tick": 86,
+          "tags": []
+        },
+        {
+          "tick": 87,
+          "tags": []
+        },
+        {
+          "tick": 88,
+          "tags": []
+        },
+        {
+          "tick": 89,
+          "tags": []
+        },
+        {
+          "tick": 90,
+          "tags": []
+        },
+        {
+          "tick": 91,
+          "tags": []
+        },
+        {
+          "tick": 92,
+          "tags": []
+        },
+        {
+          "tick": 93,
+          "tags": []
+        },
+        {
+          "tick": 94,
+          "tags": []
+        },
+        {
+          "tick": 95,
+          "tags": []
+        },
+        {
+          "tick": 96,
+          "tags": []
+        },
+        {
+          "tick": 97,
+          "tags": []
+        },
+        {
+          "tick": 98,
+          "tags": []
+        },
+        {
+          "tick": 99,
+          "tags": []
+        },
+        {
+          "tick": 100,
+          "tags": []
+        },
+        {
+          "tick": 101,
+          "tags": []
+        },
+        {
+          "tick": 102,
+          "tags": []
+        },
+        {
+          "tick": 103,
+          "tags": []
+        },
+        {
+          "tick": 104,
+          "tags": []
+        },
+        {
+          "tick": 105,
+          "tags": []
+        },
+        {
+          "tick": 106,
+          "tags": []
+        },
+        {
+          "tick": 107,
+          "tags": []
+        },
+        {
+          "tick": 108,
+          "tags": []
+        },
+        {
+          "tick": 109,
+          "tags": []
+        },
+        {
+          "tick": 110,
+          "tags": []
+        },
+        {
+          "tick": 111,
+          "tags": []
+        },
+        {
+          "tick": 112,
+          "tags": []
+        },
+        {
+          "tick": 113,
+          "tags": []
+        },
+        {
+          "tick": 114,
+          "tags": []
+        },
+        {
+          "tick": 115,
+          "tags": []
+        },
+        {
+          "tick": 116,
+          "tags": []
+        },
+        {
+          "tick": 117,
+          "tags": []
+        },
+        {
+          "tick": 118,
+          "tags": []
+        },
+        {
+          "tick": 119,
+          "tags": []
+        },
+        {
+          "tick": 120,
+          "tags": []
+        },
+        {
+          "tick": 121,
+          "tags": []
+        },
+        {
+          "tick": 122,
+          "tags": []
+        },
+        {
+          "tick": 123,
+          "tags": []
+        },
+        {
+          "tick": 124,
+          "tags": []
+        },
+        {
+          "tick": 125,
+          "tags": []
+        },
+        {
+          "tick": 126,
+          "tags": []
+        },
+        {
+          "tick": 127,
+          "tags": []
+        }
+      ]
+    },
+    {
+      "case": "3-1-east",
+      "floor_span_m": [
+        7.4,
+        9.65
+      ],
+      "success": true,
+      "reason": "docked",
+      "ticks": 433,
+      "collision": false,
+      "position_error_m": 0.10467,
+      "heading_error_rad": 0.02746,
+      "exposures": [
+        {
+          "tick": 0,
+          "tags": []
+        },
+        {
+          "tick": 1,
+          "tags": []
+        },
+        {
+          "tick": 2,
+          "tags": []
+        },
+        {
+          "tick": 3,
+          "tags": []
+        },
+        {
+          "tick": 4,
+          "tags": []
+        },
+        {
+          "tick": 5,
+          "tags": []
+        },
+        {
+          "tick": 6,
+          "tags": []
+        },
+        {
+          "tick": 7,
+          "tags": []
+        },
+        {
+          "tick": 8,
+          "tags": []
+        },
+        {
+          "tick": 9,
+          "tags": []
+        },
+        {
+          "tick": 10,
+          "tags": []
+        },
+        {
+          "tick": 11,
+          "tags": []
+        },
+        {
+          "tick": 12,
+          "tags": []
+        },
+        {
+          "tick": 13,
+          "tags": []
+        },
+        {
+          "tick": 14,
+          "tags": []
+        },
+        {
+          "tick": 15,
+          "tags": []
+        },
+        {
+          "tick": 16,
+          "tags": []
+        },
+        {
+          "tick": 17,
+          "tags": []
+        },
+        {
+          "tick": 18,
+          "tags": []
+        },
+        {
+          "tick": 19,
+          "tags": []
+        },
+        {
+          "tick": 20,
+          "tags": []
+        },
+        {
+          "tick": 21,
+          "tags": []
+        },
+        {
+          "tick": 22,
+          "tags": []
+        },
+        {
+          "tick": 23,
+          "tags": []
+        },
+        {
+          "tick": 24,
+          "tags": []
+        },
+        {
+          "tick": 25,
+          "tags": []
+        },
+        {
+          "tick": 26,
+          "tags": []
+        },
+        {
+          "tick": 27,
+          "tags": []
+        },
+        {
+          "tick": 28,
+          "tags": []
+        },
+        {
+          "tick": 29,
+          "tags": []
+        },
+        {
+          "tick": 30,
+          "tags": []
+        },
+        {
+          "tick": 31,
+          "tags": []
+        },
+        {
+          "tick": 32,
+          "tags": []
+        },
+        {
+          "tick": 33,
+          "tags": []
+        },
+        {
+          "tick": 34,
+          "tags": []
+        },
+        {
+          "tick": 35,
+          "tags": []
+        },
+        {
+          "tick": 36,
+          "tags": []
+        },
+        {
+          "tick": 37,
+          "tags": []
+        },
+        {
+          "tick": 38,
+          "tags": []
+        },
+        {
+          "tick": 39,
+          "tags": []
+        },
+        {
+          "tick": 40,
+          "tags": []
+        },
+        {
+          "tick": 41,
+          "tags": []
+        },
+        {
+          "tick": 42,
+          "tags": []
+        },
+        {
+          "tick": 43,
+          "tags": []
+        },
+        {
+          "tick": 44,
+          "tags": []
+        },
+        {
+          "tick": 45,
+          "tags": []
+        },
+        {
+          "tick": 46,
+          "tags": []
+        },
+        {
+          "tick": 47,
+          "tags": []
+        },
+        {
+          "tick": 48,
+          "tags": []
+        },
+        {
+          "tick": 49,
+          "tags": []
+        },
+        {
+          "tick": 50,
+          "tags": []
+        },
+        {
+          "tick": 51,
+          "tags": []
+        },
+        {
+          "tick": 52,
+          "tags": []
+        },
+        {
+          "tick": 53,
+          "tags": []
+        },
+        {
+          "tick": 54,
+          "tags": []
+        },
+        {
+          "tick": 55,
+          "tags": []
+        },
+        {
+          "tick": 56,
+          "tags": []
+        },
+        {
+          "tick": 57,
+          "tags": []
+        },
+        {
+          "tick": 58,
+          "tags": []
+        },
+        {
+          "tick": 59,
+          "tags": []
+        },
+        {
+          "tick": 60,
+          "tags": []
+        },
+        {
+          "tick": 61,
+          "tags": []
+        },
+        {
+          "tick": 62,
+          "tags": []
+        },
+        {
+          "tick": 63,
+          "tags": []
+        },
+        {
+          "tick": 64,
+          "tags": []
+        },
+        {
+          "tick": 65,
+          "tags": []
+        },
+        {
+          "tick": 66,
+          "tags": []
+        },
+        {
+          "tick": 67,
+          "tags": []
+        },
+        {
+          "tick": 68,
+          "tags": []
+        },
+        {
+          "tick": 69,
+          "tags": []
+        },
+        {
+          "tick": 70,
+          "tags": [
+            "west-1"
+          ]
+        },
+        {
+          "tick": 71,
+          "tags": [
+            "west-1"
+          ]
+        },
+        {
+          "tick": 72,
+          "tags": [
+            "west-1"
+          ]
+        },
+        {
+          "tick": 73,
+          "tags": [
+            "west-1"
+          ]
+        },
+        {
+          "tick": 74,
+          "tags": [
+            "west-1"
+          ]
+        },
+        {
+          "tick": 75,
+          "tags": [
+            "west-1"
+          ]
+        },
+        {
+          "tick": 76,
+          "tags": [
+            "west-1"
+          ]
+        },
+        {
+          "tick": 77,
+          "tags": [
+            "west-1"
+          ]
+        },
+        {
+          "tick": 78,
+          "tags": [
+            "west-1"
+          ]
+        },
+        {
+          "tick": 79,
+          "tags": [
+            "west-1"
+          ]
+        },
+        {
+          "tick": 80,
+          "tags": [
+            "west-1"
+          ]
+        },
+        {
+          "tick": 81,
+          "tags": [
+            "west-1"
+          ]
+        },
+        {
+          "tick": 82,
+          "tags": [
+            "west-1"
+          ]
+        },
+        {
+          "tick": 83,
+          "tags": [
+            "west-1"
+          ]
+        },
+        {
+          "tick": 84,
+          "tags": [
+            "west-1"
+          ]
+        },
+        {
+          "tick": 85,
+          "tags": [
+            "west-1"
+          ]
+        },
+        {
+          "tick": 86,
+          "tags": [
+            "west-1"
+          ]
+        },
+        {
+          "tick": 87,
+          "tags": [
+            "west-1"
+          ]
+        },
+        {
+          "tick": 88,
+          "tags": [
+            "west-1"
+          ]
+        },
+        {
+          "tick": 89,
+          "tags": [
+            "west-1"
+          ]
+        },
+        {
+          "tick": 90,
+          "tags": [
+            "west-1"
+          ]
+        },
+        {
+          "tick": 91,
+          "tags": [
+            "west-1"
+          ]
+        },
+        {
+          "tick": 92,
+          "tags": [
+            "west-1"
+          ]
+        },
+        {
+          "tick": 93,
+          "tags": [
+            "west-1"
+          ]
+        },
+        {
+          "tick": 94,
+          "tags": [
+            "west-1"
+          ]
+        },
+        {
+          "tick": 95,
+          "tags": [
+            "west-1"
+          ]
+        },
+        {
+          "tick": 96,
+          "tags": [
+            "west-1"
+          ]
+        },
+        {
+          "tick": 97,
+          "tags": [
+            "west-1"
+          ]
+        },
+        {
+          "tick": 98,
+          "tags": [
+            "west-1"
+          ]
+        },
+        {
+          "tick": 99,
+          "tags": [
+            "west-1"
+          ]
+        },
+        {
+          "tick": 100,
+          "tags": [
+            "west-1"
+          ]
+        },
+        {
+          "tick": 101,
+          "tags": [
+            "west-1"
+          ]
+        },
+        {
+          "tick": 102,
+          "tags": [
+            "west-1"
+          ]
+        },
+        {
+          "tick": 103,
+          "tags": []
+        },
+        {
+          "tick": 104,
+          "tags": []
+        },
+        {
+          "tick": 105,
+          "tags": []
+        },
+        {
+          "tick": 106,
+          "tags": []
+        },
+        {
+          "tick": 107,
+          "tags": []
+        },
+        {
+          "tick": 108,
+          "tags": []
+        },
+        {
+          "tick": 109,
+          "tags": []
+        },
+        {
+          "tick": 110,
+          "tags": []
+        },
+        {
+          "tick": 111,
+          "tags": []
+        },
+        {
+          "tick": 112,
+          "tags": []
+        },
+        {
+          "tick": 113,
+          "tags": [
+            "west-1"
+          ]
+        },
+        {
+          "tick": 114,
+          "tags": [
+            "west-1"
+          ]
+        },
+        {
+          "tick": 115,
+          "tags": [
+            "west-1"
+          ]
+        },
+        {
+          "tick": 116,
+          "tags": [
+            "west-1"
+          ]
+        },
+        {
+          "tick": 117,
+          "tags": [
+            "west-1"
+          ]
+        },
+        {
+          "tick": 118,
+          "tags": [
+            "west-1"
+          ]
+        },
+        {
+          "tick": 119,
+          "tags": [
+            "west-1"
+          ]
+        },
+        {
+          "tick": 120,
+          "tags": []
+        },
+        {
+          "tick": 121,
+          "tags": []
+        },
+        {
+          "tick": 122,
+          "tags": []
+        },
+        {
+          "tick": 123,
+          "tags": []
+        },
+        {
+          "tick": 124,
+          "tags": []
+        },
+        {
+          "tick": 125,
+          "tags": []
+        },
+        {
+          "tick": 126,
+          "tags": []
+        },
+        {
+          "tick": 127,
+          "tags": []
+        }
+      ]
+    },
+    {
+      "case": "3-1-west",
+      "floor_span_m": [
+        9.6,
+        12.65
+      ],
+      "success": true,
+      "reason": "docked",
+      "ticks": 817,
+      "collision": false,
+      "position_error_m": 0.06894,
+      "heading_error_rad": 0.03762,
+      "exposures": [
+        {
+          "tick": 0,
+          "tags": []
+        },
+        {
+          "tick": 1,
+          "tags": []
+        },
+        {
+          "tick": 2,
+          "tags": []
+        },
+        {
+          "tick": 3,
+          "tags": []
+        },
+        {
+          "tick": 4,
+          "tags": []
+        },
+        {
+          "tick": 5,
+          "tags": []
+        },
+        {
+          "tick": 6,
+          "tags": []
+        },
+        {
+          "tick": 7,
+          "tags": []
+        },
+        {
+          "tick": 8,
+          "tags": []
+        },
+        {
+          "tick": 9,
+          "tags": []
+        },
+        {
+          "tick": 10,
+          "tags": []
+        },
+        {
+          "tick": 11,
+          "tags": []
+        },
+        {
+          "tick": 12,
+          "tags": []
+        },
+        {
+          "tick": 13,
+          "tags": []
+        },
+        {
+          "tick": 14,
+          "tags": []
+        },
+        {
+          "tick": 15,
+          "tags": []
+        },
+        {
+          "tick": 16,
+          "tags": []
+        },
+        {
+          "tick": 17,
+          "tags": []
+        },
+        {
+          "tick": 18,
+          "tags": []
+        },
+        {
+          "tick": 19,
+          "tags": []
+        },
+        {
+          "tick": 20,
+          "tags": []
+        },
+        {
+          "tick": 21,
+          "tags": []
+        },
+        {
+          "tick": 22,
+          "tags": []
+        },
+        {
+          "tick": 23,
+          "tags": []
+        },
+        {
+          "tick": 24,
+          "tags": []
+        },
+        {
+          "tick": 25,
+          "tags": []
+        },
+        {
+          "tick": 26,
+          "tags": []
+        },
+        {
+          "tick": 27,
+          "tags": []
+        },
+        {
+          "tick": 28,
+          "tags": []
+        },
+        {
+          "tick": 29,
+          "tags": []
+        },
+        {
+          "tick": 30,
+          "tags": []
+        },
+        {
+          "tick": 31,
+          "tags": []
+        },
+        {
+          "tick": 32,
+          "tags": []
+        },
+        {
+          "tick": 33,
+          "tags": []
+        },
+        {
+          "tick": 34,
+          "tags": []
+        },
+        {
+          "tick": 35,
+          "tags": []
+        },
+        {
+          "tick": 36,
+          "tags": []
+        },
+        {
+          "tick": 37,
+          "tags": []
+        },
+        {
+          "tick": 38,
+          "tags": []
+        },
+        {
+          "tick": 39,
+          "tags": []
+        },
+        {
+          "tick": 40,
+          "tags": []
+        },
+        {
+          "tick": 41,
+          "tags": []
+        },
+        {
+          "tick": 42,
+          "tags": []
+        },
+        {
+          "tick": 43,
+          "tags": []
+        },
+        {
+          "tick": 44,
+          "tags": []
+        },
+        {
+          "tick": 45,
+          "tags": []
+        },
+        {
+          "tick": 46,
+          "tags": []
+        },
+        {
+          "tick": 47,
+          "tags": []
+        },
+        {
+          "tick": 48,
+          "tags": []
+        },
+        {
+          "tick": 49,
+          "tags": []
+        },
+        {
+          "tick": 50,
+          "tags": []
+        },
+        {
+          "tick": 51,
+          "tags": []
+        },
+        {
+          "tick": 52,
+          "tags": []
+        },
+        {
+          "tick": 53,
+          "tags": []
+        },
+        {
+          "tick": 54,
+          "tags": []
+        },
+        {
+          "tick": 55,
+          "tags": []
+        },
+        {
+          "tick": 56,
+          "tags": []
+        },
+        {
+          "tick": 57,
+          "tags": []
+        },
+        {
+          "tick": 58,
+          "tags": []
+        },
+        {
+          "tick": 59,
+          "tags": []
+        },
+        {
+          "tick": 60,
+          "tags": []
+        },
+        {
+          "tick": 61,
+          "tags": []
+        },
+        {
+          "tick": 62,
+          "tags": []
+        },
+        {
+          "tick": 63,
+          "tags": []
+        },
+        {
+          "tick": 64,
+          "tags": []
+        },
+        {
+          "tick": 65,
+          "tags": []
+        },
+        {
+          "tick": 66,
+          "tags": []
+        },
+        {
+          "tick": 67,
+          "tags": []
+        },
+        {
+          "tick": 68,
+          "tags": []
+        },
+        {
+          "tick": 69,
+          "tags": []
+        },
+        {
+          "tick": 70,
+          "tags": []
+        },
+        {
+          "tick": 71,
+          "tags": []
+        },
+        {
+          "tick": 72,
+          "tags": []
+        },
+        {
+          "tick": 73,
+          "tags": []
+        },
+        {
+          "tick": 74,
+          "tags": []
+        },
+        {
+          "tick": 75,
+          "tags": []
+        },
+        {
+          "tick": 76,
+          "tags": []
+        },
+        {
+          "tick": 77,
+          "tags": []
+        },
+        {
+          "tick": 78,
+          "tags": []
+        },
+        {
+          "tick": 79,
+          "tags": []
+        },
+        {
+          "tick": 80,
+          "tags": []
+        },
+        {
+          "tick": 81,
+          "tags": []
+        },
+        {
+          "tick": 82,
+          "tags": []
+        },
+        {
+          "tick": 83,
+          "tags": []
+        },
+        {
+          "tick": 84,
+          "tags": []
+        },
+        {
+          "tick": 85,
+          "tags": []
+        },
+        {
+          "tick": 86,
+          "tags": []
+        },
+        {
+          "tick": 87,
+          "tags": []
+        },
+        {
+          "tick": 88,
+          "tags": []
+        },
+        {
+          "tick": 89,
+          "tags": []
+        },
+        {
+          "tick": 90,
+          "tags": []
+        },
+        {
+          "tick": 91,
+          "tags": []
+        },
+        {
+          "tick": 92,
+          "tags": []
+        },
+        {
+          "tick": 93,
+          "tags": []
+        },
+        {
+          "tick": 94,
+          "tags": []
+        },
+        {
+          "tick": 95,
+          "tags": []
+        },
+        {
+          "tick": 96,
+          "tags": []
+        },
+        {
+          "tick": 97,
+          "tags": []
+        },
+        {
+          "tick": 98,
+          "tags": []
+        },
+        {
+          "tick": 99,
+          "tags": []
+        },
+        {
+          "tick": 100,
+          "tags": []
+        },
+        {
+          "tick": 101,
+          "tags": []
+        },
+        {
+          "tick": 102,
+          "tags": []
+        },
+        {
+          "tick": 103,
+          "tags": []
+        },
+        {
+          "tick": 104,
+          "tags": []
+        },
+        {
+          "tick": 105,
+          "tags": []
+        },
+        {
+          "tick": 106,
+          "tags": []
+        },
+        {
+          "tick": 107,
+          "tags": []
+        },
+        {
+          "tick": 108,
+          "tags": []
+        },
+        {
+          "tick": 109,
+          "tags": []
+        },
+        {
+          "tick": 110,
+          "tags": []
+        },
+        {
+          "tick": 111,
+          "tags": []
+        },
+        {
+          "tick": 112,
+          "tags": []
+        },
+        {
+          "tick": 113,
+          "tags": []
+        },
+        {
+          "tick": 114,
+          "tags": []
+        },
+        {
+          "tick": 115,
+          "tags": []
+        },
+        {
+          "tick": 116,
+          "tags": []
+        },
+        {
+          "tick": 117,
+          "tags": []
+        },
+        {
+          "tick": 118,
+          "tags": []
+        },
+        {
+          "tick": 119,
+          "tags": []
+        },
+        {
+          "tick": 120,
+          "tags": []
+        },
+        {
+          "tick": 121,
+          "tags": []
+        },
+        {
+          "tick": 122,
+          "tags": []
+        },
+        {
+          "tick": 123,
+          "tags": []
+        },
+        {
+          "tick": 124,
+          "tags": []
+        },
+        {
+          "tick": 125,
+          "tags": []
+        },
+        {
+          "tick": 126,
+          "tags": []
+        },
+        {
+          "tick": 127,
+          "tags": []
+        }
+      ]
+    }
+  ]
+}
