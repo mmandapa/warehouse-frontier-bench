@@ -54,32 +54,32 @@ that fit constant traction using both camera readings passed 16/60.
 ## Model results
 
 All attempts used Codex CLI 0.163.0 at medium reasoning effort through
-Harbor 0.25.0 on Docker. Each score shows the verifier reward and the
-number of cases passed. The task reports link to the trial artifacts.
+Harbor 0.25.0 on Docker. Each score shows the percentage of cases passed
+and the exact count over total. The task reports link to the trial artifacts.
 
 | Task | Model and harness | Attempt | Score | Main failure or finding |
 | --- | --- | --- | --- | --- |
-| [Recovery](results/warehouse-recovery/RESULTS.md) | GPT-6 Luna / Codex | 1 | 0.3125 (5/16) | Eight collisions and three motion-limit misses. |
-| [Recovery](results/warehouse-recovery/RESULTS.md) | GPT-6 Luna / Codex | 2 | 0.8125 (13/16) | Three missions with two closures hit the motion limit. |
-| [Recovery](results/warehouse-recovery/RESULTS.md) | GPT-6 Luna / Codex | 3 | 0.3750 (6/16) | Ten collisions, including repeated collisions on two layouts. |
-| [Recovery](results/warehouse-recovery/RESULTS.md) | GPT-6 Luna / Codex | 4 | 0.5625 (9/16) | Six collisions and one incorrect final heading. |
-| [Recovery](results/warehouse-recovery/RESULTS.md#astra-comparison) | GPT-6 Astra / Codex | 1 | 1.0000 (16/16) | Docked on all 16 missions without collision. |
-| [Recovery](results/warehouse-recovery/RESULTS.md#astra-comparison) | GPT-6 Astra / Codex | 2 | 1.0000 (16/16) | Docked on all 16 missions without collision. |
-| [Recovery](results/warehouse-recovery/RESULTS.md#astra-comparison) | GPT-6 Astra / Codex | 3 | 1.0000 (16/16) | Docked on all 16 missions without collision. |
-| [Recovery](results/warehouse-recovery/RESULTS.md#astra-comparison) | GPT-6 Astra / Codex | 4 | 1.0000 (16/16) | Docked on all 16 missions without collision. |
-| [Calibration](results/warehouse-calibration/RESULTS.md#fresh-four-attempts) | GPT-6 Luna / Codex | Fresh 1 | 0.9333 (56/60) | Four position misses, three in sustained reverse. |
-| [Calibration](results/warehouse-calibration/RESULTS.md#fresh-four-attempts) | GPT-6 Luna / Codex | Fresh 2 | 0.8667 (52/60) | Eight position misses, four in sustained reverse. |
-| [Calibration](results/warehouse-calibration/RESULTS.md#fresh-four-attempts) | GPT-6 Luna / Codex | Fresh 3 | 0.9667 (58/60) | Two position misses, both in sustained reverse. |
-| [Calibration](results/warehouse-calibration/RESULTS.md#fresh-four-attempts) | GPT-6 Luna / Codex | Fresh 4 | 1.0000 (60/60) | All forecasts met both tolerances. |
-| [Calibration](results/warehouse-calibration/RESULTS.md#astra-comparison) | GPT-6 Astra / Codex | 1 | 1.0000 (60/60) | All forecasts met both tolerances. |
-| [Calibration](results/warehouse-calibration/RESULTS.md#astra-comparison) | GPT-6 Astra / Codex | 2 | 1.0000 (60/60) | All forecasts met both tolerances. |
-| [Calibration](results/warehouse-calibration/RESULTS.md#astra-comparison) | GPT-6 Astra / Codex | 3 | 1.0000 (60/60) | All forecasts met both tolerances. |
-| [Calibration](results/warehouse-calibration/RESULTS.md#astra-comparison) | GPT-6 Astra / Codex | 4 | 1.0000 (60/60) | All forecasts met both tolerances. |
-| [Calibration](results/warehouse-calibration/RESULTS.md#original-four-attempts) | GPT-6 Luna / Codex | Original 1 | 0.9000 (54/60) | Six position misses. Divided the fitted load coefficient by the traction multiplier. |
-| [Calibration](results/warehouse-calibration/RESULTS.md#original-four-attempts) | GPT-6 Luna / Codex | Original 2 | 0.8667 (52/60) | Eight position misses. The fit was sensitive to camera rounding. |
-| [Calibration](results/warehouse-calibration/RESULTS.md#original-four-attempts) | GPT-6 Luna / Codex | Original 3 | 0.0000 (0/60) | The submitted policy had a Python syntax error. |
-| [Calibration](results/warehouse-calibration/RESULTS.md#original-four-attempts) | GPT-6 Luna / Codex | Original 4 | 0.8000 (48/60) | Twelve position misses. All heading checks passed. |
-| [Calibration](results/warehouse-calibration/RESULTS.md#retest-after-attempt-3) | GPT-6 Luna / Codex | Follow-up to original 3 | 0.9500 (57/60) | Three position misses, all in sustained reverse. |
+| [Recovery](results/warehouse-recovery/RESULTS.md) | GPT-6 Luna / Codex | 1 | 31.25% (5/16) | Eight collisions and three motion-limit misses. |
+| [Recovery](results/warehouse-recovery/RESULTS.md) | GPT-6 Luna / Codex | 2 | 81.25% (13/16) | Three missions with two closures hit the motion limit. |
+| [Recovery](results/warehouse-recovery/RESULTS.md) | GPT-6 Luna / Codex | 3 | 37.5% (6/16) | Ten collisions, including repeated collisions on two layouts. |
+| [Recovery](results/warehouse-recovery/RESULTS.md) | GPT-6 Luna / Codex | 4 | 56.25% (9/16) | Six collisions and one incorrect final heading. |
+| [Recovery](results/warehouse-recovery/RESULTS.md#astra-comparison) | GPT-6 Astra / Codex | 1 | 100% (16/16) | Docked on all 16 missions without collision. |
+| [Recovery](results/warehouse-recovery/RESULTS.md#astra-comparison) | GPT-6 Astra / Codex | 2 | 100% (16/16) | Docked on all 16 missions without collision. |
+| [Recovery](results/warehouse-recovery/RESULTS.md#astra-comparison) | GPT-6 Astra / Codex | 3 | 100% (16/16) | Docked on all 16 missions without collision. |
+| [Recovery](results/warehouse-recovery/RESULTS.md#astra-comparison) | GPT-6 Astra / Codex | 4 | 100% (16/16) | Docked on all 16 missions without collision. |
+| [Calibration](results/warehouse-calibration/RESULTS.md#fresh-four-attempts) | GPT-6 Luna / Codex | Fresh 1 | 93.33% (56/60) | Four position misses, three in sustained reverse. |
+| [Calibration](results/warehouse-calibration/RESULTS.md#fresh-four-attempts) | GPT-6 Luna / Codex | Fresh 2 | 86.67% (52/60) | Eight position misses, four in sustained reverse. |
+| [Calibration](results/warehouse-calibration/RESULTS.md#fresh-four-attempts) | GPT-6 Luna / Codex | Fresh 3 | 96.67% (58/60) | Two position misses, both in sustained reverse. |
+| [Calibration](results/warehouse-calibration/RESULTS.md#fresh-four-attempts) | GPT-6 Luna / Codex | Fresh 4 | 100% (60/60) | All forecasts met both tolerances. |
+| [Calibration](results/warehouse-calibration/RESULTS.md#astra-comparison) | GPT-6 Astra / Codex | 1 | 100% (60/60) | All forecasts met both tolerances. |
+| [Calibration](results/warehouse-calibration/RESULTS.md#astra-comparison) | GPT-6 Astra / Codex | 2 | 100% (60/60) | All forecasts met both tolerances. |
+| [Calibration](results/warehouse-calibration/RESULTS.md#astra-comparison) | GPT-6 Astra / Codex | 3 | 100% (60/60) | All forecasts met both tolerances. |
+| [Calibration](results/warehouse-calibration/RESULTS.md#astra-comparison) | GPT-6 Astra / Codex | 4 | 100% (60/60) | All forecasts met both tolerances. |
+| [Calibration](results/warehouse-calibration/RESULTS.md#original-four-attempts) | GPT-6 Luna / Codex | Original 1 | 90% (54/60) | Six position misses. Divided the fitted load coefficient by the traction multiplier. |
+| [Calibration](results/warehouse-calibration/RESULTS.md#original-four-attempts) | GPT-6 Luna / Codex | Original 2 | 86.67% (52/60) | Eight position misses. The fit was sensitive to camera rounding. |
+| [Calibration](results/warehouse-calibration/RESULTS.md#original-four-attempts) | GPT-6 Luna / Codex | Original 3 | 0% (0/60) | The submitted policy had a Python syntax error. |
+| [Calibration](results/warehouse-calibration/RESULTS.md#original-four-attempts) | GPT-6 Luna / Codex | Original 4 | 80% (48/60) | Twelve position misses. All heading checks passed. |
+| [Calibration](results/warehouse-calibration/RESULTS.md#retest-after-attempt-3) | GPT-6 Luna / Codex | Follow-up to original 3 | 95% (57/60) | Three position misses, all in sustained reverse. |
 
 One Calibration launch stopped at the API quota and has no score.
 [Launch record](results/warehouse-calibration/harbor-luna-fresh/quota-blocked-launch.json)

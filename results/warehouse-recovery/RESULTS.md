@@ -15,10 +15,10 @@ and completed with zero Harbor exceptions.
 
 | Task | Model and harness | Attempt | Score | Main failure or finding |
 | --- | --- | --- | --- | --- |
-| Recovery | GPT-6 Luna / Codex | 1 | 0.3125 (5/16) | Eight collisions and three misses at the motion limit with incorrect heading. |
-| Recovery | GPT-6 Luna / Codex | 2 | 0.8125 (13/16) | Three misses at the motion limit, all on routes with two closures. |
-| Recovery | GPT-6 Luna / Codex | 3 | 0.3750 (6/16) | Ten collisions. In two layouts the same collision occurred across all four matched scenarios. |
-| Recovery | GPT-6 Luna / Codex | 4 | 0.5625 (9/16) | Six collisions and one finish with incorrect heading near the dock. |
+| Recovery | GPT-6 Luna / Codex | 1 | 31.25% (5/16) | Eight collisions and three misses at the motion limit with incorrect heading. |
+| Recovery | GPT-6 Luna / Codex | 2 | 81.25% (13/16) | Three misses at the motion limit, all on routes with two closures. |
+| Recovery | GPT-6 Luna / Codex | 3 | 37.5% (6/16) | Ten collisions. In two layouts the same collision occurred across all four matched scenarios. |
+| Recovery | GPT-6 Luna / Codex | 4 | 56.25% (9/16) | Six collisions and one finish with incorrect heading near the dock. |
 
 <details>
 <summary>Trial artifacts and timing</summary>
@@ -32,7 +32,7 @@ and completed with zero Harbor exceptions.
 
 </details>
 
-Luna fully solved 0/4 attempts. The mean reward was **0.515625**.
+Luna fully solved 0/4 attempts. Its mean score was **51.56% (33/64)**.
 The batch took 24m 45s from the first trial start
 to the last trial finish and cost an estimated
 `$0.10525`. The [batch ledger](harbor-luna4-v1.1.2-docker-2026-11-12/ledger.json)
@@ -69,10 +69,10 @@ collisions or Harbor exceptions.
 
 | Task | Model and harness | Attempt | Score | Main failure or finding |
 | --- | --- | --- | --- | --- |
-| Recovery | GPT-6 Astra / Codex | 1 | 1.0000 (16/16) | Docked on all 16 missions without collision. |
-| Recovery | GPT-6 Astra / Codex | 2 | 1.0000 (16/16) | Docked on all 16 missions without collision. |
-| Recovery | GPT-6 Astra / Codex | 3 | 1.0000 (16/16) | Docked on all 16 missions without collision. |
-| Recovery | GPT-6 Astra / Codex | 4 | 1.0000 (16/16) | Docked on all 16 missions without collision. |
+| Recovery | GPT-6 Astra / Codex | 1 | 100% (16/16) | Docked on all 16 missions without collision. |
+| Recovery | GPT-6 Astra / Codex | 2 | 100% (16/16) | Docked on all 16 missions without collision. |
+| Recovery | GPT-6 Astra / Codex | 3 | 100% (16/16) | Docked on all 16 missions without collision. |
+| Recovery | GPT-6 Astra / Codex | 4 | 100% (16/16) | Docked on all 16 missions without collision. |
 
 <details>
 <summary>Trial artifacts and timing</summary>
@@ -89,8 +89,8 @@ collisions or Harbor exceptions.
 Recorded Astra spend was `$4.41353` across four attempts.
 The three follow-up attempts accounted for `$2.78548`.
 
-Astra fully solved 4/4 attempts and averaged 1.0000. Luna fully solved
-0/4 and averaged 0.515625. Each attempt used the same 16 episodes, so
+Astra fully solved 4/4 attempts and averaged 100% (64/64). Luna fully solved
+0/4 and averaged 51.56% (33/64). Each attempt used the same 16 episodes, so
 the comparison uses the same scenarios and Codex settings.
 
 In the first Astra attempt, the controller estimated wheel traction

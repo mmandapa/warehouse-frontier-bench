@@ -13,10 +13,10 @@ All four policies submitted forecasts for every cart. The batch passed
 
 | Task | Model and harness | Attempt | Score | Main failure or finding |
 | --- | --- | --- | --- | --- |
-| Calibration | GPT-6 Luna / Codex | 1 | 0.9333 (56/60) | Four position misses. Three in sustained reverse and one in mixed direction. |
-| Calibration | GPT-6 Luna / Codex | 2 | 0.8667 (52/60) | Eight position misses. Four in sustained reverse, three in mixed direction, and one in sustained forward. |
-| Calibration | GPT-6 Luna / Codex | 3 | 0.9667 (58/60) | Two position misses, both in sustained reverse. |
-| Calibration | GPT-6 Luna / Codex | 4 | 1.0000 (60/60) | All forecasts met tolerance. |
+| Calibration | GPT-6 Luna / Codex | 1 | 93.33% (56/60) | Four position misses. Three in sustained reverse and one in mixed direction. |
+| Calibration | GPT-6 Luna / Codex | 2 | 86.67% (52/60) | Eight position misses. Four in sustained reverse, three in mixed direction, and one in sustained forward. |
+| Calibration | GPT-6 Luna / Codex | 3 | 96.67% (58/60) | Two position misses, both in sustained reverse. |
+| Calibration | GPT-6 Luna / Codex | 4 | 100% (60/60) | All forecasts met tolerance. |
 
 <details>
 <summary>Trial artifacts and timing</summary>
@@ -45,16 +45,16 @@ has no model score.
 GPT-6 Astra used the same Cart Calibration package as the fresh Luna
 batch, with Codex CLI 0.163.0 at medium reasoning effort, Harbor 0.25.0
 on Docker, two CPUs, 4 GiB of RAM, and a 15-minute agent limit.
-All four Astra submissions scored **60/60**, for **240/240** forecasts.
-The fresh Luna batch passed **226/240 (94.2%)** and scored 60/60 in one
+All four Astra submissions scored **100% (60/60)**, for **240/240** forecasts.
+The fresh Luna batch passed **94.17% (226/240)** and scored 60/60 in one
 of four attempts.
 
 | Task | Model and harness | Attempt | Score | Main failure or finding |
 | --- | --- | --- | --- | --- |
-| Calibration | GPT-6 Astra / Codex | 1 | 1.0000 (60/60) | All forecasts met tolerance. Maximum position error was 3.35 mm. |
-| Calibration | GPT-6 Astra / Codex | 2 | 1.0000 (60/60) | All forecasts met tolerance. Maximum position error was 4.76 mm. |
-| Calibration | GPT-6 Astra / Codex | 3 | 1.0000 (60/60) | All forecasts met tolerance. Maximum position error was 4.82 mm. |
-| Calibration | GPT-6 Astra / Codex | 4 | 1.0000 (60/60) | All forecasts met tolerance. Maximum position error was 4.83 mm. |
+| Calibration | GPT-6 Astra / Codex | 1 | 100% (60/60) | All forecasts met tolerance. Maximum position error was 3.35 mm. |
+| Calibration | GPT-6 Astra / Codex | 2 | 100% (60/60) | All forecasts met tolerance. Maximum position error was 4.76 mm. |
+| Calibration | GPT-6 Astra / Codex | 3 | 100% (60/60) | All forecasts met tolerance. Maximum position error was 4.82 mm. |
+| Calibration | GPT-6 Astra / Codex | 4 | 100% (60/60) | All forecasts met tolerance. Maximum position error was 4.83 mm. |
 
 <details>
 <summary>Trial artifacts and timing</summary>
@@ -83,10 +83,10 @@ original batch includes the syntax-error submission and its zero reward.
 
 | Task | Model and harness | Attempt | Score | Main failure or finding |
 | --- | --- | --- | --- | --- |
-| Calibration | GPT-6 Luna / Codex | 1 | 0.9000 (54/60) | Divided the fitted load coefficient by the baseline traction multiplier, although the simulator adds the base and load terms. |
-| Calibration | GPT-6 Luna / Codex | 2 | 0.8667 (52/60) | Used separate forward and reverse probes that did not vary direction and load enough to distinguish both slip terms at camera resolution. |
-| Calibration | GPT-6 Luna / Codex | 3 | 0.0000 (0/60) | Submitted a Python file with an unclosed parenthesis on line 136. It exited before issuing any command. |
-| Calibration | GPT-6 Luna / Codex | 4 | 0.8000 (48/60) | Fit slip from two camera poses with a prior toward the middle of the coefficient ranges. Heading stayed accurate, but 12 position forecasts missed. |
+| Calibration | GPT-6 Luna / Codex | 1 | 90% (54/60) | Divided the fitted load coefficient by the baseline traction multiplier, although the simulator adds the base and load terms. |
+| Calibration | GPT-6 Luna / Codex | 2 | 86.67% (52/60) | Used separate forward and reverse probes that did not vary direction and load enough to distinguish both slip terms at camera resolution. |
+| Calibration | GPT-6 Luna / Codex | 3 | 0% (0/60) | Submitted a Python file with an unclosed parenthesis on line 136. It exited before issuing any command. |
+| Calibration | GPT-6 Luna / Codex | 4 | 80% (48/60) | Fit slip from two camera poses with a prior toward the middle of the coefficient ranges. Heading stayed accurate, but 12 position forecasts missed. |
 
 <details>
 <summary>Trial artifacts and timing</summary>
@@ -100,8 +100,8 @@ original batch includes the syntax-error submission and its zero reward.
 
 </details>
 
-Mean reward was **0.6417** across all trials. The three runnable policies
-scored 154/180 forecasts (0.8556). All 26 misses in those policies were
+The mean score was **64.17% (154/240)** across all four trials. The three
+runnable policies passed 85.56% (154/180) of forecasts. All 26 misses were
 position errors beyond 0.045 m; their maximum heading error was below
 0.00004 rad against a 0.025 rad tolerance. They used all 30 command ticks
 and both camera readings on every cart. All three passed every pause
@@ -145,7 +145,7 @@ every diagnostic. Recorded spend was $0.01630.
 
 | Task | Model and harness | Attempt | Score | Main failure or finding |
 | --- | --- | --- | --- | --- |
-| Calibration | GPT-6 Luna / Codex | Follow-up to original 3 | 0.9500 (57/60) | Three position misses, all in sustained reverse. |
+| Calibration | GPT-6 Luna / Codex | Follow-up to original 3 | 95% (57/60) | Three position misses, all in sustained reverse. |
 
 [Trace](harbor-luna-followup-v1.1.0-docker-2026-11-12/warehouse-calibration-v1.1.0-luna-followup-01/warehouse-calibration-v1.1.0__6tqXHM6/agent/trajectory.json), [policy](harbor-luna-followup-v1.1.0-docker-2026-11-12/warehouse-calibration-v1.1.0-luna-followup-01/warehouse-calibration-v1.1.0__6tqXHM6/artifacts/app/policy.py), [verifier diagnostics](harbor-luna-followup-v1.1.0-docker-2026-11-12/warehouse-calibration-v1.1.0-luna-followup-01/warehouse-calibration-v1.1.0__6tqXHM6/verifier/diagnostics.json), [Harbor result](harbor-luna-followup-v1.1.0-docker-2026-11-12/warehouse-calibration-v1.1.0-luna-followup-01/warehouse-calibration-v1.1.0__6tqXHM6/result.json).
 
