@@ -20,13 +20,16 @@ most 0.045 m and its wrapped heading error is at most 0.025 rad. The
 reward is the fraction of the 60 forecasts that pass. The agent can use
 any probing or estimation strategy that satisfies the public protocol.
 
-Run these commands from the repository root with Harbor 0.25.0 and Docker.
+Run these commands from the repository root with `uv` installed and Docker
+running.
 
 ```sh
 task=tasks/warehouse-calibration
-harbor lint "$task"
-harbor run -p "$task" -e docker -a oracle -r 0 -o jobs/calibration --job-name oracle
-harbor run -p "$task" -e docker -a nop -r 0 -o jobs/calibration --job-name nop
+uvx --isolated --python 3.12 --from 'harbor==0.25.0' harbor lint "$task"
+uvx --isolated --python 3.12 --from 'harbor==0.25.0' harbor run \
+  -p "$task" -e docker -a oracle -r 0 -o jobs/calibration --job-name oracle
+uvx --isolated --python 3.12 --from 'harbor==0.25.0' harbor run \
+  -p "$task" -e docker -a nop -r 0 -o jobs/calibration --job-name nop
 ```
 
 The task uses two CPUs, 4 GiB of memory, and a 15-minute agent limit.

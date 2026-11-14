@@ -1,11 +1,11 @@
 {
   "task_path": "tasks/warehouse-calibration",
-  "harbor_task_checksum": "6c1732c38242d0df75757c7d26ebe2d73d5e43bbddf4f714f8048782c0328784",
+  "harbor_task_checksum": "91c866798e336b163c4825483d3a86848cc228ba9c4fcbb3997c0b9b6bd052b0",
   "files": [
     {
       "path": "README.md",
-      "sha256": "14ea885b0214de14bdfc3d34e8cc34c0cebdb5a004ad2e74c71f8a76e06220f8",
-      "size_bytes": 2173
+      "sha256": "96342b19b77648d791fb5914b8ff44cf850347e4e2038e318722aaeb3dc0d541",
+      "size_bytes": 2349
     },
     {
       "path": "environment/Dockerfile",
@@ -64,8 +64,8 @@
     },
     {
       "path": "tests/Dockerfile",
-      "sha256": "0010aaffc507aed7564c5ef93b2cfe793a645e7ee49921ea2147065abde49bc5",
-      "size_bytes": 307
+      "sha256": "f46b2309369268800aea0caa025f87518d4d4edf23239d63346f0c3a4753a16d",
+      "size_bytes": 1115
     },
     {
       "path": "tests/grader/grade.py",
@@ -73,9 +73,14 @@
       "size_bytes": 1148
     },
     {
+      "path": "tests/grader/policy_fs.py",
+      "sha256": "ee9b9018bf886e5f7c43b69e3f9321dd65ff19755a254a747216f18c8504e9ee",
+      "size_bytes": 1318
+    },
+    {
       "path": "tests/grader/protocol.py",
-      "sha256": "494a8387d9f5b72a7ac4076cd5d926f5f56f9d530b650d15f48e8a02c668e042",
-      "size_bytes": 6951
+      "sha256": "062fdc5d066ac43b6fd9cd643713d0aa47499ac7633b0fa552b71a7f5d75b743",
+      "size_bytes": 7493
     },
     {
       "path": "tests/grader/public/__init__.py",
@@ -99,13 +104,8 @@
     },
     {
       "path": "tests/test.sh",
-      "sha256": "217839c2313451a7ed9295ee9bf24c832e7ab174d3d0913375dc8d036b936f09",
-      "size_bytes": 161
+      "sha256": "229e02a9092aa91d9bdf35bd90294c3bd9a4c82fc6bfcfb6f93b78e76f54eedf",
+      "size_bytes": 187
     }
-  ],
-  "evaluated_manifest": "frozen-v1.1.0.json",
-  "differences_from_evaluated_package": [
-    "README.md",
-    "task.toml"
   ]
 }

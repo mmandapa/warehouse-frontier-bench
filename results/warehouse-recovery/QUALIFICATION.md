@@ -39,11 +39,10 @@ uses exactly the remaining ticks, then allow observation and docking.
 An over-budget drive still fails. Docking still requires the cart to
 have stopped within both pose tolerances.
 
-The [corrected package manifest](package-manifest.json) records a new
-Harbor checksum. On that package, the Harbor
-[oracle](final-tick-controls/oracle/result.json) scored 16/16 and the
-[no-op](final-tick-controls/nop/result.json) scored 0/16, both without
-exceptions. Run the regression checks from the repository root:
+The Harbor [oracle](final-tick-controls/oracle/result.json) scored
+16/16 and the [no-op](final-tick-controls/nop/result.json) scored 0/16
+on the corrected package, both without exceptions. Run the regression
+checks from the repository root:
 
 ```sh
 python3 -B scripts/test_recovery_tick_budget.py
@@ -53,3 +52,15 @@ An [offline Docker replay](final-tick-replay.json) rescored all eight
 saved model submissions with the corrected verifier. All 128 mission
 pass/fail outcomes matched the original trials. One mission's diagnostic
 details changed while its outcome stayed a fail.
+
+## Isolated verifier replay
+
+The verifier gives each mission its own unprivileged user and private
+writable storage. The [offline replay](isolation-replay.json) rescored
+all eight saved policies through the isolated verifier. All 128 mission
+outcomes and all eight rewards matched the original model trials.
+
+The [oracle](isolation-controls/oracle.json) and
+[no-op](isolation-controls/nop.json) ran through Harbor on the package
+identified by the [current manifest](package-manifest.json). They
+scored 16/16 and 0/16, respectively.

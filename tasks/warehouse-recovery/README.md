@@ -17,7 +17,7 @@ owns the physical state and sends only the survey and sensor readings.
 
 ## Reproduce the local checks
 
-From the repository root, using Python 3.12:
+From the repository root, using Python 3.12 and `uv`:
 
 ```bash
 task=tasks/warehouse-recovery
@@ -25,7 +25,7 @@ python3 -B "$task/tests/grader/grade.py" --policy "$task/solution/policy.py" \
   --logs /tmp/warehouse-recovery-oracle
 python3 -B "$task/tests/grader/grade.py" --policy "$task/environment/workspace/policy.py" \
   --logs /tmp/warehouse-recovery-nop
-harbor lint "$task"
+uvx --isolated --python 3.12 --from 'harbor==0.25.0' harbor lint "$task"
 ```
 
 The [qualification report](../../results/warehouse-recovery/QUALIFICATION.md)

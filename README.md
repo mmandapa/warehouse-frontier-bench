@@ -37,13 +37,17 @@ diagnostics. The reported experiments evaluate fixed models.
   resolve that difference if the probe commands reveal how traction
   varies with direction and recent effort.
 
-The agent image contains the practice workspace. Held-out cases and
-reference policies stay outside it. A separate offline verifier starts
-a fresh policy process for each mission or cart. Model trials disabled
-web search, allowed network access only to the inference host, and
-started with fresh agent sessions. Both Docker oracles earned 1.0 and
-both no-op controls earned 0.0. A Calibration control that fit constant
-traction using both camera readings passed only 16/60 forecasts.
+Each Harbor attempt starts a fresh agent session in its own Docker
+container with only the practice workspace. Web search is disabled and
+network access is restricted to the inference host. Harbor passes the
+submitted policy to a separate offline verifier that holds the hidden
+cases. The reference policies stay outside the agent image.
+
+The current verifier gives each mission or cart a fresh process and
+private writable storage. Rescoring all 21 saved policies with this
+isolation reproduced all 908 scored outcomes. Both Harbor oracles
+earned 1.0 and both no-op controls earned 0.0. A Calibration control
+that fit constant traction using both camera readings passed 16/60.
 [Recovery qualification](results/warehouse-recovery/QUALIFICATION.md) ·
 [Calibration qualification](results/warehouse-calibration/QUALIFICATION.md)
 
@@ -106,15 +110,18 @@ measurement choice from model fitting.
 
 ## Run the tasks
 
-With Docker running, install Harbor and run the qualification controls
-from the repository root. Expect reward 1.0 for oracle and 0.0 for no-op.
+With Docker running and `uv` installed, run the qualification controls
+from the repository root. `uvx` runs Harbor 0.25.0 in an isolated Python
+3.12 environment, even when another `harbor` command is installed.
+Expect reward 1.0 for oracle and 0.0 for no-op.
 
 ```sh
-uv tool install 'harbor==0.25.0'
 for task in tasks/warehouse-recovery tasks/warehouse-calibration; do
-  harbor lint "$task"
-  harbor run -p "$task" -e docker -a oracle -r 0 -o "jobs/${task##*/}" --job-name oracle
-  harbor run -p "$task" -e docker -a nop -r 0 -o "jobs/${task##*/}" --job-name nop
+  uvx --isolated --python 3.12 --from 'harbor==0.25.0' harbor lint "$task"
+  uvx --isolated --python 3.12 --from 'harbor==0.25.0' harbor run \
+    -p "$task" -e docker -a oracle -r 0 -o "jobs/${task##*/}" --job-name oracle
+  uvx --isolated --python 3.12 --from 'harbor==0.25.0' harbor run \
+    -p "$task" -e docker -a nop -r 0 -o "jobs/${task##*/}" --job-name nop
 done
 ```
 
@@ -122,8 +129,10 @@ Set your OpenAI credentials on the host to reproduce the four-attempt
 Luna batches. These commands make paid model calls.
 
 ```sh
-harbor run -c configs/recovery-luna.json -e docker -k 4 -n 1 -r 0 -o jobs/recovery-luna
-harbor run -c configs/calibration-luna.json -e docker -k 4 -n 1 -r 0 -o jobs/calibration-luna
+uvx --isolated --python 3.12 --from 'harbor==0.25.0' harbor run \
+  -c configs/recovery-luna.json -e docker -k 4 -n 1 -r 0 -o jobs/recovery-luna
+uvx --isolated --python 3.12 --from 'harbor==0.25.0' harbor run \
+  -c configs/calibration-luna.json -e docker -k 4 -n 1 -r 0 -o jobs/calibration-luna
 ```
 
 Each environment uses two CPUs and 4 GiB of RAM, with a 15-minute agent

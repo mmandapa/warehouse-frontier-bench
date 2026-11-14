@@ -39,10 +39,19 @@ ran in a separate Docker environment.
 [No-op run](harbor-controls-v1.1.0/nop/result.json)
 [Freeze manifest](frozen-v1.1.0.json)
 
-The [distributed package manifest](package-manifest.json) identifies the
-folder linked from the repository README. The original control and model
-records retain their evaluated package identifiers. See the [model results](RESULTS.md).
+The [original package oracle](package-controls/oracle/result.json)
+scored 60/60 and the [no-op](package-controls/nop/result.json) scored
+0/60. See the [model results](RESULTS.md) for the original trials.
 
-Fresh Harbor controls on the distributed package matched its manifest.
-The [oracle](package-controls/oracle/result.json) scored 60/60;
-the [no-op](package-controls/nop/result.json) scored 0/60.
+## Isolated verifier replay
+
+The verifier gives each cart its own unprivileged user and private
+writable storage. The [offline replay](isolation-replay.json) rescored
+all 13 saved policies. All 780 forecast outcomes and all 13 rewards
+matched the original model trials. The quota-blocked launch produced
+no submission to rescore.
+
+The [oracle](isolation-controls/oracle.json) and
+[no-op](isolation-controls/nop.json) ran through Harbor on the package
+identified by the [current manifest](package-manifest.json). They
+scored 60/60 and 0/60, respectively.

@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 
+from functools import partial
 import json
 import math
 import os
@@ -12,8 +13,9 @@ import shutil
 import signal
 import subprocess
 import sys
-import tempfile
 import time
+
+from policy_fs import enter_policy_filesystem, policy_filesystem
 
 from public.motion import Bay, forecast, wrap
 
@@ -81,6 +83,11 @@ def limits() -> None:
         resource.setrlimit(resource.RLIMIT_AS, (512 * 1024 * 1024,) * 2)
     except (ValueError, OSError):
         pass
+
+
+def isolated_limits(work: Path, uid: int) -> None:
+    enter_policy_filesystem(work, uid)
+    limits()
 
 
 POSITION_TOLERANCE_M = 0.045
@@ -159,18 +166,28 @@ def execute(wire, settings, sequences):
 def run_policy(policy: Path, public_library: Path, settings, sequences) -> dict:
     if policy.is_symlink() or not policy.is_file() or policy.stat().st_size > 1_048_576:
         return {"passed": 0, "reason": "missing or invalid policy", "ticks": 0, "camera_used": False, "camera_readings": 0, "forecasts": []}
-    with tempfile.TemporaryDirectory(prefix="warehouse-policy-") as directory:
-        work = Path(directory)
-        work.chmod(0o755)
+    with policy_filesystem() as (work, uid):
+        isolated = uid is not None
         shutil.copyfile(policy, work / "policy.py")
         for name in ("client.py", "motion.py"):
             shutil.copyfile(public_library / name, work / name)
-        identity = {"user": 1001, "group": 1001, "extra_groups": []} if os.geteuid() == 0 else {}
-        env = {"PATH": "/usr/local/bin:/usr/bin:/bin", "HOME": str(work), "PYTHONNOUSERSITE": "1"}
+        identity = {}
+        if not isolated and os.geteuid() == 0:
+            identity = {"user": 1001, "group": 1001, "extra_groups": []}
+        executable = "/usr/local/bin/python3.12" if isolated else sys.executable
+        policy_path = "/policy.py" if isolated else str(work / "policy.py")
+        env = {
+            "PATH": "/usr/local/bin:/usr/bin:/bin",
+            "HOME": "/tmp" if isolated else str(work),
+            "PYTHONNOUSERSITE": "1",
+        }
+        if isolated:
+            env["LD_LIBRARY_PATH"] = "/usr/local/lib"
+        setup = partial(isolated_limits, work, uid) if uid is not None else limits
         with subprocess.Popen(
-            [sys.executable, "-B", str(work / "policy.py")], cwd=work, env=env,
+            [executable, "-B", policy_path], cwd=work, env=env,
             stdin=subprocess.PIPE, stdout=subprocess.PIPE, stderr=subprocess.DEVNULL,
-            start_new_session=True, preexec_fn=limits, **identity,
+            start_new_session=True, preexec_fn=setup, **identity,
         ) as child:
             os.set_blocking(child.stdin.fileno(), False)
             try:

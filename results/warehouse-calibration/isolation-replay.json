@@ -1,0 +1,149 @@
+{
+  "task": "warehouse-calibration",
+  "harbor_task_checksum": "91c866798e336b163c4825483d3a86848cc228ba9c4fcbb3997c0b9b6bd052b0",
+  "verifier_image": "sha256:efbaa4c26a5a480ef04a23719fe91f200e171ab42096a0abf27a0b6324b6cccc",
+  "controls": [
+    {
+      "name": "oracle",
+      "reward": 1.0,
+      "passed": 60
+    },
+    {
+      "name": "no-op",
+      "reward": 0.0,
+      "passed": 0
+    }
+  ],
+  "saved_submissions": [
+    {
+      "trial": "results/warehouse-calibration/harbor-astra/calibration-astra-01/warehouse-calibration__iYxrMov",
+      "policy_sha256": "f5b6595f5349c216db4684d407dcd1a2296be9eaf2143f96aa00859982450728",
+      "original_reward": 1.0,
+      "isolated_reward": 1.0,
+      "passed": 60,
+      "total": 60,
+      "changed_outcomes": [],
+      "cases_with_changed_diagnostics": 0
+    },
+    {
+      "trial": "results/warehouse-calibration/harbor-astra/calibration-astra-02/warehouse-calibration__t2Ajwpg",
+      "policy_sha256": "836262dd0367f9288d1d54882af425fbc9aaae4d37661c1cea7cd87fbf08da42",
+      "original_reward": 1.0,
+      "isolated_reward": 1.0,
+      "passed": 60,
+      "total": 60,
+      "changed_outcomes": [],
+      "cases_with_changed_diagnostics": 0
+    },
+    {
+      "trial": "results/warehouse-calibration/harbor-astra/calibration-astra-03/warehouse-calibration__oE6Y8L2",
+      "policy_sha256": "ddfad1b7461c40495b8a95e19c699da24c77ef0710ad760adbdc2ca7714de88b",
+      "original_reward": 1.0,
+      "isolated_reward": 1.0,
+      "passed": 60,
+      "total": 60,
+      "changed_outcomes": [],
+      "cases_with_changed_diagnostics": 0
+    },
+    {
+      "trial": "results/warehouse-calibration/harbor-astra/calibration-astra-04/warehouse-calibration__biRb848",
+      "policy_sha256": "ccc062af7b34caa3e3c0a186d7db951c33b71737ab1f3c4394b667b5d0402c81",
+      "original_reward": 1.0,
+      "isolated_reward": 1.0,
+      "passed": 60,
+      "total": 60,
+      "changed_outcomes": [],
+      "cases_with_changed_diagnostics": 0
+    },
+    {
+      "trial": "results/warehouse-calibration/harbor-luna-followup-v1.1.0-docker-2026-11-12/warehouse-calibration-v1.1.0-luna-followup-01/warehouse-calibration-v1.1.0__6tqXHM6",
+      "policy_sha256": "12bb8be59faa3e3a004b18d1ee77574d141d27a8d7676063c4f14a28c2db3535",
+      "original_reward": 0.95,
+      "isolated_reward": 0.95,
+      "passed": 57,
+      "total": 60,
+      "changed_outcomes": [],
+      "cases_with_changed_diagnostics": 0
+    },
+    {
+      "trial": "results/warehouse-calibration/harbor-luna-fresh/calibration-luna-fresh-01/warehouse-calibration__8NHu45B",
+      "policy_sha256": "2ba6f17c36bc4c31065f8d3acb46c5adb5303ce84f9f4de550e1343157ea543e",
+      "original_reward": 0.9333333333333333,
+      "isolated_reward": 0.9333333333333333,
+      "passed": 56,
+      "total": 60,
+      "changed_outcomes": [],
+      "cases_with_changed_diagnostics": 0
+    },
+    {
+      "trial": "results/warehouse-calibration/harbor-luna-fresh/calibration-luna-fresh-02/warehouse-calibration__me6kGCr",
+      "policy_sha256": "3ce758db06293b2a2f73b31f603dd7ed09c8b585cdb6f441d9bedbdce7b0c1e7",
+      "original_reward": 0.8666666666666667,
+      "isolated_reward": 0.8666666666666667,
+      "passed": 52,
+      "total": 60,
+      "changed_outcomes": [],
+      "cases_with_changed_diagnostics": 0
+    },
+    {
+      "trial": "results/warehouse-calibration/harbor-luna-fresh/calibration-luna-fresh-03/warehouse-calibration__XsAaVbd",
+      "policy_sha256": "0fd1c52a488209b7d534fefdc41c723bf31b874a387c1afeeea7112fe7a59ac8",
+      "original_reward": 0.9666666666666667,
+      "isolated_reward": 0.9666666666666667,
+      "passed": 58,
+      "total": 60,
+      "changed_outcomes": [],
+      "cases_with_changed_diagnostics": 0
+    },
+    {
+      "trial": "results/warehouse-calibration/harbor-luna-fresh/calibration-luna-fresh-04/warehouse-calibration__kXV6zo9",
+      "policy_sha256": "cc3f8703bdc276e07a788053de64fd50190f4585a63123745e44e949b676eaf8",
+      "original_reward": 1.0,
+      "isolated_reward": 1.0,
+      "passed": 60,
+      "total": 60,
+      "changed_outcomes": [],
+      "cases_with_changed_diagnostics": 0
+    },
+    {
+      "trial": "results/warehouse-calibration/harbor-luna4-v1.1.0-docker-2026-11-12/warehouse-calibration-v1.1.0-luna-docker-2026-11-12-01/warehouse-calibration-v1.1.0__w6JJ6vx",
+      "policy_sha256": "933651e445a1018db8d310dfa337f894f11b80d598e518239370bfdafb13c548",
+      "original_reward": 0.9,
+      "isolated_reward": 0.9,
+      "passed": 54,
+      "total": 60,
+      "changed_outcomes": [],
+      "cases_with_changed_diagnostics": 0
+    },
+    {
+      "trial": "results/warehouse-calibration/harbor-luna4-v1.1.0-docker-2026-11-12/warehouse-calibration-v1.1.0-luna-docker-2026-11-12-02/warehouse-calibration-v1.1.0__2i3B9DT",
+      "policy_sha256": "9431d3170b9f70387a516d521833b4659fc9fc74cb95bfa551c8f198adf901fb",
+      "original_reward": 0.8666666666666667,
+      "isolated_reward": 0.8666666666666667,
+      "passed": 52,
+      "total": 60,
+      "changed_outcomes": [],
+      "cases_with_changed_diagnostics": 0
+    },
+    {
+      "trial": "results/warehouse-calibration/harbor-luna4-v1.1.0-docker-2026-11-12/warehouse-calibration-v1.1.0-luna-docker-2026-11-12-03/warehouse-calibration-v1.1.0__3AmDaW3",
+      "policy_sha256": "3b89c47ecbb4468d32e436422415d311b7f09848ea7bae0c463b1c71776e7232",
+      "original_reward": 0.0,
+      "isolated_reward": 0.0,
+      "passed": 0,
+      "total": 60,
+      "changed_outcomes": [],
+      "cases_with_changed_diagnostics": 0
+    },
+    {
+      "trial": "results/warehouse-calibration/harbor-luna4-v1.1.0-docker-2026-11-12/warehouse-calibration-v1.1.0-luna-docker-2026-11-12-04/warehouse-calibration-v1.1.0__WRnAKRg",
+      "policy_sha256": "44a866459a8ad55c4dac924b2e8d4a73858e5d2995dd389d81b8e69fe5b937d4",
+      "original_reward": 0.8,
+      "isolated_reward": 0.8,
+      "passed": 48,
+      "total": 60,
+      "changed_outcomes": [],
+      "cases_with_changed_diagnostics": 0
+    }
+  ]
+}
