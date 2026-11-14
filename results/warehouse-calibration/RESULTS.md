@@ -8,10 +8,8 @@ original trial records.
 ## Fresh four attempts
 
 Four fresh GPT-6 Luna attempts used the published Cart Calibration package.
-The original and fresh batches use the same simulator, verifier, and model
-settings. All four new policies submitted forecasts for every cart. They
-passed **226/240 (94.2%)** forecasts and fully solved **1/4**
-attempts. All 14 forecast misses were position errors.
+All four policies submitted forecasts for every cart. The batch passed
+**226/240 (94.2%)** forecasts and solved all 60 in one attempt.
 
 | Attempt | Reward | Correct forecasts | Harbor wall time | Misses by forecast type | Artifacts |
 | --- | ---: | ---: | ---: | --- | --- |
@@ -29,19 +27,6 @@ verifier diagnostics. [Batch ledger](harbor-luna-fresh/batch-ledger.json)
 records the runs and $0.08200 in recorded
 model spend. The [launch blocked by API quota](harbor-luna-fresh/quota-blocked-launch.json)
 has no model score.
-
-Four runnable GPT-6 Luna submissions passed **211/240 forecasts (87.9%)**
-on the frozen task. The results were **54/60, 52/60, 48/60, and 57/60**.
-The last score came from a fresh retest after attempt 3 exited with a
-Python syntax error. Offline replay reproduced the retest's three
-position misses on sustained reverse drives.
-
-| Attempt with a runnable submission | Correct forecasts | Reward |
-| --- | ---: | ---: |
-| 1 | 54/60 | 0.9000 |
-| 2 | 52/60 | 0.8667 |
-| 4 | 48/60 | 0.8000 |
-| Retest | 57/60 | 0.9500 |
 
 ## Original four attempts
 
@@ -74,14 +59,13 @@ This shows why a model can estimate steering well and still predict the
 wrong travel distance. The reference used the same camera resolution and
 scored 60/60 with a different probe.
 
-The four fresh trials used Codex CLI 0.163.0 at medium reasoning effort
+Both four-attempt batches used Codex CLI 0.163.0 at medium reasoning effort
 and Harbor 0.25.0 on Docker. Each had a 15-minute agent limit, two CPUs,
-and 4 GiB. Web search was disabled; the agent network allowed the
-inference host, and the verifier ran offline. All four had distinct
-session IDs, resume disabled, the qualified task checksum, and no
-Harbor exceptions. An [offline replay](harbor-luna4-v1.1.0-docker-2026-11-12/offline-replay.json)
-of all four policies reproduced every diagnostic exactly. The batch took
-12m 26s from first launch to last result and cost $0.05516 in recorded
+and 4 GiB. Web search was disabled. The agent network allowed only the
+inference host, and the verifier ran offline. Neither batch had a
+Harbor exception. An [offline replay](harbor-luna4-v1.1.0-docker-2026-11-12/offline-replay.json)
+of the original four policies reproduced every diagnostic exactly.
+That batch took 12m 26s from first launch to last result and cost $0.05516 in recorded
 model spend. See the [ledger](harbor-luna4-v1.1.0-docker-2026-11-12/batch-ledger.json)
 and [qualification report](QUALIFICATION.md).
 
