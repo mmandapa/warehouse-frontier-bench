@@ -106,7 +106,6 @@ and the exact count over total. The task reports link to the trial artifacts.
 | [Calibration](results/warehouse-calibration/RESULTS.md#original-four-attempts) | GPT-6 Luna / Codex | Original 3 | 0% (0/60) | The submitted policy had a Python syntax error. |
 | [Calibration](results/warehouse-calibration/RESULTS.md#original-four-attempts) | GPT-6 Luna / Codex | Original 4 | 80% (48/60) | Twelve position misses. All heading checks passed. |
 | [Calibration](results/warehouse-calibration/RESULTS.md#retest-after-attempt-3) | GPT-6 Luna / Codex | Follow-up to original 3 | 95% (57/60) | Three position misses, all in sustained reverse. |
-
 | [Dispatch](results/warehouse-dispatch-windows/RESULTS.md) | GPT-6 Luna / Codex | 1 | 100% (10/10) | Found fleet schedules compatible with both maintenance orders. |
 | [Dispatch](results/warehouse-dispatch-windows/RESULTS.md) | GPT-6 Luna / Codex | 2 | 40% (4/10) | Committed a cart before the announcement and missed delivery deadlines. |
 | [Dispatch](results/warehouse-dispatch-windows/RESULTS.md) | GPT-6 Luna / Codex | 3 | 100% (10/10) | Checked joint move feasibility under both orders. |
