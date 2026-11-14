@@ -1,10 +1,17 @@
 # Warehouse Cart Benchmark
 
-Can a coding agent write a controller that stays reliable when its model
-of the world is incomplete? A physically plausible controller can
-still take a blocked route or predict the wrong stopping point. These
-two CPU-only Harbor simulations test whether agents can revise a plan
-during a drive and choose measurements that improve a prediction.
+The Warehouse Cart Benchmark tests whether coding agents can write
+policies that use new observations to make reliable decisions when key
+facts are missing at the start. The two CPU-only Harbor tasks test
+different parts of that capability.
+
+- **Cart Recovery** tests whether a policy can locate the cart from
+  sensor data and revise its route when it discovers a blockage absent
+  from the map. It must still reach the dock safely within the motion
+  budget.
+- **Cart Calibration** tests whether a policy can choose measurements
+  that reveal how the cart moves and use them to predict its final
+  position and heading for command sequences it hasn't tried.
 
 | Task | What the agent gets and does | A case passes when |
 | --- | --- | --- |
@@ -86,11 +93,9 @@ One Calibration launch stopped at the API quota and has no score.
 
 **Recovery.** Luna's best policy docked on every clear and single-closure
 route, then reached the motion limit in three two-closure missions.
-Other Luna policies also collided on clear routes, so the gap includes
-basic navigation and control. Astra completed every mission under the
-same limits. Replaying the eight saved policies against the corrected
-final-tick rule reproduced every mission pass/fail outcome.
-[Recovery replay](results/warehouse-recovery/QUALIFICATION.md#final-tick-correction)
+Other Luna policies also collided on clear routes. The score reflects
+the reliability of localization, route planning, and motion control
+together. [Recovery analysis](results/warehouse-recovery/RESULTS.md)
 
 **Calibration.** In the fresh batch, Luna passed every heading check.
 Three policies missed 14 positions in total, nine on sustained reverse
