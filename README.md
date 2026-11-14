@@ -1,64 +1,92 @@
 # Warehouse Cart Benchmark
 
-Can a coding agent build a controller that makes reliable decisions from
-limited sensor data? A warehouse cart's survey can be out of date, and
-its motion can differ from what the motor commands imply. These tasks
-test two ways to handle that uncertainty: adapt to evidence during a
-mission and choose measurements before making a prediction.
+Can a coding agent write a controller that stays reliable when its model
+of the world is incomplete? A physically plausible controller can
+still take a blocked route or predict the wrong stopping point. These
+two CPU-only Harbor simulations test whether agents can revise a plan
+during a drive and choose measurements that improve a prediction.
 
-| Task | What the agent receives and does | A case passes when |
+| Task | What the agent gets and does | A case passes when |
 | --- | --- | --- |
-| [Cart Recovery](tasks/warehouse-recovery/README.md) | A surveyed map, simulator client, starter code, and three practice missions. Use lidar, odometry, gyro, and visible markers to localize a moved cart, route around uncharted obstructions, and dock. | The cart docks without collision, with no movement pending, within 0.22 m and 0.12 rad of the target pose. |
-| [Cart Calibration](tasks/warehouse-calibration/README.md) | A simulator client, motion equations, starter code, and two practice cases. Use up to 30 command ticks and two camera readings to estimate traction, then predict endpoints for new command sequences. | The predicted endpoint is within 0.045 m and 0.025 rad of the simulated endpoint. |
+| [Cart Recovery](tasks/warehouse-recovery/README.md) | A survey map, candidate start poses, a simulator client, and three practice missions. Use lidar, odometry, a gyro, and visible markers to find the cart, drive around uncharted closures, and dock. | The cart docks without collision, within 0.22 m and 0.12 rad of the target pose, with no motion pending. |
+| [Cart Calibration](tasks/warehouse-calibration/README.md) | Motion equations, a simulator client, and two practice cases. Use up to 30 command ticks and two camera measurements to learn how a serviced cart moves, then forecast its endpoint for new command sequences. | A forecast is within 0.045 m and 0.025 rad of the simulated endpoint. |
 
-Both tasks require a Python standard library policy at `/app/policy.py`.
-Recovery calls the simulator to drive and stop the cart. Calibration
-submits one position and heading per forecast sequence.
+Both tasks take a Python standard library policy at `/app/policy.py`.
+Recovery grades the policy's actions. Calibration grades its position
+and heading forecasts.
 
 ## Scoring and validity
 
-The offline verifier returns one scalar, the fraction of cases passed.
-Recovery grades 16 missions across four matched layouts. Calibration
-grades 60 forecasts across 12 carts. Each case is pass/fail. The fraction
-distinguishes a policy that docks on 13 of 16 missions from one that
-docks on 5 of 16, even though neither is a full solve. This also gives
-group-relative RL a reward difference when no rollout fully succeeds.
-Per-case diagnostics show whether a policy repeatedly misses the same
-scenario even when its average is high.
+The offline verifier writes the **fraction of held-out cases passed**
+to `/logs/verifier/reward.json`. Each case is binary. An incomplete
+dock or a forecast outside either tolerance earns zero for that case. Full credit
+requires every case to pass. We chose fractional reward because an
+all-or-nothing score would treat a 13/16 recovery policy the same as a
+5/16 policy. That difference gives a group-relative RL method a reward
+signal even if neither submission solves the full suite. The average
+can hide repeated failures, so the verifier also records per-case
+diagnostics. The reported experiments evaluate fixed models.
 
-The agent image contains the practice workspace. The offline verifier
-owns the scored initial states, obstacle placements, cart parameters,
-and expected outcomes. The oracle and scored fixtures sit outside the
-agent image. Each mission or cart starts a fresh policy process in the
-verifier. Model web search was disabled and rollout egress was restricted
-to the inference host. Both [Recovery](results/warehouse-recovery/QUALIFICATION.md)
-and [Calibration](results/warehouse-calibration/QUALIFICATION.md)
-passed Harbor lint and scored 1.0 with the oracle and 0.0 with no-op.
+- Recovery grades 16 missions. Each of four layouts keeps the start,
+  dock, and initial observations fixed across clear routes, one closure,
+  two closures, and two closures with a change in grip. A controller
+  must use what it learns during the drive to stay on a viable route.
+- Calibration grades five forecasts per cart across 12 carts. Paired carts can
+  produce identical encoder and gyro readings under the same commands
+  while traveling different distances. Limited camera measurements can
+  resolve that difference if the probe commands reveal how traction
+  varies with direction and recent effort.
+
+The agent image contains the practice workspace. Held-out cases and
+reference policies stay outside it. A separate offline verifier starts
+a fresh policy process for each mission or cart. Model trials disabled
+web search, allowed network access only to the inference host, and
+started with fresh agent sessions. Both Docker oracles earned 1.0 and
+both no-op controls earned 0.0. A Calibration control that fit constant
+traction using both camera readings passed only 16/60 forecasts.
+[Recovery qualification](results/warehouse-recovery/QUALIFICATION.md) ·
+[Calibration qualification](results/warehouse-calibration/QUALIFICATION.md)
 
 ## Model results
 
-All runs used Codex CLI 0.163.0 at medium reasoning effort through Harbor
-0.25.0 and Docker. Entries are in attempt order and show cases passed
-over cases evaluated. Run reports link to trajectories, submitted
-policies, per-attempt rewards, and verifier diagnostics.
+All attempts used Codex CLI 0.163.0 at medium reasoning effort through
+Harbor 0.25.0 on Docker. Scores show cases passed in attempt order.
+The reports link to trajectories, policies, and verifier diagnostics.
 
-| Task | Model | Runs | Cases passed | Main finding |
+| Task | Model | Batch | Scores | Main finding |
 | --- | --- | --- | --- | --- |
-| [Recovery](results/warehouse-recovery/RESULTS.md) | GPT-6 Luna | 1–4 | 5/16, 13/16, 6/16, 9/16 | The best policy docked on every clear and single-closure route, then exhausted its motion budget on three two-closure routes. Other policies also collided on clear routes. |
-| [Recovery](results/warehouse-recovery/RESULTS.md#astra-comparison) | GPT-6 Astra | 1–4 | 16/16, 16/16, 16/16, 16/16 | All four policies docked on every mission. |
-| [Calibration](results/warehouse-calibration/RESULTS.md#fresh-four-attempts) | GPT-6 Luna | Fresh four | 56/60, 52/60, 58/60, 60/60 | All 14 forecast misses were position errors. |
-| [Calibration](results/warehouse-calibration/RESULTS.md#original-four-attempts) | GPT-6 Luna | Original four | 54/60, 52/60, 0/60, 48/60 | Three policies missed position forecasts. One did not run. |
-| [Calibration](results/warehouse-calibration/RESULTS.md#retest-after-attempt-3) | GPT-6 Luna | Follow-up | 57/60 | Three sustained reverse forecasts missed position tolerance. |
+| [Recovery](results/warehouse-recovery/RESULTS.md) | GPT-6 Luna | Four attempts | 5/16, 13/16, 6/16, 9/16 | Collisions and motion-budget misses |
+| [Recovery](results/warehouse-recovery/RESULTS.md#astra-comparison) | GPT-6 Astra | Four attempts | 16/16, 16/16, 16/16, 16/16 | All missions completed |
+| [Calibration](results/warehouse-calibration/RESULTS.md#fresh-four-attempts) | GPT-6 Luna | Fresh four | 56/60, 52/60, 58/60, 60/60 | Fourteen position misses, one full solve |
+| [Calibration](results/warehouse-calibration/RESULTS.md#original-four-attempts) | GPT-6 Luna | Original four | 54/60, 52/60, 0/60, 48/60 | Position misses and one syntax error |
+| [Calibration](results/warehouse-calibration/RESULTS.md#retest-after-attempt-3) | GPT-6 Luna | Follow-up | 57/60 | Three sustained reverse misses |
 
-In the original Calibration batch, a local analysis of attempt 2 recovered all 60 forecasts
-with exact camera positions and reproduced the eight misses with the
-published millimeter rounding. The oracle got 60/60 at the same
-resolution by choosing a different probe. For Recovery, offline replay
-reproduced all 64 Luna episode diagnostics.
+**Recovery.** Luna's best policy docked on every clear and single-closure
+route, then reached the motion limit in three two-closure missions.
+Other Luna policies also collided on clear routes, so the gap includes
+basic navigation and control. Astra completed every mission under the
+same limits. Offline replay reproduced all 64 Luna episode diagnostics.
+
+**Calibration.** In the fresh batch, Luna passed every heading check.
+Three policies missed 14 positions in total, nine on sustained reverse
+drives. The 60/60 policy used varied drive commands and fit gyro and
+camera data jointly. For one original policy, replaying its probe with
+unrounded camera positions eliminated eight forecast misses in a
+controlled calculation. The oracle passed with the published camera
+resolution using a different probe.
+
+Each attempt on a task faced the same fixed cases. Scores describe
+coverage of those cases, and the small batches limit conclusions
+about other simulators or agent settings. For Recovery, a useful harder comparison would vary closure
+placement on matched, reachable layouts. Calibration can vary traction
+and camera precision while keeping the same probe budget. Comparing a
+fixed informative probe with agent-chosen probes would help isolate
+measurement choice from model fitting.
 
 ## Run the tasks
 
-Install Harbor and start Docker. From the repository root:
+With Docker running, install Harbor and run the qualification controls
+from the repository root. Expect reward 1.0 for oracle and 0.0 for no-op.
 
 ```sh
 uv tool install 'harbor==0.25.0'
@@ -69,29 +97,14 @@ for task in tasks/warehouse-recovery tasks/warehouse-calibration; do
 done
 ```
 
-To evaluate Luna, configure your OpenAI credentials and run the saved
-configs into a fresh output directory. These commands make model calls.
+Set your OpenAI credentials on the host to reproduce the four-attempt
+Luna batches. These commands make paid model calls.
 
 ```sh
 harbor run -c configs/recovery-luna.json -e docker -k 4 -n 1 -r 0 -o jobs/recovery-luna
 harbor run -c configs/calibration-luna.json -e docker -k 4 -n 1 -r 0 -o jobs/calibration-luna
 ```
 
-Both tasks use two CPUs and 4 GiB per environment, with a 15-minute agent
-limit and a four-minute verifier limit. Recorded model trials used about
-73 minutes of combined Harbor trial time.
-
-## Coverage and next steps
-
-Recovery can vary the number and placement of closures and the length
-of a safe detour. Match layouts and start poses so a clear-route control
-separates navigation errors from difficulty with replanning. Calibration
-can vary traction parameters, camera precision, and forecast command
-histories. Check that an oracle can still identify traction within the
-same measurement budget. The challenge is that a plausible route or fit
-can work on practice inputs and fail when new evidence changes what the
-policy should do.
-
-These small fixed simulation suites show how the tested agents behave in
-this setting. A follow-up would compare agent-selected probes with a
-known informative probe and evaluate a stronger model on Calibration.
+Each environment uses two CPUs and 4 GiB of RAM, with a 15-minute agent
+limit and a four-minute verifier limit. The recorded model trials
+used about 73 minutes of combined Harbor trial time.
