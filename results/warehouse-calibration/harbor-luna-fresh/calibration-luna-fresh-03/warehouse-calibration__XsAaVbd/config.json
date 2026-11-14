@@ -1,0 +1,17 @@
+{
+    "task": {
+        "path": "tasks/warehouse-calibration"
+    },
+    "trial_name": "warehouse-calibration__XsAaVbd",
+    "trials_dir": "results/warehouse-calibration/harbor-luna-fresh/calibration-luna-fresh-03",
+    "agent": {
+        "name": "codex",
+        "model_name": "openai/gpt-6-luna",
+        "kwargs": {
+            "version": "0.163.0",
+            "web_search": "disabled",
+            "reasoning_effort": "medium"
+        }
+    },
+    "job_id": "454ac6ad-eed0-437f-9da3-0ebee6065271"
+}

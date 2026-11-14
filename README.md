@@ -23,9 +23,8 @@ grades 60 forecasts across 12 carts. Each case is pass/fail. The fraction
 distinguishes a policy that docks on 13 of 16 missions from one that
 docks on 5 of 16, even though neither is a full solve. This also gives
 group-relative RL a reward difference when no rollout fully succeeds.
-Report full solves and inspect per-case diagnostics alongside the
-average so strong performance on easier cases cannot hide recurring
-failures on harder ones.
+Per-case diagnostics show whether a policy repeatedly misses the same
+scenario even when its average is high.
 
 The agent image contains the practice workspace. The offline verifier
 owns the scored initial states, obstacle placements, cart parameters,
@@ -43,13 +42,15 @@ All runs used Codex CLI 0.163.0 at medium reasoning effort through Harbor
 over cases evaluated. Run reports link to trajectories, submitted
 policies, per-attempt rewards, and verifier diagnostics.
 
-| Task | Model | Attempts | Cases passed | Full solves | Main finding |
-| --- | --- | --- | --- | ---: | --- |
-| [Recovery](results/warehouse-recovery/RESULTS.md) | GPT-6 Luna | 1–4 | 5/16, 13/16, 6/16, 9/16 | 0/4 | The best policy docked on every clear and single-closure route, then exhausted its motion budget on three two-closure routes. Other policies also collided on clear routes. |
-| [Recovery](results/warehouse-recovery/RESULTS.md#astra-comparison) | GPT-6 Astra | 1–4 | 16/16, 16/16, 16/16, 16/16 | 4/4 | All four policies docked on every mission. |
-| [Calibration](results/warehouse-calibration/RESULTS.md) | GPT-6 Luna | 1–4 | 54/60, 52/60, 0/60, 48/60 | 0/4 | Three submissions missed position forecasts. One did not run. |
+| Task | Model | Runs | Cases passed | Main finding |
+| --- | --- | --- | --- | --- |
+| [Recovery](results/warehouse-recovery/RESULTS.md) | GPT-6 Luna | 1–4 | 5/16, 13/16, 6/16, 9/16 | The best policy docked on every clear and single-closure route, then exhausted its motion budget on three two-closure routes. Other policies also collided on clear routes. |
+| [Recovery](results/warehouse-recovery/RESULTS.md#astra-comparison) | GPT-6 Astra | 1–4 | 16/16, 16/16, 16/16, 16/16 | All four policies docked on every mission. |
+| [Calibration](results/warehouse-calibration/RESULTS.md#fresh-four-attempts) | GPT-6 Luna | Fresh four | 56/60, 52/60, 58/60, 60/60 | All 14 forecast misses were position errors. |
+| [Calibration](results/warehouse-calibration/RESULTS.md#original-four-attempts) | GPT-6 Luna | Original four | 54/60, 52/60, 0/60, 48/60 | Three policies missed position forecasts. One did not run. |
+| [Calibration](results/warehouse-calibration/RESULTS.md#retest-after-attempt-3) | GPT-6 Luna | Follow-up | 57/60 | Three sustained reverse forecasts missed position tolerance. |
 
-In Calibration attempt 2, a local analysis recovered all 60 forecasts
+In the original Calibration batch, a local analysis of attempt 2 recovered all 60 forecasts
 with exact camera positions and reproduced the eight misses with the
 published millimeter rounding. The oracle got 60/60 at the same
 resolution by choosing a different probe. For Recovery, offline replay
@@ -78,7 +79,7 @@ harbor run -c configs/calibration-luna.json -e docker -k 4 -n 1 -r 0 -o jobs/cal
 
 Both tasks use two CPUs and 4 GiB per environment, with a 15-minute agent
 limit and a four-minute verifier limit. Recorded model trials used about
-57 minutes of combined Harbor trial time. Design and iteration exceeded
+73 minutes of combined Harbor trial time. Design and iteration exceeded
 the five-hour authoring timebox.
 
 ## Coverage and next steps
