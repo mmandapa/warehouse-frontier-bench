@@ -110,6 +110,10 @@ and the exact count over total. The task reports link to the trial artifacts.
 | [Dispatch](results/warehouse-dispatch-windows/RESULTS.md) | GPT-6 Luna / Codex | 2 | 40% (4/10) | Committed a cart before the announcement and missed delivery deadlines. |
 | [Dispatch](results/warehouse-dispatch-windows/RESULTS.md) | GPT-6 Luna / Codex | 3 | 100% (10/10) | Checked joint move feasibility under both orders. |
 | [Dispatch](results/warehouse-dispatch-windows/RESULTS.md) | GPT-6 Luna / Codex | 4 | 40% (4/10) | Evaluated both orders per cart, then missed deadlines when carts needed to clear space for each other. |
+| [Dispatch](results/warehouse-dispatch-windows/RESULTS.md#astra-comparison) | GPT-6 Astra / Codex | 1 | 100% (10/10) | Searched joint moves and branched on the selected calendar. |
+| [Dispatch](results/warehouse-dispatch-windows/RESULTS.md#astra-comparison) | GPT-6 Astra / Codex | 2 | 100% (10/10) | Checked feasible continuations for both maintenance orders. |
+| [Dispatch](results/warehouse-dispatch-windows/RESULTS.md#astra-comparison) | GPT-6 Astra / Codex | 3 | 100% (10/10) | Built a shared dispatch plan and branched at the announcement. |
+| [Dispatch](results/warehouse-dispatch-windows/RESULTS.md#astra-comparison) | GPT-6 Astra / Codex | 4 | 100% (10/10) | Searched joint schedules for both calendar outcomes. |
 
 One Calibration launch stopped at the API quota and has no score.
 [Launch record](results/warehouse-calibration/harbor-luna-fresh/quota-blocked-launch.json)
@@ -131,7 +135,8 @@ resolution using a different probe.
 **Dispatch.** Luna passed two of four attempts. Both incomplete policies
 made valid moves but missed simulated delivery deadlines. One committed
 to an approach before the maintenance announcement. The other evaluated
-both calendars for each cart and still had carts block one another.
+both calendars for each cart and still had carts block one another. Astra
+passed all four attempts by planning joint moves before the announcement.
 [Dispatch analysis and traces](results/warehouse-dispatch-windows/RESULTS.md)
 
 Each attempt on a task faced the same fixed cases. Scores describe

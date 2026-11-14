@@ -1,0 +1,21 @@
+{
+    "job_name": "dispatch-windows-astra-02",
+    "jobs_dir": "/Users/maharshi12/Documents/Codex/2026-11-06/tg/outputs/warehouse-fault-isolation-qualification/dispatch-window-study/astra-harbor",
+    "n_concurrent_trials": 1,
+    "agents": [
+        {
+            "name": "codex",
+            "model_name": "openai/gpt-6-astra",
+            "kwargs": {
+                "version": "0.163.0",
+                "web_search": "disabled",
+                "reasoning_effort": "medium"
+            }
+        }
+    ],
+    "tasks": [
+        {
+            "path": "tasks/warehouse-dispatch-windows"
+        }
+    ]
+}

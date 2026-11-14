@@ -1,0 +1,39 @@
+{
+    "id": "396a46c9-f73c-4121-b27a-5754a46e5914",
+    "started_at": "2026-11-14T02:02:44.576391",
+    "updated_at": "2026-11-14T02:05:27.891332",
+    "finished_at": "2026-11-14T02:05:27.891332",
+    "n_total_trials": 1,
+    "stats": {
+        "n_completed_trials": 1,
+        "n_errored_trials": 0,
+        "n_running_trials": 0,
+        "n_pending_trials": 0,
+        "n_cancelled_trials": 0,
+        "n_retries": 0,
+        "evals": {
+            "codex__gpt-6-astra__adhoc": {
+                "n_trials": 1,
+                "n_errors": 0,
+                "metrics": [
+                    {
+                        "mean": 1.0
+                    }
+                ],
+                "pass_at_k": {},
+                "reward_stats": {
+                    "reward": {
+                        "1.0": [
+                            "warehouse-dispatch-windows__uLxrEFQ"
+                        ]
+                    }
+                },
+                "exception_stats": {}
+            }
+        },
+        "n_input_tokens": 127387,
+        "n_cache_tokens": 103769,
+        "n_output_tokens": 7225,
+        "cost_usd": 0.7601915000000001
+    }
+}

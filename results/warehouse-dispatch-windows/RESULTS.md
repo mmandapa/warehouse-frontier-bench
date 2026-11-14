@@ -55,3 +55,24 @@ Attempts 2 and 4 both failed five of the same shifts. Their moves differed on ea
 of those shifts, and their completed deliveries differed on three. If a
 layout counts as solved only when both orders pass, attempt 2 solved
 one of five layouts and attempt 4 solved two of five.
+
+## Astra comparison
+
+Four fresh GPT-6 Astra attempts ran through the same Codex harness, settings,
+and frozen Docker task. Each passed all ten shifts. The four policies
+checked joint fleet schedules across both possible calendars before the
+announcement. All four offline Docker replays matched the original
+verifier logs byte for byte.
+
+| Attempt | Score | Agent time | Main finding | Artifacts |
+| --- | ---: | ---: | --- | --- |
+| 1 | 100% (10/10) | 191.3 s | Searched joint moves and branched on the selected calendar. | [Trajectory](harbor/dispatch-windows-astra-01/warehouse-dispatch-windows__pZmHmwu/agent/trajectory.json) · [Policy](harbor/dispatch-windows-astra-01/warehouse-dispatch-windows__pZmHmwu/artifacts/app/policy.py) · [Verifier](harbor/dispatch-windows-astra-01/warehouse-dispatch-windows__pZmHmwu/verifier/diagnostics.json) · [Offline replay](astra-replay-01/diagnostics.json) |
+| 2 | 100% (10/10) | 164.6 s | Checked feasible continuations for both maintenance orders. | [Trajectory](harbor/dispatch-windows-astra-02/warehouse-dispatch-windows__g6qvd5X/agent/trajectory.json) · [Policy](harbor/dispatch-windows-astra-02/warehouse-dispatch-windows__g6qvd5X/artifacts/app/policy.py) · [Verifier](harbor/dispatch-windows-astra-02/warehouse-dispatch-windows__g6qvd5X/verifier/diagnostics.json) · [Offline replay](astra-replay-02/diagnostics.json) |
+| 3 | 100% (10/10) | 140.0 s | Built a shared dispatch plan and branched at the announcement. | [Trajectory](harbor/dispatch-windows-astra-03/warehouse-dispatch-windows__uLxrEFQ/agent/trajectory.json) · [Policy](harbor/dispatch-windows-astra-03/warehouse-dispatch-windows__uLxrEFQ/artifacts/app/policy.py) · [Verifier](harbor/dispatch-windows-astra-03/warehouse-dispatch-windows__uLxrEFQ/verifier/diagnostics.json) · [Offline replay](astra-replay-03/diagnostics.json) |
+| 4 | 100% (10/10) | 290.6 s | Searched joint schedules for both calendar outcomes. | [Trajectory](harbor/dispatch-windows-astra-04/warehouse-dispatch-windows__MPSBvae/agent/trajectory.json) · [Policy](harbor/dispatch-windows-astra-04/warehouse-dispatch-windows__MPSBvae/artifacts/app/policy.py) · [Verifier](harbor/dispatch-windows-astra-04/warehouse-dispatch-windows__MPSBvae/verifier/diagnostics.json) · [Offline replay](astra-replay-04/diagnostics.json) |
+
+Astra earned full credit in **4/4** attempts and averaged **100% (40/40)**.
+Luna earned full credit in **2/4** and averaged **70% (28/40)**. Each batch
+used the same five paired layouts. No Astra run had a Harbor exception,
+and the saved traces showed no evidence of web search or hidden grader
+access. Astra's recorded model cost was $3.85425 for the batch.
